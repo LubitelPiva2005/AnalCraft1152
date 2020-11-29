@@ -1037,6 +1037,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "markkhuiesos"
+    },
+    {
+      "name": "SmertIslamu",
+      "type": "item",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smert_islamu"
     }
   ],
   "variable_elements": [],
@@ -1231,6 +1240,7 @@
       "itemGroup.tabanaltab": "Anal Craft",
       "subtitles.zagulyal": "",
       "item.anal_craft.essence": "Ёссенци€ спермы",
+      "item.anal_craft.smert_islamu": "Smert Islamu",
       "subtitles.agh": "",
       "item.anal_craft.bucks": "Ѕакс",
       "item.anal_craft.fist": " улак (пкм чтобы включить)",
