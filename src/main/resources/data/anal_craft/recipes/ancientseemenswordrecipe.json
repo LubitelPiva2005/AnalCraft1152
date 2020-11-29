@@ -1,0 +1,24 @@
+{
+  "group": "anal_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "anal_craft:ancientseemeningot"
+    },
+    "1": {
+      "item": "anal_craft:ancientseemeningot"
+    },
+    "2": {
+      "item": "anal_craft:cumstick"
+    }
+  },
+  "result": {
+    "item": "anal_craft:ancient_seemensword",
+    "count": 1
+  }
+}

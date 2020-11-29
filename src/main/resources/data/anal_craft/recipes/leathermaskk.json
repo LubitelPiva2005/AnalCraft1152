@@ -1,0 +1,32 @@
+{
+  "group": "anal_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "anal_craft:blackleather"
+    },
+    "1": {
+      "item": "anal_craft:blackleather"
+    },
+    "2": {
+      "item": "anal_craft:blackleather"
+    },
+    "3": {
+      "item": "anal_craft:blackleather"
+    },
+    "4": {
+      "item": "minecraft:leather_helmet"
+    },
+    "5": {
+      "item": "anal_craft:blackleather"
+    }
+  },
+  "result": {
+    "item": "anal_craft:gachi_helmet",
+    "count": 1
+  }
+}

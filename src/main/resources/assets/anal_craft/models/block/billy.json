@@ -1,0 +1,9 @@
+{
+  "parent": "anal_craft:custom/billy",
+  "textures": {
+    "all": "anal_craft:blocks/ass",
+    "particle": "anal_craft:blocks/ass",
+    "1": "anal_craft:blocks/ass",
+    "missing": "anal_craft:blocks/ass"
+  }
+}

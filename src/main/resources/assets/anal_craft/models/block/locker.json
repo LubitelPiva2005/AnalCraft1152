@@ -1,0 +1,10 @@
+{
+  "parent": "anal_craft:custom/locklfin",
+  "textures": {
+    "all": "anal_craft:blocks/dshchslshsshcht",
+    "particle": "anal_craft:blocks/dshchslshsshcht",
+    "0": "anal_craft:blocks/stone",
+    "2": "anal_craft:blocks/iron_block",
+    "3": "anal_craft:blocks/iron_block"
+  }
+}

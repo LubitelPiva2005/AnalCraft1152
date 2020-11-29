@@ -1,0 +1,8 @@
+{
+  "parent": "anal_craft:custom/actportal",
+  "textures": {
+    "all": "anal_craft:blocks/biez_imieni-1",
+    "particle": "anal_craft:blocks/biez_imieni-1",
+    "2": "anal_craft:blocks/fsie"
+  }
+}

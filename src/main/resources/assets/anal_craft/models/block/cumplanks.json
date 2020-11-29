@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "anal_craft:blocks/cumplanks",
+    "up": "anal_craft:blocks/cumplanks",
+    "north": "anal_craft:blocks/cumplanks",
+    "east": "anal_craft:blocks/cumplanks",
+    "south": "anal_craft:blocks/cumplanks",
+    "west": "anal_craft:blocks/cumplanks",
+    "particle": "anal_craft:blocks/cumplanks"
+  }
+}

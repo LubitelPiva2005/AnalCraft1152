@@ -1,0 +1,9 @@
+{
+  "parent": "analcraft:custom/portalkey1",
+  "textures": {
+    "3": "analcraft:blocks/g1",
+    "4": "analcraft:blocks/g2",
+    "5": "analcraft:blocks/male-sign-whatsapp",
+    "missing": "analcraft:blocks/"
+  }
+}

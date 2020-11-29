@@ -1,0 +1,42 @@
+{
+  "group": "anal_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "anal_craft:semen"
+    },
+    "1": {
+      "item": "anal_craft:semen"
+    },
+    "2": {
+      "item": "anal_craft:semen"
+    },
+    "3": {
+      "item": "anal_craft:semen"
+    },
+    "4": {
+      "item": "anal_craft:gachi_helmet"
+    },
+    "5": {
+      "item": "anal_craft:semen"
+    },
+    "6": {
+      "item": "anal_craft:semen"
+    },
+    "7": {
+      "item": "anal_craft:semen"
+    },
+    "8": {
+      "item": "anal_craft:semen"
+    }
+  },
+  "result": {
+    "item": "anal_craft:spermsrm_helmet",
+    "count": 1
+  }
+}

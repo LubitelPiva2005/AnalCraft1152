@@ -1,0 +1,1294 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Gachi",
+      "type": "armor",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gachi",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "ANALTAB",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "analtab"
+    },
+    {
+      "name": "Blackleather",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blackleather"
+    },
+    {
+      "name": "Leathermaskk",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "leathermaskk"
+    },
+    {
+      "name": "Knut",
+      "type": "tool",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "knut"
+    },
+    {
+      "name": "Van",
+      "type": "mob",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "van"
+    },
+    {
+      "name": "Ltghie",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ltghie"
+    },
+    {
+      "name": "Semen",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "semen"
+    },
+    {
+      "name": "Yuutltghie",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yuutltghie"
+    },
+    {
+      "name": "Emenknut",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emenknut"
+    },
+    {
+      "name": "Spermesword",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spermesword"
+    },
+    {
+      "name": "Spermesw",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spermesw"
+    },
+    {
+      "name": "Spermegrass",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spermegrass"
+    },
+    {
+      "name": "Dickforest",
+      "type": "biome",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dickforest"
+    },
+    {
+      "name": "Semenlime",
+      "type": "mob",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "semenlime"
+    },
+    {
+      "name": "DickkOnStructureInstanceGenerated",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dickk_on_structure_instance_generated",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dickk",
+      "type": "structure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dickk"
+    },
+    {
+      "name": "Dickflower",
+      "type": "plant",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dickflower"
+    },
+    {
+      "name": "BigOnStructureInstanceGenerated",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "big_on_structure_instance_generated",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Big",
+      "type": "structure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "big"
+    },
+    {
+      "name": "Locker",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "locker"
+    },
+    {
+      "name": "Lockerc",
+      "type": "gui",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lockerc"
+    },
+    {
+      "name": "SpermsrmHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spermsrm_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Spermsrm",
+      "type": "armor",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spermsrm",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "Spermhelm",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spermhelm"
+    },
+    {
+      "name": "Grasssper",
+      "type": "plant",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "grasssper"
+    },
+    {
+      "name": "LejaOnStructureInstanceGenerated",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "leja_on_structure_instance_generated",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Leja",
+      "type": "structure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "leja"
+    },
+    {
+      "name": "TrusiLeggingsTickEvent",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "trusi_leggings_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Trusi",
+      "type": "armor",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "trusi",
+      "metadata": {
+        "eh": false,
+        "el": true,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "RicardoEntityIsHurt",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ricardo_entity_is_hurt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LockerroomOnStructureInstanceGenerated",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lockerroom_on_structure_instance_generated",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Lockerroom",
+      "type": "structure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lockerroom"
+    },
+    {
+      "name": "Slavea",
+      "type": "mob",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slavea"
+    },
+    {
+      "name": "FistRightClickedInAir",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fist_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FistRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fist_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Fist",
+      "type": "tool",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fist"
+    },
+    {
+      "name": "Bucks",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bucks"
+    },
+    {
+      "name": "Hundred",
+      "type": "item",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hundred"
+    },
+    {
+      "name": "Three",
+      "type": "item",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "three"
+    },
+    {
+      "name": "Threebucks",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "threebucks"
+    },
+    {
+      "name": "Thr",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "thr"
+    },
+    {
+      "name": "Trader",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "trader",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Torgovecc",
+      "type": "gui",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "torgovecc"
+    },
+    {
+      "name": "TorgovecRightClickedOnEntity",
+      "type": "procedure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "torgovec_right_clicked_on_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Torgovec",
+      "type": "mob",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "torgovec"
+    },
+    {
+      "name": "CumOnPotionActiveTick",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cum_on_potion_active_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cum",
+      "type": "potion",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cum"
+    },
+    {
+      "name": "BlackcockOnStructureInstanceGenerated",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blackcock_on_structure_instance_generated",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Blackcock",
+      "type": "structure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blackcock"
+    },
+    {
+      "name": "Smalldick",
+      "type": "plant",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smalldick"
+    },
+    {
+      "name": "Essence",
+      "type": "item",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "essence"
+    },
+    {
+      "name": "Essen",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "essen"
+    },
+    {
+      "name": "Ancientseemeningot",
+      "type": "item",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ancientseemeningot"
+    },
+    {
+      "name": "Ancientseemen",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ancientseemen"
+    },
+    {
+      "name": "Ancientseemenrecipe",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ancientseemenrecipe"
+    },
+    {
+      "name": "AncientSeemensword",
+      "type": "tool",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ancient_seemensword"
+    },
+    {
+      "name": "Ancientseemenswordrecipe",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ancientseemenswordrecipe"
+    },
+    {
+      "name": "Ancientseemenpickaxe",
+      "type": "tool",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ancientseemenpickaxe"
+    },
+    {
+      "name": "Ancientpickaxerexipe",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ancientpickaxerexipe"
+    },
+    {
+      "name": "Ancientseemenaxe",
+      "type": "tool",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ancientseemenaxe"
+    },
+    {
+      "name": "Ancientaxerecipe",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ancientaxerecipe"
+    },
+    {
+      "name": "Streleatherman",
+      "type": "mob",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "streleatherman"
+    },
+    {
+      "name": "Cumore",
+      "type": "block",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cumore"
+    },
+    {
+      "name": "OldCumBlock",
+      "type": "block",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "old_cum_block"
+    },
+    {
+      "name": "Cumblock",
+      "type": "block",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cumblock"
+    },
+    {
+      "name": "Oldcumcraft",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oldcumcraft"
+    },
+    {
+      "name": "Cumblockcraft",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cumblockcraft"
+    },
+    {
+      "name": "Sliceoldcum",
+      "type": "item",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sliceoldcum"
+    },
+    {
+      "name": "Slicecumcraft",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slicecumcraft"
+    },
+    {
+      "name": "Oldingot",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oldingot"
+    },
+    {
+      "name": "Portalblock",
+      "type": "block",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "portalblock"
+    },
+    {
+      "name": "Cumlog",
+      "type": "block",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cumlog"
+    },
+    {
+      "name": "Cumplanks",
+      "type": "block",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cumplanks"
+    },
+    {
+      "name": "Cumplankscraft",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cumplankscraft"
+    },
+    {
+      "name": "Cumleaves",
+      "type": "block",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cumleaves"
+    },
+    {
+      "name": "Cumtrap",
+      "type": "block",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cumtrap"
+    },
+    {
+      "name": "Cumstick",
+      "type": "item",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cumstick"
+    },
+    {
+      "name": "Cumslab",
+      "type": "block",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cumslab"
+    },
+    {
+      "name": "Cumfence",
+      "type": "block",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cumfence"
+    },
+    {
+      "name": "Cumtrapcraft",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cumtrapcraft"
+    },
+    {
+      "name": "Cumstickcraft",
+      "type": "recipe",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cumstickcraft"
+    },
+    {
+      "name": "Cumslabcraft",
+      "type": "recipe",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cumslabcraft"
+    },
+    {
+      "name": "Cumfencecraft",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cumfencecraft"
+    },
+    {
+      "name": "Disactivatedportal",
+      "type": "block",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "disactivatedportal"
+    },
+    {
+      "name": "Billy",
+      "type": "block",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "billy"
+    },
+    {
+      "name": "PortalkeyRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "portalkey_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Portalkey",
+      "type": "tool",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "portalkey"
+    },
+    {
+      "name": "Ricardo",
+      "type": "mob",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ricardo"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "leather",
+      "files": [
+        "leatherman"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "agh",
+      "files": [
+        "1gh"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "aghh",
+      "files": [
+        "2gh"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "aaaaaaa",
+      "files": [
+        ""
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "ahr",
+      "files": [
+        "hhhrr"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "bondage",
+      "files": [
+        "ondageayebsite"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "assclap",
+      "files": [
+        "sslap"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "oficeri",
+      "files": [
+        "_-_leg___manov_-_ficery_ight_ersion_ydki.info"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "feelgood",
+      "files": [
+        "orillaz_eel_ood_nc_achi_ix_ight_ersion"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "notrdam",
+      "files": [
+        "notr-dam-de-pari-esmeralda-gachi-remix_mp3.com"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "zozh",
+      "files": [
+        "vanya-vorobej-pesnya-pro-zozh-right-version"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "bremenskiemuzicanti",
+      "files": [
+        "riemienskiie_uzykanty_y__am_aiekhali_a_has_ight_ersion_achi_emix"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "kozhanyjtraktor",
+      "files": [
+        "h_"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "motilek",
+      "files": [
+        "aks_orzh_-_otyliekachi_emix_by_hoshon_legant"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "valim",
+      "files": [
+        "urminskii_-_alim__achi_emix"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "esaul",
+      "files": [
+        "liegh_azmanov_-_esaulright_version_gachi_"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "zagulyal",
+      "files": [
+        "liegh_azmanov_-_aghulialright_version"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "bomj",
+      "files": [
+        "iektor_ghaza_-_omzh_right_version___-man_192__kbps"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "yunostvsapogah",
+      "files": [
+        "unost_v_sapoghakh____achimuchi_riemiks"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "ibelieve",
+      "files": [
+        "umi_atsutoya_-_aru_yo_koi___reygasm__"
+      ],
+      "category": "master",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.anal_craft.slavea_spawn_egg": "Слэйвья Spawn Egg",
+      "item.anal_craft.trusi_chestplate": "Trusi Body",
+      "item.minecraft.tipped_arrow.effect.cum": "Arrow of Сперма",
+      "block.anal_craft.ancientseemen": "Древняя сперма",
+      "item.anal_craft.sliceoldcum": "Кусочек древней спермы",
+      "block.anal_craft.portalblock": "Активированый портал",
+      "item.anal_craft.yuutltghie": "Плётка в сперме",
+      "block.anal_craft.smalldick": "Маленький Членовик",
+      "item.anal_craft.semen": "Сперма",
+      "item.anal_craft.streleatherman_spawn_egg": "Ван Даркхолм с луком Spawn Egg",
+      "item.anal_craft.gachi_helmet": "Маска кожевника",
+      "item.anal_craft.ricardo_spawn_egg": "Рикардо Милос Spawn Egg",
+      "item.anal_craft.ancientseemenpickaxe": "Кирка из древней спермы",
+      "block.anal_craft.dickflower": "Членовик",
+      "block.anal_craft.cumblock": "Блок спермы",
+      "subtitles.assclap": "",
+      "block.anal_craft.spermegrass": "Трава в сперме",
+      "block.anal_craft.cumslab": "Спермоплита",
+      "item.minecraft.splash_potion.effect.cum": "Splash Сперма",
+      "item.anal_craft.gachi_boots": "Gachi Boots",
+      "block.anal_craft.cumfence": "Спермозабор",
+      "item.anal_craft.gachi_chestplate": "Gachi Body",
+      "itemGroup.tabanaltab": "Anal Craft",
+      "subtitles.zagulyal": "",
+      "item.anal_craft.essence": "Эссенция спермы",
+      "subtitles.agh": "",
+      "item.anal_craft.bucks": "Бакс",
+      "item.anal_craft.fist": "Кулак (пкм чтобы включить)",
+      "item.anal_craft.ancientseemeningot": "Слиток древней спермы",
+      "block.anal_craft.disactivatedportal": "Неактивированый портал",
+      "item.anal_craft.trusi_boots": "Trusi Boots",
+      "block.anal_craft.old_cum_block": "Блок древней спермы",
+      "subtitles.kozhanyjtraktor": "",
+      "item.anal_craft.ancient_seemensword": "Меч из древней спермы",
+      "item.anal_craft.spermsrm_chestplate": "Spermsrm Body",
+      "item.anal_craft.spermsrm_boots": "Spermsrm Boots",
+      "item.anal_craft.semenlime_spawn_egg": "Спермень Spawn Egg",
+      "item.anal_craft.three": "300 баксов",
+      "block.anal_craft.cumore": "Руда спермы",
+      "item.minecraft.potion.effect.cum": "Сперма",
+      "subtitles.valim": "",
+      "entity.anal_craft.torgovec": "Торговец",
+      "subtitles.ahr": "",
+      "item.minecraft.lingering_potion.effect.cum": "Lingering Сперма",
+      "subtitles.bremenskiemuzicanti": "",
+      "subtitles.ibelieve": "",
+      "subtitles.oficeri": "",
+      "subtitles.zozh": "",
+      "subtitles.aaaaaaa": "",
+      "item.anal_craft.torgovec_spawn_egg": "Торговец Spawn Egg",
+      "item.anal_craft.knut": "Плётка",
+      "subtitles.bomj": "",
+      "subtitles.notrdam": "",
+      "entity.anal_craft.streleatherman": "Ван Даркхолм с луком",
+      "subtitles.yunostvsapogah": "",
+      "block.anal_craft.cumleaves": "Спермолистья",
+      "subtitles.feelgood": "",
+      "subtitles.aghh": "",
+      "block.anal_craft.grasssper": "Трава в сперме",
+      "block.anal_craft.cumtrap": "Люк из спермодерева",
+      "block.anal_craft.billy": "Billy",
+      "item.anal_craft.van_spawn_egg": "Ван Даркхолм Spawn Egg",
+      "item.anal_craft.gachi_leggings": "Gachi Leggings",
+      "entity.anal_craft.ricardo": "Рикардо Милос",
+      "item.anal_craft.trusi_helmet": "Trusi Helmet",
+      "block.anal_craft.cumlog": "Спермовая древесина",
+      "subtitles.motilek": "",
+      "effect.cum": "CumСперма",
+      "item.anal_craft.spermsrm_helmet": "Маска в сперме",
+      "subtitles.bondage": "",
+      "entity.anal_craft.slavea": "Слэйвья",
+      "item.anal_craft.cumstick": "Спермопалка",
+      "subtitles.leather": "",
+      "entity.anal_craft.semenlime": "Спермень",
+      "block.anal_craft.cumplanks": "Спермодоски",
+      "item.anal_craft.portalkey": "Ключ ",
+      "biome.anal_craft.dickforest": "Dickforest",
+      "block.anal_craft.locker": "Шкафчик",
+      "subtitles.esaul": "",
+      "item.anal_craft.spermesword": "Меч из засохшей спермы",
+      "item.anal_craft.trusi_leggings": "Трусы Рикардо Милоса",
+      "item.anal_craft.blackleather": "Чёрная кожа",
+      "item.anal_craft.hundred": "Hundred100 баксов",
+      "item.anal_craft.spermsrm_leggings": "Spermsrm Leggings",
+      "item.anal_craft.ancientseemenaxe": "Топор из древней спермы",
+      "entity.anal_craft.van": "Ван Даркхолм"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "anal_craft",
+    "modName": "Anal Craft",
+    "version": "1.0.0",
+    "author": "nikita, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "modElementsPackage": "net.mcreator.analcraft",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000547520
+}

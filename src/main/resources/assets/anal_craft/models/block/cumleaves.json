@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "anal_craft:blocks/leaves",
+    "particle": "anal_craft:blocks/leaves"
+  }
+}

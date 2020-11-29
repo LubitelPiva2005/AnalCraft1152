@@ -1,0 +1,42 @@
+{
+  "group": "anal_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "anal_craft:sliceoldcum"
+    },
+    "1": {
+      "item": "anal_craft:sliceoldcum"
+    },
+    "2": {
+      "item": "anal_craft:sliceoldcum"
+    },
+    "3": {
+      "item": "anal_craft:sliceoldcum"
+    },
+    "4": {
+      "item": "anal_craft:sliceoldcum"
+    },
+    "5": {
+      "item": "anal_craft:sliceoldcum"
+    },
+    "6": {
+      "item": "anal_craft:sliceoldcum"
+    },
+    "7": {
+      "item": "anal_craft:sliceoldcum"
+    },
+    "8": {
+      "item": "anal_craft:sliceoldcum"
+    }
+  },
+  "result": {
+    "item": "anal_craft:ancientseemeningot",
+    "count": 1
+  }
+}

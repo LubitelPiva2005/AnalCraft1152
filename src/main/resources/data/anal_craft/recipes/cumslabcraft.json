@@ -1,0 +1,22 @@
+{
+  "group": "anal_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "anal_craft:cumplanks"
+    },
+    "1": {
+      "item": "anal_craft:cumplanks"
+    },
+    "2": {
+      "item": "anal_craft:cumplanks"
+    }
+  },
+  "result": {
+    "item": "anal_craft:cumslab",
+    "count": 1
+  }
+}

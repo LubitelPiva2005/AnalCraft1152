@@ -1,0 +1,25 @@
+{
+  "group": "anal_craft",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "anal_craft:ancientseemeningot"
+    },
+    {
+      "item": "anal_craft:ancientseemeningot"
+    },
+    {
+      "item": "anal_craft:cumstick"
+    },
+    {
+      "item": "anal_craft:ancientseemeningot"
+    },
+    {
+      "item": "anal_craft:cumstick"
+    }
+  ],
+  "result": {
+    "item": "anal_craft:ancientseemenaxe",
+    "count": 1
+  }
+}
