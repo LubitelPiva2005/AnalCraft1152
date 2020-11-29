@@ -32,7 +32,7 @@ public class AncientSeemenswordItem extends AnalCraftModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 7f;
+				return 6.5f;
 			}
 
 			public int getHarvestLevel() {

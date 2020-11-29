@@ -3,10 +3,10 @@
   "_type": "musicdisc",
   "definition": {
     "texture": "1",
-    "name": "Ass Clap",
-    "description": "RIGHT VERSION",
+    "name": "AssClap",
+    "description": "flox_",
     "creativeTab": {
-      "value": "CUSTOM:Analtab"
+      "value": "CUSTOM:Plastinki"
     },
     "music": {
       "value": "CUSTOM:assclap"

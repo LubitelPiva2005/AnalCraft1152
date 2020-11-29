@@ -1,14 +1,11 @@
 {
   "group": "anal_craft",
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "0"
-  ],
-  "key": {
-    "0": {
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
       "item": "anal_craft:ancientseemeningot"
     }
-  },
+  ],
   "result": {
     "item": "anal_craft:sliceoldcum",
     "count": 9
