@@ -1019,6 +1019,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "ricardo"
+    },
+    {
+      "name": "Markgay",
+      "type": "item",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "markgay"
     }
   ],
   "variable_elements": [],
@@ -1189,11 +1198,11 @@
       "item.anal_craft.slavea_spawn_egg": "Слэйвья Spawn Egg",
       "item.anal_craft.trusi_chestplate": "Trusi Body",
       "item.minecraft.tipped_arrow.effect.cum": "Arrow of Сперма",
-      "block.anal_craft.ancientseemen": "Древняя сперма",
       "item.anal_craft.sliceoldcum": "Кусочек древней спермы",
+      "block.anal_craft.ancientseemen": "Древняя сперма",
       "block.anal_craft.portalblock": "Активированый портал",
-      "item.anal_craft.yuutltghie": "Плётка в сперме",
       "block.anal_craft.smalldick": "Маленький Членовик",
+      "item.anal_craft.yuutltghie": "Плётка в сперме",
       "item.anal_craft.semen": "Сперма",
       "item.anal_craft.streleatherman_spawn_egg": "Ван Даркхолм с луком Spawn Egg",
       "item.anal_craft.gachi_helmet": "Маска кожевника",
@@ -1202,6 +1211,7 @@
       "block.anal_craft.dickflower": "Членовик",
       "block.anal_craft.cumblock": "Блок спермы",
       "subtitles.assclap": "",
+      "item.anal_craft.markgay": "Markgay",
       "block.anal_craft.spermegrass": "Трава в сперме",
       "block.anal_craft.cumslab": "Спермоплита",
       "item.minecraft.splash_potion.effect.cum": "Splash Сперма",
