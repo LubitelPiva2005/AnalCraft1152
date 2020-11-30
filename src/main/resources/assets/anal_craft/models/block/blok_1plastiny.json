@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "anal_craft:blocks/kirpich1",
-    "up": "anal_craft:blocks/kirpich1",
-    "north": "anal_craft:blocks/kirpich1",
-    "east": "anal_craft:blocks/kirpich1",
-    "south": "anal_craft:blocks/kirpich1",
-    "west": "anal_craft:blocks/kirpich1",
-    "particle": "anal_craft:blocks/kirpich1"
+    "down": "anal_craft:blocks/plateblocktest",
+    "up": "anal_craft:blocks/plateblocktest",
+    "north": "anal_craft:blocks/plateblocktest",
+    "east": "anal_craft:blocks/plateblocktest",
+    "south": "anal_craft:blocks/plateblocktest",
+    "west": "anal_craft:blocks/plateblocktest",
+    "particle": "anal_craft:blocks/plateblocktest"
   }
 }

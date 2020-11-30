@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "plastina",
+    "texture": "plast2",
     "customModelName": "Normal",
     "name": "Кусочек ключа",
     "rarity": "EPIC",
