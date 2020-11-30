@@ -3,10 +3,10 @@
   "_type": "musicdisc",
   "definition": {
     "texture": "9",
-    "name": "OlieghGazmanov Еsaul",
-    "description": "RIGHT VERSION",
+    "name": "Олег Газманов - Есаул",
+    "description": "Shoshon Elegant",
     "creativeTab": {
-      "value": "CUSTOM:Analtab"
+      "value": "CUSTOM:Plastinki"
     },
     "music": {
       "value": "CUSTOM:esaul"

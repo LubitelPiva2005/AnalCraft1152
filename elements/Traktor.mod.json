@@ -1,0 +1,17 @@
+{
+  "_fv": 13,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "6",
+    "name": " Œ∆¿Õ€… “–¿ “Œ–",
+    "description": "deminer",
+    "creativeTab": {
+      "value": "CUSTOM:Plastinki"
+    },
+    "music": {
+      "value": "CUSTOM:kozhanyjtraktor"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

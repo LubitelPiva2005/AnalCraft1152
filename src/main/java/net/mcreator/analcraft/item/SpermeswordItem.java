@@ -32,7 +32,7 @@ public class SpermeswordItem extends AnalCraftModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 6f;
+				return 4.5f;
 			}
 
 			public int getHarvestLevel() {

@@ -1,0 +1,17 @@
+{
+  "_fv": 13,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "p12",
+    "name": "Сектор газа - Бомж",
+    "description": "G-man",
+    "creativeTab": {
+      "value": "CUSTOM:Plastinki"
+    },
+    "music": {
+      "value": "CUSTOM:bomj"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

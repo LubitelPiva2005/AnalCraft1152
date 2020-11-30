@@ -3,10 +3,10 @@
   "_type": "musicdisc",
   "definition": {
     "texture": "8",
-    "name": "Nurminskii Valim",
-    "description": "RIGHT VERSION",
+    "name": "Нурминский - Валим",
+    "description": " zerodovich",
     "creativeTab": {
-      "value": "CUSTOM:Analtab"
+      "value": "CUSTOM:Plastinki"
     },
     "music": {
       "value": "CUSTOM:valim"

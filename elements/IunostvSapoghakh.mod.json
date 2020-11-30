@@ -2,14 +2,14 @@
   "_fv": 13,
   "_type": "musicdisc",
   "definition": {
-    "texture": "12",
-    "name": "Iunost v Sapoghakh",
-    "description": "RIGHT VERSION",
+    "texture": "p13",
+    "name": "Iunostvsapoghakh",
+    "description": "Razor Shot",
     "creativeTab": {
-      "value": "CUSTOM:Analtab"
+      "value": "CUSTOM:Plastinki"
     },
     "music": {
-      "value": "CUSTOM:bomj"
+      "value": "CUSTOM:yunostvsapogah"
     },
     "specialInfo": [],
     "hasGlow": false

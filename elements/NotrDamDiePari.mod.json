@@ -1,0 +1,17 @@
+{
+  "_fv": 13,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "3",
+    "name": "Нотр-Дам де Пари - Эсмеральда",
+    "description": "Святой Гачемученик",
+    "creativeTab": {
+      "value": "CUSTOM:Plastinki"
+    },
+    "music": {
+      "value": "CUSTOM:notrdam"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}
