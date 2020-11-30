@@ -1019,33 +1019,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "ricardo"
-    },
-    {
-      "name": "Markgay",
-      "type": "item",
-      "sortid": 77,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "markgay"
-    },
-    {
-      "name": "Markkhuiesos",
-      "type": "block",
-      "sortid": 78,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "markkhuiesos"
-    },
-    {
-      "name": "SmertIslamu",
-      "type": "item",
-      "sortid": 79,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "smert_islamu"
     }
   ],
   "variable_elements": [],
@@ -1218,7 +1191,6 @@
       "item.minecraft.tipped_arrow.effect.cum": "Arrow of Сперма",
       "item.anal_craft.sliceoldcum": "Кусочек древней спермы",
       "block.anal_craft.ancientseemen": "Древняя сперма",
-      "block.anal_craft.markkhuiesos": "Markkhuiesos",
       "block.anal_craft.portalblock": "Активированый портал",
       "block.anal_craft.smalldick": "Маленький Членовик",
       "item.anal_craft.yuutltghie": "Плётка в сперме",
@@ -1230,7 +1202,6 @@
       "block.anal_craft.dickflower": "Членовик",
       "block.anal_craft.cumblock": "Блок спермы",
       "subtitles.assclap": "",
-      "item.anal_craft.markgay": "Markgay",
       "block.anal_craft.spermegrass": "Трава в сперме",
       "block.anal_craft.cumslab": "Спермоплита",
       "item.minecraft.splash_potion.effect.cum": "Splash Сперма",
@@ -1240,7 +1211,6 @@
       "itemGroup.tabanaltab": "Anal Craft",
       "subtitles.zagulyal": "",
       "item.anal_craft.essence": "Эссенция спермы",
-      "item.anal_craft.smert_islamu": "Smert Islamu",
       "subtitles.agh": "",
       "item.anal_craft.bucks": "Бакс",
       "item.anal_craft.fist": "Кулак (пкм чтобы включить)",

@@ -61,12 +61,12 @@
     "isLadder": false,
     "slipperiness": 0.6,
     "reactionToPushing": "NORMAL",
-    "isNotColidable": false,
+    "isNotColidable": true,
     "soundOnStep": {
       "value": "GROUND"
     },
     "luminance": 0.0,
-    "unbreakable": false,
+    "unbreakable": true,
     "breakHarvestLevel": 1,
     "spawnParticles": false,
     "particleToSpawn": {
