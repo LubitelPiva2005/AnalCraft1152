@@ -178,5 +178,14 @@
         "stream": false
       }
     ]
+  },
+  "portalactivate": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "anal_craft:portal",
+        "stream": false
+      }
+    ]
   }
 }
