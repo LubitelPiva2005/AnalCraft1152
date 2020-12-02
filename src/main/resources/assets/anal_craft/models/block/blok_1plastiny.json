@@ -1,12 +1,7 @@
 {
-  "parent": "block/cube",
+  "parent": "block/cube_all",
   "textures": {
-    "down": "anal_craft:blocks/plateblocktest",
-    "up": "anal_craft:blocks/plateblocktest",
-    "north": "anal_craft:blocks/plateblocktest",
-    "east": "anal_craft:blocks/plateblocktest",
-    "south": "anal_craft:blocks/plateblocktest",
-    "west": "anal_craft:blocks/plateblocktest",
-    "particle": "anal_craft:blocks/plateblocktest"
+    "all": "anal_craft:blocks/plate",
+    "particle": "anal_craft:blocks/plate"
   }
 }
