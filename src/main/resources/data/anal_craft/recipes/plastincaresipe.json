@@ -1,0 +1,42 @@
+{
+  "group": "anal_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "anal_craft:plastina_1"
+    },
+    "1": {
+      "item": "anal_craft:plastina_1"
+    },
+    "2": {
+      "item": "anal_craft:plastina_1"
+    },
+    "3": {
+      "item": "anal_craft:plastina_1"
+    },
+    "4": {
+      "item": "anal_craft:essence"
+    },
+    "5": {
+      "item": "anal_craft:plastina_1"
+    },
+    "6": {
+      "item": "anal_craft:plastina_1"
+    },
+    "7": {
+      "item": "anal_craft:plastina_1"
+    },
+    "8": {
+      "item": "anal_craft:plastina_1"
+    }
+  },
+  "result": {
+    "item": "anal_craft:plastina",
+    "count": 1
+  }
+}
