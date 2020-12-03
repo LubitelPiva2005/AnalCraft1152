@@ -3,9 +3,9 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "fisttt",
+    "texture": "latexglove",
     "customModelName": "Normal",
-    "name": "Кулак (пкм чтобы включить)",
+    "name": "Latex glove (ПКМ чтобы включить)",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:ANALTAB"

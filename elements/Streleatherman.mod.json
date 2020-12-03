@@ -5,7 +5,7 @@
     "mobName": "Ван Даркхолм с луком",
     "mobLabel": "",
     "mobModelName": "Biped",
-    "mobModelTexture": "vannnn.png",
+    "mobModelTexture": "van-darkholme-12736673.png",
     "mobModelGlowTexture": "",
     "modelWidth": 0.6,
     "modelHeight": 1.8,
@@ -36,10 +36,10 @@
       "value": "CUSTOM:Gachi.helmet"
     },
     "equipmentBody": {
-      "value": ""
+      "value": "CUSTOM:Gachi.body"
     },
     "equipmentLeggings": {
-      "value": ""
+      "value": "CUSTOM:Gachi.legs"
     },
     "equipmentBoots": {
       "value": ""
@@ -52,7 +52,7 @@
     "movementSpeed": 0.3,
     "armorBaseValue": 0.0,
     "trackingRange": 64,
-    "health": 30,
+    "health": 14,
     "xpAmount": 5,
     "waterMob": false,
     "flyingMob": false,

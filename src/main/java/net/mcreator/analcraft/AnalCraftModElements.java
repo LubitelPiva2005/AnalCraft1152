@@ -72,6 +72,7 @@ public class AnalCraftModElements {
 		sounds.put(new ResourceLocation("anal_craft", "ibelieve"), new net.minecraft.util.SoundEvent(new ResourceLocation("anal_craft", "ibelieve")));
 		sounds.put(new ResourceLocation("anal_craft", "portalactivate"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("anal_craft", "portalactivate")));
+		sounds.put(new ResourceLocation("anal_craft", "fisting"), new net.minecraft.util.SoundEvent(new ResourceLocation("anal_craft", "fisting")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("anal_craft").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

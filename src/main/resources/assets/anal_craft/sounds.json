@@ -187,5 +187,14 @@
         "stream": false
       }
     ]
+  },
+  "fisting": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "anal_craft:fisting_is_300_",
+        "stream": false
+      }
+    ]
   }
 }

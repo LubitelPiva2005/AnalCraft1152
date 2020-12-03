@@ -70,5 +70,17 @@ public class GachiItem extends AnalCraftModElements.ModElement {
 				return "anal_craft:textures/shlem.png";
 			}
 		}.setRegistryName("gachi_helmet"));
+		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(ANALTABItemGroup.tab)) {
+			@Override
+			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
+				return "anal_craft:textures/bobobody.png";
+			}
+		}.setRegistryName("gachi_chestplate"));
+		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(ANALTABItemGroup.tab)) {
+			@Override
+			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
+				return "anal_craft:textures/legginsarmor.png";
+			}
+		}.setRegistryName("gachi_leggings"));
 	}
 }
