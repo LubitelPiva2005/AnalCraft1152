@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "anal_craft:items/ancientseemenaxemy"
+    "layer0": "anal_craft:items/topor"
   }
 }
