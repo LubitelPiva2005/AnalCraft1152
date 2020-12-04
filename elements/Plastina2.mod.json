@@ -3,14 +3,14 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "oscolocpliti",
+    "texture": "scroll",
     "customModelName": "Normal",
-    "name": "Plastina 2",
+    "name": "Свиток с гачи фразами",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:ANALTAB"
     },
-    "stackSize": 64,
+    "stackSize": 1,
     "enchantability": 0,
     "useDuration": 0,
     "toolType": 1.0,
