@@ -107,7 +107,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "anal_craft:blackmode",
+          "name": "anal_craft:unknown_element",
           "weight": 45,
           "functions": [
             {
@@ -177,7 +177,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "anal_craft:semenmeat",
+          "name": "anal_craft:unknown_element",
           "weight": 36,
           "functions": [
             {
