@@ -32,7 +32,7 @@ public class YuutltghieItem extends AnalCraftModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 5f;
+				return 2.5f;
 			}
 
 			public int getHarvestLevel() {
@@ -47,7 +47,7 @@ public class YuutltghieItem extends AnalCraftModElements.ModElement {
 				return Ingredient.fromStacks(new ItemStack(SemenItem.block, (int) (1)), new ItemStack(KnutItem.block, (int) (1)),
 						new ItemStack(BlackleatherItem.block, (int) (1)));
 			}
-		}, 3, -3.4f, new Item.Properties().group(ANALTABItemGroup.tab)) {
+		}, 3, -2.4f, new Item.Properties().group(ANALTABItemGroup.tab)) {
 		}.setRegistryName("yuutltghie"));
 	}
 }

@@ -32,7 +32,7 @@ public class AncientSeemenswordItem extends AnalCraftModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 6.5f;
+				return 4.5f;
 			}
 
 			public int getHarvestLevel() {
@@ -46,7 +46,7 @@ public class AncientSeemenswordItem extends AnalCraftModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(AncientseemeningotItem.block, (int) (1)));
 			}
-		}, 3, -3.4f, new Item.Properties().group(ANALTABItemGroup.tab)) {
+		}, 3, -2.4f, new Item.Properties().group(ANALTABItemGroup.tab)) {
 		}.setRegistryName("ancient_seemensword"));
 	}
 }

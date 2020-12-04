@@ -1,0 +1,36 @@
+{
+  "group": "anal_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "anal_craft:semen"
+    },
+    "1": {
+      "item": "anal_craft:semen"
+    },
+    "2": {
+      "item": "anal_craft:semen"
+    },
+    "3": {
+      "item": "anal_craft:semen"
+    },
+    "4": {
+      "item": "anal_craft:semen"
+    },
+    "5": {
+      "item": "anal_craft:semen"
+    },
+    "7": {
+      "item": "minecraft:bowl"
+    }
+  },
+  "result": {
+    "item": "anal_craft:cumsup",
+    "count": 1
+  }
+}

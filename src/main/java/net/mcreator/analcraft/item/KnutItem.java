@@ -32,7 +32,7 @@ public class KnutItem extends AnalCraftModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 2f;
+				return 1f;
 			}
 
 			public int getHarvestLevel() {
@@ -46,7 +46,7 @@ public class KnutItem extends AnalCraftModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(BlackleatherItem.block, (int) (1)));
 			}
-		}, 3, -3.4f, new Item.Properties().group(ANALTABItemGroup.tab)) {
+		}, 3, -2.4f, new Item.Properties().group(ANALTABItemGroup.tab)) {
 		}.setRegistryName("knut"));
 	}
 }

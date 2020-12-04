@@ -10,21 +10,19 @@ import net.mcreator.analcraft.AnalCraftModElements;
 import java.util.Map;
 
 @AnalCraftModElements.ModElement.Tag
-public class CumOnPotionActiveTickProcedure extends AnalCraftModElements.ModElement {
-	public CumOnPotionActiveTickProcedure(AnalCraftModElements instance) {
-		super(instance, 37);
+public class CumsupFoodEatenProcedure extends AnalCraftModElements.ModElement {
+	public CumsupFoodEatenProcedure(AnalCraftModElements instance) {
+		super(instance, 138);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				System.err.println("Failed to load dependency entity for procedure CumOnPotionActiveTick!");
+				System.err.println("Failed to load dependency entity for procedure CumsupFoodEaten!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		if (entity instanceof LivingEntity)
-			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.REGENERATION, (int) 60, (int) 1));
-		if (entity instanceof LivingEntity)
-			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.STRENGTH, (int) 60, (int) 1));
+			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.INSTANT_HEALTH, (int) 8, (int) 1));
 	}
 }

@@ -3,27 +3,27 @@
   "_type": "food",
   "definition": {
     "renderType": 0,
-    "texture": "semenmeat",
+    "texture": "miskakama",
     "customModelName": "Normal",
-    "name": "Свинина в мперме",
+    "name": "\"Сгущенка\"",
     "rarity": "COMMON",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:ANALTAB"
     },
-    "stackSize": 64,
-    "nutritionalValue": 10,
-    "saturation": 1.1,
-    "eatingSpeed": 42,
+    "stackSize": 1,
+    "nutritionalValue": 0,
+    "saturation": 0.0,
+    "eatingSpeed": 32,
     "resultItem": {
-      "value": ""
+      "value": "Items.BOWL"
     },
-    "forDogs": true,
-    "isAlwaysEdible": true,
+    "forDogs": false,
+    "isAlwaysEdible": false,
     "animation": "eat",
     "hasGlow": false,
     "onEaten": {
-      "name": "SemenmeatFoodEaten"
+      "name": "CumsupFoodEaten"
     }
   }
 }
