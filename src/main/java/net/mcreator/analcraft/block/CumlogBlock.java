@@ -6,7 +6,6 @@ import net.minecraftforge.common.ToolType;
 
 import net.minecraft.world.storage.loot.LootContext;
 import net.minecraft.util.Rotation;
-import net.minecraft.util.Mirror;
 import net.minecraft.util.Direction;
 import net.minecraft.state.StateContainer;
 import net.minecraft.state.DirectionProperty;
@@ -44,7 +43,7 @@ public class CumlogBlock extends AnalCraftModElements.ModElement {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.LEAVES).sound(SoundType.WOOD).hardnessAndResistance(1f, 10f).lightValue(0).harvestLevel(1)
 					.harvestTool(ToolType.AXE));
-			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH));
+			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.SOUTH));
 			setRegistryName("cumlog");
 		}
 
@@ -53,18 +52,28 @@ public class CumlogBlock extends AnalCraftModElements.ModElement {
 			builder.add(FACING);
 		}
 
+		@Override
 		public BlockState rotate(BlockState state, Rotation rot) {
-			return state.with(FACING, rot.rotate(state.get(FACING)));
-		}
-
-		public BlockState mirror(BlockState state, Mirror mirrorIn) {
-			return state.rotate(mirrorIn.toRotation(state.get(FACING)));
+			if (rot == Rotation.CLOCKWISE_90 || rot == Rotation.COUNTERCLOCKWISE_90) {
+				if ((Direction) state.get(FACING) == Direction.WEST || (Direction) state.get(FACING) == Direction.EAST) {
+					return state.with(FACING, Direction.UP);
+				} else if ((Direction) state.get(FACING) == Direction.UP || (Direction) state.get(FACING) == Direction.DOWN) {
+					return state.with(FACING, Direction.WEST);
+				}
+			}
+			return state;
 		}
 
 		@Override
 		public BlockState getStateForPlacement(BlockItemUseContext context) {
-			;
-			return this.getDefaultState().with(FACING, context.getNearestLookingDirection().getOpposite());
+			Direction facing = context.getFace();
+			if (facing == Direction.WEST || facing == Direction.EAST)
+				facing = Direction.UP;
+			else if (facing == Direction.NORTH || facing == Direction.SOUTH)
+				facing = Direction.EAST;
+			else
+				facing = Direction.SOUTH;;
+			return this.getDefaultState().with(FACING, facing);
 		}
 
 		@Override

@@ -34,8 +34,8 @@ public class SpermastupenkiBlock extends AnalCraftModElements.ModElement {
 	}
 	public static class CustomBlock extends StairsBlock {
 		public CustomBlock() {
-			super(new Block(Block.Properties.create(Material.ROCK).hardnessAndResistance(1.5f, 10f)).getDefaultState(),
-					Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1.5f, 10f).lightValue(0));
+			super(new Block(Block.Properties.create(Material.ROCK).hardnessAndResistance(1f, 10f)).getDefaultState(),
+					Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).lightValue(0));
 			setRegistryName("spermastupenki");
 		}
 

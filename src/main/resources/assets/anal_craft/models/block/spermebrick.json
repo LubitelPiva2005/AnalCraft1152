@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "anal_craft:blocks/spermebrick",
-    "particle": "anal_craft:blocks/spermebrick"
+    "all": "anal_craft:blocks/kirpich",
+    "particle": "anal_craft:blocks/kirpich"
   }
 }
