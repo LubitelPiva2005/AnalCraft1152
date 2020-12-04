@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "anal_craft:blocks/niz",
-    "up": "anal_craft:blocks/dth",
-    "north": "anal_craft:blocks/storona",
-    "east": "anal_craft:blocks/storona_2",
-    "south": "anal_craft:blocks/storona",
-    "west": "anal_craft:blocks/storona_2",
-    "particle": "anal_craft:blocks/niz"
+    "down": "anal_craft:blocks/trava2",
+    "up": "anal_craft:blocks/trava4",
+    "north": "anal_craft:blocks/trava1",
+    "east": "anal_craft:blocks/trava3",
+    "south": "anal_craft:blocks/trava1",
+    "west": "anal_craft:blocks/trava3",
+    "particle": "anal_craft:blocks/trava2"
   }
 }

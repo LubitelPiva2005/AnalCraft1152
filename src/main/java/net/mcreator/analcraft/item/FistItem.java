@@ -49,7 +49,12 @@ public class FistItem extends AnalCraftModElements.ModElement {
 				double z = entity.getPosZ();
 				{
 					Map<String, Object> $_dependencies = new HashMap<>();
+					$_dependencies.put("entity", entity);
 					$_dependencies.put("itemstack", itemstack);
+					$_dependencies.put("x", x);
+					$_dependencies.put("y", y);
+					$_dependencies.put("z", z);
+					$_dependencies.put("world", world);
 					FistRightClickedInAirProcedure.executeProcedure($_dependencies);
 				}
 				return retval;
@@ -68,7 +73,12 @@ public class FistItem extends AnalCraftModElements.ModElement {
 				ItemStack itemstack = context.getItem();
 				{
 					Map<String, Object> $_dependencies = new HashMap<>();
+					$_dependencies.put("entity", entity);
 					$_dependencies.put("itemstack", itemstack);
+					$_dependencies.put("x", x);
+					$_dependencies.put("y", y);
+					$_dependencies.put("z", z);
+					$_dependencies.put("world", world);
 					FistRightClickedOnBlockProcedure.executeProcedure($_dependencies);
 				}
 				return retval;

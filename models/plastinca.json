@@ -1,0 +1,63 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"1": "analcraft/фсе",
+		"particle": "Desktop/Без имени-1"
+	},
+	"elements": [
+		{
+			"from": [4, 0, 4],
+			"to": [12, 2, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [15, 9, 15]},
+			"faces": {
+				"north": {"uv": [12, 11.75, 16, 12.5], "texture": "#1"},
+				"east": {"uv": [12, 11.75, 16, 12.5], "texture": "#1"},
+				"south": {"uv": [12, 11.75, 16, 12.5], "texture": "#1"},
+				"west": {"uv": [12, 11.75, 16, 12.5], "texture": "#1"},
+				"up": {"uv": [12, 4.5, 16, 8.5], "texture": "#1"},
+				"down": {"uv": [12, 4.5, 16, 8.5], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [59, 0, 0],
+			"translation": [0, 6.25, 4.75]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [59, 0, 0],
+			"translation": [0, 6.5, 4.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [47, 0, 0],
+			"translation": [0, 8.25, 7.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [47, 0, 0],
+			"translation": [0, 8, 7.5]
+		},
+		"ground": {
+			"translation": [0, 4.75, 0]
+		},
+		"gui": {
+			"rotation": [90, 0, 0],
+			"translation": [0, 0.5, 0]
+		},
+		"fixed": {
+			"rotation": [90, -180, 0],
+			"translation": [0, 0.5, 6.25]
+		}
+	},
+	"groups": [
+		{
+			"name": "верх",
+			"origin": [23, 20, 23],
+			"children": []
+		},
+		{
+			"name": "нога",
+			"origin": [8, 5, 8],
+			"children": []
+		}, 0]
+}

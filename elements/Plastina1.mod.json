@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "plast2",
+    "texture": "plapla",
     "customModelName": "Normal",
-    "name": "Кусочек ключа",
+    "name": "Осколок плиты",
     "rarity": "EPIC",
     "creativeTab": {
       "value": "CUSTOM:ANALTAB"

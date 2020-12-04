@@ -90,7 +90,7 @@ public class VanEntity extends AnalCraftModElements.ModElement {
 			BipedRenderer customRender = new BipedRenderer(renderManager, new BipedModel(0), 0.5f) {
 				@Override
 				public ResourceLocation getEntityTexture(Entity entity) {
-					return new ResourceLocation("anal_craft:textures/vannnn.png");
+					return new ResourceLocation("anal_craft:textures/van-darkholme-12736673.png");
 				}
 			};
 			customRender.addLayer(new BipedArmorLayer(customRender, new BipedModel(0.5f), new BipedModel(1)));
@@ -108,6 +108,8 @@ public class VanEntity extends AnalCraftModElements.ModElement {
 			setNoAI(false);
 			this.setItemStackToSlot(EquipmentSlotType.MAINHAND, new ItemStack(KnutItem.block, (int) (1)));
 			this.setItemStackToSlot(EquipmentSlotType.HEAD, new ItemStack(GachiItem.helmet, (int) (1)));
+			this.setItemStackToSlot(EquipmentSlotType.CHEST, new ItemStack(GachiItem.body, (int) (1)));
+			this.setItemStackToSlot(EquipmentSlotType.LEGS, new ItemStack(GachiItem.legs, (int) (1)));
 		}
 
 		@Override
@@ -169,7 +171,7 @@ public class VanEntity extends AnalCraftModElements.ModElement {
 			if (this.getAttribute(SharedMonsterAttributes.MOVEMENT_SPEED) != null)
 				this.getAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.3);
 			if (this.getAttribute(SharedMonsterAttributes.MAX_HEALTH) != null)
-				this.getAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(30);
+				this.getAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(14);
 			if (this.getAttribute(SharedMonsterAttributes.ARMOR) != null)
 				this.getAttribute(SharedMonsterAttributes.ARMOR).setBaseValue(0);
 			if (this.getAttribute(SharedMonsterAttributes.ATTACK_DAMAGE) == null)

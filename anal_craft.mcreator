@@ -1085,15 +1085,6 @@
       "registry_name": "traktor"
     },
     {
-      "name": "Plastina2",
-      "type": "item",
-      "sortid": 108,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "plastina_2"
-    },
-    {
       "name": "Plastina1",
       "type": "item",
       "sortid": 107,
@@ -1164,15 +1155,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "gay_2"
-    },
-    {
-      "name": "Blok2plastiny",
-      "type": "block",
-      "sortid": 110,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "blok_2plastiny"
     },
     {
       "name": "Gay4",
@@ -1341,6 +1323,24 @@
           }
         ]
       }
+    },
+    {
+      "name": "Plastina",
+      "type": "item",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plastina"
+    },
+    {
+      "name": "Plastincaresipe",
+      "type": "recipe",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plastincaresipe"
     }
   ],
   "variable_elements": [],
@@ -1512,6 +1512,14 @@
       ],
       "category": "master",
       "subtitle": ""
+    },
+    {
+      "name": "fisting",
+      "files": [
+        "fisting_is_300_"
+      ],
+      "category": "master",
+      "subtitle": ""
     }
   ],
   "language_map": {
@@ -1599,6 +1607,7 @@
       "item.anal_craft.bucks": "Бакс",
       "item.anal_craft.ancientseemeningot": "Слиток древней спермы",
       "item.anal_craft.nurminskii_valim": "Нурминский - Валим",
+      "subtitles.fisting": "",
       "subtitles.kozhanyjtraktor": "",
       "item.anal_craft.notr_dam_die_pari.desc": "Святой Гачемученик",
       "item.anal_craft.three": "300 баксов",
