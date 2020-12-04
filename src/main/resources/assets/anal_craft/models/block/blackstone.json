@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "anal_craft:blocks/realblackstone",
+    "particle": "anal_craft:blocks/realblackstone"
+  }
+}
