@@ -11,9 +11,9 @@
       "registry_name": "gachi",
       "metadata": {
         "eh": true,
-        "el": false,
+        "el": true,
         "eb": false,
-        "ec": false
+        "ec": true
       }
     },
     {
@@ -440,8 +440,28 @@
       "metadata": {
         "dependencies": [
           {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
             "name": "itemstack",
             "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -457,8 +477,28 @@
       "metadata": {
         "dependencies": [
           {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
             "name": "itemstack",
             "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -1585,15 +1625,6 @@
       "registry_name": "spermazabor"
     },
     {
-      "name": "Block2plastiny",
-      "type": "block",
-      "sortid": 131,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "block_2plastiny"
-    },
-    {
       "name": "Plastina2",
       "type": "item",
       "sortid": 132,
@@ -1603,15 +1634,6 @@
       "registry_name": "plastina_2"
     },
     {
-      "name": "Blackstone",
-      "type": "block",
-      "sortid": 133,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "blackstone"
-    },
-    {
       "name": "Blackstonecraft",
       "type": "recipe",
       "sortid": 134,
@@ -1619,6 +1641,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "blackstonecraft"
+    },
+    {
+      "name": "Blackstone",
+      "type": "block",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blackstone"
     },
     {
       "name": "Golovkakey",
@@ -1831,22 +1862,22 @@
       "block.anal_craft.spermazabor": "Стена из спермичей",
       "block.anal_craft.blok_1plastiny": "Древний камень",
       "block.anal_craft.plitaspermech": "Плита из спермечей",
-      "block.anal_craft.spermegrass": "Трава в сперме",
       "block.anal_craft.cumslab": "Спермоплита",
+      "block.anal_craft.spermegrass": "Трава в сперме",
       "item.minecraft.splash_potion.effect.cum": "Splash Сперма",
       "block.anal_craft.cumfence": "Спермозабор",
-      "item.anal_craft.gachi_chestplate": "Gachi Body",
+      "item.anal_craft.gachi_chestplate": "Костюм кожевника",
       "itemGroup.tabanaltab": "Anal Craft",
       "item.anal_craft.essence": "Эссенция спермы",
       "item.anal_craft.gorillaz_feel_good": "Gorillaz Feel Good",
       "subtitles.agh": "",
-      "item.anal_craft.fist": "Кулак (пкм чтобы включить)",
+      "item.anal_craft.fist": "Latex glove (ПКМ чтобы включить)",
       "item.anal_craft.notr_dam_die_pari": "Нотр-Дам де Пари - Эсмеральда",
       "block.anal_craft.disactivatedportal": "Неактивированый портал",
       "item.anal_craft.trusi_boots": "Trusi Boots",
-      "item.anal_craft.ass_clap": "AssClap",
-      "item.anal_craft.bomzh.desc": "G-man",
       "block.anal_craft.old_cum_block": "Блок древней спермы",
+      "item.anal_craft.bomzh.desc": "G-man",
+      "item.anal_craft.ass_clap": "AssClap",
       "item.anal_craft.ancient_seemensword": "Меч из древней спермы",
       "item.anal_craft.zaghulial": "Олег Газманов - Загулял",
       "item.anal_craft.spermsrm_chestplate": "Spermsrm Body",
@@ -1888,7 +1919,7 @@
       "item.anal_craft.motyliek": "Макс Корж - Мотылек",
       "item.anal_craft.motyliek.desc": "Shoshon Elegant",
       "item.minecraft.tipped_arrow.effect.cum": "Arrow of Сперма",
-      "item.anal_craft.plastina_2": "Plastina 2",
+      "item.anal_craft.plastina_2": "Свиток с гачи фразами",
       "item.anal_craft.plastina_1": "Осколок плиты",
       "block.anal_craft.portalblock": "Активированый портал",
       "item.anal_craft.yuutltghie": "Плётка в сперме",
@@ -1917,7 +1948,6 @@
       "item.anal_craft.ass_clap.desc": "flox_",
       "subtitles.ahr": "",
       "item.minecraft.lingering_potion.effect.cum": "Lingering Сперма",
-      "block.anal_craft.block_2plastiny": "Block 2plastiny",
       "subtitles.oficeri": "",
       "subtitles.zozh": "",
       "subtitles.aaaaaaa": "",
@@ -1935,7 +1965,7 @@
       "block.anal_craft.billy": "Billy",
       "item.anal_craft.traktor.desc": "deminer",
       "item.anal_craft.van_spawn_egg": "Ван Даркхолм Spawn Egg",
-      "item.anal_craft.gachi_leggings": "Gachi Leggings",
+      "item.anal_craft.gachi_leggings": "Штаны кожевника",
       "entity.anal_craft.ricardo": "Рикардо Милос",
       "item.anal_craft.briemienskiie.desc": "slw Gachi",
       "block.anal_craft.cumlog": "Спермовая древесина",
