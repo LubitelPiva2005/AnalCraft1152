@@ -5,8 +5,8 @@
     "renderType": 0,
     "texture": "scroll",
     "customModelName": "Normal",
-    "name": "Свиток с гачи фразами",
-    "rarity": "COMMON",
+    "name": "Секретный свиток jabroni",
+    "rarity": "EPIC",
     "creativeTab": {
       "value": "CUSTOM:ANALTAB"
     },

@@ -25,7 +25,7 @@ public class Plastina2Item extends AnalCraftModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ANALTABItemGroup.tab).maxStackSize(1).rarity(Rarity.COMMON));
+			super(new Item.Properties().group(ANALTABItemGroup.tab).maxStackSize(1).rarity(Rarity.EPIC));
 			setRegistryName("plastina_2");
 		}
 
