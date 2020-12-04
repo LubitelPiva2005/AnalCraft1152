@@ -1,24 +1,29 @@
 
 package net.mcreator.analcraft.item;
 
+import net.minecraftforge.registries.ObjectHolder;
+
+import net.minecraft.item.Rarity;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.Item;
+import net.minecraft.block.BlockState;
+
+import net.mcreator.analcraft.AnalCraftModElements;
+
 @AnalCraftModElements.ModElement.Tag
 public class Plastina2Item extends AnalCraftModElements.ModElement {
-
 	@ObjectHolder("anal_craft:plastina_2")
 	public static final Item block = null;
-
 	public Plastina2Item(AnalCraftModElements instance) {
 		super(instance, 132);
-
 	}
 
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new ItemCustom());
 	}
-
 	public static class ItemCustom extends Item {
-
 		public ItemCustom() {
 			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.COMMON));
 			setRegistryName("plastina_2");
@@ -38,7 +43,5 @@ public class Plastina2Item extends AnalCraftModElements.ModElement {
 		public float getDestroySpeed(ItemStack par1ItemStack, BlockState par2Block) {
 			return 1F;
 		}
-
 	}
-
 }

@@ -1,8 +1,8 @@
 {
   "parent": "block/slab",
   "textures": {
-    "bottom": "anal_craft:blocks/spermebrick",
-    "top": "anal_craft:blocks/spermebrick",
-    "side": "anal_craft:blocks/spermebrick"
+    "bottom": "anal_craft:blocks/kirpich",
+    "top": "anal_craft:blocks/kirpich",
+    "side": "anal_craft:blocks/kirpich"
   }
 }

@@ -1,7 +1,7 @@
 {
   "parent": "block/template_wall_post",
   "textures": {
-    "wall": "anal_craft:blocks/spermebrick",
-    "particle": "anal_craft:blocks/spermebrick"
+    "wall": "anal_craft:blocks/kirpich",
+    "particle": "anal_craft:blocks/kirpich"
   }
 }
