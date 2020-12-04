@@ -1668,6 +1668,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "stickkey"
+    },
+    {
+      "name": "Ricardodrop",
+      "type": "loottable",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ricardodrop"
     }
   ],
   "variable_elements": [],

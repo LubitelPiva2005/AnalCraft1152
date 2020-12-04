@@ -10,7 +10,7 @@
     "particleTexture": "",
     "plantType": "normal",
     "staticPlantGenerationType": "Flower",
-    "growapableSpawnType": "Cave",
+    "growapableSpawnType": "Plains",
     "growapableMaxHeight": 3,
     "doublePlantGenerationType": "Flower",
     "name": "Трава в сперме",
