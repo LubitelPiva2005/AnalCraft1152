@@ -59,7 +59,7 @@ public class LockerroomOnStructureInstanceGeneratedProcedure extends AnalCraftMo
 										.getDefaultState().getBlock())))))) {
 			if (!world.getWorld().isRemote) {
 				Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
-						.getTemplateDefaulted(new ResourceLocation("anal_craft", "roommmmmm"));
+						.getTemplateDefaulted(new ResourceLocation("anal_craft", "kachalka1"));
 				if (template != null) {
 					template.addBlocksToWorld(world, new BlockPos((int) x, (int) y, (int) z),
 							new PlacementSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setChunk(null).setIgnoreEntities(false));

@@ -113,7 +113,7 @@ public class GrasssperBlock extends AnalCraftModElements.ModElement {
 
 		@Override
 		public PlantType getPlantType(IBlockReader world, BlockPos pos) {
-			return PlantType.Cave;
+			return PlantType.Plains;
 		}
 	}
 }
