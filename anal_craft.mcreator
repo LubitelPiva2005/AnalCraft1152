@@ -1668,6 +1668,23 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "stickkey"
+    },
+    {
+      "name": "SemenmeatFoodEaten",
+      "type": "procedure",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "semenmeat_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],

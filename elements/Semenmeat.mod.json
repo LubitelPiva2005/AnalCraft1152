@@ -21,6 +21,9 @@
     "forDogs": true,
     "isAlwaysEdible": true,
     "animation": "eat",
-    "hasGlow": false
+    "hasGlow": false,
+    "onEaten": {
+      "name": "SemenmeatFoodEaten"
+    }
   }
 }
