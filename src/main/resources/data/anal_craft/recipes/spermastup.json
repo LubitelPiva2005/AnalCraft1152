@@ -1,0 +1,33 @@
+{
+  "group": "anal_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    " 45",
+    "678"
+  ],
+  "key": {
+    "2": {
+      "item": "anal_craft:blackmode"
+    },
+    "4": {
+      "item": "anal_craft:blackmode"
+    },
+    "5": {
+      "item": "anal_craft:blackmode"
+    },
+    "6": {
+      "item": "anal_craft:blackmode"
+    },
+    "7": {
+      "item": "anal_craft:blackmode"
+    },
+    "8": {
+      "item": "anal_craft:semen"
+    }
+  },
+  "result": {
+    "item": "anal_craft:spermastupenki",
+    "count": 8
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "anal_craft:blocks/spermebrick",
+    "top": "anal_craft:blocks/spermebrick",
+    "side": "anal_craft:blocks/spermebrick"
+  }
+}

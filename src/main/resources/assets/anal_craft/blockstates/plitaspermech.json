@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "anal_craft:block/plitaspermech"
+    },
+    "type=top": {
+      "model": "anal_craft:block/plitaspermech_top"
+    },
+    "type=double": {
+      "model": "anal_craft:block/plitaspermech_full"
+    }
+  }
+}

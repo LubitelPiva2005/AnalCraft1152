@@ -15,37 +15,31 @@ import net.minecraft.world.gen.GenerationStage;
 import net.minecraft.world.gen.ChunkGenerator;
 import net.minecraft.world.dimension.DimensionType;
 import net.minecraft.world.biome.Biome;
-import net.minecraft.world.World;
 import net.minecraft.world.IWorld;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
-import net.minecraft.fluid.IFluidState;
-import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.analcraft.procedures.AncientseemenBlockDestroyedByPlayerProcedure;
 import net.mcreator.analcraft.itemgroup.ANALTABItemGroup;
 import net.mcreator.analcraft.AnalCraftModElements;
 
 import java.util.Random;
-import java.util.Map;
 import java.util.List;
-import java.util.HashMap;
 import java.util.Collections;
 
 @AnalCraftModElements.ModElement.Tag
-public class AncientseemenBlock extends AnalCraftModElements.ModElement {
-	@ObjectHolder("anal_craft:ancientseemen")
+public class BlackmodeBlock extends AnalCraftModElements.ModElement {
+	@ObjectHolder("anal_craft:blackmode")
 	public static final Block block = null;
-	public AncientseemenBlock(AnalCraftModElements instance) {
-		super(instance, 43);
+	public BlackmodeBlock(AnalCraftModElements instance) {
+		super(instance, 115);
 	}
 
 	@Override
@@ -55,9 +49,9 @@ public class AncientseemenBlock extends AnalCraftModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0500000000000003f, 10f).lightValue(0)
-					.harvestLevel(3).harvestTool(ToolType.PICKAXE));
-			setRegistryName("ancientseemen");
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).lightValue(0).harvestLevel(1)
+					.harvestTool(ToolType.PICKAXE));
+			setRegistryName("blackmode");
 		}
 
 		@Override
@@ -66,23 +60,6 @@ public class AncientseemenBlock extends AnalCraftModElements.ModElement {
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
 			return Collections.singletonList(new ItemStack(this, 1));
-		}
-
-		@Override
-		public boolean removedByPlayer(BlockState state, World world, BlockPos pos, PlayerEntity entity, boolean willHarvest, IFluidState fluid) {
-			boolean retval = super.removedByPlayer(state, world, pos, entity, willHarvest, fluid);
-			int x = pos.getX();
-			int y = pos.getY();
-			int z = pos.getZ();
-			{
-				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("x", x);
-				$_dependencies.put("y", y);
-				$_dependencies.put("z", z);
-				$_dependencies.put("world", world);
-				AncientseemenBlockDestroyedByPlayerProcedure.executeProcedure($_dependencies);
-			}
-			return retval;
 		}
 	}
 	@Override
@@ -104,12 +81,12 @@ public class AncientseemenBlock extends AnalCraftModElements.ModElement {
 						return false;
 					return super.place(world, generator, rand, pos, config);
 				}
-			}.withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.create("ancientseemen", "ancientseemen", blockAt -> {
+			}.withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.create("blackmode", "blackmode", blockAt -> {
 				boolean blockCriteria = false;
 				if (blockAt.getBlock() == Blocks.STONE.getDefaultState().getBlock())
 					blockCriteria = true;
 				return blockCriteria;
-			}), block.getDefaultState(), 8)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(1, 0, 0, 12))));
+			}), block.getDefaultState(), 19)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(17, 0, 0, 74))));
 		}
 	}
 }
