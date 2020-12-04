@@ -1,0 +1,32 @@
+{
+  "group": "anal_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:fermented_spider_eye"
+    },
+    "1": {
+      "item": "minecraft:fermented_spider_eye"
+    },
+    "2": {
+      "item": "minecraft:fermented_spider_eye"
+    },
+    "3": {
+      "item": "minecraft:fermented_spider_eye"
+    },
+    "4": {
+      "item": "minecraft:heart_of_the_sea"
+    },
+    "5": {
+      "item": "minecraft:fermented_spider_eye"
+    }
+  },
+  "result": {
+    "item": "anal_craft:dickflower",
+    "count": 1
+  }
+}
