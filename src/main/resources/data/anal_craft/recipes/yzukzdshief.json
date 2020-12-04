@@ -1,0 +1,22 @@
+{
+  "group": "anal_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "anal_craft:blackmode"
+    },
+    "1": {
+      "item": "anal_craft:semen"
+    },
+    "2": {
+      "item": "anal_craft:blackmode"
+    }
+  },
+  "result": {
+    "item": "anal_craft:plitaspermech",
+    "count": 3
+  }
+}

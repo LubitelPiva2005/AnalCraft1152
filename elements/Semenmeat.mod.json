@@ -1,0 +1,26 @@
+{
+  "_fv": 13,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "semenmeat",
+    "customModelName": "Normal",
+    "name": "Свинина в мперме",
+    "rarity": "COMMON",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:ANALTAB"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 7,
+    "saturation": 1.1,
+    "eatingSpeed": 42,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": true,
+    "isAlwaysEdible": true,
+    "animation": "eat",
+    "hasGlow": false
+  }
+}

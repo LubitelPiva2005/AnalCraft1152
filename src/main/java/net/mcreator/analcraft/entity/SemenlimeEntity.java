@@ -144,12 +144,12 @@ public class SemenlimeEntity extends AnalCraftModElements.ModElement {
 			if (this.getAttribute(SharedMonsterAttributes.MOVEMENT_SPEED) != null)
 				this.getAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.3);
 			if (this.getAttribute(SharedMonsterAttributes.MAX_HEALTH) != null)
-				this.getAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(20);
+				this.getAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(5);
 			if (this.getAttribute(SharedMonsterAttributes.ARMOR) != null)
-				this.getAttribute(SharedMonsterAttributes.ARMOR).setBaseValue(20);
+				this.getAttribute(SharedMonsterAttributes.ARMOR).setBaseValue(15.6);
 			if (this.getAttribute(SharedMonsterAttributes.ATTACK_DAMAGE) == null)
 				this.getAttributes().registerAttribute(SharedMonsterAttributes.ATTACK_DAMAGE);
-			this.getAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(6);
+			this.getAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(2);
 		}
 	}
 }

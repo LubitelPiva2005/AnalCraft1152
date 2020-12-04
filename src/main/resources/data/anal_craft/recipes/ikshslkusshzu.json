@@ -1,0 +1,42 @@
+{
+  "group": "anal_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "anal_craft:blackmode"
+    },
+    "1": {
+      "item": "anal_craft:blackmode"
+    },
+    "2": {
+      "item": "anal_craft:blackmode"
+    },
+    "3": {
+      "item": "anal_craft:blackmode"
+    },
+    "4": {
+      "item": "anal_craft:semen"
+    },
+    "5": {
+      "item": "anal_craft:blackmode"
+    },
+    "6": {
+      "item": "anal_craft:blackmode"
+    },
+    "7": {
+      "item": "anal_craft:blackmode"
+    },
+    "8": {
+      "item": "anal_craft:blackmode"
+    }
+  },
+  "result": {
+    "item": "anal_craft:unknown_element",
+    "count": 8
+  }
+}

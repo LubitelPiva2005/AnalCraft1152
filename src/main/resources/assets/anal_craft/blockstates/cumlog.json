@@ -1,7 +1,27 @@
 {
   "variants": {
-    "": {
+    "facing=north": {
       "model": "anal_craft:block/cumlog"
+    },
+    "facing=east": {
+      "model": "anal_craft:block/cumlog",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "anal_craft:block/cumlog",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "anal_craft:block/cumlog",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "anal_craft:block/cumlog",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "anal_craft:block/cumlog",
+      "x": 90
     }
   }
 }
