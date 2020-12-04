@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "anal_craft:blocks/cumblocknewmnew",
-    "particle": "anal_craft:blocks/cumblocknewmnew"
+    "all": "anal_craft:blocks/cumblocknew",
+    "particle": "anal_craft:blocks/cumblocknew"
   }
 }
