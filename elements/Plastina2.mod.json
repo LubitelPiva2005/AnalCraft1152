@@ -8,7 +8,7 @@
     "name": "Plastina 2",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:ANALTAB"
     },
     "stackSize": 64,
     "enchantability": 0,

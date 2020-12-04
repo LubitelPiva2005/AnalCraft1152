@@ -1659,6 +1659,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "blackstone"
+    },
+    {
+      "name": "Golovkakey",
+      "type": "recipe",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "golovkakey"
+    },
+    {
+      "name": "Stickkey",
+      "type": "recipe",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stickkey"
     }
   ],
   "variable_elements": [],
