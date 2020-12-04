@@ -4,13 +4,13 @@ package net.mcreator.analcraft.block;
 import net.minecraft.block.material.Material;
 
 @AnalCraftModElements.ModElement.Tag
-public class PlitaspermechBlock extends AnalCraftModElements.ModElement {
+public class Block2plastinyBlock extends AnalCraftModElements.ModElement {
 
-	@ObjectHolder("anal_craft:plitaspermech")
+	@ObjectHolder("anal_craft:block_2plastiny")
 	public static final Block block = null;
 
-	public PlitaspermechBlock(AnalCraftModElements instance) {
-		super(instance, 121);
+	public Block2plastinyBlock(AnalCraftModElements instance) {
+		super(instance, 131);
 
 	}
 
@@ -20,23 +20,24 @@ public class PlitaspermechBlock extends AnalCraftModElements.ModElement {
 		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(ANALTABItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 
-	public static class CustomBlock extends SlabBlock {
+	public static class CustomBlock extends Block {
 
 		public CustomBlock() {
 			super(
 
-					Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1.5f, 10f).lightValue(0).harvestLevel(1)
+					Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).lightValue(0).harvestLevel(1)
 							.harvestTool(ToolType.PICKAXE));
 
-			setRegistryName("plitaspermech");
+			setRegistryName("block_2plastiny");
 		}
 
 		@Override
 		public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
+
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, state.get(TYPE) == SlabType.DOUBLE ? 2 : 1));
+			return Collections.singletonList(new ItemStack(Plastina2Item.block, (int) (1)));
 		}
 
 	}

@@ -5,7 +5,7 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "recipeRetstackSize": 3,
+    "recipeRetstackSize": 6,
     "group": "",
     "recipeShapeless": false,
     "recipeSlots": [
@@ -28,13 +28,13 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:Blackmode"
+        "value": "CUSTOM:Spermebrick"
       },
       {
-        "value": "CUSTOM:Semen"
+        "value": "CUSTOM:Spermebrick"
       },
       {
-        "value": "CUSTOM:Blackmode"
+        "value": "CUSTOM:Spermebrick"
       }
     ],
     "recipeReturnStack": {
