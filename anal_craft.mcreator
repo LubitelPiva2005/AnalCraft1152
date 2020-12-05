@@ -1797,6 +1797,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "slitokspiermy"
+    },
+    {
+      "name": "Verstak",
+      "type": "recipe",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "verstak"
     }
   ],
   "variable_elements": [],
