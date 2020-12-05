@@ -214,5 +214,14 @@
         "stream": false
       }
     ]
+  },
+  "weewee": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "anal_craft:weewee",
+        "stream": false
+      }
+    ]
   }
 }

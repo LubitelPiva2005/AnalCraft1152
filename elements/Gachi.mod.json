@@ -8,7 +8,7 @@
     "textureBody": "bodygachiicon",
     "enableLeggings": true,
     "textureLeggings": "gachilegginsinage",
-    "enableBoots": true,
+    "enableBoots": false,
     "textureBoots": "trusi_boots",
     "creativeTab": {
       "value": "CUSTOM:ANALTAB"

@@ -82,11 +82,5 @@ public class GachiItem extends AnalCraftModElements.ModElement {
 				return "anal_craft:textures/legginsarmor.png";
 			}
 		}.setRegistryName("gachi_leggings"));
-		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(ANALTABItemGroup.tab)) {
-			@Override
-			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "anal_craft:textures/aaaa.png";
-			}
-		}.setRegistryName("gachi_boots"));
 	}
 }

@@ -12,7 +12,7 @@
       "metadata": {
         "eh": true,
         "el": true,
-        "eb": true,
+        "eb": false,
         "ec": true
       }
     },
@@ -1779,6 +1779,53 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "gora_2"
+    },
+    {
+      "name": "Billystatue",
+      "type": "mob",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "billystatue"
+    },
+    {
+      "name": "BillystatueitemRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "billystatueitem_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Billystatueitem",
+      "type": "item",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "billystatueitem"
     }
   ],
   "variable_elements": [],
@@ -1974,6 +2021,14 @@
       ],
       "category": "master",
       "subtitle": ""
+    },
+    {
+      "name": "weewee",
+      "files": [
+        "weewee"
+      ],
+      "category": "master",
+      "subtitle": ""
     }
   ],
   "language_map": {
@@ -1996,15 +2051,16 @@
       "item.anal_craft.gachi_chestplate": "Костюм кожевника",
       "itemGroup.tabanaltab": "Anal Craft",
       "item.anal_craft.essence": "Эссенция спермы",
-      "subtitles.agh": "",
       "item.anal_craft.gorillaz_feel_good": "Gorillaz Feel Good",
+      "subtitles.agh": "",
+      "item.anal_craft.billystatue_spawn_egg": "Статуя Билли Spawn Egg",
       "item.anal_craft.fist": "Latex glove (ПКМ чтобы включить)",
       "item.anal_craft.notr_dam_die_pari": "Нотр-Дам де Пари - Эсмеральда",
       "block.anal_craft.disactivatedportal": "Неактивированый портал",
       "item.anal_craft.trusi_boots": "Trusi Boots",
-      "item.anal_craft.ass_clap": "AssClap",
-      "item.anal_craft.bomzh.desc": "G-man",
       "block.anal_craft.old_cum_block": "Блок древней спермы",
+      "item.anal_craft.bomzh.desc": "G-man",
+      "item.anal_craft.ass_clap": "AssClap",
       "item.anal_craft.ancient_seemensword": "Меч из древней спермы",
       "item.anal_craft.zaghulial": "Олег Газманов - Загулял",
       "item.anal_craft.spermsrm_chestplate": "Spermsrm Body",
@@ -2034,6 +2090,7 @@
       "item.anal_craft.briemienskiie": "БремеБременские музыканты - Мы к вам заехали на час",
       "effect.cum": "CumСперма",
       "entity.anal_craft.slavea": "Слэйвья",
+      "subtitles.weewee": "",
       "item.anal_craft.cumstick": "Спермопалка",
       "entity.anal_craft.semenlime": "Спермень",
       "block.anal_craft.cumplanks": "Спермодоски",
@@ -2070,6 +2127,7 @@
       "item.anal_craft.bucks": "Бакс",
       "item.anal_craft.ancientseemeningot": "Слиток древней спермы",
       "item.anal_craft.nurminskii_valim": "Нурминский - Валим",
+      "item.anal_craft.billystatueitem": "Статуя Билли",
       "subtitles.fisting": "",
       "subtitles.kozhanyjtraktor": "",
       "item.anal_craft.notr_dam_die_pari.desc": "Святой Гачемученик",
@@ -2109,6 +2167,7 @@
       "subtitles.esaul": "",
       "item.anal_craft.spermesword": "Меч из засохшей спермы",
       "item.anal_craft.trusi_leggings": "Трусы Рикардо Милоса",
+      "entity.anal_craft.billystatue": "Статуя Билли",
       "item.anal_craft.hundred": "Hundred100 баксов"
     }
   },
