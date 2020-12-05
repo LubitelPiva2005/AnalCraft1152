@@ -1,24 +1,39 @@
 
 package net.mcreator.analcraft.item;
 
+import net.minecraftforge.registries.ObjectHolder;
+
+import net.minecraft.world.World;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.Direction;
+import net.minecraft.util.ActionResultType;
+import net.minecraft.item.Rarity;
+import net.minecraft.item.ItemUseContext;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Item;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.block.BlockState;
+
+import net.mcreator.analcraft.procedures.BillystatueitemRightClickedOnBlockProcedure;
+import net.mcreator.analcraft.itemgroup.ANALTABItemGroup;
+import net.mcreator.analcraft.AnalCraftModElements;
+
+import java.util.Map;
+import java.util.HashMap;
+
 @AnalCraftModElements.ModElement.Tag
 public class BillystatueitemItem extends AnalCraftModElements.ModElement {
-
 	@ObjectHolder("anal_craft:billystatueitem")
 	public static final Item block = null;
-
 	public BillystatueitemItem(AnalCraftModElements instance) {
 		super(instance, 144);
-
 	}
 
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new ItemCustom());
 	}
-
 	public static class ItemCustom extends Item {
-
 		public ItemCustom() {
 			super(new Item.Properties().group(ANALTABItemGroup.tab).maxStackSize(1).rarity(Rarity.COMMON));
 			setRegistryName("billystatueitem");
@@ -52,17 +67,13 @@ public class BillystatueitemItem extends AnalCraftModElements.ModElement {
 			ItemStack itemstack = context.getItem();
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
-
 				$_dependencies.put("x", x);
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-
 				BillystatueitemRightClickedOnBlockProcedure.executeProcedure($_dependencies);
 			}
 			return retval;
 		}
-
 	}
-
 }
