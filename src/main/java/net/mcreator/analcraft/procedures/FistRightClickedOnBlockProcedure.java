@@ -63,11 +63,11 @@ public class FistRightClickedOnBlockProcedure extends AnalCraftModElements.ModEl
 			((PlayerEntity) entity).getCooldownTracker().setCooldown(((itemstack)).getItem(), (int) 1000000000);
 		if (!world.getWorld().isRemote) {
 			world.playSound(null, new BlockPos((int) x, (int) y, (int) z),
-					(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("anal_craft:fisting")),
+					(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("anal_craft:aghh")),
 					SoundCategory.NEUTRAL, (float) 0.8, (float) 1);
 		} else {
 			world.getWorld().playSound(x, y, z,
-					(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("anal_craft:fisting")),
+					(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("anal_craft:aghh")),
 					SoundCategory.NEUTRAL, (float) 0.8, (float) 1, false);
 		}
 	}

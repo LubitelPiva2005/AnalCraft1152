@@ -215,11 +215,11 @@
       }
     ]
   },
-  "oxsuckmiron": {
+  "marionetka": {
     "category": "master",
     "sounds": [
       {
-        "name": "anal_craft:oxxxymiron_-_gorod_pod_podoshvoi_right_version_gachi_remix",
+        "name": "anal_craft:y2mate.com_-_korol_i_shut_-_marionietki_gachi_remix",
         "stream": false
       }
     ]
@@ -233,11 +233,20 @@
       }
     ]
   },
-  "marionetka": {
+  "oxsuckmiron": {
     "category": "master",
     "sounds": [
       {
-        "name": "anal_craft:y2mate.com_-_korol_i_shut_-_marionietki_gachi_remix",
+        "name": "anal_craft:oxxxymiron_-_gorod_pod_podoshvoi_right_version_gachi_remix",
+        "stream": false
+      }
+    ]
+  },
+  "weewee": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "anal_craft:weewee",
         "stream": false
       }
     ]

@@ -1,0 +1,40 @@
+{
+  "_fv": 13,
+  "_type": "gun",
+  "definition": {
+    "renderType": 0,
+    "texture": "magicwand",
+    "customModelName": "Normal",
+    "name": "Посох спермы",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:ANALTAB"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": true,
+    "usageCount": 500,
+    "actionSound": {
+      "value": "block.glass.break"
+    },
+    "hasGlow": true,
+    "animation": "bow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 3.0,
+    "bulletPower": 1.0,
+    "bulletDamage": 5.0,
+    "bulletKnockback": 3,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:Crystal"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "MagicwandBulletHitsBlock"
+    }
+  }
+}
