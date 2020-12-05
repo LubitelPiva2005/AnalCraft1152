@@ -3,14 +3,14 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "scroll",
+    "texture": "ancientsemeningot",
     "customModelName": "Normal",
-    "name": " Тайный свиток jabroni",
-    "rarity": "EPIC",
+    "name": "Zasokhshaiaspierma",
+    "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:ANALTAB"
     },
-    "stackSize": 1,
+    "stackSize": 64,
     "enchantability": 0,
     "useDuration": 0,
     "toolType": 1.0,
