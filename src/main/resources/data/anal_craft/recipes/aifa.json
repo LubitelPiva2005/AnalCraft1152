@@ -1,0 +1,30 @@
+{
+  "group": "anal_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "anal_craft:cumslab"
+    },
+    "1": {
+      "item": "anal_craft:cumslab"
+    },
+    "2": {
+      "item": "anal_craft:cumslab"
+    },
+    "4": {
+      "item": "minecraft:bookshelf"
+    },
+    "7": {
+      "item": "anal_craft:cumslab"
+    }
+  },
+  "result": {
+    "item": "minecraft:lectern",
+    "count": 1
+  }
+}

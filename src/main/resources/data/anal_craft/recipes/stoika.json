@@ -1,0 +1,36 @@
+{
+  "group": "anal_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "anal_craft:cumstick"
+    },
+    "1": {
+      "item": "anal_craft:cumstick"
+    },
+    "2": {
+      "item": "anal_craft:cumstick"
+    },
+    "4": {
+      "item": "anal_craft:cumstick"
+    },
+    "6": {
+      "item": "anal_craft:cumstick"
+    },
+    "7": {
+      "item": "minecraft:smooth_stone_slab"
+    },
+    "8": {
+      "item": "anal_craft:cumstick"
+    }
+  },
+  "result": {
+    "item": "minecraft:armor_stand",
+    "count": 1
+  }
+}

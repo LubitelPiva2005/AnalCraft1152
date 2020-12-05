@@ -1,0 +1,8 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "anal_craft:blocks/cumplanks",
+    "top": "anal_craft:blocks/cumplanks",
+    "side": "anal_craft:blocks/cumplanks"
+  }
+}

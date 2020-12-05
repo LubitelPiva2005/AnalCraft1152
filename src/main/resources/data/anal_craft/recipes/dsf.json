@@ -1,0 +1,30 @@
+{
+  "group": "anal_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cobblestone"
+    },
+    "1": {
+      "item": "minecraft:cobblestone"
+    },
+    "2": {
+      "item": "minecraft:cobblestone"
+    },
+    "4": {
+      "item": "anal_craft:cumstick"
+    },
+    "7": {
+      "item": "anal_craft:cumstick"
+    }
+  },
+  "result": {
+    "item": "minecraft:stone_pickaxe",
+    "count": 1
+  }
+}

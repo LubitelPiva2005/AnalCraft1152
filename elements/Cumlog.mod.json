@@ -24,7 +24,7 @@
     "Mx": 1.0,
     "My": 1.0,
     "Mz": 1.0,
-    "name": "Спермовая древесина",
+    "name": "Спермовое бревно",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -45,7 +45,7 @@
     "canProvidePower": false,
     "lightOpacity": 255,
     "material": {
-      "value": "LEAVES"
+      "value": "WOOD"
     },
     "tickRate": 10,
     "tickRandomly": false,

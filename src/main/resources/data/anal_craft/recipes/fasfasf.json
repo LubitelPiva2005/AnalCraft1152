@@ -1,0 +1,37 @@
+{
+  "group": "anal_craft",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "anal_craft:cumplanks"
+    },
+    {
+      "item": "anal_craft:cumplanks"
+    },
+    {
+      "item": "anal_craft:cumplanks"
+    },
+    {
+      "item": "minecraft:cobblestone"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:cobblestone"
+    },
+    {
+      "item": "minecraft:cobblestone"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:cobblestone"
+    }
+  ],
+  "result": {
+    "item": "minecraft:piston",
+    "count": 1
+  }
+}

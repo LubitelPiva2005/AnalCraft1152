@@ -214,5 +214,32 @@
         "stream": false
       }
     ]
+  },
+  "oxsuckmiron": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "anal_craft:oxxxymiron_-_gorod_pod_podoshvoi_right_version_gachi_remix",
+        "stream": false
+      }
+    ]
+  },
+  "gachimuch": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "anal_craft:korol_i_shut_-_prokliatyi_staryi_dom_gachi_remix_right_version",
+        "stream": false
+      }
+    ]
+  },
+  "marionetka": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "anal_craft:y2mate.com_-_korol_i_shut_-_marionietki_gachi_remix",
+        "stream": false
+      }
+    ]
   }
 }

@@ -1,0 +1,42 @@
+{
+  "group": "anal_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:glass"
+    },
+    "1": {
+      "item": "minecraft:glass"
+    },
+    "2": {
+      "item": "minecraft:glass"
+    },
+    "3": {
+      "item": "minecraft:quartz"
+    },
+    "4": {
+      "item": "minecraft:quartz"
+    },
+    "5": {
+      "item": "minecraft:quartz"
+    },
+    "6": {
+      "item": "anal_craft:cumslab"
+    },
+    "7": {
+      "item": "anal_craft:cumslab"
+    },
+    "8": {
+      "item": "anal_craft:cumslab"
+    }
+  },
+  "result": {
+    "item": "minecraft:daylight_detector",
+    "count": 1
+  }
+}

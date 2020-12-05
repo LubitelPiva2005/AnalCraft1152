@@ -1,0 +1,42 @@
+{
+  "group": "anal_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "anal_craft:cumstick"
+    },
+    "1": {
+      "item": "anal_craft:cumstick"
+    },
+    "2": {
+      "item": "anal_craft:cumstick"
+    },
+    "3": {
+      "item": "anal_craft:cumstick"
+    },
+    "4": {
+      "tag": "minecraft:wool"
+    },
+    "5": {
+      "item": "anal_craft:cumstick"
+    },
+    "6": {
+      "item": "anal_craft:cumstick"
+    },
+    "7": {
+      "item": "anal_craft:cumstick"
+    },
+    "8": {
+      "item": "anal_craft:cumstick"
+    }
+  },
+  "result": {
+    "item": "minecraft:painting",
+    "count": 1
+  }
+}

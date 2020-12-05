@@ -1806,6 +1806,555 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "verstak"
+    },
+    {
+      "name": "Stoika",
+      "type": "recipe",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stoika"
+    },
+    {
+      "name": "Arbalet",
+      "type": "recipe",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "arbalet"
+    },
+    {
+      "name": "Tochilo",
+      "type": "recipe",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tochilo"
+    },
+    {
+      "name": "Fa",
+      "type": "recipe",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fa"
+    },
+    {
+      "name": "Ramka",
+      "type": "recipe",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ramka"
+    },
+    {
+      "name": "Fasa",
+      "type": "recipe",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fasa"
+    },
+    {
+      "name": "JGBKJ",
+      "type": "recipe",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jgbkj"
+    },
+    {
+      "name": "Hlkhl",
+      "type": "recipe",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hlkhl"
+    },
+    {
+      "name": "Asf",
+      "type": "recipe",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "asf"
+    },
+    {
+      "name": "Dsf",
+      "type": "recipe",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dsf"
+    },
+    {
+      "name": "Fsaas",
+      "type": "recipe",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fsaas"
+    },
+    {
+      "name": "Dfa",
+      "type": "recipe",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dfa"
+    },
+    {
+      "name": "Ydochka",
+      "type": "recipe",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ydochka"
+    },
+    {
+      "name": "Fafa",
+      "type": "recipe",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fafa"
+    },
+    {
+      "name": "Yfafy",
+      "type": "recipe",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yfafy"
+    },
+    {
+      "name": "Topor",
+      "type": "recipe",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "topor"
+    },
+    {
+      "name": "Fiaf",
+      "type": "recipe",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fiaf"
+    },
+    {
+      "name": "Axe3",
+      "type": "recipe",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "axe_3"
+    },
+    {
+      "name": "Axe4",
+      "type": "recipe",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "axe_4"
+    },
+    {
+      "name": "Yshpt",
+      "type": "recipe",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yshpt"
+    },
+    {
+      "name": "Fgsgs",
+      "type": "recipe",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fgsgs"
+    },
+    {
+      "name": "Afasf",
+      "type": "recipe",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "afasf"
+    },
+    {
+      "name": "Sfasf",
+      "type": "recipe",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sfasf"
+    },
+    {
+      "name": "Yfafay",
+      "type": "recipe",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yfafay"
+    },
+    {
+      "name": "AdDAA",
+      "type": "recipe",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ad_daa"
+    },
+    {
+      "name": "Vyff",
+      "type": "recipe",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vyff"
+    },
+    {
+      "name": "Asfaa",
+      "type": "recipe",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "asfaa"
+    },
+    {
+      "name": "Dsdafa",
+      "type": "recipe",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dsdafa"
+    },
+    {
+      "name": "Afsa",
+      "type": "recipe",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "afsa"
+    },
+    {
+      "name": "Asfaasa",
+      "type": "recipe",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "asfaasa"
+    },
+    {
+      "name": "Motygha",
+      "type": "recipe",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "motygha"
+    },
+    {
+      "name": "Hoe2",
+      "type": "recipe",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hoe_2"
+    },
+    {
+      "name": "Hoe3",
+      "type": "recipe",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hoe_3"
+    },
+    {
+      "name": "Hoe4",
+      "type": "recipe",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hoe_4"
+    },
+    {
+      "name": "Fsafa",
+      "type": "recipe",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fsafa"
+    },
+    {
+      "name": "Afasfas",
+      "type": "recipe",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "afasfas"
+    },
+    {
+      "name": "Fencegate",
+      "type": "block",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fencegate"
+    },
+    {
+      "name": "Fencegatecraft",
+      "type": "recipe",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fencegatecraft"
+    },
+    {
+      "name": "Ladder",
+      "type": "block",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ladder"
+    },
+    {
+      "name": "Laddercraftr",
+      "type": "recipe",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "laddercraftr"
+    },
+    {
+      "name": "Saffa",
+      "type": "recipe",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "saffa"
+    },
+    {
+      "name": "Yafyyayf",
+      "type": "recipe",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yafyyayf"
+    },
+    {
+      "name": "Sagvc",
+      "type": "recipe",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sagvc"
+    },
+    {
+      "name": "Dfsfsdfadd",
+      "type": "recipe",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dfsfsdfadd"
+    },
+    {
+      "name": "Gnhd",
+      "type": "recipe",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gnhd"
+    },
+    {
+      "name": "Avyaf",
+      "type": "recipe",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "avyaf"
+    },
+    {
+      "name": "Pvypy",
+      "type": "recipe",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pvypy"
+    },
+    {
+      "name": "Fsafsa",
+      "type": "recipe",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fsafsa"
+    },
+    {
+      "name": "Fyaf",
+      "type": "recipe",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fyaf"
+    },
+    {
+      "name": "Fasfasf",
+      "type": "recipe",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fasfasf"
+    },
+    {
+      "name": "Sfaafa",
+      "type": "recipe",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sfaafa"
+    },
+    {
+      "name": "Sfafa",
+      "type": "recipe",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sfafa"
+    },
+    {
+      "name": "Fsafas",
+      "type": "recipe",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fsafas"
+    },
+    {
+      "name": "Bed",
+      "type": "recipe",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bed"
+    },
+    {
+      "name": "Afayf",
+      "type": "block",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "afayf"
+    },
+    {
+      "name": "Vpypv",
+      "type": "recipe",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vpypv"
+    },
+    {
+      "name": "Aifa",
+      "type": "recipe",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aifa"
+    },
+    {
+      "name": "Vyfv",
+      "type": "recipe",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vyfv"
+    },
+    {
+      "name": "Suckmiron",
+      "type": "musicdisc",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "suckmiron"
+    },
+    {
+      "name": "Dom",
+      "type": "musicdisc",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dom"
+    },
+    {
+      "name": "Marionetka",
+      "type": "musicdisc",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "marionetka"
     }
   ],
   "variable_elements": [],
@@ -2001,11 +2550,36 @@
       ],
       "category": "master",
       "subtitle": ""
+    },
+    {
+      "name": "oxsuckmiron",
+      "files": [
+        "oxxxymiron_-_gorod_pod_podoshvoi_right_version_gachi_remix"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "gachimuch",
+      "files": [
+        "korol_i_shut_-_prokliatyi_staryi_dom_gachi_remix_right_version"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "marionetka",
+      "files": [
+        "y2mate.com_-_korol_i_shut_-_marionietki_gachi_remix"
+      ],
+      "category": "master",
+      "subtitle": ""
     }
   ],
   "language_map": {
     "en_us": {
       "item.anal_craft.slavea_spawn_egg": "Слэйвья Spawn Egg",
+      "block.anal_craft.afayf": "Спермовая древесина",
       "item.anal_craft.trusi_chestplate": "Trusi Body",
       "block.anal_craft.ancientseemen": "Древняя сперма",
       "item.anal_craft.sliceoldcum": "Кусочек древней спермы",
@@ -2018,25 +2592,29 @@
       "block.anal_craft.plitaspermech": "Плита из спермечей",
       "block.anal_craft.cumslab": "Спермоплита",
       "block.anal_craft.spermegrass": "Трава в сперме",
+      "item.anal_craft.dom": "Король и Шут - Проклятый старый дом",
       "item.minecraft.splash_potion.effect.cum": "Splash Сперма",
       "block.anal_craft.cumfence": "Спермозабор",
       "item.anal_craft.gachi_chestplate": "Костюм кожевника",
       "itemGroup.tabanaltab": "Anal Craft",
       "item.anal_craft.essence": "Эссенция спермы",
-      "item.anal_craft.gorillaz_feel_good": "Gorillaz Feel Good",
       "subtitles.agh": "",
+      "item.anal_craft.gorillaz_feel_good": "Gorillaz Feel Good inc",
+      "item.anal_craft.dom.desc": "Plutosha",
       "item.anal_craft.fist": "Latex glove (ПКМ чтобы включить)",
+      "block.anal_craft.fencegate": "Спермовые ворота",
       "item.anal_craft.notr_dam_die_pari": "Нотр-Дам де Пари - Эсмеральда",
       "block.anal_craft.disactivatedportal": "Неактивированый портал",
       "item.anal_craft.trusi_boots": "Trusi Boots",
-      "block.anal_craft.old_cum_block": "Блок древней спермы",
-      "item.anal_craft.bomzh.desc": "G-man",
       "item.anal_craft.ass_clap": "AssClap",
+      "item.anal_craft.bomzh.desc": "G-man",
+      "block.anal_craft.old_cum_block": "Блок древней спермы",
       "item.anal_craft.ancient_seemensword": "Меч из древней спермы",
       "item.anal_craft.zaghulial": "Олег Газманов - Загулял",
       "item.anal_craft.spermsrm_chestplate": "Spermsrm Body",
       "item.anal_craft.spermsrm_boots": "Spermsrm Boots",
       "item.anal_craft.semenlime_spawn_egg": "Спермень Spawn Egg",
+      "item.anal_craft.suckmiron": "Oxxxymiron - Город под подошвой",
       "block.anal_craft.cumore": "Руда спермы",
       "item.anal_craft.zozzh.desc": " Shoshon Elegant",
       "subtitles.valim": "",
@@ -2044,7 +2622,7 @@
       "item.anal_craft.nurminskii_valim.desc": " zerodovich",
       "subtitles.bremenskiemuzicanti": "",
       "subtitles.ibelieve": "",
-      "item.anal_craft.iunostvsapoghakh": "Iunostvsapoghakh",
+      "item.anal_craft.iunostvsapoghakh": "Юность в сапогах",
       "item.anal_craft.bieliv": "Yumi Matsutoya - Haru yo koi",
       "item.anal_craft.ofitsiery.desc": "iVan Darkholme",
       "item.anal_craft.oliegh_gazmanov_iesaul.desc": "Shoshon Elegant",
@@ -2055,15 +2633,16 @@
       "block.anal_craft.spermastupenki": "Ступеньки из спермечей",
       "subtitles.swallowmycum": "",
       "item.anal_craft.oliegh_gazmanov_iesaul": "Олег Газманов - Есаул",
+      "subtitles.oxsuckmiron": "",
       "item.anal_craft.trusi_helmet": "Trusi Helmet",
       "block.anal_craft.blok_2plastiny": "Блок с ключевым кусочком ключа",
       "item.anal_craft.zozzh": "Песня про ЗОЖ",
-      "item.anal_craft.briemienskiie": "БремеБременские музыканты - Мы к вам заехали на час",
+      "item.anal_craft.briemienskiie": "Бременские музыканты - Мы к вам заехали на час",
       "effect.cum": "CumСперма",
       "entity.anal_craft.slavea": "Слэйвья",
       "item.anal_craft.cumstick": "Спермопалка",
       "entity.anal_craft.semenlime": "Спермень",
-      "block.anal_craft.cumplanks": "Спермодоски",
+      "block.anal_craft.cumplanks": "Спермовые доски",
       "item.anal_craft.portalkey": "Ключ ",
       "biome.anal_craft.dickforest": "Dickforest",
       "item.anal_craft.blackleather": "Чёрная кожа",
@@ -2075,9 +2654,10 @@
       "item.anal_craft.motyliek": "Макс Корж - Мотылек",
       "item.anal_craft.motyliek.desc": "Shoshon Elegant",
       "item.minecraft.tipped_arrow.effect.cum": "Arrow of Сперма",
+      "item.anal_craft.marionetka": "Король и Шут - Марионетки",
       "item.anal_craft.plastina_2": " Тайный свиток jabroni",
       "item.anal_craft.plastina_1": "Осколок плиты",
-      "item.anal_craft.zasokhshaiaspierma": "Zasokhshaiaspierma",
+      "item.anal_craft.zasokhshaiaspierma": "Засохшая сперма",
       "block.anal_craft.portalblock": "Активированый портал",
       "item.anal_craft.yuutltghie": "Плётка в сперме",
       "item.anal_craft.gachi_helmet": "Маска кожевника",
@@ -2088,7 +2668,8 @@
       "block.anal_craft.dickflower": "Членовик",
       "block.anal_craft.cumblock": "Блок спермы",
       "subtitles.assclap": "",
-      "item.anal_craft.ofitsiery": "Офицеры",
+      "item.anal_craft.ofitsiery": "Олег Гassманов - Офицеры",
+      "block.anal_craft.ladder": "Ступеньки из спермовой древесины",
       "item.anal_craft.semenmeat": "Свинина в мперме",
       "item.anal_craft.gachi_boots": "Gachi Boots",
       "item.anal_craft.plastina": "Пластина для ключа",
@@ -2096,6 +2677,8 @@
       "item.anal_craft.cumsup": "\"Сгущенка\"",
       "item.anal_craft.zaghulial.desc": "Shoshon Elegant",
       "item.anal_craft.bucks": "Бакс",
+      "subtitles.gachimuch": "",
+      "item.anal_craft.suckmiron.desc": "datezrealboi",
       "item.anal_craft.ancientseemeningot": "Слиток древней спермы",
       "item.anal_craft.nurminskii_valim": "Нурминский - Валим",
       "subtitles.fisting": "",
@@ -2126,17 +2709,19 @@
       "item.anal_craft.gachi_leggings": "Штаны кожевника",
       "entity.anal_craft.ricardo": "Рикардо Милос",
       "item.anal_craft.briemienskiie.desc": "slw Gachi",
-      "block.anal_craft.cumlog": "Спермовая древесина",
+      "block.anal_craft.cumlog": "Спермовое бревно",
       "subtitles.motilek": "",
       "item.anal_craft.spermsrm_helmet": "Маска в сперме",
       "block.anal_craft.blackstone": "Черный камень",
       "subtitles.bondage": "",
       "item.anal_craft.traktor": "КОЖАНЫЙ ТРАКТОР",
       "subtitles.leather": "",
+      "item.anal_craft.marionetka.desc": "Only Right Version",
       "block.anal_craft.locker": "Шкафчик",
       "subtitles.esaul": "",
       "item.anal_craft.spermesword": "Меч из засохшей спермы",
       "item.anal_craft.trusi_leggings": "Трусы Рикардо Милоса",
+      "subtitles.marionetka": "",
       "item.anal_craft.hundred": "Hundred100 баксов"
     }
   },
