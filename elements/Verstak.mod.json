@@ -13,34 +13,34 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:Zasokhshaiaspierma"
-      },
-      {
         "value": ""
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:Zasokhshaiaspierma"
+        "value": "CUSTOM:Cumplanks"
+      },
+      {
+        "value": "CUSTOM:Cumplanks"
       },
       {
         "value": ""
       },
       {
-        "value": ""
+        "value": "CUSTOM:Cumplanks"
       },
       {
-        "value": "CUSTOM:Cumstick"
+        "value": "CUSTOM:Cumplanks"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Spermesword"
+      "value": "Blocks.CRAFTING_TABLE"
     },
-    "name": "spermesw",
+    "name": "verstak",
     "namespace": "mod"
   }
 }
