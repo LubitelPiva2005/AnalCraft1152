@@ -4,11 +4,11 @@
   "definition": {
     "mobName": "Торговец",
     "mobLabel": "",
-    "mobModelName": "Biped",
-    "mobModelTexture": "torgovec.png",
+    "mobModelName": "Villager",
+    "mobModelTexture": "torgoveccc.png",
     "mobModelGlowTexture": "",
     "modelWidth": 0.6,
-    "modelHeight": 1.8,
+    "modelHeight": 1.95,
     "modelShadowSize": 0.5,
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
@@ -78,10 +78,10 @@
       "value": ""
     },
     "hurtSound": {
-      "value": "entity.generic.hurt"
+      "value": "CUSTOM:ahr"
     },
     "deathSound": {
-      "value": "entity.generic.death"
+      "value": "CUSTOM:aaaaaaa"
     },
     "stepSound": {
       "value": ""

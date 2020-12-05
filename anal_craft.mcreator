@@ -570,6 +570,22 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -1745,6 +1761,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "sghushchienka"
+    },
+    {
+      "name": "Gora1",
+      "type": "structure",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gora_1"
+    },
+    {
+      "name": "Gora2",
+      "type": "structure",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gora_2"
     }
   ],
   "variable_elements": [],
@@ -1932,6 +1966,14 @@
       ],
       "category": "music",
       "subtitle": ""
+    },
+    {
+      "name": "thankyousir",
+      "files": [
+        "thank_you_sir"
+      ],
+      "category": "master",
+      "subtitle": ""
     }
   ],
   "language_map": {
@@ -1954,15 +1996,15 @@
       "item.anal_craft.gachi_chestplate": "Костюм кожевника",
       "itemGroup.tabanaltab": "Anal Craft",
       "item.anal_craft.essence": "Эссенция спермы",
-      "item.anal_craft.gorillaz_feel_good": "Gorillaz Feel Good",
       "subtitles.agh": "",
+      "item.anal_craft.gorillaz_feel_good": "Gorillaz Feel Good",
       "item.anal_craft.fist": "Latex glove (ПКМ чтобы включить)",
       "item.anal_craft.notr_dam_die_pari": "Нотр-Дам де Пари - Эсмеральда",
       "block.anal_craft.disactivatedportal": "Неактивированый портал",
       "item.anal_craft.trusi_boots": "Trusi Boots",
-      "block.anal_craft.old_cum_block": "Блок древней спермы",
-      "item.anal_craft.bomzh.desc": "G-man",
       "item.anal_craft.ass_clap": "AssClap",
+      "item.anal_craft.bomzh.desc": "G-man",
+      "block.anal_craft.old_cum_block": "Блок древней спермы",
       "item.anal_craft.ancient_seemensword": "Меч из древней спермы",
       "item.anal_craft.zaghulial": "Олег Газманов - Загулял",
       "item.anal_craft.spermsrm_chestplate": "Spermsrm Body",
@@ -1998,6 +2040,7 @@
       "item.anal_craft.portalkey": "Ключ ",
       "biome.anal_craft.dickforest": "Dickforest",
       "item.anal_craft.blackleather": "Чёрная кожа",
+      "subtitles.thankyousir": "",
       "item.anal_craft.spermsrm_leggings": "Spermsrm Leggings",
       "item.anal_craft.ancientseemenaxe": "Топор из древней спермы",
       "entity.anal_craft.van": "Ван Даркхолм",

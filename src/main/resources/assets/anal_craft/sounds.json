@@ -205,5 +205,14 @@
         "stream": true
       }
     ]
+  },
+  "thankyousir": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "anal_craft:thank_you_sir",
+        "stream": false
+      }
+    ]
   }
 }

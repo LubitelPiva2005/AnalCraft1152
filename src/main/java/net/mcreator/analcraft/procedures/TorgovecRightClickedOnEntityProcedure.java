@@ -1,11 +1,14 @@
 package net.mcreator.analcraft.procedures;
 
+import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.fml.network.NetworkHooks;
 
 import net.minecraft.world.IWorld;
 import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.SoundCategory;
+import net.minecraft.util.ResourceLocation;
 import net.minecraft.network.PacketBuffer;
 import net.minecraft.inventory.container.INamedContainerProvider;
 import net.minecraft.inventory.container.Container;
@@ -74,6 +77,15 @@ public class TorgovecRightClickedOnEntityProcedure extends AnalCraftModElements.
 					}
 				}, _bpos);
 			}
+		}
+		if (!world.getWorld().isRemote) {
+			world.playSound(null, new BlockPos((int) x, (int) y, (int) z),
+					(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("anal_craft:fisting")),
+					SoundCategory.NEUTRAL, (float) 0.8, (float) 1);
+		} else {
+			world.getWorld().playSound(x, y, z,
+					(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("anal_craft:fisting")),
+					SoundCategory.NEUTRAL, (float) 0.8, (float) 1, false);
 		}
 	}
 }

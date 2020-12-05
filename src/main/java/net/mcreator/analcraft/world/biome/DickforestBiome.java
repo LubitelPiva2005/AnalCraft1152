@@ -100,7 +100,7 @@ public class DickforestBiome extends AnalCraftModElements.ModElement {
 		@OnlyIn(Dist.CLIENT)
 		@Override
 		public int getSkyColor() {
-			return -4941848;
+			return -26266;
 		}
 	}
 
