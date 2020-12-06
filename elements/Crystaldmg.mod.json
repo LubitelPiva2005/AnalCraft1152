@@ -10,8 +10,8 @@
     "textureBack": "",
     "renderType": 12,
     "customModelName": "Cross model",
-    "rotationMode": 0,
-    "emissiveRendering": false,
+    "rotationMode": 1,
+    "emissiveRendering": true,
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
@@ -47,7 +47,7 @@
     "material": {
       "value": "ROCK"
     },
-    "tickRate": 10,
+    "tickRate": 80,
     "tickRandomly": false,
     "isReplaceable": false,
     "colorOnMap": "DEFAULT",
@@ -68,13 +68,13 @@
     "luminance": 0.0,
     "unbreakable": false,
     "breakHarvestLevel": 1,
-    "spawnParticles": false,
+    "spawnParticles": true,
     "particleToSpawn": {
-      "value": "EXPLOSION_NORMAL"
+      "value": "ENCHANTMENT_TABLE"
     },
     "particleSpawningShape": "Spread",
-    "particleSpawningRadious": 0.5,
-    "particleAmount": 4,
+    "particleSpawningRadious": 1.0,
+    "particleAmount": 10,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
@@ -92,6 +92,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onTickUpdate": {
+      "name": "CrystaldmgUpdateTick"
+    },
     "onEntityCollides": {
       "name": "CrystaldmgEntityCollidesInTheBlock"
     },

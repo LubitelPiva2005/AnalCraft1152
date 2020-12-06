@@ -3,12 +3,12 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "ktystal",
+    "texture": "bullet",
     "customModelName": "Normal",
-    "name": "Кристал спермы",
+    "name": "Bullet",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "CUSTOM:ANALTAB"
+      "value": "No creative tab entry"
     },
     "stackSize": 64,
     "enchantability": 0,

@@ -47,7 +47,7 @@ public class Gora2Structure extends AnalCraftModElements.ModElement {
 					dimensionCriteria = true;
 				if (!dimensionCriteria)
 					return false;
-				if ((random.nextInt(1000000) + 1) <= 10000) {
+				if ((random.nextInt(1000000) + 1) <= 5000) {
 					int count = random.nextInt(1) + 1;
 					for (int a = 0; a < count; a++) {
 						int i = ci + random.nextInt(16);
@@ -61,7 +61,7 @@ public class Gora2Structure extends AnalCraftModElements.ModElement {
 						int y = spawnTo.getY();
 						int z = spawnTo.getZ();
 						Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
-								.getTemplateDefaulted(new ResourceLocation("anal_craft", "gora2"));
+								.getTemplateDefaulted(new ResourceLocation("anal_craft", "gora22"));
 						if (template == null)
 							return false;
 						template.addBlocksToWorld(world, spawnTo, new PlacementSettings().setRotation(rotation).setRandom(random).setMirror(mirror)

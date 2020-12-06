@@ -1,7 +1,19 @@
 {
   "variants": {
-    "": {
+    "facing=north": {
       "model": "anal_craft:block/crystaldmg"
+    },
+    "facing=east": {
+      "model": "anal_craft:block/crystaldmg",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "anal_craft:block/crystaldmg",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "anal_craft:block/crystaldmg",
+      "y": 270
     }
   }
 }
