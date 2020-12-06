@@ -1,0 +1,17 @@
+{
+  "_fv": 13,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "p15",
+    "name": "Король и Шут - Проклятый старый дом",
+    "description": "Plutosha",
+    "creativeTab": {
+      "value": "CUSTOM:Plastinki"
+    },
+    "music": {
+      "value": "CUSTOM:gachimuch"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

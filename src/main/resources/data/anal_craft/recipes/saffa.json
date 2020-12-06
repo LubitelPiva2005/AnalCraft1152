@@ -1,0 +1,39 @@
+{
+  "group": "anal_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "anal_craft:cumplanks"
+    },
+    "1": {
+      "item": "anal_craft:cumslab"
+    },
+    "2": {
+      "item": "anal_craft:cumplanks"
+    },
+    "3": {
+      "item": "anal_craft:cumplanks"
+    },
+    "5": {
+      "item": "anal_craft:cumplanks"
+    },
+    "6": {
+      "item": "anal_craft:cumplanks"
+    },
+    "7": {
+      "item": "anal_craft:cumslab"
+    },
+    "8": {
+      "item": "anal_craft:cumplanks"
+    }
+  },
+  "result": {
+    "item": "minecraft:barrel",
+    "count": 1
+  }
+}

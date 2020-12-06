@@ -1,0 +1,26 @@
+{
+  "group": "anal_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "anal_craft:cumlog"
+    },
+    "1": {
+      "item": "anal_craft:cumlog"
+    },
+    "2": {
+      "item": "anal_craft:cumlog"
+    },
+    "3": {
+      "item": "anal_craft:cumlog"
+    }
+  },
+  "result": {
+    "item": "anal_craft:afayf",
+    "count": 3
+  }
+}

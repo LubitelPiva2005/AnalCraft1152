@@ -1,16 +1,11 @@
 package net.mcreator.analcraft.procedures;
 
-import net.minecraft.util.DamageSource;
-import net.minecraft.entity.Entity;
-
-import net.mcreator.analcraft.AnalCraftModElements;
-
-import java.util.Map;
-
 @AnalCraftModElements.ModElement.Tag
 public class CrystaldmgEntityCollidesInTheBlockProcedure extends AnalCraftModElements.ModElement {
+
 	public CrystaldmgEntityCollidesInTheBlockProcedure(AnalCraftModElements instance) {
 		super(instance, 163);
+
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -19,7 +14,11 @@ public class CrystaldmgEntityCollidesInTheBlockProcedure extends AnalCraftModEle
 				System.err.println("Failed to load dependency entity for procedure CrystaldmgEntityCollidesInTheBlock!");
 			return;
 		}
+
 		Entity entity = (Entity) dependencies.get("entity");
+
 		entity.attackEntityFrom(DamageSource.GENERIC, (float) 5);
+
 	}
+
 }

@@ -1,0 +1,36 @@
+{
+  "group": "anal_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "anal_craft:cumstick"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    },
+    "2": {
+      "item": "anal_craft:cumstick"
+    },
+    "3": {
+      "item": "minecraft:string"
+    },
+    "4": {
+      "item": "minecraft:tripwire_hook"
+    },
+    "5": {
+      "item": "minecraft:string"
+    },
+    "7": {
+      "item": "anal_craft:cumstick"
+    }
+  },
+  "result": {
+    "item": "minecraft:crossbow",
+    "count": 1
+  }
+}

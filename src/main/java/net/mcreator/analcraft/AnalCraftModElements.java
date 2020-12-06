@@ -78,6 +78,12 @@ public class AnalCraftModElements {
 		sounds.put(new ResourceLocation("anal_craft", "thankyousir"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("anal_craft", "thankyousir")));
 		sounds.put(new ResourceLocation("anal_craft", "weewee"), new net.minecraft.util.SoundEvent(new ResourceLocation("anal_craft", "weewee")));
+		sounds.put(new ResourceLocation("anal_craft", "marionetka"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("anal_craft", "marionetka")));
+		sounds.put(new ResourceLocation("anal_craft", "gachimuch"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("anal_craft", "gachimuch")));
+		sounds.put(new ResourceLocation("anal_craft", "oxsuckmiron"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("anal_craft", "oxsuckmiron")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("anal_craft").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();
