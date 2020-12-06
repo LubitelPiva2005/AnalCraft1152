@@ -19,7 +19,7 @@
     "actionSound": {
       "value": "block.glass.break"
     },
-    "hasGlow": true,
+    "hasGlow": false,
     "animation": "bow",
     "enableMeleeDamage": false,
     "damageVsEntity": 3.0,
