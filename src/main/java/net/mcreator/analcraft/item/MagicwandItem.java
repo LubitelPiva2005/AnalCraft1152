@@ -32,6 +32,7 @@ import net.minecraft.entity.Entity;
 import net.minecraft.client.renderer.entity.SpriteRenderer;
 import net.minecraft.client.Minecraft;
 
+import net.mcreator.analcraft.procedures.MagicwandBulletHitsLivingEntityProcedure;
 import net.mcreator.analcraft.procedures.MagicwandBulletHitsBlockProcedure;
 import net.mcreator.analcraft.itemgroup.ANALTABItemGroup;
 import net.mcreator.analcraft.AnalCraftModElements;
@@ -101,7 +102,7 @@ public class MagicwandItem extends AnalCraftModElements.ModElement {
 				double y = entity.getPosY();
 				double z = entity.getPosZ();
 				if (true) {
-					ArrowCustomEntity entityarrow = shoot(world, entity, random, 1f, 5, 3);
+					ArrowCustomEntity entityarrow = shoot(world, entity, random, 1f, 2, 0);
 					itemstack.damageItem(1, entity, e -> e.sendBreakAnimation(entity.getActiveHand()));
 					entityarrow.pickupStatus = AbstractArrowEntity.PickupStatus.DISALLOWED;
 					entity.stopActiveHand();
@@ -136,7 +137,7 @@ public class MagicwandItem extends AnalCraftModElements.ModElement {
 		@Override
 		@OnlyIn(Dist.CLIENT)
 		public ItemStack getItem() {
-			return new ItemStack(CrystalItem.block, (int) (1));
+			return new ItemStack(BulletItem.block, (int) (1));
 		}
 
 		@Override
@@ -148,6 +149,16 @@ public class MagicwandItem extends AnalCraftModElements.ModElement {
 		protected void arrowHit(LivingEntity entity) {
 			super.arrowHit(entity);
 			entity.setArrowCountInEntity(entity.getArrowCountInEntity() - 1);
+			Entity sourceentity = this.getShooter();
+			double x = this.getPosX();
+			double y = this.getPosY();
+			double z = this.getPosZ();
+			World world = this.world;
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				MagicwandBulletHitsLivingEntityProcedure.executeProcedure($_dependencies);
+			}
 		}
 
 		@Override
@@ -195,8 +206,8 @@ public class MagicwandItem extends AnalCraftModElements.ModElement {
 		double d3 = target.getPosZ() - entity.getPosZ();
 		entityarrow.shoot(d1, d0 - entityarrow.getPosY() + (double) MathHelper.sqrt(d1 * d1 + d3 * d3) * 0.2F, d3, 1f * 2, 12.0F);
 		entityarrow.setSilent(true);
-		entityarrow.setDamage(5);
-		entityarrow.setKnockbackStrength(3);
+		entityarrow.setDamage(2);
+		entityarrow.setKnockbackStrength(0);
 		entityarrow.setIsCritical(false);
 		entity.world.addEntity(entityarrow);
 		double x = entity.getPosX();

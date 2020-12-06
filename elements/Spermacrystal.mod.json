@@ -10,7 +10,7 @@
     "textureBack": "",
     "renderType": 12,
     "customModelName": "Cross model",
-    "rotationMode": 5,
+    "rotationMode": 3,
     "emissiveRendering": true,
     "displayFluidOverlay": false,
     "itemTexture": "",
@@ -28,7 +28,7 @@
     "specialInfo": [],
     "hardness": 2.0,
     "resistance": 10.0,
-    "hasGravity": false,
+    "hasGravity": true,
     "isWaterloggable": false,
     "creativeTab": {
       "value": "CUSTOM:ANALTAB"
