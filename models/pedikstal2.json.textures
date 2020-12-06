@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "dasfasf",
+        "2": "safsfa",
+        "3": "sfafsa",
+        "missing": "dasfasf"
+      },
+      "name": "default"
+    }
+  }
+}

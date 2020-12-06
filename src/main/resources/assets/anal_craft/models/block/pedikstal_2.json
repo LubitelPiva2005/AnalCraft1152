@@ -1,0 +1,11 @@
+{
+  "parent": "anal_craft:custom/pedikstal2",
+  "textures": {
+    "all": "anal_craft:blocks/dasfasf",
+    "particle": "anal_craft:blocks/dasfasf",
+    "1": "anal_craft:blocks/dasfasf",
+    "2": "anal_craft:blocks/sfafsa",
+    "3": "anal_craft:blocks/safsfa",
+    "missing": "anal_craft:blocks/dasfasf"
+  }
+}

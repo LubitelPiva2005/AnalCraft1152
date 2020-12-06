@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "bjkbkj",
+        "1": "dasfasf",
+        "2": "sfafsa",
+        "3": "safsfa",
+        "missing": "dasfasf"
+      },
+      "name": "default"
+    }
+  }
+}
