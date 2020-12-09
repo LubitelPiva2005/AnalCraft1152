@@ -2,7 +2,7 @@
   "_fv": 13,
   "_type": "block",
   "definition": {
-    "texture": "kirpich",
+    "texture": "a2",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -24,9 +24,9 @@
     "Mx": 1.0,
     "My": 1.0,
     "Mz": 1.0,
-    "name": "Dungeonblock",
+    "name": "Dundeonblockpol 2",
     "specialInfo": [],
-    "hardness": 50.0,
+    "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
@@ -63,11 +63,11 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "GROUND"
     },
-    "luminance": 1.0,
+    "luminance": 0.0,
     "unbreakable": false,
-    "breakHarvestLevel": 50,
+    "breakHarvestLevel": 1,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"

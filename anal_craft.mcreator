@@ -2652,6 +2652,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "dungeonblock"
+    },
+    {
+      "name": "Dundeonblockpol2",
+      "type": "block",
+      "sortid": 226,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dundeonblockpol_2"
     }
   ],
   "variable_elements": [],
@@ -2883,8 +2892,8 @@
   ],
   "language_map": {
     "en_us": {
-      "item.anal_craft.slavea_spawn_egg": "Слэйвья Spawn Egg",
       "block.anal_craft.afayf": "Спермовая древесина",
+      "item.anal_craft.slavea_spawn_egg": "Слэйвья Spawn Egg",
       "item.anal_craft.trusi_chestplate": "Trusi Body",
       "block.anal_craft.ancientseemen": "Древняя сперма",
       "item.anal_craft.sliceoldcum": "Кусочек древней спермы",
@@ -3023,6 +3032,7 @@
       "entity.anal_craft.ricardo": "Рикардо Милос",
       "item.anal_craft.briemienskiie.desc": "slw Gachi",
       "block.anal_craft.cumlog": "Спермовое бревно",
+      "block.anal_craft.dundeonblockpol_2": "Dundeonblockpol 2",
       "subtitles.motilek": "",
       "item.anal_craft.crystal": "Кристал спермы",
       "item.anal_craft.spermsrm_helmet": "Маска в сперме",
