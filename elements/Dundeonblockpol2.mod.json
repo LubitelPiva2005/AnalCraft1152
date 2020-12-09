@@ -26,7 +26,7 @@
     "Mz": 1.0,
     "name": "Dundeonblockpol 2",
     "specialInfo": [],
-    "hardness": 1.0,
+    "hardness": 50.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
@@ -63,11 +63,11 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "GROUND"
+      "value": "STONE"
     },
     "luminance": 0.0,
     "unbreakable": false,
-    "breakHarvestLevel": 1,
+    "breakHarvestLevel": 50,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
