@@ -48,7 +48,7 @@ public class CumtrapBlock extends AnalCraftModElements.ModElement {
 	}
 	public static class CustomBlock extends TrapDoorBlock {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(1f, 10f).lightValue(0).harvestLevel(1)
+			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2f, 10f).lightValue(0).harvestLevel(2)
 					.harvestTool(ToolType.AXE).notSolid());
 			setRegistryName("cumtrap");
 		}

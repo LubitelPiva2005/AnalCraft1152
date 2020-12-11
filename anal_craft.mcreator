@@ -2661,6 +2661,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "dundeonblockpol_2"
+    },
+    {
+      "name": "Doorr",
+      "type": "block",
+      "sortid": 227,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "doorr"
+    },
+    {
+      "name": "Dorrr",
+      "type": "recipe",
+      "sortid": 228,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dorrr"
     }
   ],
   "variable_elements": [],
@@ -2892,8 +2910,8 @@
   ],
   "language_map": {
     "en_us": {
-      "block.anal_craft.afayf": "Спермовая древесина",
       "item.anal_craft.slavea_spawn_egg": "Слэйвья Spawn Egg",
+      "block.anal_craft.afayf": "Спермовая древесина",
       "item.anal_craft.trusi_chestplate": "Trusi Body",
       "block.anal_craft.ancientseemen": "Древняя сперма",
       "item.anal_craft.sliceoldcum": "Кусочек древней спермы",
@@ -2998,6 +3016,7 @@
       "item.anal_craft.zaghulial.desc": "Shoshon Elegant",
       "item.anal_craft.bucks": "Бакс",
       "subtitles.gachimuch": "",
+      "block.anal_craft.doorr": "Doorr",
       "item.anal_craft.suckmiron.desc": "datezrealboi",
       "item.anal_craft.ancientseemeningot": "Слиток древней спермы",
       "item.anal_craft.nurminskii_valim": "Нурминский - Валим",
