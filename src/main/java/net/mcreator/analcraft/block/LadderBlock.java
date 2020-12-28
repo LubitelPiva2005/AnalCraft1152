@@ -35,8 +35,8 @@ public class LadderBlock extends AnalCraftModElements.ModElement {
 	}
 	public static class CustomBlock extends StairsBlock {
 		public CustomBlock() {
-			super(new Block(Block.Properties.create(Material.ROCK).hardnessAndResistance(1f, 10f)).getDefaultState(),
-					Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(1f, 10f).lightValue(0).harvestLevel(1)
+			super(new Block(Block.Properties.create(Material.ROCK).hardnessAndResistance(2f, 10f)).getDefaultState(),
+					Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2f, 10f).lightValue(0).harvestLevel(2)
 							.harvestTool(ToolType.AXE));
 			setRegistryName("ladder");
 		}

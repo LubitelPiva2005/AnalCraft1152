@@ -34,7 +34,7 @@ public class CumplanksBlock extends AnalCraftModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(1f, 10f).lightValue(0).harvestLevel(1)
+			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2f, 10f).lightValue(0).harvestLevel(2)
 					.harvestTool(ToolType.AXE));
 			setRegistryName("cumplanks");
 		}
