@@ -215,15 +215,6 @@
       }
     ]
   },
-  "weewee": {
-    "category": "master",
-    "sounds": [
-      {
-        "name": "anal_craft:weewee",
-        "stream": false
-      }
-    ]
-  },
   "marionetka": {
     "category": "master",
     "sounds": [
@@ -247,6 +238,15 @@
     "sounds": [
       {
         "name": "anal_craft:oxxxymiron_-_gorod_pod_podoshvoi_right_version_gachi_remix",
+        "stream": false
+      }
+    ]
+  },
+  "weewee": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "anal_craft:weewee",
         "stream": false
       }
     ]

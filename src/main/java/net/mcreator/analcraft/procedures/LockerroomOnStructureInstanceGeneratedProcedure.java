@@ -46,7 +46,7 @@ public class LockerroomOnStructureInstanceGeneratedProcedure extends AnalCraftMo
 		IWorld world = (IWorld) dependencies.get("world");
 		if (!world.getWorld().isRemote) {
 			Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
-					.getTemplateDefaulted(new ResourceLocation("anal_craft", "smensuka11"));
+					.getTemplateDefaulted(new ResourceLocation("anal_craft", "smensuka111"));
 			if (template != null) {
 				template.addBlocksToWorld(world, new BlockPos((int) x, (int) y, (int) z),
 						new PlacementSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setChunk(null).setIgnoreEntities(false));
@@ -54,7 +54,7 @@ public class LockerroomOnStructureInstanceGeneratedProcedure extends AnalCraftMo
 		}
 		if (!world.getWorld().isRemote) {
 			Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
-					.getTemplateDefaulted(new ResourceLocation("anal_craft", "smensuka22"));
+					.getTemplateDefaulted(new ResourceLocation("anal_craft", "smensuka222"));
 			if (template != null) {
 				template.addBlocksToWorld(world, new BlockPos((int) (x - 18), (int) y, (int) z),
 						new PlacementSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setChunk(null).setIgnoreEntities(false));
