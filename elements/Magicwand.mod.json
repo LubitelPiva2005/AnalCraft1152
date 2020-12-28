@@ -23,6 +23,9 @@
     "animation": "bow",
     "enableMeleeDamage": false,
     "damageVsEntity": 3.0,
+    "onRangedItemUsed": {
+      "name": "MagicwandRangedItemUsed"
+    },
     "bulletPower": 1.0,
     "bulletDamage": 2.0,
     "bulletKnockback": 0,
@@ -34,7 +37,7 @@
     "bulletModel": "Default",
     "customBulletModelTexture": "",
     "onBulletHitsBlock": {
-      "name": "MagicwandBulletHitsBlock"
+      "name": "MagicwandBulletHitsBlock34"
     },
     "onBulletHitsEntity": {
       "name": "MagicwandBulletHitsLivingEntity"

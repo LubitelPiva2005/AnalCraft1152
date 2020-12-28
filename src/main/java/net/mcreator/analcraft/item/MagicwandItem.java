@@ -32,8 +32,9 @@ import net.minecraft.entity.Entity;
 import net.minecraft.client.renderer.entity.SpriteRenderer;
 import net.minecraft.client.Minecraft;
 
+import net.mcreator.analcraft.procedures.MagicwandRangedItemUsedProcedure;
 import net.mcreator.analcraft.procedures.MagicwandBulletHitsLivingEntityProcedure;
-import net.mcreator.analcraft.procedures.MagicwandBulletHitsBlockProcedure;
+import net.mcreator.analcraft.procedures.MagicwandBulletHitsBlock34Procedure;
 import net.mcreator.analcraft.itemgroup.ANALTABItemGroup;
 import net.mcreator.analcraft.AnalCraftModElements;
 
@@ -99,6 +100,12 @@ public class MagicwandItem extends AnalCraftModElements.ModElement {
 					ArrowCustomEntity entityarrow = shoot(world, entity, random, 1f, 2, 0);
 					itemstack.damageItem(1, entity, e -> e.sendBreakAnimation(entity.getActiveHand()));
 					entityarrow.pickupStatus = AbstractArrowEntity.PickupStatus.DISALLOWED;
+					{
+						Map<String, Object> $_dependencies = new HashMap<>();
+						$_dependencies.put("entity", entity);
+						$_dependencies.put("itemstack", itemstack);
+						MagicwandRangedItemUsedProcedure.executeProcedure($_dependencies);
+					}
 					entity.stopActiveHand();
 				}
 			}
@@ -170,7 +177,7 @@ public class MagicwandItem extends AnalCraftModElements.ModElement {
 					$_dependencies.put("y", y);
 					$_dependencies.put("z", z);
 					$_dependencies.put("world", world);
-					MagicwandBulletHitsBlockProcedure.executeProcedure($_dependencies);
+					MagicwandBulletHitsBlock34Procedure.executeProcedure($_dependencies);
 				}
 				this.remove();
 			}

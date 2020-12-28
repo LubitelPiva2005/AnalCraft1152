@@ -1,0 +1,31 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "anal_craft:zasokhshaiaspierma"
+    },
+    "title": {
+      "translate": "advancements.boddofthisgymanhiv.title"
+    },
+    "description": {
+      "translate": "advancements.boddofthisgymanhiv.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "boddofthisgymanhiv": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "item": {
+          "item": "minecraft:bedrock"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  }
+}

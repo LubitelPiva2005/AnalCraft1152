@@ -1,12 +1,8 @@
 {
-  "parent": "anal_craft:custom/pedikstal1",
+  "parent": "anal_craft:custom/actpedik",
   "textures": {
-    "all": "anal_craft:blocks/dasfasf",
-    "particle": "anal_craft:blocks/dasfasf",
-    "0": "anal_craft:blocks/bjkbkj",
-    "1": "anal_craft:blocks/dasfasf",
-    "2": "anal_craft:blocks/sfafsa",
-    "3": "anal_craft:blocks/safsfa",
-    "missing": "anal_craft:blocks/dasfasf"
+    "all": "anal_craft:blocks/pidor",
+    "particle": "anal_craft:blocks/pidor",
+    "1": "anal_craft:blocks/pidor"
   }
 }

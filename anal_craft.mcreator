@@ -2688,6 +2688,82 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "gay_16"
+    },
+    {
+      "name": "Boddofthisgymanhiv",
+      "type": "achievement",
+      "sortid": 230,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "boddofthisgymanhiv"
+    },
+    {
+      "name": "RicardoEntityDies",
+      "type": "procedure",
+      "sortid": 231,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ricardo_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MagicwandRangedItemUsed",
+      "type": "procedure",
+      "sortid": 232,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magicwand_ranged_item_used",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MagicwandBulletHitsBlock34",
+      "type": "procedure",
+      "sortid": 233,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magicwand_bullet_hits_block_34",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -2919,9 +2995,10 @@
   ],
   "language_map": {
     "en_us": {
-      "block.anal_craft.afayf": "Спермовая древесина",
       "item.anal_craft.slavea_spawn_egg": "Слэйвья Spawn Egg",
+      "block.anal_craft.afayf": "Спермовая древесина",
       "item.anal_craft.trusi_chestplate": "Trusi Body",
+      "advancements.boddofthisgymanhiv.descr": "Стань боссом этой качалки",
       "block.anal_craft.ancientseemen": "Древняя сперма",
       "item.anal_craft.sliceoldcum": "Кусочек древней спермы",
       "block.anal_craft.kusokspermiblock": "Кусочек спермы",
@@ -3004,6 +3081,7 @@
       "item.anal_craft.plastina_1": "Осколок плиты",
       "item.anal_craft.zasokhshaiaspierma": "Засохшая сперма",
       "block.anal_craft.portalblock": "Активированый портал",
+      "advancements.boddofthisgymanhiv.title": "Boss of this gym",
       "item.anal_craft.yuutltghie": "Плётка в сперме",
       "item.anal_craft.gachi_helmet": "Маска кожевника",
       "item.anal_craft.gorillaz_feel_good.desc": "Gachi Fingers",
@@ -3076,8 +3154,8 @@
       "subtitles.marionetka": "",
       "entity.anal_craft.billystatue": "Статуя Билли",
       "item.anal_craft.hundred": "Hundred100 баксов",
-      "block.anal_craft.pedikstal_2": "Pedikstal 2",
-      "block.anal_craft.pedikstal_1": "Pedikstal 1"
+      "block.anal_craft.pedikstal_2": "Пьедестал",
+      "block.anal_craft.pedikstal_1": "Пьедестал"
     }
   },
   "workspaceSettings": {
