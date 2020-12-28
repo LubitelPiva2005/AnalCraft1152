@@ -3,9 +3,9 @@
   "_type": "structure",
   "definition": {
     "structure": "air",
-    "randomlyRotateStructure": true,
+    "randomlyRotateStructure": false,
     "surfaceDetectionType": "First block",
-    "spawnProbability": 2000,
+    "spawnProbability": 10000,
     "minCountPerChunk": 1,
     "maxCountPerChunk": 1,
     "spawnLocation": "Ground",
