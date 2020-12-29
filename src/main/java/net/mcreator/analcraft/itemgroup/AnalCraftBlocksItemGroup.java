@@ -1,17 +1,9 @@
 
 package net.mcreator.analcraft.itemgroup;
 
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
-
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
-
-import net.mcreator.analcraft.block.SpermegrassBlock;
-import net.mcreator.analcraft.AnalCraftModElements;
-
 @AnalCraftModElements.ModElement.Tag
 public class AnalCraftBlocksItemGroup extends AnalCraftModElements.ModElement {
+
 	public AnalCraftBlocksItemGroup(AnalCraftModElements instance) {
 		super(instance, 236);
 	}
@@ -31,5 +23,7 @@ public class AnalCraftBlocksItemGroup extends AnalCraftModElements.ModElement {
 			}
 		};
 	}
+
 	public static ItemGroup tab;
+
 }
