@@ -1,7 +1,7 @@
 {
   "parent": "block/template_orientable_trapdoor_top",
   "textures": {
-    "texture": "anal_craft:blocks/cumtrapdoor",
-    "particle": "anal_craft:blocks/cumtrapdoor"
+    "texture": "anal_craft:blocks/1trap",
+    "particle": "anal_craft:blocks/1trap"
   }
 }

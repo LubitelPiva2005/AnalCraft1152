@@ -7,22 +7,22 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 
-import net.mcreator.analcraft.item.NurminskiiValimItem;
+import net.mcreator.analcraft.item.OfitsieryItem;
 import net.mcreator.analcraft.AnalCraftModElements;
 
 @AnalCraftModElements.ModElement.Tag
-public class PlastinkiItemGroup extends AnalCraftModElements.ModElement {
-	public PlastinkiItemGroup(AnalCraftModElements instance) {
-		super(instance, 80);
+public class AnalCraftMusicItemGroup extends AnalCraftModElements.ModElement {
+	public AnalCraftMusicItemGroup(AnalCraftModElements instance) {
+		super(instance, 234);
 	}
 
 	@Override
 	public void initElements() {
-		tab = new ItemGroup("tabplastinki") {
+		tab = new ItemGroup("tabanal_craft_music") {
 			@OnlyIn(Dist.CLIENT)
 			@Override
 			public ItemStack createIcon() {
-				return new ItemStack(NurminskiiValimItem.block, (int) (1));
+				return new ItemStack(OfitsieryItem.block, (int) (1));
 			}
 
 			@OnlyIn(Dist.CLIENT)

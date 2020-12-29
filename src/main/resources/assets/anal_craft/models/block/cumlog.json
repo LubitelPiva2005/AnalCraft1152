@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "anal_craft:blocks/cumlogtop",
-    "up": "anal_craft:blocks/cumlogtop",
-    "north": "anal_craft:blocks/cumlog",
-    "east": "anal_craft:blocks/cumlog",
-    "south": "anal_craft:blocks/cumlog",
-    "west": "anal_craft:blocks/cumlog",
-    "particle": "anal_craft:blocks/cumlogtop"
+    "down": "anal_craft:blocks/cumpgtop",
+    "up": "anal_craft:blocks/cumpgtop",
+    "north": "anal_craft:blocks/cumcumlog",
+    "east": "anal_craft:blocks/cumcumlog",
+    "south": "anal_craft:blocks/cumcumlog",
+    "west": "anal_craft:blocks/cumcumlog",
+    "particle": "anal_craft:blocks/cumpgtop"
   }
 }

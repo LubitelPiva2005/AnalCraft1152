@@ -2,9 +2,9 @@
   "_fv": 13,
   "_type": "tab",
   "definition": {
-    "name": "Пластинки",
+    "name": "AnalCraft Мобы",
     "icon": {
-      "value": "CUSTOM:NurminskiiValim"
+      "value": "Items.SPAWN_EGG#93"
     },
     "showSearch": false
   }

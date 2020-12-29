@@ -1069,15 +1069,6 @@
       "registry_name": "notr_dam_die_pari"
     },
     {
-      "name": "Plastinki",
-      "type": "tab",
-      "sortid": 80,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "plastinki"
-    },
-    {
       "name": "Briemienskiie",
       "type": "musicdisc",
       "sortid": 84,
@@ -2764,6 +2755,24 @@
           }
         ]
       }
+    },
+    {
+      "name": "AnalCraftMusic",
+      "type": "tab",
+      "sortid": 234,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "anal_craft_music"
+    },
+    {
+      "name": "AnalCraftMobs",
+      "type": "tab",
+      "sortid": 235,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "anal_craft_mobs"
     }
   ],
   "variable_elements": [],
@@ -2995,9 +3004,10 @@
   ],
   "language_map": {
     "en_us": {
-      "block.anal_craft.afayf": "Спермовая древесина",
       "item.anal_craft.slavea_spawn_egg": "Слэйвья Spawn Egg",
+      "block.anal_craft.afayf": "Спермовая древесина",
       "item.anal_craft.trusi_chestplate": "Trusi Body",
+      "itemGroup.tabanal_craft_music": "AnalCraft Музыка",
       "advancements.boddofthisgymanhiv.descr": "Стань боссом этой качалки",
       "block.anal_craft.ancientseemen": "Древняя сперма",
       "item.anal_craft.sliceoldcum": "Кусочек древней спермы",
@@ -3015,7 +3025,7 @@
       "item.minecraft.splash_potion.effect.cum": "Splash Сперма",
       "block.anal_craft.cumfence": "Спермозабор",
       "item.anal_craft.gachi_chestplate": "Костюм кожевника",
-      "itemGroup.tabanaltab": "Anal Craft",
+      "itemGroup.tabanaltab": "AnalCraft",
       "item.anal_craft.essence": "Эссенция спермы",
       "subtitles.agh": "",
       "item.anal_craft.gorillaz_feel_good": "Gorillaz Feel Good inc",
@@ -3087,6 +3097,7 @@
       "item.anal_craft.gorillaz_feel_good.desc": "Gachi Fingers",
       "item.anal_craft.bomzh": "Сектор газа - Бомж",
       "item.anal_craft.ricardo_spawn_egg": "Рикардо Милос Spawn Egg",
+      "itemGroup.tabanal_craft_mobs": "AnalCraft Мобы",
       "item.anal_craft.ancientseemenpickaxe": "Кирка из древней спермы",
       "block.anal_craft.dickflower": "Членовик",
       "block.anal_craft.cumblock": "Блок спермы",
@@ -3126,7 +3137,6 @@
       "entity.anal_craft.streleatherman": "Ван Даркхолм с луком",
       "subtitles.yunostvsapogah": "",
       "subtitles.feelgood": "",
-      "itemGroup.tabplastinki": "Пластинки",
       "block.anal_craft.blackmode": "Черный булыжник",
       "block.anal_craft.grasssper": "Трава в сперме",
       "item.anal_craft.iunostvsapoghakh.desc": "Razor Shot",
