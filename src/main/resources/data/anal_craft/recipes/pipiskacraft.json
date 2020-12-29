@@ -1,0 +1,24 @@
+{
+  "group": "anal_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "anal_craft:golobka"
+    },
+    "1": {
+      "item": "anal_craft:penisstolb"
+    },
+    "2": {
+      "item": "anal_craft:plastina"
+    }
+  },
+  "result": {
+    "item": "anal_craft:portalkey",
+    "count": 1
+  }
+}
