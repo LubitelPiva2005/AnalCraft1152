@@ -1,0 +1,15 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "kak5",
+        "3": "kak1",
+        "4": "kak2",
+        "5": "kak4",
+        "6": "kak3",
+        "7": "kak6"
+      },
+      "name": "default"
+    }
+  }
+}

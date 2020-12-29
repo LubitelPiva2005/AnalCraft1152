@@ -2764,6 +2764,24 @@
           }
         ]
       }
+    },
+    {
+      "name": "Nakovalnya",
+      "type": "block",
+      "sortid": 234,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nakovalnya"
+    },
+    {
+      "name": "Nakgui",
+      "type": "gui",
+      "sortid": 235,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nakgui"
     }
   ],
   "variable_elements": [],
@@ -3062,6 +3080,7 @@
       "item.anal_craft.briemienskiie": "Бременские музыканты - Мы к вам заехали на час",
       "effect.cum": "CumСперма",
       "entity.anal_craft.slavea": "Слэйвья",
+      "block.anal_craft.nakovalnya": "Nakovalnya",
       "item.anal_craft.cumstick": "Спермопалка",
       "entity.anal_craft.semenlime": "Спермень",
       "block.anal_craft.cumplanks": "Спермовые доски",
