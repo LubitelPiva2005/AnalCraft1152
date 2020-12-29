@@ -1,9 +1,17 @@
 
 package net.mcreator.analcraft.itemgroup;
 
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
+
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemGroup;
+
+import net.mcreator.analcraft.item.GachiItem;
+import net.mcreator.analcraft.AnalCraftModElements;
+
 @AnalCraftModElements.ModElement.Tag
 public class AnalCraftSnariazhenieItemGroup extends AnalCraftModElements.ModElement {
-
 	public AnalCraftSnariazhenieItemGroup(AnalCraftModElements instance) {
 		super(instance, 238);
 	}
@@ -23,7 +31,5 @@ public class AnalCraftSnariazhenieItemGroup extends AnalCraftModElements.ModElem
 			}
 		};
 	}
-
 	public static ItemGroup tab;
-
 }
