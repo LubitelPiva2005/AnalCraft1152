@@ -32,7 +32,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:ANALTAB"
+      "value": "CUSTOM:AnalCraftBlocks"
     },
     "destroyTool": "axe",
     "customDrop": {

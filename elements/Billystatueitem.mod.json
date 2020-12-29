@@ -8,7 +8,7 @@
     "name": "Статуя Билли",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "CUSTOM:ANALTAB"
+      "value": "CUSTOM:AnalCraftBlocks"
     },
     "stackSize": 1,
     "enchantability": 0,

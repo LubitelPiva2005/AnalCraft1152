@@ -15,7 +15,7 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.block.BlockState;
 
 import net.mcreator.analcraft.procedures.BillystatueitemRightClickedOnBlockProcedure;
-import net.mcreator.analcraft.itemgroup.ANALTABItemGroup;
+import net.mcreator.analcraft.itemgroup.AnalCraftBlocksItemGroup;
 import net.mcreator.analcraft.AnalCraftModElements;
 
 import java.util.Map;
@@ -35,7 +35,7 @@ public class BillystatueitemItem extends AnalCraftModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ANALTABItemGroup.tab).maxStackSize(1).rarity(Rarity.COMMON));
+			super(new Item.Properties().group(AnalCraftBlocksItemGroup.tab).maxStackSize(1).rarity(Rarity.COMMON));
 			setRegistryName("billystatueitem");
 		}
 

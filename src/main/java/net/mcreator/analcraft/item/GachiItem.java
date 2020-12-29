@@ -15,7 +15,7 @@ import net.minecraft.item.ArmorItem;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.entity.Entity;
 
-import net.mcreator.analcraft.itemgroup.ANALTABItemGroup;
+import net.mcreator.analcraft.itemgroup.AnalCraftSnariazhenieItemGroup;
 import net.mcreator.analcraft.AnalCraftModElements;
 
 @AnalCraftModElements.ModElement.Tag
@@ -64,23 +64,26 @@ public class GachiItem extends AnalCraftModElements.ModElement {
 				return 1f;
 			}
 		};
-		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(ANALTABItemGroup.tab)) {
-			@Override
-			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "anal_craft:textures/shlem.png";
-			}
-		}.setRegistryName("gachi_helmet"));
-		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(ANALTABItemGroup.tab)) {
-			@Override
-			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "anal_craft:textures/bobobody.png";
-			}
-		}.setRegistryName("gachi_chestplate"));
-		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(ANALTABItemGroup.tab)) {
-			@Override
-			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "anal_craft:textures/legginsarmor.png";
-			}
-		}.setRegistryName("gachi_leggings"));
+		elements.items
+				.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(AnalCraftSnariazhenieItemGroup.tab)) {
+					@Override
+					public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
+						return "anal_craft:textures/shlem.png";
+					}
+				}.setRegistryName("gachi_helmet"));
+		elements.items
+				.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(AnalCraftSnariazhenieItemGroup.tab)) {
+					@Override
+					public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
+						return "anal_craft:textures/bobobody.png";
+					}
+				}.setRegistryName("gachi_chestplate"));
+		elements.items
+				.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(AnalCraftSnariazhenieItemGroup.tab)) {
+					@Override
+					public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
+						return "anal_craft:textures/legginsarmor.png";
+					}
+				}.setRegistryName("gachi_leggings"));
 	}
 }

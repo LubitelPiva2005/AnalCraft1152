@@ -7,7 +7,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 
-import net.mcreator.analcraft.item.GachiItem;
+import net.mcreator.analcraft.item.ZasokhshaiaspiermaItem;
 import net.mcreator.analcraft.AnalCraftModElements;
 
 @AnalCraftModElements.ModElement.Tag
@@ -22,7 +22,7 @@ public class ANALTABItemGroup extends AnalCraftModElements.ModElement {
 			@OnlyIn(Dist.CLIENT)
 			@Override
 			public ItemStack createIcon() {
-				return new ItemStack(GachiItem.helmet, (int) (1));
+				return new ItemStack(ZasokhshaiaspiermaItem.block, (int) (1));
 			}
 
 			@OnlyIn(Dist.CLIENT)

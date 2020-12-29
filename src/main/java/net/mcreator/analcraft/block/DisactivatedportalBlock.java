@@ -26,7 +26,7 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.analcraft.procedures.DisactivatedportalOnBlockRightClickedProcedure;
-import net.mcreator.analcraft.itemgroup.ANALTABItemGroup;
+import net.mcreator.analcraft.itemgroup.AnalCraftBlocksItemGroup;
 import net.mcreator.analcraft.AnalCraftModElements;
 
 import java.util.Map;
@@ -45,7 +45,8 @@ public class DisactivatedportalBlock extends AnalCraftModElements.ModElement {
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(ANALTABItemGroup.tab)).setRegistryName(block.getRegistryName()));
+		elements.items
+				.add(() -> new BlockItem(block, new Item.Properties().group(AnalCraftBlocksItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 
 	@Override

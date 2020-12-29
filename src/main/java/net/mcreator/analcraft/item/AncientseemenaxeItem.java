@@ -9,7 +9,7 @@ import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.AxeItem;
 
-import net.mcreator.analcraft.itemgroup.ANALTABItemGroup;
+import net.mcreator.analcraft.itemgroup.AnalCraftSnariazhenieItemGroup;
 import net.mcreator.analcraft.AnalCraftModElements;
 
 @AnalCraftModElements.ModElement.Tag
@@ -46,7 +46,7 @@ public class AncientseemenaxeItem extends AnalCraftModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(AncientseemeningotItem.block, (int) (1)));
 			}
-		}, 1, -3f, new Item.Properties().group(ANALTABItemGroup.tab)) {
+		}, 1, -3f, new Item.Properties().group(AnalCraftSnariazhenieItemGroup.tab)) {
 		}.setRegistryName("ancientseemenaxe"));
 	}
 }

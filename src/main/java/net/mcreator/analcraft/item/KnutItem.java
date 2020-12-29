@@ -9,7 +9,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 
-import net.mcreator.analcraft.itemgroup.ANALTABItemGroup;
+import net.mcreator.analcraft.itemgroup.AnalCraftSnariazhenieItemGroup;
 import net.mcreator.analcraft.AnalCraftModElements;
 
 @AnalCraftModElements.ModElement.Tag
@@ -46,7 +46,7 @@ public class KnutItem extends AnalCraftModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(BlackleatherItem.block, (int) (1)));
 			}
-		}, 3, -2.4f, new Item.Properties().group(ANALTABItemGroup.tab)) {
+		}, 3, -2.4f, new Item.Properties().group(AnalCraftSnariazhenieItemGroup.tab)) {
 		}.setRegistryName("knut"));
 	}
 }

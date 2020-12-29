@@ -1,0 +1,8 @@
+{
+  "parent": "anal_craft:custom/penisstolb",
+  "textures": {
+    "1": "anal_craft:blocks/fsie",
+    "missing": "anal_craft:blocks/fsie",
+    "particle": "anal_craft:items/stolbpenisa"
+  }
+}

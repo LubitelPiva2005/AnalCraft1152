@@ -1,0 +1,30 @@
+{
+  "group": "anal_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "anal_craft:cumstick"
+    },
+    "3": {
+      "item": "anal_craft:cumstick"
+    },
+    "4": {
+      "item": "minecraft:book"
+    },
+    "5": {
+      "item": "anal_craft:cumstick"
+    },
+    "7": {
+      "item": "anal_craft:cumstick"
+    }
+  },
+  "result": {
+    "item": "anal_craft:guidebookk",
+    "count": 1
+  }
+}
