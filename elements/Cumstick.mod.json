@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "cumstick",
+    "texture": "1stick",
     "customModelName": "Normal",
     "name": "Спермопалка",
     "rarity": "COMMON",

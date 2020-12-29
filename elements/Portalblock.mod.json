@@ -31,7 +31,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:ANALTAB"
+      "value": "No creative tab entry"
     },
     "destroyTool": "Not specified",
     "customDrop": {
@@ -66,8 +66,8 @@
       "value": "STONE"
     },
     "luminance": 0.0,
-    "unbreakable": false,
-    "breakHarvestLevel": 1,
+    "unbreakable": true,
+    "breakHarvestLevel": 100,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"

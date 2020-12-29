@@ -23,7 +23,6 @@ import net.minecraft.item.SpawnEggItem;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.entity.player.ServerPlayerEntity;
-import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.monster.MonsterEntity;
 import net.minecraft.entity.ai.goal.RandomWalkingGoal;
 import net.minecraft.entity.ai.goal.NearestAttackableTargetGoal;
@@ -38,7 +37,7 @@ import net.minecraft.entity.CreatureAttribute;
 import net.minecraft.client.renderer.entity.model.SlimeModel;
 import net.minecraft.client.renderer.entity.MobRenderer;
 
-import net.mcreator.analcraft.itemgroup.ANALTABItemGroup;
+import net.mcreator.analcraft.itemgroup.AnalCraftMobsItemGroup;
 import net.mcreator.analcraft.item.SemenItem;
 import net.mcreator.analcraft.AnalCraftModElements;
 
@@ -56,7 +55,7 @@ public class SemenlimeEntity extends AnalCraftModElements.ModElement {
 				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).size(1f, 1f)).build("semenlime")
 						.setRegistryName("semenlime");
 		elements.entities.add(() -> entity);
-		elements.items.add(() -> new SpawnEggItem(entity, -5855578, -1, new Item.Properties().group(ANALTABItemGroup.tab))
+		elements.items.add(() -> new SpawnEggItem(entity, -5855578, -1, new Item.Properties().group(AnalCraftMobsItemGroup.tab))
 				.setRegistryName("semenlime_spawn_egg"));
 	}
 
@@ -105,7 +104,7 @@ public class SemenlimeEntity extends AnalCraftModElements.ModElement {
 		protected void registerGoals() {
 			super.registerGoals();
 			this.goalSelector.addGoal(1, new MeleeAttackGoal(this, 1.2, false));
-			this.targetSelector.addGoal(2, new NearestAttackableTargetGoal(this, PlayerEntity.class, false, false));
+			this.targetSelector.addGoal(2, new NearestAttackableTargetGoal(this, VanEntity.CustomEntity.class, false, false));
 			this.targetSelector.addGoal(3, new NearestAttackableTargetGoal(this, ServerPlayerEntity.class, false, false));
 			this.goalSelector.addGoal(4, new RandomWalkingGoal(this, 0.8));
 			this.goalSelector.addGoal(5, new LookRandomlyGoal(this));

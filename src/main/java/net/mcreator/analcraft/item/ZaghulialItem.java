@@ -8,7 +8,7 @@ import net.minecraft.item.Rarity;
 import net.minecraft.item.MusicDiscItem;
 import net.minecraft.item.Item;
 
-import net.mcreator.analcraft.itemgroup.PlastinkiItemGroup;
+import net.mcreator.analcraft.itemgroup.AnalCraftMusicItemGroup;
 import net.mcreator.analcraft.AnalCraftModElements;
 
 @AnalCraftModElements.ModElement.Tag
@@ -26,7 +26,7 @@ public class ZaghulialItem extends AnalCraftModElements.ModElement {
 	public static class MusicDiscItemCustom extends MusicDiscItem {
 		public MusicDiscItemCustom() {
 			super(0, AnalCraftModElements.sounds.get(new ResourceLocation("anal_craft:zagulyal")),
-					new Item.Properties().group(PlastinkiItemGroup.tab).maxStackSize(1).rarity(Rarity.RARE));
+					new Item.Properties().group(AnalCraftMusicItemGroup.tab).maxStackSize(1).rarity(Rarity.RARE));
 			setRegistryName("zaghulial");
 		}
 	}

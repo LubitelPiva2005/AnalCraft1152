@@ -3,23 +3,23 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "anal_craft:unknown_element"
+      "item": "anal_craft:crystal"
     },
     {
-      "item": "anal_craft:unknown_element"
-    },
-    {
-      "item": "anal_craft:unknown_element"
+      "item": "anal_craft:crystal"
     },
     {
       "item": "anal_craft:ancientseemeningot"
+    },
+    {
+      "item": "anal_craft:crystal"
     },
     {
       "item": "anal_craft:cumstick"
     }
   ],
   "result": {
-    "item": "anal_craft:unknown_element",
+    "item": "anal_craft:magicwand",
     "count": 1
   }
 }

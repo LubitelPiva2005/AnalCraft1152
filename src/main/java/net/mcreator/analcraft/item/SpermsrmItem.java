@@ -18,7 +18,7 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
 
 import net.mcreator.analcraft.procedures.SpermsrmHelmetTickEventProcedure;
-import net.mcreator.analcraft.itemgroup.ANALTABItemGroup;
+import net.mcreator.analcraft.itemgroup.AnalCraftSnariazhenieItemGroup;
 import net.mcreator.analcraft.AnalCraftModElements;
 
 import java.util.Map;
@@ -70,24 +70,25 @@ public class SpermsrmItem extends AnalCraftModElements.ModElement {
 				return 1.5f;
 			}
 		};
-		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(ANALTABItemGroup.tab)) {
-			@Override
-			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "anal_craft:textures/spermashlem.png";
-			}
+		elements.items
+				.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(AnalCraftSnariazhenieItemGroup.tab)) {
+					@Override
+					public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
+						return "anal_craft:textures/spermashlem.png";
+					}
 
-			@Override
-			public void onArmorTick(ItemStack itemstack, World world, PlayerEntity entity) {
-				super.onArmorTick(itemstack, world, entity);
-				double x = entity.getPosX();
-				double y = entity.getPosY();
-				double z = entity.getPosZ();
-				{
-					Map<String, Object> $_dependencies = new HashMap<>();
-					$_dependencies.put("entity", entity);
-					SpermsrmHelmetTickEventProcedure.executeProcedure($_dependencies);
-				}
-			}
-		}.setRegistryName("spermsrm_helmet"));
+					@Override
+					public void onArmorTick(ItemStack itemstack, World world, PlayerEntity entity) {
+						super.onArmorTick(itemstack, world, entity);
+						double x = entity.getPosX();
+						double y = entity.getPosY();
+						double z = entity.getPosZ();
+						{
+							Map<String, Object> $_dependencies = new HashMap<>();
+							$_dependencies.put("entity", entity);
+							SpermsrmHelmetTickEventProcedure.executeProcedure($_dependencies);
+						}
+					}
+				}.setRegistryName("spermsrm_helmet"));
 	}
 }

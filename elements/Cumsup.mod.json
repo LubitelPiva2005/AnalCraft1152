@@ -3,7 +3,7 @@
   "_type": "food",
   "definition": {
     "renderType": 0,
-    "texture": "miskakama",
+    "texture": "cumsoup",
     "customModelName": "Normal",
     "name": "\"—гущенка\"",
     "rarity": "COMMON",

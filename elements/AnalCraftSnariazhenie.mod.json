@@ -1,0 +1,11 @@
+{
+  "_fv": 13,
+  "_type": "tab",
+  "definition": {
+    "name": "AnalCraft Снаряжение",
+    "icon": {
+      "value": "CUSTOM:Gachi.helmet"
+    },
+    "showSearch": false
+  }
+}

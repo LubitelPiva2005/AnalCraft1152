@@ -49,7 +49,7 @@ import net.minecraft.client.renderer.entity.model.VillagerModel;
 import net.minecraft.client.renderer.entity.MobRenderer;
 
 import net.mcreator.analcraft.procedures.TorgovecRightClickedOnEntityProcedure;
-import net.mcreator.analcraft.itemgroup.ANALTABItemGroup;
+import net.mcreator.analcraft.itemgroup.AnalCraftMobsItemGroup;
 import net.mcreator.analcraft.gui.TorgoveccGui;
 import net.mcreator.analcraft.AnalCraftModElements;
 
@@ -75,7 +75,7 @@ public class TorgovecEntity extends AnalCraftModElements.ModElement {
 				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).size(0.6f, 1.95f)).build("torgovec")
 						.setRegistryName("torgovec");
 		elements.entities.add(() -> entity);
-		elements.items.add(() -> new SpawnEggItem(entity, -26266, -26215, new Item.Properties().group(ANALTABItemGroup.tab))
+		elements.items.add(() -> new SpawnEggItem(entity, -26266, -26215, new Item.Properties().group(AnalCraftMobsItemGroup.tab))
 				.setRegistryName("torgovec_spawn_egg"));
 	}
 

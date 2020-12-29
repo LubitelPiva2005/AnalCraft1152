@@ -9,7 +9,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 
-import net.mcreator.analcraft.itemgroup.ANALTABItemGroup;
+import net.mcreator.analcraft.itemgroup.AnalCraftSnariazhenieItemGroup;
 import net.mcreator.analcraft.AnalCraftModElements;
 
 @AnalCraftModElements.ModElement.Tag
@@ -47,7 +47,7 @@ public class YuutltghieItem extends AnalCraftModElements.ModElement {
 				return Ingredient.fromStacks(new ItemStack(SemenItem.block, (int) (1)), new ItemStack(KnutItem.block, (int) (1)),
 						new ItemStack(BlackleatherItem.block, (int) (1)));
 			}
-		}, 3, -2.4f, new Item.Properties().group(ANALTABItemGroup.tab)) {
+		}, 3, -2.4f, new Item.Properties().group(AnalCraftSnariazhenieItemGroup.tab)) {
 		}.setRegistryName("yuutltghie"));
 	}
 }

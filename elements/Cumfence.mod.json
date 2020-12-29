@@ -2,7 +2,7 @@
   "_fv": 13,
   "_type": "block",
   "definition": {
-    "texture": "cumplanks",
+    "texture": "smenpidorplanls",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -32,7 +32,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:ANALTAB"
+      "value": "CUSTOM:AnalCraftBlocks"
     },
     "destroyTool": "axe",
     "customDrop": {

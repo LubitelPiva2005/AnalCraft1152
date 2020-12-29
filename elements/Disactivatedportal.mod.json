@@ -31,7 +31,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:ANALTAB"
+      "value": "CUSTOM:AnalCraftBlocks"
     },
     "destroyTool": "Not specified",
     "customDrop": {
@@ -67,7 +67,7 @@
     },
     "luminance": 0.0,
     "unbreakable": true,
-    "breakHarvestLevel": 1,
+    "breakHarvestLevel": 100,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"

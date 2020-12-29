@@ -35,7 +35,7 @@ import net.minecraft.client.Minecraft;
 import net.mcreator.analcraft.procedures.MagicwandRangedItemUsedProcedure;
 import net.mcreator.analcraft.procedures.MagicwandBulletHitsLivingEntityProcedure;
 import net.mcreator.analcraft.procedures.MagicwandBulletHitsBlock34Procedure;
-import net.mcreator.analcraft.itemgroup.ANALTABItemGroup;
+import net.mcreator.analcraft.itemgroup.AnalCraftSnariazhenieItemGroup;
 import net.mcreator.analcraft.AnalCraftModElements;
 
 import java.util.Random;
@@ -68,7 +68,7 @@ public class MagicwandItem extends AnalCraftModElements.ModElement {
 	}
 	public static class ItemRanged extends Item {
 		public ItemRanged() {
-			super(new Item.Properties().group(ANALTABItemGroup.tab).maxDamage(500));
+			super(new Item.Properties().group(AnalCraftSnariazhenieItemGroup.tab).maxDamage(500));
 			setRegistryName("magicwand");
 		}
 

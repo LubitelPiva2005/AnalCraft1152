@@ -1069,15 +1069,6 @@
       "registry_name": "notr_dam_die_pari"
     },
     {
-      "name": "Plastinki",
-      "type": "tab",
-      "sortid": 80,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "plastinki"
-    },
-    {
       "name": "Briemienskiie",
       "type": "musicdisc",
       "sortid": 84,
@@ -2766,6 +2757,15 @@
       }
     },
     {
+      "name": "Nakgui",
+      "type": "gui",
+      "sortid": 235,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nakgui"
+    },
+    {
       "name": "Nakovalnya",
       "type": "block",
       "sortid": 234,
@@ -2775,13 +2775,295 @@
       "registry_name": "nakovalnya"
     },
     {
-      "name": "Nakgui",
-      "type": "gui",
+      "name": "Guidebookcraft",
+      "type": "recipe",
+      "sortid": 241,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "guidebookcraft"
+    },
+    {
+      "name": "Guidebookk",
+      "type": "item",
+      "sortid": 240,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "guidebookk"
+    },
+    {
+      "name": "AnalCraftMobs",
+      "type": "tab",
       "sortid": 235,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "nakgui"
+      "registry_name": "anal_craft_mobs"
+    },
+    {
+      "name": "Golobka",
+      "type": "tool",
+      "sortid": 247,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "golobka"
+    },
+    {
+      "name": "AnalCraftBlocks",
+      "type": "tab",
+      "sortid": 236,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "anal_craft_blocks"
+    },
+    {
+      "name": "Penisstolb",
+      "type": "tool",
+      "sortid": 246,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "penisstolb"
+    },
+    {
+      "name": "Guidebook3",
+      "type": "gui",
+      "sortid": 245,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "guidebook_3"
+    },
+    {
+      "name": "Guidebook4",
+      "type": "gui",
+      "sortid": 247,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "guidebook_4"
+    },
+    {
+      "name": "Opengui1",
+      "type": "procedure",
+      "sortid": 244,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opengui_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Guidebook2",
+      "type": "gui",
+      "sortid": 242,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "guidebook_2"
+    },
+    {
+      "name": "AnalCraftMusic",
+      "type": "tab",
+      "sortid": 234,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "anal_craft_music"
+    },
+    {
+      "name": "Guidebook",
+      "type": "gui",
+      "sortid": 239,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "guidebook"
+    },
+    {
+      "name": "PotomUbrat",
+      "type": "tab",
+      "sortid": 237,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "potom_ubrat"
+    },
+    {
+      "name": "Guidebook5",
+      "type": "gui",
+      "sortid": 249,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "guidebook_5"
+    },
+    {
+      "name": "Openpage5",
+      "type": "procedure",
+      "sortid": 249,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "openpage_5",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Guipage2",
+      "type": "procedure",
+      "sortid": 243,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "guipage_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Openpage3",
+      "type": "procedure",
+      "sortid": 245,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "openpage_3",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AnalCraftSnariazhenie",
+      "type": "tab",
+      "sortid": 238,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "anal_craft_snariazhenie"
+    },
+    {
+      "name": "Openpage4",
+      "type": "procedure",
+      "sortid": 248,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "openpage_4",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -3013,8 +3295,8 @@
   ],
   "language_map": {
     "en_us": {
-      "block.anal_craft.afayf": "Спермовая древесина",
       "item.anal_craft.slavea_spawn_egg": "Слэйвья Spawn Egg",
+      "block.anal_craft.afayf": "Спермовая древесина",
       "item.anal_craft.trusi_chestplate": "Trusi Body",
       "advancements.boddofthisgymanhiv.descr": "Стань боссом этой качалки",
       "block.anal_craft.ancientseemen": "Древняя сперма",
@@ -3080,7 +3362,6 @@
       "item.anal_craft.briemienskiie": "Бременские музыканты - Мы к вам заехали на час",
       "effect.cum": "CumСперма",
       "entity.anal_craft.slavea": "Слэйвья",
-      "block.anal_craft.nakovalnya": "Nakovalnya",
       "item.anal_craft.cumstick": "Спермопалка",
       "entity.anal_craft.semenlime": "Спермень",
       "block.anal_craft.cumplanks": "Спермовые доски",
@@ -3145,8 +3426,8 @@
       "entity.anal_craft.streleatherman": "Ван Даркхолм с луком",
       "subtitles.yunostvsapogah": "",
       "subtitles.feelgood": "",
-      "itemGroup.tabplastinki": "Пластинки",
       "block.anal_craft.blackmode": "Черный булыжник",
+      "itemGroup.tabplastinki": "Пластинки",
       "block.anal_craft.grasssper": "Трава в сперме",
       "item.anal_craft.iunostvsapoghakh.desc": "Razor Shot",
       "subtitles.portalactivate": "",

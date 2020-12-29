@@ -21,7 +21,7 @@ import net.minecraft.block.BlockState;
 
 import net.mcreator.analcraft.procedures.FistRightClickedOnBlockProcedure;
 import net.mcreator.analcraft.procedures.FistRightClickedInAirProcedure;
-import net.mcreator.analcraft.itemgroup.ANALTABItemGroup;
+import net.mcreator.analcraft.itemgroup.AnalCraftSnariazhenieItemGroup;
 import net.mcreator.analcraft.AnalCraftModElements;
 
 import java.util.Map;
@@ -87,7 +87,7 @@ public class FistItem extends AnalCraftModElements.ModElement {
 	}
 	private static class ItemToolCustom extends Item {
 		protected ItemToolCustom() {
-			super(new Item.Properties().group(ANALTABItemGroup.tab).maxDamage(500));
+			super(new Item.Properties().group(AnalCraftSnariazhenieItemGroup.tab).maxDamage(500));
 		}
 
 		@Override

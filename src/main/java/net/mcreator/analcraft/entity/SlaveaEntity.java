@@ -38,7 +38,7 @@ import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.BlockState;
 
-import net.mcreator.analcraft.itemgroup.ANALTABItemGroup;
+import net.mcreator.analcraft.itemgroup.AnalCraftMobsItemGroup;
 import net.mcreator.analcraft.AnalCraftModElements;
 
 @AnalCraftModElements.ModElement.Tag
@@ -55,7 +55,7 @@ public class SlaveaEntity extends AnalCraftModElements.ModElement {
 				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).size(0.9f, 0.9f)).build("slavea")
 						.setRegistryName("slavea");
 		elements.entities.add(() -> entity);
-		elements.items.add(() -> new SpawnEggItem(entity, -26215, -16777216, new Item.Properties().group(ANALTABItemGroup.tab))
+		elements.items.add(() -> new SpawnEggItem(entity, -26215, -16777216, new Item.Properties().group(AnalCraftMobsItemGroup.tab))
 				.setRegistryName("slavea_spawn_egg"));
 	}
 

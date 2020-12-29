@@ -2,12 +2,12 @@
   "_fv": 13,
   "_type": "block",
   "definition": {
-    "texture": "cumlogtop",
-    "textureTop": "cumlogtop",
-    "textureLeft": "cumlog",
-    "textureFront": "cumlog",
-    "textureRight": "cumlog",
-    "textureBack": "cumlog",
+    "texture": "cumpgtop",
+    "textureTop": "cumpgtop",
+    "textureLeft": "cumcumlog",
+    "textureFront": "cumcumlog",
+    "textureRight": "cumcumlog",
+    "textureBack": "cumcumlog",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 5,
@@ -31,7 +31,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:ANALTAB"
+      "value": "CUSTOM:AnalCraftBlocks"
     },
     "destroyTool": "axe",
     "customDrop": {

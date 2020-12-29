@@ -1,7 +1,7 @@
 {
   "parent": "block/door_bottom",
   "textures": {
-    "bottom": "anal_craft:blocks/cumdoortbot",
-    "top": "anal_craft:blocks/cumdoortop"
+    "bottom": "anal_craft:blocks/1doorbottom",
+    "top": "anal_craft:blocks/1doortop"
   }
 }

@@ -10,6 +10,9 @@
     "recipeShapeless": true,
     "recipeSlots": [
       {
+        "value": ""
+      },
+      {
         "value": "CUSTOM:Crystal"
       },
       {
@@ -17,24 +20,21 @@
       },
       {
         "value": ""
-      },
-      {
-        "value": "CUSTOM:Crystal"
       },
       {
         "value": "CUSTOM:Ancientseemeningot"
       },
       {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
+        "value": "CUSTOM:Crystal"
       },
       {
         "value": "CUSTOM:Cumstick"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
       }
     ],
     "recipeReturnStack": {

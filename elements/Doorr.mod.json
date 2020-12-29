@@ -2,8 +2,8 @@
   "_fv": 13,
   "_type": "block",
   "definition": {
-    "texture": "cumdoortbot",
-    "textureTop": "cumdoortop",
+    "texture": "1doorbottom",
+    "textureTop": "1doortop",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
@@ -13,7 +13,7 @@
     "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "",
+    "itemTexture": "1dooricon",
     "particleTexture": "",
     "blockBase": "Door",
     "hasTransparency": true,
@@ -25,14 +25,14 @@
     "Mx": 1.0,
     "My": 1.0,
     "Mz": 1.0,
-    "name": "Doorr",
+    "name": "Спермодверь",
     "specialInfo": [],
     "hardness": 2.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:ANALTAB"
+      "value": "CUSTOM:AnalCraftBlocks"
     },
     "destroyTool": "axe",
     "customDrop": {
