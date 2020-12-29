@@ -1,6 +1,5 @@
 {
   "display": {
-    "background": "minecraft:textures/block/stone.png",
     "icon": {
       "item": "anal_craft:zasokhshaiaspierma"
     },
@@ -17,15 +16,11 @@
   },
   "criteria": {
     "boddofthisgymanhiv": {
-      "trigger": "minecraft:placed_block",
-      "conditions": {
-        "item": {
-          "item": "minecraft:bedrock"
-        }
-      }
+      "trigger": "minecraft:impossible"
     }
   },
   "rewards": {
     "experience": 1
-  }
+  },
+  "parent": "anal_craft:boddofthisgymanhiv"
 }
