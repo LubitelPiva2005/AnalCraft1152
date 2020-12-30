@@ -3066,15 +3066,6 @@
       }
     },
     {
-      "name": "Test",
-      "type": "gui",
-      "sortid": 250,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "test"
-    },
-    {
       "name": "Zametki1",
       "type": "procedure",
       "sortid": 251,
@@ -3108,6 +3099,15 @@
       }
     },
     {
+      "name": "Test",
+      "type": "gui",
+      "sortid": 250,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "test"
+    },
+    {
       "name": "Zametkigui1",
       "type": "gui",
       "sortid": 252,
@@ -3115,6 +3115,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "zametkigui_1"
+    },
+    {
+      "name": "Pipiskacraft",
+      "type": "recipe",
+      "sortid": 250,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pipiskacraft"
     }
   ],
   "variable_elements": [],

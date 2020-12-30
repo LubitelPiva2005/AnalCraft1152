@@ -129,6 +129,8 @@ public class Guidebook5Gui extends AnalCraftModElements.ModElement {
 			this.blit(k, l, 0, 0, this.xSize, this.ySize, this.xSize, this.ySize);
 			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("anal_craft:textures/magicwand.png"));
 			this.blit(this.guiLeft + 19, this.guiTop + 18, 0, 0, 120, 58, 120, 58);
+			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("anal_craft:textures/key.png"));
+			this.blit(this.guiLeft + 172, this.guiTop + 18, 0, 0, 120, 58, 120, 58);
 		}
 
 		@Override
