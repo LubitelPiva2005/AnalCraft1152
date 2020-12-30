@@ -11,16 +11,6 @@
     "doesPauseGame": true,
     "components": [
       {
-        "type": "image",
-        "data": {
-          "image": "book.png",
-          "use1Xscale": false,
-          "name": "book.png",
-          "x": 78,
-          "y": 26
-        }
-      },
-      {
         "type": "button",
         "data": {
           "text": "Назад",
@@ -32,6 +22,40 @@
           "name": "Назад",
           "x": 87,
           "y": 215
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Дальше",
+          "onClick": {
+            "name": "Opensush2str"
+          },
+          "width": 55,
+          "height": 20,
+          "name": "Дальше",
+          "x": 285,
+          "y": 215
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "book.png",
+          "use1Xscale": false,
+          "name": "book.png",
+          "x": 78,
+          "y": 26
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "suscjq1.png",
+          "use1Xscale": false,
+          "name": "suscjq1.png",
+          "x": 78,
+          "y": 26
         }
       }
     ]

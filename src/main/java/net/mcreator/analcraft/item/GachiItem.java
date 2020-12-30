@@ -40,7 +40,7 @@ public class GachiItem extends AnalCraftModElements.ModElement {
 			}
 
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{2, 5, 6, 2}[slot.getIndex()];
+				return new int[]{3, 5, 6, 2}[slot.getIndex()];
 			}
 
 			public int getEnchantability() {
@@ -85,5 +85,12 @@ public class GachiItem extends AnalCraftModElements.ModElement {
 						return "anal_craft:textures/legginsarmor.png";
 					}
 				}.setRegistryName("gachi_leggings"));
+		elements.items
+				.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(AnalCraftSnariazhenieItemGroup.tab)) {
+					@Override
+					public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
+						return "anal_craft:textures/1bot.png";
+					}
+				}.setRegistryName("gachi_boots"));
 	}
 }

@@ -8,7 +8,7 @@
     "inventoryOffsetX": 0,
     "inventoryOffsetY": 0,
     "renderBgLayer": true,
-    "doesPauseGame": true,
+    "doesPauseGame": false,
     "components": [
       {
         "type": "image",
@@ -25,23 +25,13 @@
         "data": {
           "text": "Назад",
           "onClick": {
-            "name": "NaGlavnuiu"
+            "name": "Opensushestvagui"
           },
           "width": 50,
           "height": 20,
           "name": "Назад",
           "x": 87,
           "y": 215
-        }
-      },
-      {
-        "type": "image",
-        "data": {
-          "image": "eda1.png",
-          "use1Xscale": false,
-          "name": "eda1.png",
-          "x": 78,
-          "y": 26
         }
       }
     ]

@@ -110,6 +110,7 @@ public class VanEntity extends AnalCraftModElements.ModElement {
 			this.setItemStackToSlot(EquipmentSlotType.HEAD, new ItemStack(GachiItem.helmet, (int) (1)));
 			this.setItemStackToSlot(EquipmentSlotType.CHEST, new ItemStack(GachiItem.body, (int) (1)));
 			this.setItemStackToSlot(EquipmentSlotType.LEGS, new ItemStack(GachiItem.legs, (int) (1)));
+			this.setItemStackToSlot(EquipmentSlotType.FEET, new ItemStack(GachiItem.boots, (int) (1)));
 		}
 
 		@Override

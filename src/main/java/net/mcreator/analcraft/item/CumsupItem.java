@@ -13,7 +13,7 @@ import net.minecraft.item.Food;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.LivingEntity;
 
-import net.mcreator.analcraft.procedures.CumsupFoodEatenProcedure;
+import net.mcreator.analcraft.procedures.CumsupFoodEaten3Procedure;
 import net.mcreator.analcraft.itemgroup.ANALTABItemGroup;
 import net.mcreator.analcraft.AnalCraftModElements;
 
@@ -35,7 +35,7 @@ public class CumsupItem extends AnalCraftModElements.ModElement {
 	public static class FoodItemCustom extends Item {
 		public FoodItemCustom() {
 			super(new Item.Properties().group(ANALTABItemGroup.tab).maxStackSize(1).rarity(Rarity.COMMON)
-					.food((new Food.Builder()).hunger(0).saturation(0f).build()));
+					.food((new Food.Builder()).hunger(0).saturation(0f).setAlwaysEdible().build()));
 			setRegistryName("cumsup");
 		}
 
@@ -58,7 +58,7 @@ public class CumsupItem extends AnalCraftModElements.ModElement {
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-				CumsupFoodEatenProcedure.executeProcedure($_dependencies);
+				CumsupFoodEaten3Procedure.executeProcedure($_dependencies);
 			}
 			if (itemstack.isEmpty()) {
 				return retval;

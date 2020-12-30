@@ -29,6 +29,7 @@ import net.minecraft.client.gui.screen.inventory.ContainerScreen;
 import net.minecraft.client.gui.ScreenManager;
 import net.minecraft.client.Minecraft;
 
+import net.mcreator.analcraft.procedures.Opensush2strProcedure;
 import net.mcreator.analcraft.procedures.NaGlavnuiuProcedure;
 import net.mcreator.analcraft.AnalCraftModElements;
 import net.mcreator.analcraft.AnalCraftMod;
@@ -134,6 +135,8 @@ public class SushestvaguiGui extends AnalCraftModElements.ModElement {
 			this.blit(k, l, 0, 0, this.xSize, this.ySize, this.xSize, this.ySize);
 			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("anal_craft:textures/book.png"));
 			this.blit(this.guiLeft + -3, this.guiTop + -11, 0, 0, 271, 180, 271, 180);
+			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("anal_craft:textures/suscjq1.png"));
+			this.blit(this.guiLeft + -3, this.guiTop + -11, 0, 0, 271, 180, 271, 180);
 		}
 
 		@Override
@@ -167,6 +170,10 @@ public class SushestvaguiGui extends AnalCraftModElements.ModElement {
 			this.addButton(new Button(this.guiLeft + 6, this.guiTop + 178, 50, 20, "Назад", e -> {
 				AnalCraftMod.PACKET_HANDLER.sendToServer(new ButtonPressedMessage(0, x, y, z));
 				handleButtonAction(entity, 0, x, y, z);
+			}));
+			this.addButton(new Button(this.guiLeft + 204, this.guiTop + 178, 55, 20, "Дальше", e -> {
+				AnalCraftMod.PACKET_HANDLER.sendToServer(new ButtonPressedMessage(1, x, y, z));
+				handleButtonAction(entity, 1, x, y, z);
 			}));
 		}
 	}
@@ -266,6 +273,17 @@ public class SushestvaguiGui extends AnalCraftModElements.ModElement {
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
 				NaGlavnuiuProcedure.executeProcedure($_dependencies);
+			}
+		}
+		if (buttonID == 1) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				Opensush2strProcedure.executeProcedure($_dependencies);
 			}
 		}
 	}

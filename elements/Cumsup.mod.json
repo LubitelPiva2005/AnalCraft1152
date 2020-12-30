@@ -19,11 +19,11 @@
       "value": "Items.BOWL"
     },
     "forDogs": false,
-    "isAlwaysEdible": false,
+    "isAlwaysEdible": true,
     "animation": "eat",
     "hasGlow": false,
     "onEaten": {
-      "name": "CumsupFoodEaten"
+      "name": "CumsupFoodEaten3"
     }
   }
 }

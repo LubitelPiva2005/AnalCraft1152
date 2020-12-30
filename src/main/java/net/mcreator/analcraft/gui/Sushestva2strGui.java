@@ -29,7 +29,7 @@ import net.minecraft.client.gui.screen.inventory.ContainerScreen;
 import net.minecraft.client.gui.ScreenManager;
 import net.minecraft.client.Minecraft;
 
-import net.mcreator.analcraft.procedures.NaGlavnuiuProcedure;
+import net.mcreator.analcraft.procedures.OpensushestvaguiProcedure;
 import net.mcreator.analcraft.AnalCraftModElements;
 import net.mcreator.analcraft.AnalCraftMod;
 
@@ -38,11 +38,11 @@ import java.util.Map;
 import java.util.HashMap;
 
 @AnalCraftModElements.ModElement.Tag
-public class EdaguiGui extends AnalCraftModElements.ModElement {
+public class Sushestva2strGui extends AnalCraftModElements.ModElement {
 	public static HashMap guistate = new HashMap();
 	private static ContainerType<GuiContainerMod> containerType = null;
-	public EdaguiGui(AnalCraftModElements instance) {
-		super(instance, 255);
+	public Sushestva2strGui(AnalCraftModElements instance) {
+		super(instance, 264);
 		elements.addNetworkMessage(ButtonPressedMessage.class, ButtonPressedMessage::buffer, ButtonPressedMessage::new,
 				ButtonPressedMessage::handler);
 		elements.addNetworkMessage(GUISlotChangedMessage.class, GUISlotChangedMessage::buffer, GUISlotChangedMessage::new,
@@ -58,7 +58,7 @@ public class EdaguiGui extends AnalCraftModElements.ModElement {
 
 	@SubscribeEvent
 	public void registerContainer(RegistryEvent.Register<ContainerType<?>> event) {
-		event.getRegistry().register(containerType.setRegistryName("edagui"));
+		event.getRegistry().register(containerType.setRegistryName("sushestva_2str"));
 	}
 	public static class GuiContainerModFactory implements IContainerFactory {
 		public GuiContainerMod create(int id, PlayerInventory inv, PacketBuffer extraData) {
@@ -112,12 +112,7 @@ public class EdaguiGui extends AnalCraftModElements.ModElement {
 			this.xSize = 265;
 			this.ySize = 166;
 		}
-
-		@Override
-		public boolean isPauseScreen() {
-			return true;
-		}
-		private static final ResourceLocation texture = new ResourceLocation("anal_craft:textures/edagui.png");
+		private static final ResourceLocation texture = new ResourceLocation("anal_craft:textures/sushestva_2str.png");
 		@Override
 		public void render(int mouseX, int mouseY, float partialTicks) {
 			this.renderBackground();
@@ -133,8 +128,6 @@ public class EdaguiGui extends AnalCraftModElements.ModElement {
 			int l = (this.height - this.ySize) / 2;
 			this.blit(k, l, 0, 0, this.xSize, this.ySize, this.xSize, this.ySize);
 			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("anal_craft:textures/book.png"));
-			this.blit(this.guiLeft + -3, this.guiTop + -11, 0, 0, 271, 180, 271, 180);
-			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("anal_craft:textures/eda1.png"));
 			this.blit(this.guiLeft + -3, this.guiTop + -11, 0, 0, 271, 180, 271, 180);
 		}
 
@@ -267,7 +260,7 @@ public class EdaguiGui extends AnalCraftModElements.ModElement {
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-				NaGlavnuiuProcedure.executeProcedure($_dependencies);
+				OpensushestvaguiProcedure.executeProcedure($_dependencies);
 			}
 		}
 	}

@@ -23,6 +23,6 @@ public class SemenmeatFoodEatenProcedure extends AnalCraftModElements.ModElement
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		if (entity instanceof LivingEntity)
-			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.NAUSEA, (int) 10, (int) 2));
+			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.NAUSEA, (int) 50, (int) 2));
 	}
 }

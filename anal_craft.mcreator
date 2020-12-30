@@ -3115,6 +3115,118 @@
           }
         ]
       }
+    },
+    {
+      "name": "CumsupFoodEaten1",
+      "type": "procedure",
+      "sortid": 262,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cumsup_food_eaten_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CumsupFoodEaten3",
+      "type": "procedure",
+      "sortid": 263,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cumsup_food_eaten_3",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sushestva2str",
+      "type": "gui",
+      "sortid": 264,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sushestva_2str"
+    },
+    {
+      "name": "Opensush2str",
+      "type": "procedure",
+      "sortid": 264,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opensush_2str",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -3454,8 +3566,8 @@
       "item.anal_craft.ofitsiery": "Олег Гassманов - Офицеры",
       "block.anal_craft.spermacrystal": "Кристал спермы",
       "block.anal_craft.ladder": "Ступеньки из спермовой древесины",
-      "item.anal_craft.semenmeat": "Свинина в мперме",
-      "item.anal_craft.gachi_boots": "Gachi Boots",
+      "item.anal_craft.semenmeat": "Свинина в cперме",
+      "item.anal_craft.gachi_boots": "Сапоги кожевника",
       "item.anal_craft.plastina": "Пластина для ключа",
       "subtitles.zagulyal": "",
       "item.anal_craft.cumsup": "\"Сгущенка\"",

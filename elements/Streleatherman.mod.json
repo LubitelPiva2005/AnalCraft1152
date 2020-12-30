@@ -42,7 +42,7 @@
       "value": "CUSTOM:Gachi.legs"
     },
     "equipmentBoots": {
-      "value": ""
+      "value": "CUSTOM:Gachi.boots"
     },
     "mobBehaviourType": "Mob",
     "mobCreatureType": "UNDEFINED",
