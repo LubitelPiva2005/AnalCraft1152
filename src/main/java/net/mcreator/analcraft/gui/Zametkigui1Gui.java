@@ -24,14 +24,11 @@ import net.minecraft.inventory.container.ContainerType;
 import net.minecraft.inventory.container.Container;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.client.gui.widget.button.Button;
 import net.minecraft.client.gui.screen.inventory.ContainerScreen;
 import net.minecraft.client.gui.ScreenManager;
 import net.minecraft.client.Minecraft;
 
-import net.mcreator.analcraft.procedures.NaGlavnuiuProcedure;
 import net.mcreator.analcraft.AnalCraftModElements;
-import net.mcreator.analcraft.AnalCraftMod;
 
 import java.util.function.Supplier;
 import java.util.Map;
@@ -112,11 +109,6 @@ public class Zametkigui1Gui extends AnalCraftModElements.ModElement {
 			this.xSize = 176;
 			this.ySize = 166;
 		}
-
-		@Override
-		public boolean isPauseScreen() {
-			return true;
-		}
 		private static final ResourceLocation texture = new ResourceLocation("anal_craft:textures/zametkigui_1.png");
 		@Override
 		public void render(int mouseX, int mouseY, float partialTicks) {
@@ -154,7 +146,8 @@ public class Zametkigui1Gui extends AnalCraftModElements.ModElement {
 		protected void drawGuiContainerForegroundLayer(int mouseX, int mouseY) {
 			this.font.drawString("\u0412 \u0434\u0430\u043D\u043D\u043E\u043C \u0440\u0430\u0437\u0434\u0435\u043B\u0435", -29, 7, -12829636);
 			this.font.drawString("\u0431\u0443\u0434\u0435\u0442 \u043F\u043E\u044F\u0432\u043B\u044F\u0442\u044C\u0441\u044F", -29, 16, -12829636);
-			this.font.drawString("\u043E\u043F\u0438\u0441\u0430\u043D\u0438\u0435 \u0433\u043B\u0430\u0432\u043D\u044B\u0445", -29, 25, -12829636);
+			this.font.drawString("\u043E\u043F\u0438\u0441\u0430\u043D\u0438\u0435 \u043E\u0441\u043D\u043E\u0432\u043D\u044B\u0445", -29, 25,
+					-12829636);
 			this.font.drawString("\u044D\u043B\u0435\u043C\u0435\u043D\u0442\u043E\u0432 \u0438\u0433\u0440\u043E\u0432\u043E\u0433\u043E", -29, 34,
 					-12829636);
 			this.font.drawString("\u043F\u0440\u043E\u0446\u0435\u0441\u0441\u0430.", -29, 43, -12829636);
@@ -184,10 +177,6 @@ public class Zametkigui1Gui extends AnalCraftModElements.ModElement {
 		public void init(Minecraft minecraft, int width, int height) {
 			super.init(minecraft, width, height);
 			minecraft.keyboardListener.enableRepeatEvents(true);
-			this.addButton(new Button(this.guiLeft + -38, this.guiTop + 178, 50, 20, "Назад", e -> {
-				AnalCraftMod.PACKET_HANDLER.sendToServer(new ButtonPressedMessage(0, x, y, z));
-				handleButtonAction(entity, 0, x, y, z);
-			}));
 		}
 	}
 
@@ -277,17 +266,6 @@ public class Zametkigui1Gui extends AnalCraftModElements.ModElement {
 		// security measure to prevent arbitrary chunk generation
 		if (!world.isBlockLoaded(new BlockPos(x, y, z)))
 			return;
-		if (buttonID == 0) {
-			{
-				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("entity", entity);
-				$_dependencies.put("x", x);
-				$_dependencies.put("y", y);
-				$_dependencies.put("z", z);
-				$_dependencies.put("world", world);
-				NaGlavnuiuProcedure.executeProcedure($_dependencies);
-			}
-		}
 	}
 
 	private static void handleSlotAction(PlayerEntity entity, int slotID, int changeType, int meta, int x, int y, int z) {
