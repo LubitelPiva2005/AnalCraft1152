@@ -33,7 +33,7 @@ public class Dundeonblockpol2Block extends AnalCraftModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(50f, 10f).lightValue(15));
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(-1, 3600000).lightValue(15));
 			setRegistryName("dundeonblockpol_2");
 		}
 
