@@ -8,7 +8,7 @@
     "inventoryOffsetX": 0,
     "inventoryOffsetY": 0,
     "renderBgLayer": true,
-    "doesPauseGame": false,
+    "doesPauseGame": true,
     "components": [
       {
         "type": "image",
@@ -226,6 +226,20 @@
           "name": "или в сундуках.",
           "x": 105,
           "y": 179
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Назад",
+          "onClick": {
+            "name": "NaGlavnuiu"
+          },
+          "width": 50,
+          "height": 20,
+          "name": "Назад",
+          "x": 87,
+          "y": 215
         }
       }
     ]

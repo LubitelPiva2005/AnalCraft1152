@@ -2829,66 +2829,6 @@
       "registry_name": "penisstolb"
     },
     {
-      "name": "Guidebook3",
-      "type": "gui",
-      "sortid": 245,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "guidebook_3"
-    },
-    {
-      "name": "Guidebook4",
-      "type": "gui",
-      "sortid": 247,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "guidebook_4"
-    },
-    {
-      "name": "Opengui1",
-      "type": "procedure",
-      "sortid": 244,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "opengui_1",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Guidebook2",
-      "type": "gui",
-      "sortid": 242,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "guidebook_2"
-    },
-    {
       "name": "AnalCraftMusic",
       "type": "tab",
       "sortid": 234,
@@ -2896,15 +2836,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "anal_craft_music"
-    },
-    {
-      "name": "Guidebook",
-      "type": "gui",
-      "sortid": 239,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "guidebook"
     },
     {
       "name": "PotomUbrat",
@@ -2916,114 +2847,6 @@
       "registry_name": "potom_ubrat"
     },
     {
-      "name": "Guidebook5",
-      "type": "gui",
-      "sortid": 249,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "guidebook_5"
-    },
-    {
-      "name": "Openpage5",
-      "type": "procedure",
-      "sortid": 249,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "openpage_5",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Guipage2",
-      "type": "procedure",
-      "sortid": 243,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "guipage_2",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Openpage3",
-      "type": "procedure",
-      "sortid": 245,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "openpage_3",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
       "name": "AnalCraftSnariazhenie",
       "type": "tab",
       "sortid": 238,
@@ -3031,39 +2854,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "anal_craft_snariazhenie"
-    },
-    {
-      "name": "Openpage4",
-      "type": "procedure",
-      "sortid": 248,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "openpage_4",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
     },
     {
       "name": "Zametki1",
@@ -3124,6 +2914,207 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "pipiskacraft"
+    },
+    {
+      "name": "Resursigui",
+      "type": "gui",
+      "sortid": 253,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "resursigui"
+    },
+    {
+      "name": "Resursiguiopen",
+      "type": "procedure",
+      "sortid": 254,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "resursiguiopen",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Edagui",
+      "type": "gui",
+      "sortid": 255,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "edagui"
+    },
+    {
+      "name": "OpedGuieda",
+      "type": "procedure",
+      "sortid": 256,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oped_guieda",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sushestvagui",
+      "type": "gui",
+      "sortid": 257,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sushestvagui"
+    },
+    {
+      "name": "Opensushestvagui",
+      "type": "procedure",
+      "sortid": 258,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opensushestvagui",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Snariazheniegui",
+      "type": "gui",
+      "sortid": 259,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "snariazheniegui"
+    },
+    {
+      "name": "Opensnargui",
+      "type": "procedure",
+      "sortid": 260,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opensnargui",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NaGlavnuiu",
+      "type": "procedure",
+      "sortid": 261,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "na_glavnuiu",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -3355,8 +3346,8 @@
   ],
   "language_map": {
     "en_us": {
-      "block.anal_craft.afayf": "Спермовая древесина",
       "item.anal_craft.slavea_spawn_egg": "Слэйвья Spawn Egg",
+      "block.anal_craft.afayf": "Спермовая древесина",
       "item.anal_craft.trusi_chestplate": "Trusi Body",
       "itemGroup.tabanal_craft_music": "AnalCraft Музыка",
       "advancements.boddofthisgymanhiv.descr": "Стань боссом этой качалки",
@@ -3366,7 +3357,7 @@
       "block.anal_craft.smalldick": "Маленький Членовик",
       "item.anal_craft.guidebookk": "Книга крафтов",
       "item.anal_craft.semen": "Сперма",
-      "item.anal_craft.streleatherman_spawn_egg": "Ван Даркхолм с луком Spawn Egg",
+      "item.anal_craft.streleatherman_spawn_egg": "Слэйв с луком Spawn Egg",
       "block.anal_craft.spermebrick": "Спермич",
       "block.anal_craft.spermazabor": "Стена из спермичей",
       "block.anal_craft.plitaspermech": "Плита из спермечей",
@@ -3428,7 +3419,7 @@
       "item.anal_craft.briemienskiie": "Бременские музыканты - Мы к вам заехали на час",
       "effect.cum": "CumСперма",
       "entity.anal_craft.slavea": "Слэйвья",
-      "block.anal_craft.nakovalnya": "Nakovalnya",
+      "block.anal_craft.nakovalnya": "Спермовальня",
       "itemGroup.tabanal_craft_blocks": "AnalCraft Блоки",
       "item.anal_craft.cumstick": "Спермопалка",
       "entity.anal_craft.semenlime": "Спермень",
@@ -3439,7 +3430,7 @@
       "subtitles.thankyousir": "",
       "item.anal_craft.spermsrm_leggings": "Spermsrm Leggings",
       "item.anal_craft.ancientseemenaxe": "Топор из древней спермы",
-      "entity.anal_craft.van": "Ван Даркхолм",
+      "entity.anal_craft.van": "Слэйв",
       "item.anal_craft.bieliv.desc": "Lil Nevermore",
       "item.anal_craft.motyliek": "Макс Корж - Мотылек",
       "item.anal_craft.motyliek.desc": "Shoshon Elegant",
@@ -3492,7 +3483,7 @@
       "item.anal_craft.torgovec_spawn_egg": "Торговец Spawn Egg",
       "item.anal_craft.knut": "Плётка",
       "subtitles.notrdam": "",
-      "entity.anal_craft.streleatherman": "Ван Даркхолм с луком",
+      "entity.anal_craft.streleatherman": "Слэйв с луком",
       "subtitles.yunostvsapogah": "",
       "subtitles.feelgood": "",
       "block.anal_craft.blackmode": "Черный булыжник",
@@ -3502,14 +3493,14 @@
       "subtitles.portalactivate": "",
       "block.anal_craft.billy": "Billy",
       "item.anal_craft.traktor.desc": "deminer",
-      "item.anal_craft.van_spawn_egg": "Ван Даркхолм Spawn Egg",
+      "item.anal_craft.van_spawn_egg": "Слэйв Spawn Egg",
       "item.anal_craft.gachi_leggings": "Штаны кожевника",
       "entity.anal_craft.ricardo": "Рикардо Милос",
       "item.anal_craft.briemienskiie.desc": "slw Gachi",
       "block.anal_craft.cumlog": "Спермовое бревно",
       "block.anal_craft.dundeonblockpol_2": "Dundeonblockpol 2",
       "subtitles.motilek": "",
-      "item.anal_craft.crystal": "Кристал спермы",
+      "item.anal_craft.crystal": "Кристалл спермы",
       "item.anal_craft.spermsrm_helmet": "Маска в сперме",
       "block.anal_craft.blackstone": "Черный камень",
       "subtitles.bondage": "",

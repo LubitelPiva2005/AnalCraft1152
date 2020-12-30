@@ -3,21 +3,31 @@
   "_type": "gui",
   "definition": {
     "type": 0,
-    "width": 310,
-    "height": 170,
+    "width": 265,
+    "height": 166,
     "inventoryOffsetX": 0,
     "inventoryOffsetY": 0,
     "renderBgLayer": true,
-    "doesPauseGame": false,
+    "doesPauseGame": true,
     "components": [
       {
         "type": "image",
         "data": {
-          "image": "magicwand.png",
+          "image": "book.png",
           "use1Xscale": false,
-          "name": "magicwand.png",
+          "name": "book.png",
           "x": 78,
-          "y": 53
+          "y": 26
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "riesursy1.png",
+          "use1Xscale": false,
+          "name": "riesursy1.png",
+          "x": 78,
+          "y": 26
         }
       },
       {
@@ -25,23 +35,13 @@
         "data": {
           "text": "Назад",
           "onClick": {
-            "name": "Openpage4"
+            "name": "NaGlavnuiu"
           },
           "width": 50,
           "height": 20,
           "name": "Назад",
-          "x": 159,
-          "y": 179
-        }
-      },
-      {
-        "type": "image",
-        "data": {
-          "image": "key.png",
-          "use1Xscale": false,
-          "name": "key.png",
-          "x": 231,
-          "y": 53
+          "x": 87,
+          "y": 215
         }
       }
     ]
