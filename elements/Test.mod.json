@@ -31,72 +31,83 @@
           "height": 20,
           "name": "Важные заметки",
           "x": 96,
-          "y": 44
+          "y": 170
         }
       },
       {
         "type": "button",
         "data": {
           "text": "Снаряжение",
+          "onClick": {
+            "name": "Opensnargui"
+          },
           "width": 75,
           "height": 20,
           "name": "Снаряжение",
           "x": 96,
-          "y": 98
+          "y": 116
         }
       },
       {
         "type": "button",
         "data": {
-          "text": "Блоки",
-          "width": 50,
-          "height": 20,
-          "name": "Блоки",
-          "x": 96,
-          "y": 125
-        }
-      },
-      {
-        "type": "button",
-        "data": {
-          "text": "Пища",
+          "text": "Еда",
+          "onClick": {
+            "name": "OpedGuieda"
+          },
           "width": 45,
           "height": 20,
-          "name": "Пища",
-          "x": 150,
-          "y": 125
-        }
-      },
-      {
-        "type": "button",
-        "data": {
-          "text": "Инструменты",
-          "width": 80,
-          "height": 20,
-          "name": "Инструменты",
+          "name": "Еда",
           "x": 96,
-          "y": 71
-        }
-      },
-      {
-        "type": "image",
-        "data": {
-          "image": "vanvanvan.png",
-          "use1Xscale": true,
-          "name": "vanvanvan.png",
-          "x": 222,
-          "y": 53
+          "y": 89
         }
       },
       {
         "type": "button",
         "data": {
           "text": "Существа",
+          "onClick": {
+            "name": "Opensushestvagui"
+          },
           "width": 65,
           "height": 20,
           "name": "Существа",
-          "x": 114,
-          "y": 152
+          "x": 96,
+          "y": 143
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "jkljrf2.png",
+          "use1Xscale": false,
+          "name": "jkljrf2.png",
+          "x": 94,
+          "y": 38
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Ресурсы",
+          "onClick": {
+            "name": "Resursiguiopen"
+          },
+          "width": 60,
+          "height": 20,
+          "name": "Ресурсы",
+          "x": 96,
+          "y": 62
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "vanvcan.png",
+          "use1Xscale": true,
+          "name": "vanvcan.png",
+          "x": 222,
+          "y": 53
         }
       }
     ]

@@ -14,7 +14,7 @@ import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
 
-import net.mcreator.analcraft.gui.Guidebook3Gui;
+import net.mcreator.analcraft.gui.ResursiguiGui;
 import net.mcreator.analcraft.AnalCraftModElements;
 
 import java.util.Map;
@@ -22,35 +22,35 @@ import java.util.Map;
 import io.netty.buffer.Unpooled;
 
 @AnalCraftModElements.ModElement.Tag
-public class Openpage3Procedure extends AnalCraftModElements.ModElement {
-	public Openpage3Procedure(AnalCraftModElements instance) {
-		super(instance, 245);
+public class ResursiguiopenProcedure extends AnalCraftModElements.ModElement {
+	public ResursiguiopenProcedure(AnalCraftModElements instance) {
+		super(instance, 254);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				System.err.println("Failed to load dependency entity for procedure Openpage3!");
+				System.err.println("Failed to load dependency entity for procedure Resursiguiopen!");
 			return;
 		}
 		if (dependencies.get("x") == null) {
 			if (!dependencies.containsKey("x"))
-				System.err.println("Failed to load dependency x for procedure Openpage3!");
+				System.err.println("Failed to load dependency x for procedure Resursiguiopen!");
 			return;
 		}
 		if (dependencies.get("y") == null) {
 			if (!dependencies.containsKey("y"))
-				System.err.println("Failed to load dependency y for procedure Openpage3!");
+				System.err.println("Failed to load dependency y for procedure Resursiguiopen!");
 			return;
 		}
 		if (dependencies.get("z") == null) {
 			if (!dependencies.containsKey("z"))
-				System.err.println("Failed to load dependency z for procedure Openpage3!");
+				System.err.println("Failed to load dependency z for procedure Resursiguiopen!");
 			return;
 		}
 		if (dependencies.get("world") == null) {
 			if (!dependencies.containsKey("world"))
-				System.err.println("Failed to load dependency world for procedure Openpage3!");
+				System.err.println("Failed to load dependency world for procedure Resursiguiopen!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
@@ -65,12 +65,12 @@ public class Openpage3Procedure extends AnalCraftModElements.ModElement {
 				NetworkHooks.openGui((ServerPlayerEntity) _ent, new INamedContainerProvider() {
 					@Override
 					public ITextComponent getDisplayName() {
-						return new StringTextComponent("Guidebook3");
+						return new StringTextComponent("Resursigui");
 					}
 
 					@Override
 					public Container createMenu(int id, PlayerInventory inventory, PlayerEntity player) {
-						return new Guidebook3Gui.GuiContainerMod(id, inventory, new PacketBuffer(Unpooled.buffer()).writeBlockPos(_bpos));
+						return new ResursiguiGui.GuiContainerMod(id, inventory, new PacketBuffer(Unpooled.buffer()).writeBlockPos(_bpos));
 					}
 				}, _bpos);
 			}

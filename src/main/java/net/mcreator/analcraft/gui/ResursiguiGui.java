@@ -29,8 +29,7 @@ import net.minecraft.client.gui.screen.inventory.ContainerScreen;
 import net.minecraft.client.gui.ScreenManager;
 import net.minecraft.client.Minecraft;
 
-import net.mcreator.analcraft.procedures.Openpage3Procedure;
-import net.mcreator.analcraft.procedures.Opengui1Procedure;
+import net.mcreator.analcraft.procedures.NaGlavnuiuProcedure;
 import net.mcreator.analcraft.AnalCraftModElements;
 import net.mcreator.analcraft.AnalCraftMod;
 
@@ -39,11 +38,11 @@ import java.util.Map;
 import java.util.HashMap;
 
 @AnalCraftModElements.ModElement.Tag
-public class Guidebook2Gui extends AnalCraftModElements.ModElement {
+public class ResursiguiGui extends AnalCraftModElements.ModElement {
 	public static HashMap guistate = new HashMap();
 	private static ContainerType<GuiContainerMod> containerType = null;
-	public Guidebook2Gui(AnalCraftModElements instance) {
-		super(instance, 242);
+	public ResursiguiGui(AnalCraftModElements instance) {
+		super(instance, 253);
 		elements.addNetworkMessage(ButtonPressedMessage.class, ButtonPressedMessage::buffer, ButtonPressedMessage::new,
 				ButtonPressedMessage::handler);
 		elements.addNetworkMessage(GUISlotChangedMessage.class, GUISlotChangedMessage::buffer, GUISlotChangedMessage::new,
@@ -59,7 +58,7 @@ public class Guidebook2Gui extends AnalCraftModElements.ModElement {
 
 	@SubscribeEvent
 	public void registerContainer(RegistryEvent.Register<ContainerType<?>> event) {
-		event.getRegistry().register(containerType.setRegistryName("guidebook_2"));
+		event.getRegistry().register(containerType.setRegistryName("resursigui"));
 	}
 	public static class GuiContainerModFactory implements IContainerFactory {
 		public GuiContainerMod create(int id, PlayerInventory inv, PacketBuffer extraData) {
@@ -110,15 +109,15 @@ public class Guidebook2Gui extends AnalCraftModElements.ModElement {
 			this.y = container.y;
 			this.z = container.z;
 			this.entity = container.entity;
-			this.xSize = 310;
-			this.ySize = 170;
+			this.xSize = 265;
+			this.ySize = 166;
 		}
 
 		@Override
 		public boolean isPauseScreen() {
 			return true;
 		}
-		private static final ResourceLocation texture = new ResourceLocation("anal_craft:textures/guidebook_2.png");
+		private static final ResourceLocation texture = new ResourceLocation("anal_craft:textures/resursigui.png");
 		@Override
 		public void render(int mouseX, int mouseY, float partialTicks) {
 			this.renderBackground();
@@ -133,14 +132,10 @@ public class Guidebook2Gui extends AnalCraftModElements.ModElement {
 			int k = (this.width - this.xSize) / 2;
 			int l = (this.height - this.ySize) / 2;
 			this.blit(k, l, 0, 0, this.xSize, this.ySize, this.xSize, this.ySize);
-			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("anal_craft:textures/spermesword.png"));
-			this.blit(this.guiLeft + 19, this.guiTop + 18, 0, 0, 120, 58, 120, 58);
-			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("anal_craft:textures/10000.png"));
-			this.blit(this.guiLeft + 172, this.guiTop + 18, 0, 0, 120, 58, 120, 58);
-			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("anal_craft:textures/300.png"));
-			this.blit(this.guiLeft + 19, this.guiTop + 90, 0, 0, 120, 58, 120, 58);
-			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("anal_craft:textures/essen.png"));
-			this.blit(this.guiLeft + 172, this.guiTop + 90, 0, 0, 120, 58, 120, 58);
+			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("anal_craft:textures/book.png"));
+			this.blit(this.guiLeft + -3, this.guiTop + -11, 0, 0, 271, 180, 271, 180);
+			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("anal_craft:textures/riesursy1.png"));
+			this.blit(this.guiLeft + -3, this.guiTop + -11, 0, 0, 271, 180, 271, 180);
 		}
 
 		@Override
@@ -171,13 +166,9 @@ public class Guidebook2Gui extends AnalCraftModElements.ModElement {
 		public void init(Minecraft minecraft, int width, int height) {
 			super.init(minecraft, width, height);
 			minecraft.keyboardListener.enableRepeatEvents(true);
-			this.addButton(new Button(this.guiLeft + 100, this.guiTop + 144, 50, 20, "Назад", e -> {
+			this.addButton(new Button(this.guiLeft + 6, this.guiTop + 178, 50, 20, "Назад", e -> {
 				AnalCraftMod.PACKET_HANDLER.sendToServer(new ButtonPressedMessage(0, x, y, z));
 				handleButtonAction(entity, 0, x, y, z);
-			}));
-			this.addButton(new Button(this.guiLeft + 244, this.guiTop + 144, 55, 20, "Дальше", e -> {
-				AnalCraftMod.PACKET_HANDLER.sendToServer(new ButtonPressedMessage(1, x, y, z));
-				handleButtonAction(entity, 1, x, y, z);
 			}));
 		}
 	}
@@ -276,18 +267,7 @@ public class Guidebook2Gui extends AnalCraftModElements.ModElement {
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-				Opengui1Procedure.executeProcedure($_dependencies);
-			}
-		}
-		if (buttonID == 1) {
-			{
-				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("entity", entity);
-				$_dependencies.put("x", x);
-				$_dependencies.put("y", y);
-				$_dependencies.put("z", z);
-				$_dependencies.put("world", world);
-				Openpage3Procedure.executeProcedure($_dependencies);
+				NaGlavnuiuProcedure.executeProcedure($_dependencies);
 			}
 		}
 	}
