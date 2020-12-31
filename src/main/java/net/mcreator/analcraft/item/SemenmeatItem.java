@@ -33,7 +33,7 @@ public class SemenmeatItem extends AnalCraftModElements.ModElement {
 	public static class FoodItemCustom extends Item {
 		public FoodItemCustom() {
 			super(new Item.Properties().group(ANALTABItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON)
-					.food((new Food.Builder()).hunger(10).saturation(1.1f).setAlwaysEdible().meat().build()));
+					.food((new Food.Builder()).hunger(10).saturation(1.1f).meat().build()));
 			setRegistryName("semenmeat");
 		}
 

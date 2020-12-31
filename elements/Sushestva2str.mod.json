@@ -33,6 +33,16 @@
           "x": 87,
           "y": 215
         }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "sush2.png",
+          "use1Xscale": false,
+          "name": "sush2.png",
+          "x": 78,
+          "y": 26
+        }
       }
     ]
   }

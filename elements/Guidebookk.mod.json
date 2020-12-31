@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "knowledge_book",
+    "texture": "book",
     "customModelName": "Normal",
     "name": "Книга крафтов",
     "rarity": "COMMON",

@@ -3,27 +3,24 @@
   "_type": "food",
   "definition": {
     "renderType": 0,
-    "texture": "semenmeat",
+    "texture": "11spermeaat",
     "customModelName": "Normal",
-    "name": "Свинина в cперме",
+    "name": "Сырая свинина в сперме",
     "rarity": "COMMON",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:ANALTAB"
     },
     "stackSize": 64,
-    "nutritionalValue": 10,
-    "saturation": 1.1,
-    "eatingSpeed": 42,
+    "nutritionalValue": 2,
+    "saturation": 0.3,
+    "eatingSpeed": 32,
     "resultItem": {
       "value": ""
     },
     "forDogs": true,
     "isAlwaysEdible": false,
     "animation": "eat",
-    "hasGlow": false,
-    "onEaten": {
-      "name": "SemenmeatFoodEaten"
-    }
+    "hasGlow": false
   }
 }

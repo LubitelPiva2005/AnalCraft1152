@@ -129,6 +129,8 @@ public class Sushestva2strGui extends AnalCraftModElements.ModElement {
 			this.blit(k, l, 0, 0, this.xSize, this.ySize, this.xSize, this.ySize);
 			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("anal_craft:textures/book.png"));
 			this.blit(this.guiLeft + -3, this.guiTop + -11, 0, 0, 271, 180, 271, 180);
+			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("anal_craft:textures/sush2.png"));
+			this.blit(this.guiLeft + -3, this.guiTop + -11, 0, 0, 271, 180, 271, 180);
 		}
 
 		@Override
