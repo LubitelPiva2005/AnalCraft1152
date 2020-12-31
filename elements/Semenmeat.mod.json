@@ -3,7 +3,7 @@
   "_type": "food",
   "definition": {
     "renderType": 0,
-    "texture": "semenmeat",
+    "texture": "jarenayasvinina",
     "customModelName": "Normal",
     "name": "Свинина в cперме",
     "rarity": "COMMON",

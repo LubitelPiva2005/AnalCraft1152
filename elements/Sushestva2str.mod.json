@@ -43,6 +43,16 @@
           "x": 78,
           "y": 26
         }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "sush2correct.png",
+          "use1Xscale": false,
+          "name": "sush2correct.png",
+          "x": 78,
+          "y": 26
+        }
       }
     ]
   }

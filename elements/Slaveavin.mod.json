@@ -28,7 +28,7 @@
           {
             "type": "item",
             "item": {
-              "value": "Items.BEEF"
+              "value": "Items.PORKCHOP"
             },
             "weight": 100,
             "minCount": 1,

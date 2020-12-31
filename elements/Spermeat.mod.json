@@ -3,7 +3,7 @@
   "_type": "food",
   "definition": {
     "renderType": 0,
-    "texture": "11spermeaat",
+    "texture": "svinina",
     "customModelName": "Normal",
     "name": "Сырая свинина в сперме",
     "rarity": "COMMON",

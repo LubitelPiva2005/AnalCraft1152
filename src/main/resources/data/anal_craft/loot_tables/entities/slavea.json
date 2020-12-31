@@ -20,7 +20,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:beef",
+          "name": "minecraft:porkchop",
           "weight": 100,
           "functions": [
             {
