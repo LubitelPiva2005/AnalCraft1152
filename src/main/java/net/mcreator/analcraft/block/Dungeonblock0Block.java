@@ -12,29 +12,30 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.analcraft.itemgroup.PotomUbratItemGroup;
+import net.mcreator.analcraft.itemgroup.AnalCraftBlocksItemGroup;
 import net.mcreator.analcraft.AnalCraftModElements;
 
 import java.util.List;
 import java.util.Collections;
 
 @AnalCraftModElements.ModElement.Tag
-public class DungeonblockpolBlock extends AnalCraftModElements.ModElement {
-	@ObjectHolder("anal_craft:dungeonblockpol")
+public class Dungeonblock0Block extends AnalCraftModElements.ModElement {
+	@ObjectHolder("anal_craft:dungeonblock_0")
 	public static final Block block = null;
-	public DungeonblockpolBlock(AnalCraftModElements instance) {
-		super(instance, 224);
+	public Dungeonblock0Block(AnalCraftModElements instance) {
+		super(instance, 271);
 	}
 
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(PotomUbratItemGroup.tab)).setRegistryName(block.getRegistryName()));
+		elements.items
+				.add(() -> new BlockItem(block, new Item.Properties().group(AnalCraftBlocksItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(-1, 3600000).lightValue(15));
-			setRegistryName("dungeonblockpol");
+			setRegistryName("dungeonblock_0");
 		}
 
 		@Override

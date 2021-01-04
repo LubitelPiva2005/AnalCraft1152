@@ -35,11 +35,11 @@ import java.util.Map;
 import java.util.HashMap;
 
 @AnalCraftModElements.ModElement.Tag
-public class Zametkigui1Gui extends AnalCraftModElements.ModElement {
+public class RukovodstvogyiGui extends AnalCraftModElements.ModElement {
 	public static HashMap guistate = new HashMap();
 	private static ContainerType<GuiContainerMod> containerType = null;
-	public Zametkigui1Gui(AnalCraftModElements instance) {
-		super(instance, 252);
+	public RukovodstvogyiGui(AnalCraftModElements instance) {
+		super(instance, 269);
 		elements.addNetworkMessage(ButtonPressedMessage.class, ButtonPressedMessage::buffer, ButtonPressedMessage::new,
 				ButtonPressedMessage::handler);
 		elements.addNetworkMessage(GUISlotChangedMessage.class, GUISlotChangedMessage::buffer, GUISlotChangedMessage::new,
@@ -55,7 +55,7 @@ public class Zametkigui1Gui extends AnalCraftModElements.ModElement {
 
 	@SubscribeEvent
 	public void registerContainer(RegistryEvent.Register<ContainerType<?>> event) {
-		event.getRegistry().register(containerType.setRegistryName("zametkigui_1"));
+		event.getRegistry().register(containerType.setRegistryName("rukovodstvogyi"));
 	}
 	public static class GuiContainerModFactory implements IContainerFactory {
 		public GuiContainerMod create(int id, PlayerInventory inv, PacketBuffer extraData) {
@@ -109,7 +109,7 @@ public class Zametkigui1Gui extends AnalCraftModElements.ModElement {
 			this.xSize = 176;
 			this.ySize = 166;
 		}
-		private static final ResourceLocation texture = new ResourceLocation("anal_craft:textures/zametkigui_1.png");
+		private static final ResourceLocation texture = new ResourceLocation("anal_craft:textures/rukovodstvogyi.png");
 		@Override
 		public void render(int mouseX, int mouseY, float partialTicks) {
 			this.renderBackground();
@@ -144,27 +144,6 @@ public class Zametkigui1Gui extends AnalCraftModElements.ModElement {
 
 		@Override
 		protected void drawGuiContainerForegroundLayer(int mouseX, int mouseY) {
-			this.font.drawString("\u0412 \u0434\u0430\u043D\u043D\u043E\u043C \u0440\u0430\u0437\u0434\u0435\u043B\u0435", -29, 7, -12829636);
-			this.font.drawString("\u0431\u0443\u0434\u0435\u0442 \u043F\u043E\u044F\u0432\u043B\u044F\u0442\u044C\u0441\u044F", -29, 16, -12829636);
-			this.font.drawString("\u043E\u043F\u0438\u0441\u0430\u043D\u0438\u0435 \u043E\u0441\u043D\u043E\u0432\u043D\u044B\u0445", -29, 25,
-					-12829636);
-			this.font.drawString("\u044D\u043B\u0435\u043C\u0435\u043D\u0442\u043E\u0432 \u0438\u0433\u0440\u043E\u0432\u043E\u0433\u043E", -29, 34,
-					-12829636);
-			this.font.drawString("\u043F\u0440\u043E\u0446\u0435\u0441\u0441\u0430.", -29, 43, -12829636);
-			this.font.drawString("\u041D\u0435 \u0432\u0441\u0435 \u0442\u0430\u0439\u043D\u044B \u044D\u0442\u043E\u0433\u043E", -29, 52, -12829636);
-			this.font.drawString("\u043F\u0440\u0435\u043A\u0440\u0430\u0441\u043D\u043E\u0433\u043E \u043C\u0438\u0440\u0430", -29, 61, -12829636);
-			this.font.drawString("\u0441\u0440\u0430\u0437\u0443 \u043E\u0442\u043A\u0440\u044B\u0442\u044B \u0434\u043B\u044F \u0432\u0430\u0441,",
-					-29, 70, -12829636);
-			this.font.drawString("\u0447\u0442\u043E\u0431\u044B \u0434\u043E\u0431\u0430\u0432\u0438\u0442\u044C", -29, 79, -12829636);
-			this.font.drawString("\u043D\u043E\u0432\u0443\u044E \u0441\u0442\u0440\u0430\u043D\u0438\u0446\u0443", -29, 88, -12829636);
-			this.font.drawString("\u043F\u043E\u043B\u043E\u0436\u0438\u0442\u0435 \u0432 \u043A\u0440\u0430\u0444\u0442\u043E\u0432\u043E\u0435",
-					-29, 97, -12829636);
-			this.font.drawString("\u043E\u043A\u043E\u0448\u043A\u043E \u043A\u043D\u0438\u0433\u0443 \u0441", -29, 106, -12829636);
-			this.font.drawString("\u043D\u0430\u0439\u0434\u0435\u043D\u043E\u0439 \u0437\u0430\u043F\u0438\u0441\u044C\u044E.", -29, 115, -12829636);
-			this.font.drawString("\u0427\u0430\u0441\u0442\u0438 \u0441\u0442\u0440\u0430\u043D\u0438\u0446 \u043C\u043E\u0436\u043D\u043E", -29, 124,
-					-12829636);
-			this.font.drawString("\u0431\u0443\u0434\u0435\u0442 \u043D\u0430\u0439\u0442\u0438 \u0443 \u043D\u043F\u0441", -29, 133, -12829636);
-			this.font.drawString("\u0438\u043B\u0438 \u0432 \u0441\u0443\u043D\u0434\u0443\u043A\u0430\u0445.", -20, 142, -12829636);
 		}
 
 		@Override

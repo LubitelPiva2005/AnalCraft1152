@@ -5,8 +5,8 @@
     "renderType": 0,
     "texture": "book",
     "customModelName": "Normal",
-    "name": "Книга крафтов",
-    "rarity": "COMMON",
+    "name": "AnalCraft",
+    "rarity": "RARE",
     "creativeTab": {
       "value": "CUSTOM:ANALTAB"
     },
