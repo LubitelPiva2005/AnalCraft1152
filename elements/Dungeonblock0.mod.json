@@ -24,14 +24,14 @@
     "Mx": 1.0,
     "My": 1.0,
     "Mz": 1.0,
-    "name": "Dungeonblockpol",
+    "name": "Dungeonblock 0",
     "specialInfo": [],
-    "hardness": 50.0,
+    "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:PotomUbrat"
+      "value": "CUSTOM:AnalCraftBlocks"
     },
     "destroyTool": "Not specified",
     "customDrop": {
@@ -67,7 +67,7 @@
     },
     "luminance": 1.0,
     "unbreakable": true,
-    "breakHarvestLevel": 50,
+    "breakHarvestLevel": 1,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"

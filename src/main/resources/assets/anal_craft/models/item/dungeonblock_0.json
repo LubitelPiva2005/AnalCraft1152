@@ -1,5 +1,5 @@
 {
-  "parent": "anal_craft:block/dungeonblockpol",
+  "parent": "anal_craft:block/dungeonblock_0",
   "display": {
     "thirdperson": {
       "rotation": [

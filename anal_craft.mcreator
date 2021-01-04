@@ -2627,15 +2627,6 @@
       }
     },
     {
-      "name": "Dungeonblockpol",
-      "type": "block",
-      "sortid": 224,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "dungeonblockpol"
-    },
-    {
       "name": "Dungeonblock",
       "type": "block",
       "sortid": 225,
@@ -2856,39 +2847,6 @@
       "registry_name": "anal_craft_snariazhenie"
     },
     {
-      "name": "Zametki1",
-      "type": "procedure",
-      "sortid": 251,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "zametki_1",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
       "name": "Test",
       "type": "gui",
       "sortid": 250,
@@ -2896,15 +2854,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "test"
-    },
-    {
-      "name": "Zametkigui1",
-      "type": "gui",
-      "sortid": 252,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "zametkigui_1"
     },
     {
       "name": "Pipiskacraft",
@@ -3263,6 +3212,57 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "slaveavin"
+    },
+    {
+      "name": "Rukovodstvogyi",
+      "type": "gui",
+      "sortid": 269,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rukovodstvogyi"
+    },
+    {
+      "name": "Rukovodstvoopien",
+      "type": "procedure",
+      "sortid": 270,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rukovodstvoopien",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dungeonblock0",
+      "type": "block",
+      "sortid": 271,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dungeonblock_0"
     }
   ],
   "variable_elements": [],
@@ -3494,16 +3494,17 @@
   ],
   "language_map": {
     "en_us": {
-      "block.anal_craft.afayf": "Спермовая древесина",
       "item.anal_craft.slavea_spawn_egg": "Слэйвья Spawn Egg",
+      "block.anal_craft.afayf": "Спермовая древесина",
       "item.anal_craft.trusi_chestplate": "Trusi Body",
       "itemGroup.tabanal_craft_music": "AnalCraft Музыка",
+      "block.anal_craft.dungeonblock_0": "Dungeonblock 0",
       "advancements.boddofthisgymanhiv.descr": "Стань боссом этой качалки",
       "block.anal_craft.ancientseemen": "Древняя сперма",
       "item.anal_craft.sliceoldcum": "Кусочек древней спермы",
       "block.anal_craft.kusokspermiblock": "Кусочек спермы",
       "block.anal_craft.smalldick": "Маленький Членовик",
-      "item.anal_craft.guidebookk": "Книга крафтов",
+      "item.anal_craft.guidebookk": "AnalCraft",
       "item.anal_craft.semen": "Сперма",
       "item.anal_craft.streleatherman_spawn_egg": "Слэйв с луком Spawn Egg",
       "block.anal_craft.spermebrick": "Спермич",
@@ -3585,7 +3586,7 @@
       "item.anal_craft.motyliek.desc": "Shoshon Elegant",
       "item.minecraft.tipped_arrow.effect.cum": "Arrow of Сперма",
       "item.anal_craft.marionetka": "Король и Шут - Марионетки",
-      "item.anal_craft.plastina_2": " Тайный свиток jabroni",
+      "item.anal_craft.plastina_2": "Тайный свиток jabroni",
       "item.anal_craft.plastina_1": "Осколок плиты",
       "item.anal_craft.zasokhshaiaspierma": "Засохшая сперма",
       "block.anal_craft.portalblock": "Активированый портал",
@@ -3627,7 +3628,6 @@
       "item.minecraft.lingering_potion.effect.cum": "Lingering Сперма",
       "subtitles.oficeri": "",
       "subtitles.zozh": "",
-      "block.anal_craft.dungeonblockpol": "Dungeonblockpol",
       "subtitles.aaaaaaa": "",
       "item.anal_craft.torgovec_spawn_egg": "Торговец Spawn Egg",
       "item.anal_craft.knut": "Плётка",

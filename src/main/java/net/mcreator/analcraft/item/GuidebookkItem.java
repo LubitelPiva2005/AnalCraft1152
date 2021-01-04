@@ -69,7 +69,7 @@ public class GuidebookkItem extends AnalCraftModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ANALTABItemGroup.tab).maxStackSize(1).rarity(Rarity.COMMON));
+			super(new Item.Properties().group(ANALTABItemGroup.tab).maxStackSize(1).rarity(Rarity.RARE));
 			setRegistryName("guidebookk");
 		}
 
@@ -99,7 +99,7 @@ public class GuidebookkItem extends AnalCraftModElements.ModElement {
 				NetworkHooks.openGui((ServerPlayerEntity) entity, new INamedContainerProvider() {
 					@Override
 					public ITextComponent getDisplayName() {
-						return new StringTextComponent("Книга крафтов");
+						return new StringTextComponent("AnalCraft");
 					}
 
 					@Override

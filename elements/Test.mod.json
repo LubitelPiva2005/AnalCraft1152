@@ -23,48 +23,6 @@
       {
         "type": "button",
         "data": {
-          "text": "Важные заметки",
-          "onClick": {
-            "name": "Zametki1"
-          },
-          "width": 95,
-          "height": 20,
-          "name": "Важные заметки",
-          "x": 96,
-          "y": 170
-        }
-      },
-      {
-        "type": "button",
-        "data": {
-          "text": "Снаряжение",
-          "onClick": {
-            "name": "Opensnargui"
-          },
-          "width": 75,
-          "height": 20,
-          "name": "Снаряжение",
-          "x": 96,
-          "y": 116
-        }
-      },
-      {
-        "type": "button",
-        "data": {
-          "text": "Еда",
-          "onClick": {
-            "name": "OpedGuieda"
-          },
-          "width": 45,
-          "height": 20,
-          "name": "Еда",
-          "x": 96,
-          "y": 89
-        }
-      },
-      {
-        "type": "button",
-        "data": {
           "text": "Существа",
           "onClick": {
             "name": "Opensushestvagui"
@@ -73,7 +31,7 @@
           "height": 20,
           "name": "Существа",
           "x": 96,
-          "y": 143
+          "y": 170
         }
       },
       {
@@ -87,20 +45,6 @@
         }
       },
       {
-        "type": "button",
-        "data": {
-          "text": "Ресурсы",
-          "onClick": {
-            "name": "Resursiguiopen"
-          },
-          "width": 60,
-          "height": 20,
-          "name": "Ресурсы",
-          "x": 96,
-          "y": 62
-        }
-      },
-      {
         "type": "image",
         "data": {
           "image": "vanvcan.png",
@@ -108,6 +52,56 @@
           "name": "vanvcan.png",
           "x": 222,
           "y": 53
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Базовые ресурсы",
+          "onClick": {
+            "name": "Resursiguiopen"
+          },
+          "width": 100,
+          "height": 20,
+          "name": "Базовые ресурсы",
+          "x": 96,
+          "y": 143
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Руководство",
+          "onClick": {
+            "name": "Rukovodstvoopien"
+          },
+          "width": 80,
+          "height": 20,
+          "name": "Руководство",
+          "x": 96,
+          "y": 62
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Рецепты крафта",
+          "width": 95,
+          "height": 20,
+          "name": "Рецепты крафта",
+          "x": 96,
+          "y": 116
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Записи игрока",
+          "width": 90,
+          "height": 20,
+          "name": "Записи игрока",
+          "x": 96,
+          "y": 89
         }
       }
     ]

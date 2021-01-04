@@ -29,11 +29,9 @@ import net.minecraft.client.gui.screen.inventory.ContainerScreen;
 import net.minecraft.client.gui.ScreenManager;
 import net.minecraft.client.Minecraft;
 
-import net.mcreator.analcraft.procedures.Zametki1Procedure;
+import net.mcreator.analcraft.procedures.RukovodstvoopienProcedure;
 import net.mcreator.analcraft.procedures.ResursiguiopenProcedure;
 import net.mcreator.analcraft.procedures.OpensushestvaguiProcedure;
-import net.mcreator.analcraft.procedures.OpensnarguiProcedure;
-import net.mcreator.analcraft.procedures.OpedGuiedaProcedure;
 import net.mcreator.analcraft.AnalCraftModElements;
 import net.mcreator.analcraft.AnalCraftMod;
 
@@ -167,23 +165,23 @@ public class TestGui extends AnalCraftModElements.ModElement {
 		public void init(Minecraft minecraft, int width, int height) {
 			super.init(minecraft, width, height);
 			minecraft.keyboardListener.enableRepeatEvents(true);
-			this.addButton(new Button(this.guiLeft + 15, this.guiTop + 133, 95, 20, "Важные заметки", e -> {
+			this.addButton(new Button(this.guiLeft + 15, this.guiTop + 133, 65, 20, "Существа", e -> {
 				AnalCraftMod.PACKET_HANDLER.sendToServer(new ButtonPressedMessage(0, x, y, z));
 				handleButtonAction(entity, 0, x, y, z);
 			}));
-			this.addButton(new Button(this.guiLeft + 15, this.guiTop + 79, 75, 20, "Снаряжение", e -> {
+			this.addButton(new Button(this.guiLeft + 15, this.guiTop + 106, 100, 20, "Базовые ресурсы", e -> {
 				AnalCraftMod.PACKET_HANDLER.sendToServer(new ButtonPressedMessage(1, x, y, z));
 				handleButtonAction(entity, 1, x, y, z);
 			}));
-			this.addButton(new Button(this.guiLeft + 15, this.guiTop + 52, 45, 20, "Еда", e -> {
+			this.addButton(new Button(this.guiLeft + 15, this.guiTop + 25, 80, 20, "Руководство", e -> {
 				AnalCraftMod.PACKET_HANDLER.sendToServer(new ButtonPressedMessage(2, x, y, z));
 				handleButtonAction(entity, 2, x, y, z);
 			}));
-			this.addButton(new Button(this.guiLeft + 15, this.guiTop + 106, 65, 20, "Существа", e -> {
+			this.addButton(new Button(this.guiLeft + 15, this.guiTop + 79, 95, 20, "Рецепты крафта", e -> {
 				AnalCraftMod.PACKET_HANDLER.sendToServer(new ButtonPressedMessage(3, x, y, z));
 				handleButtonAction(entity, 3, x, y, z);
 			}));
-			this.addButton(new Button(this.guiLeft + 15, this.guiTop + 25, 60, 20, "Ресурсы", e -> {
+			this.addButton(new Button(this.guiLeft + 15, this.guiTop + 52, 90, 20, "Записи игрока", e -> {
 				AnalCraftMod.PACKET_HANDLER.sendToServer(new ButtonPressedMessage(4, x, y, z));
 				handleButtonAction(entity, 4, x, y, z);
 			}));
@@ -284,7 +282,7 @@ public class TestGui extends AnalCraftModElements.ModElement {
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-				Zametki1Procedure.executeProcedure($_dependencies);
+				OpensushestvaguiProcedure.executeProcedure($_dependencies);
 			}
 		}
 		if (buttonID == 1) {
@@ -295,7 +293,7 @@ public class TestGui extends AnalCraftModElements.ModElement {
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-				OpensnarguiProcedure.executeProcedure($_dependencies);
+				ResursiguiopenProcedure.executeProcedure($_dependencies);
 			}
 		}
 		if (buttonID == 2) {
@@ -306,29 +304,7 @@ public class TestGui extends AnalCraftModElements.ModElement {
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-				OpedGuiedaProcedure.executeProcedure($_dependencies);
-			}
-		}
-		if (buttonID == 3) {
-			{
-				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("entity", entity);
-				$_dependencies.put("x", x);
-				$_dependencies.put("y", y);
-				$_dependencies.put("z", z);
-				$_dependencies.put("world", world);
-				OpensushestvaguiProcedure.executeProcedure($_dependencies);
-			}
-		}
-		if (buttonID == 4) {
-			{
-				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("entity", entity);
-				$_dependencies.put("x", x);
-				$_dependencies.put("y", y);
-				$_dependencies.put("z", z);
-				$_dependencies.put("world", world);
-				ResursiguiopenProcedure.executeProcedure($_dependencies);
+				RukovodstvoopienProcedure.executeProcedure($_dependencies);
 			}
 		}
 	}
