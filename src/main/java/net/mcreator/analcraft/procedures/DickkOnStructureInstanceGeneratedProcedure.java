@@ -59,7 +59,7 @@ public class DickkOnStructureInstanceGeneratedProcedure extends AnalCraftModElem
 										.getDefaultState().getBlock())))))) {
 			if (!world.getWorld().isRemote) {
 				Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
-						.getTemplateDefaulted(new ResourceLocation("anal_craft", "3"));
+						.getTemplateDefaulted(new ResourceLocation("anal_craft", "penpenis"));
 				if (template != null) {
 					template.addBlocksToWorld(world, new BlockPos((int) x, (int) y, (int) z),
 							new PlacementSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setChunk(null).setIgnoreEntities(false));
