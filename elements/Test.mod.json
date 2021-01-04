@@ -97,6 +97,9 @@
         "type": "button",
         "data": {
           "text": "Записи игрока",
+          "onClick": {
+            "name": "Zapisgui1"
+          },
           "width": 90,
           "height": 20,
           "name": "Записи игрока",

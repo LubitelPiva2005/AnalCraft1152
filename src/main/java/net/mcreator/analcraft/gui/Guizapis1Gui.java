@@ -24,28 +24,22 @@ import net.minecraft.inventory.container.ContainerType;
 import net.minecraft.inventory.container.Container;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.client.gui.widget.button.Button;
 import net.minecraft.client.gui.screen.inventory.ContainerScreen;
 import net.minecraft.client.gui.ScreenManager;
 import net.minecraft.client.Minecraft;
 
-import net.mcreator.analcraft.procedures.Zapisgui1Procedure;
-import net.mcreator.analcraft.procedures.RukovodstvoopienProcedure;
-import net.mcreator.analcraft.procedures.ResursiguiopenProcedure;
-import net.mcreator.analcraft.procedures.OpensushestvaguiProcedure;
 import net.mcreator.analcraft.AnalCraftModElements;
-import net.mcreator.analcraft.AnalCraftMod;
 
 import java.util.function.Supplier;
 import java.util.Map;
 import java.util.HashMap;
 
 @AnalCraftModElements.ModElement.Tag
-public class TestGui extends AnalCraftModElements.ModElement {
+public class Guizapis1Gui extends AnalCraftModElements.ModElement {
 	public static HashMap guistate = new HashMap();
 	private static ContainerType<GuiContainerMod> containerType = null;
-	public TestGui(AnalCraftModElements instance) {
-		super(instance, 250);
+	public Guizapis1Gui(AnalCraftModElements instance) {
+		super(instance, 272);
 		elements.addNetworkMessage(ButtonPressedMessage.class, ButtonPressedMessage::buffer, ButtonPressedMessage::new,
 				ButtonPressedMessage::handler);
 		elements.addNetworkMessage(GUISlotChangedMessage.class, GUISlotChangedMessage::buffer, GUISlotChangedMessage::new,
@@ -61,7 +55,7 @@ public class TestGui extends AnalCraftModElements.ModElement {
 
 	@SubscribeEvent
 	public void registerContainer(RegistryEvent.Register<ContainerType<?>> event) {
-		event.getRegistry().register(containerType.setRegistryName("test"));
+		event.getRegistry().register(containerType.setRegistryName("guizapis_1"));
 	}
 	public static class GuiContainerModFactory implements IContainerFactory {
 		public GuiContainerMod create(int id, PlayerInventory inv, PacketBuffer extraData) {
@@ -112,10 +106,10 @@ public class TestGui extends AnalCraftModElements.ModElement {
 			this.y = container.y;
 			this.z = container.z;
 			this.entity = container.entity;
-			this.xSize = 265;
+			this.xSize = 176;
 			this.ySize = 166;
 		}
-		private static final ResourceLocation texture = new ResourceLocation("anal_craft:textures/test.png");
+		private static final ResourceLocation texture = new ResourceLocation("anal_craft:textures/guizapis_1.png");
 		@Override
 		public void render(int mouseX, int mouseY, float partialTicks) {
 			this.renderBackground();
@@ -130,12 +124,8 @@ public class TestGui extends AnalCraftModElements.ModElement {
 			int k = (this.width - this.xSize) / 2;
 			int l = (this.height - this.ySize) / 2;
 			this.blit(k, l, 0, 0, this.xSize, this.ySize, this.xSize, this.ySize);
-			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("anal_craft:textures/book.png"));
-			this.blit(this.guiLeft + -3, this.guiTop + -11, 0, 0, 271, 180, 271, 180);
-			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("anal_craft:textures/jkljrf2.png"));
-			this.blit(this.guiLeft + 13, this.guiTop + 1, 0, 0, 114, 17, 114, 17);
-			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("anal_craft:textures/vanvcan.png"));
-			this.blit(this.guiLeft + 141, this.guiTop + 16, 0, 0, 101, 145, 101, 145);
+			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("anal_craft:textures/guizapis1.png"));
+			this.blit(this.guiLeft + -47, this.guiTop + -11, 0, 0, 271, 180, 271, 180);
 		}
 
 		@Override
@@ -166,26 +156,6 @@ public class TestGui extends AnalCraftModElements.ModElement {
 		public void init(Minecraft minecraft, int width, int height) {
 			super.init(minecraft, width, height);
 			minecraft.keyboardListener.enableRepeatEvents(true);
-			this.addButton(new Button(this.guiLeft + 15, this.guiTop + 133, 65, 20, "Существа", e -> {
-				AnalCraftMod.PACKET_HANDLER.sendToServer(new ButtonPressedMessage(0, x, y, z));
-				handleButtonAction(entity, 0, x, y, z);
-			}));
-			this.addButton(new Button(this.guiLeft + 15, this.guiTop + 106, 100, 20, "Базовые ресурсы", e -> {
-				AnalCraftMod.PACKET_HANDLER.sendToServer(new ButtonPressedMessage(1, x, y, z));
-				handleButtonAction(entity, 1, x, y, z);
-			}));
-			this.addButton(new Button(this.guiLeft + 15, this.guiTop + 25, 80, 20, "Руководство", e -> {
-				AnalCraftMod.PACKET_HANDLER.sendToServer(new ButtonPressedMessage(2, x, y, z));
-				handleButtonAction(entity, 2, x, y, z);
-			}));
-			this.addButton(new Button(this.guiLeft + 15, this.guiTop + 79, 95, 20, "Рецепты крафта", e -> {
-				AnalCraftMod.PACKET_HANDLER.sendToServer(new ButtonPressedMessage(3, x, y, z));
-				handleButtonAction(entity, 3, x, y, z);
-			}));
-			this.addButton(new Button(this.guiLeft + 15, this.guiTop + 52, 90, 20, "Записи игрока", e -> {
-				AnalCraftMod.PACKET_HANDLER.sendToServer(new ButtonPressedMessage(4, x, y, z));
-				handleButtonAction(entity, 4, x, y, z);
-			}));
 		}
 	}
 
@@ -275,50 +245,6 @@ public class TestGui extends AnalCraftModElements.ModElement {
 		// security measure to prevent arbitrary chunk generation
 		if (!world.isBlockLoaded(new BlockPos(x, y, z)))
 			return;
-		if (buttonID == 0) {
-			{
-				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("entity", entity);
-				$_dependencies.put("x", x);
-				$_dependencies.put("y", y);
-				$_dependencies.put("z", z);
-				$_dependencies.put("world", world);
-				OpensushestvaguiProcedure.executeProcedure($_dependencies);
-			}
-		}
-		if (buttonID == 1) {
-			{
-				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("entity", entity);
-				$_dependencies.put("x", x);
-				$_dependencies.put("y", y);
-				$_dependencies.put("z", z);
-				$_dependencies.put("world", world);
-				ResursiguiopenProcedure.executeProcedure($_dependencies);
-			}
-		}
-		if (buttonID == 2) {
-			{
-				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("entity", entity);
-				$_dependencies.put("x", x);
-				$_dependencies.put("y", y);
-				$_dependencies.put("z", z);
-				$_dependencies.put("world", world);
-				RukovodstvoopienProcedure.executeProcedure($_dependencies);
-			}
-		}
-		if (buttonID == 4) {
-			{
-				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("entity", entity);
-				$_dependencies.put("x", x);
-				$_dependencies.put("y", y);
-				$_dependencies.put("z", z);
-				$_dependencies.put("world", world);
-				Zapisgui1Procedure.executeProcedure($_dependencies);
-			}
-		}
 	}
 
 	private static void handleSlotAction(PlayerEntity entity, int slotID, int changeType, int meta, int x, int y, int z) {

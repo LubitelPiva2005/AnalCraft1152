@@ -3263,6 +3263,48 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "dungeonblock_0"
+    },
+    {
+      "name": "Guizapis1",
+      "type": "gui",
+      "sortid": 272,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "guizapis_1"
+    },
+    {
+      "name": "Zapisgui1",
+      "type": "procedure",
+      "sortid": 273,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "zapisgui_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -3494,8 +3536,8 @@
   ],
   "language_map": {
     "en_us": {
-      "item.anal_craft.slavea_spawn_egg": "Слэйвья Spawn Egg",
       "block.anal_craft.afayf": "Спермовая древесина",
+      "item.anal_craft.slavea_spawn_egg": "Слэйвья Spawn Egg",
       "item.anal_craft.trusi_chestplate": "Trusi Body",
       "itemGroup.tabanal_craft_music": "AnalCraft Музыка",
       "block.anal_craft.dungeonblock_0": "Dungeonblock 0",

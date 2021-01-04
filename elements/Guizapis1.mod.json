@@ -1,0 +1,25 @@
+{
+  "_fv": 13,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "guizapis1.png",
+          "use1Xscale": false,
+          "name": "guizapis1.png",
+          "x": 78,
+          "y": 26
+        }
+      }
+    ]
+  }
+}
