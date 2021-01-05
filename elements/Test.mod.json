@@ -41,7 +41,7 @@
           "use1Xscale": false,
           "name": "jkljrf2.png",
           "x": 94,
-          "y": 38
+          "y": 36
         }
       },
       {
@@ -86,6 +86,9 @@
         "type": "button",
         "data": {
           "text": "Рецепты крафта",
+          "onClick": {
+            "name": "Resipeopen"
+          },
           "width": 95,
           "height": 20,
           "name": "Рецепты крафта",

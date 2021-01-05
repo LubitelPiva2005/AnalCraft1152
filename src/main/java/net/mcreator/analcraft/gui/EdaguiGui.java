@@ -29,7 +29,7 @@ import net.minecraft.client.gui.screen.inventory.ContainerScreen;
 import net.minecraft.client.gui.ScreenManager;
 import net.minecraft.client.Minecraft;
 
-import net.mcreator.analcraft.procedures.NaGlavnuiuProcedure;
+import net.mcreator.analcraft.procedures.ResipeopenProcedure;
 import net.mcreator.analcraft.AnalCraftModElements;
 import net.mcreator.analcraft.AnalCraftMod;
 
@@ -267,7 +267,7 @@ public class EdaguiGui extends AnalCraftModElements.ModElement {
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-				NaGlavnuiuProcedure.executeProcedure($_dependencies);
+				ResipeopenProcedure.executeProcedure($_dependencies);
 			}
 		}
 	}

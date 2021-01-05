@@ -1,0 +1,117 @@
+{
+  "_fv": 13,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 265,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "book.png",
+          "use1Xscale": false,
+          "name": "book.png",
+          "x": 78,
+          "y": 26
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Еда",
+          "onClick": {
+            "name": "OpedGuieda"
+          },
+          "width": 40,
+          "height": 20,
+          "name": "Еда",
+          "x": 96,
+          "y": 170
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Снаряжение",
+          "width": 75,
+          "height": 20,
+          "name": "Снаряжение",
+          "x": 96,
+          "y": 62
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Инструменты",
+          "width": 80,
+          "height": 20,
+          "name": "Инструменты",
+          "x": 96,
+          "y": 116
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Разное",
+          "width": 55,
+          "height": 20,
+          "name": "Разное",
+          "x": 96,
+          "y": 143
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "jkljrf2.png",
+          "use1Xscale": false,
+          "name": "jkljrf2.png",
+          "x": 95,
+          "y": 37
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Оружие",
+          "width": 55,
+          "height": 20,
+          "name": "Оружие",
+          "x": 96,
+          "y": 89
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "billy.png",
+          "use1Xscale": true,
+          "name": "billy.png",
+          "x": 231,
+          "y": 53
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Назад",
+          "onClick": {
+            "name": "NaGlavnuiu"
+          },
+          "width": 50,
+          "height": 20,
+          "name": "Назад",
+          "x": 87,
+          "y": 215
+        }
+      }
+    ]
+  }
+}
