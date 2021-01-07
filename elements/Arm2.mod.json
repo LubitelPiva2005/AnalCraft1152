@@ -13,6 +13,12 @@
         "value": "CUSTOM:Blackleather"
       },
       {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Blackleather"
+      },
+      {
         "value": "CUSTOM:Blackleather"
       },
       {
@@ -22,25 +28,19 @@
         "value": "CUSTOM:Blackleather"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Blackleather"
       },
       {
         "value": "CUSTOM:Blackleather"
       },
       {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
+        "value": "CUSTOM:Blackleather"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Gachi.helmet"
+      "value": "CUSTOM:Gachi.body"
     },
-    "name": "leathermaskk",
+    "name": "arm_2",
     "namespace": "mod"
   }
 }

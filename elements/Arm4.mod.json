@@ -10,10 +10,19 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Blackleather"
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
       },
       {
         "value": "CUSTOM:Blackleather"
+      },
+      {
+        "value": ""
       },
       {
         "value": "CUSTOM:Blackleather"
@@ -26,21 +35,12 @@
       },
       {
         "value": "CUSTOM:Blackleather"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Gachi.helmet"
+      "value": "CUSTOM:Gachi.boots"
     },
-    "name": "leathermaskk",
+    "name": "arm_4",
     "namespace": "mod"
   }
 }

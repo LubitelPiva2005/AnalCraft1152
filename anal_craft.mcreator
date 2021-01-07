@@ -3305,6 +3305,69 @@
           }
         ]
       }
+    },
+    {
+      "name": "Aamamam",
+      "type": "recipe",
+      "sortid": 274,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aamamam"
+    },
+    {
+      "name": "Ayfafayap",
+      "type": "recipe",
+      "sortid": 275,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ayfafayap"
+    },
+    {
+      "name": "Iapffv",
+      "type": "recipe",
+      "sortid": 276,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iapffv"
+    },
+    {
+      "name": "Arm2",
+      "type": "recipe",
+      "sortid": 277,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "arm_2"
+    },
+    {
+      "name": "Arm3",
+      "type": "recipe",
+      "sortid": 278,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "arm_3"
+    },
+    {
+      "name": "Arm4",
+      "type": "recipe",
+      "sortid": 279,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "arm_4"
+    },
+    {
+      "name": "Forestadva",
+      "type": "achievement",
+      "sortid": 280,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "forestadva"
     }
   ],
   "variable_elements": [],
@@ -3536,8 +3599,8 @@
   ],
   "language_map": {
     "en_us": {
-      "item.anal_craft.slavea_spawn_egg": "Слэйвья Spawn Egg",
       "block.anal_craft.afayf": "Спермовая древесина",
+      "item.anal_craft.slavea_spawn_egg": "Слэйвья Spawn Egg",
       "item.anal_craft.trusi_chestplate": "Trusi Body",
       "itemGroup.tabanal_craft_music": "AnalCraft Музыка",
       "block.anal_craft.dungeonblock_0": "Dungeonblock 0",
@@ -3556,6 +3619,7 @@
       "block.anal_craft.cumslab": "Спермоплита",
       "block.anal_craft.spermegrass": "Трава в сперме",
       "item.anal_craft.dom": "Король и Шут - Проклятый старый дом",
+      "advancements.forestadva.title": "Великие земли",
       "item.minecraft.splash_potion.effect.cum": "Splash Сперма",
       "block.anal_craft.cumfence": "Спермозабор",
       "item.anal_craft.gachi_chestplate": "Костюм кожевника",
@@ -3608,6 +3672,7 @@
       "item.anal_craft.trusi_helmet": "Trusi Helmet",
       "block.anal_craft.blok_2plastiny": "Блок с ключевым кусочком ключа",
       "item.anal_craft.zozzh": "Песня про ЗОЖ",
+      "advancements.forestadva.descr": "Найти биом Dickforest",
       "item.anal_craft.briemienskiie": "Бременские музыканты - Мы к вам заехали на час",
       "effect.cum": "CumСперма",
       "block.anal_craft.nakovalnya": "Спермовальня",

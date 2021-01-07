@@ -1,0 +1,14 @@
+{
+  "criteria": {
+    "forestadva": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "anal_craft:dickforest"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "anal_craft:forestadva"
+}

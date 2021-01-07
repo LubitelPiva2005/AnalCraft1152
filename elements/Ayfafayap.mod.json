@@ -5,42 +5,42 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "recipeRetstackSize": 1,
+    "recipeRetstackSize": 4,
     "group": "",
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Blackleather"
-      },
-      {
-        "value": "CUSTOM:Blackleather"
-      },
-      {
-        "value": "CUSTOM:Blackleather"
-      },
-      {
-        "value": "CUSTOM:Blackleather"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:Blackleather"
-      },
-      {
         "value": ""
       },
       {
         "value": ""
       },
       {
+        "value": "CUSTOM:Cumplanks"
+      },
+      {
         "value": ""
+      },
+      {
+        "value": "CUSTOM:Cumplanks"
+      },
+      {
+        "value": "CUSTOM:Cumplanks"
+      },
+      {
+        "value": "CUSTOM:Cumplanks"
+      },
+      {
+        "value": "CUSTOM:Cumplanks"
+      },
+      {
+        "value": "CUSTOM:Cumplanks"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Gachi.helmet"
+      "value": "CUSTOM:Ladder"
     },
-    "name": "leathermaskk",
+    "name": "ayfafayap",
     "namespace": "mod"
   }
 }

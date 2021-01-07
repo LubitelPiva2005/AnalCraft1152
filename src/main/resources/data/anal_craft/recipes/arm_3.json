@@ -3,7 +3,8 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "012",
-    "3 5"
+    "3 5",
+    "6 8"
   ],
   "key": {
     "0": {
@@ -20,10 +21,16 @@
     },
     "5": {
       "item": "anal_craft:blackleather"
+    },
+    "6": {
+      "item": "anal_craft:blackleather"
+    },
+    "8": {
+      "item": "anal_craft:blackleather"
     }
   },
   "result": {
-    "item": "anal_craft:gachi_helmet",
+    "item": "anal_craft:gachi_leggings",
     "count": 1
   }
 }

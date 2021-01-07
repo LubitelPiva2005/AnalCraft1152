@@ -49,7 +49,7 @@ public class Blok1plastinyBlock extends AnalCraftModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).lightValue(0).harvestLevel(1)
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).lightValue(15).harvestLevel(1)
 					.harvestTool(ToolType.PICKAXE).notSolid());
 			setRegistryName("blok_1plastiny");
 		}

@@ -1,0 +1,33 @@
+{
+  "group": "anal_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "anal_craft:cumplanks"
+    },
+    "3": {
+      "item": "anal_craft:cumplanks"
+    },
+    "4": {
+      "item": "anal_craft:cumplanks"
+    },
+    "6": {
+      "item": "anal_craft:cumplanks"
+    },
+    "7": {
+      "item": "anal_craft:cumplanks"
+    },
+    "8": {
+      "item": "anal_craft:cumplanks"
+    }
+  },
+  "result": {
+    "item": "anal_craft:ladder",
+    "count": 4
+  }
+}

@@ -28,19 +28,19 @@
         "value": "CUSTOM:Blackleather"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Blackleather"
       },
       {
         "value": ""
       },
       {
-        "value": ""
+        "value": "CUSTOM:Blackleather"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Gachi.helmet"
+      "value": "CUSTOM:Gachi.legs"
     },
-    "name": "leathermaskk",
+    "name": "arm_3",
     "namespace": "mod"
   }
 }
