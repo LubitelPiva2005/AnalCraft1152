@@ -32,6 +32,7 @@ import net.minecraft.client.Minecraft;
 import net.mcreator.analcraft.procedures.Zapisgui1Procedure;
 import net.mcreator.analcraft.procedures.RukovodstvoopienProcedure;
 import net.mcreator.analcraft.procedures.ResursiguiopenProcedure;
+import net.mcreator.analcraft.procedures.ResipeopenProcedure;
 import net.mcreator.analcraft.procedures.OpensushestvaguiProcedure;
 import net.mcreator.analcraft.AnalCraftModElements;
 import net.mcreator.analcraft.AnalCraftMod;
@@ -133,7 +134,7 @@ public class TestGui extends AnalCraftModElements.ModElement {
 			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("anal_craft:textures/book.png"));
 			this.blit(this.guiLeft + -3, this.guiTop + -11, 0, 0, 271, 180, 271, 180);
 			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("anal_craft:textures/jkljrf2.png"));
-			this.blit(this.guiLeft + 13, this.guiTop + 1, 0, 0, 114, 17, 114, 17);
+			this.blit(this.guiLeft + 13, this.guiTop + -1, 0, 0, 114, 17, 114, 17);
 			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("anal_craft:textures/vanvcan.png"));
 			this.blit(this.guiLeft + 141, this.guiTop + 16, 0, 0, 101, 145, 101, 145);
 		}
@@ -306,6 +307,17 @@ public class TestGui extends AnalCraftModElements.ModElement {
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
 				RukovodstvoopienProcedure.executeProcedure($_dependencies);
+			}
+		}
+		if (buttonID == 3) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				ResipeopenProcedure.executeProcedure($_dependencies);
 			}
 		}
 		if (buttonID == 4) {

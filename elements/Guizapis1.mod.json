@@ -29,6 +29,20 @@
           "x": 78,
           "y": 26
         }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Назад",
+          "onClick": {
+            "name": "NaGlavnuiu"
+          },
+          "width": 50,
+          "height": 20,
+          "name": "Назад",
+          "x": 87,
+          "y": 215
+        }
       }
     ]
   }
