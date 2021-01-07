@@ -119,25 +119,25 @@ public class LockercGui extends AnalCraftModElements.ModElement {
 					}
 				}
 			}
-			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 9, 12) {
+			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 7, 17) {
 			}));
-			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 47, 12) {
+			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 43, 17) {
 			}));
-			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 85, 12) {
+			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 79, 17) {
 			}));
-			this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 114, 12) {
+			this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 115, 17) {
 			}));
-			this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 9, 50) {
+			this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 7, 44) {
 			}));
-			this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 142, 12) {
+			this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 151, 17) {
 			}));
-			this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 47, 50) {
+			this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 43, 44) {
 			}));
-			this.customSlots.put(7, this.addSlot(new SlotItemHandler(internal, 7, 85, 50) {
+			this.customSlots.put(7, this.addSlot(new SlotItemHandler(internal, 7, 79, 44) {
 			}));
-			this.customSlots.put(8, this.addSlot(new SlotItemHandler(internal, 8, 114, 50) {
+			this.customSlots.put(8, this.addSlot(new SlotItemHandler(internal, 8, 115, 44) {
 			}));
-			this.customSlots.put(9, this.addSlot(new SlotItemHandler(internal, 9, 142, 50) {
+			this.customSlots.put(9, this.addSlot(new SlotItemHandler(internal, 9, 151, 44) {
 			}));
 			int si;
 			int sj;

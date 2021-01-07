@@ -8,7 +8,7 @@
       "value": "CUSTOM:Dickflower"
     },
     "background": "Default",
-    "disableDisplay": true,
+    "disableDisplay": false,
     "showPopup": true,
     "announceToChat": true,
     "hideIfNotCompleted": false,
@@ -18,7 +18,7 @@
     "rewardXP": 1,
     "achievementType": "task",
     "parent": {
-      "value": "CUSTOM:Forestadva"
+      "value": "CUSTOM:AnalCraftadvd"
     },
     "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"biome_entered\" x=\"52\" y=\"65\"><field name=\"biome\">CUSTOM:Dickforest</field><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
   }

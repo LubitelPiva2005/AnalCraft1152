@@ -41,12 +41,8 @@ import net.minecraft.client.renderer.model.ModelRenderer;
 import net.minecraft.client.renderer.entity.model.EntityModel;
 import net.minecraft.client.renderer.entity.MobRenderer;
 
-import net.mcreator.analcraft.procedures.RicardoEntityDiesProcedure;
 import net.mcreator.analcraft.itemgroup.AnalCraftMobsItemGroup;
 import net.mcreator.analcraft.AnalCraftModElements;
-
-import java.util.Map;
-import java.util.HashMap;
 
 import com.mojang.blaze3d.vertex.IVertexBuilder;
 import com.mojang.blaze3d.matrix.MatrixStack;
@@ -146,21 +142,6 @@ public class RicardoEntity extends AnalCraftModElements.ModElement {
 			if (source == DamageSource.LIGHTNING_BOLT)
 				return false;
 			return super.attackEntityFrom(source, amount);
-		}
-
-		@Override
-		public void onDeath(DamageSource source) {
-			super.onDeath(source);
-			double x = this.getPosX();
-			double y = this.getPosY();
-			double z = this.getPosZ();
-			Entity sourceentity = source.getTrueSource();
-			Entity entity = this;
-			{
-				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("entity", entity);
-				RicardoEntityDiesProcedure.executeProcedure($_dependencies);
-			}
 		}
 
 		@Override

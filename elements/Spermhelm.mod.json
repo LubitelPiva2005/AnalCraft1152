@@ -10,31 +10,31 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Semen"
+        "value": "CUSTOM:Essence"
       },
       {
-        "value": "CUSTOM:Semen"
+        "value": "CUSTOM:Essence"
       },
       {
-        "value": "CUSTOM:Semen"
+        "value": "CUSTOM:Essence"
       },
       {
-        "value": "CUSTOM:Semen"
+        "value": "CUSTOM:Essence"
       },
       {
         "value": "CUSTOM:Gachi.helmet"
       },
       {
-        "value": "CUSTOM:Semen"
+        "value": "CUSTOM:Essence"
       },
       {
-        "value": "CUSTOM:Semen"
+        "value": "CUSTOM:Essence"
       },
       {
-        "value": "CUSTOM:Semen"
+        "value": "CUSTOM:Essence"
       },
       {
-        "value": "CUSTOM:Semen"
+        "value": "CUSTOM:Essence"
       }
     ],
     "recipeReturnStack": {

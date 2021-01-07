@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "anal_craft:gachi_helmet"
+    },
+    "title": {
+      "translate": "advancements.armoradv.title"
+    },
+    "description": {
+      "translate": "advancements.armoradv.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "armoradv": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "anal_craft:forestadva"
+}

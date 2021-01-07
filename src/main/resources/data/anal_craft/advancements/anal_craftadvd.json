@@ -1,0 +1,26 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "anal_craft:spermegrass"
+    },
+    "title": {
+      "translate": "advancements.anal_craftadvd.title"
+    },
+    "description": {
+      "translate": "advancements.anal_craftadvd.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "anal_craftadvd": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1
+  }
+}

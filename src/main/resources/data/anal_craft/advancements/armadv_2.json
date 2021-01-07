@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "anal_craft:spermsrm_helmet"
+    },
+    "title": {
+      "translate": "advancements.armadv_2.title"
+    },
+    "description": {
+      "translate": "advancements.armadv_2.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "armadv_2": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "anal_craft:armoradv"
+}

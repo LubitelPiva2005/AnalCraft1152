@@ -1,26 +1,26 @@
 {
   "display": {
     "icon": {
-      "item": "anal_craft:trusi_leggings"
+      "item": "anal_craft:guidebookk"
     },
     "title": {
-      "translate": "advancements.boddofthisgymanhiv.title"
+      "translate": "advancements.booladv.title"
     },
     "description": {
-      "translate": "advancements.boddofthisgymanhiv.descr"
+      "translate": "advancements.booladv.descr"
     },
-    "frame": "challenge",
+    "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "criteria": {
-    "boddofthisgymanhiv": {
+    "booladv": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "anal_craft:trusi_leggings",
+            "item": "anal_craft:guidebookk",
             "count": {
               "min": 1,
               "max": 1
@@ -31,7 +31,7 @@
     }
   },
   "rewards": {
-    "experience": 5
+    "experience": 1
   },
   "parent": "anal_craft:anal_craftadvd"
 }

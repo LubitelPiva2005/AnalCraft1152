@@ -32,7 +32,7 @@ public class AncientseemenpickaxeItem extends AnalCraftModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 2.5f;
+				return 4f;
 			}
 
 			public int getHarvestLevel() {
