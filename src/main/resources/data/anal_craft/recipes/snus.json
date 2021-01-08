@@ -1,0 +1,9 @@
+{
+  "group": "anal_craft",
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "anal_craft:zaliezhachierstvoghosniusa"
+  },
+  "result": "anal_craft:chierstvyi_snius"
+}

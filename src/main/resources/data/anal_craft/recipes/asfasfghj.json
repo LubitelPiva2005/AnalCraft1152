@@ -1,0 +1,16 @@
+{
+  "group": "anal_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "anal_craft:afayf"
+    }
+  },
+  "result": {
+    "item": "anal_craft:cumplanks",
+    "count": 4
+  }
+}

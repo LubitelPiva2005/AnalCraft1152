@@ -1,0 +1,42 @@
+{
+  "group": "anal_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "anal_craft:tiemnaiaiesientsiia"
+    },
+    "1": {
+      "item": "anal_craft:crystal"
+    },
+    "2": {
+      "item": "anal_craft:tiemnaiaiesientsiia"
+    },
+    "3": {
+      "item": "minecraft:pink_dye"
+    },
+    "4": {
+      "item": "anal_craft:cumblock"
+    },
+    "5": {
+      "item": "minecraft:lime_dye"
+    },
+    "6": {
+      "item": "anal_craft:tiemnaiaiesientsiia"
+    },
+    "7": {
+      "item": "minecraft:brown_dye"
+    },
+    "8": {
+      "item": "anal_craft:tiemnaiaiesientsiia"
+    }
+  },
+  "result": {
+    "item": "anal_craft:vanportalblock",
+    "count": 1
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "group": "anal_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "anal_craft:cumplanks"
+    },
+    "2": {
+      "item": "anal_craft:cumplanks"
+    },
+    "3": {
+      "item": "anal_craft:cumplanks"
+    },
+    "4": {
+      "item": "anal_craft:cumplanks"
+    },
+    "5": {
+      "item": "anal_craft:cumplanks"
+    }
+  },
+  "result": {
+    "item": "minecraft:oak_boat",
+    "count": 1
+  }
+}

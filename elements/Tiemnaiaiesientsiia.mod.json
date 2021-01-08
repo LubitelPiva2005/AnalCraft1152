@@ -3,10 +3,10 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "ess",
+    "texture": "spermeretext",
     "customModelName": "Normal",
-    "name": "Ёссенци€ спермы",
-    "rarity": "COMMON",
+    "name": "Tiemnaiaiesientsiia",
+    "rarity": "UNCOMMON",
     "creativeTab": {
       "value": "CUSTOM:ANALTAB"
     },

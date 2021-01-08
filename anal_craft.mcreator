@@ -3480,6 +3480,96 @@
           }
         ]
       }
+    },
+    {
+      "name": "Vanportalblock",
+      "type": "block",
+      "sortid": 288,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vanportalblock"
+    },
+    {
+      "name": "Cynduk",
+      "type": "recipe",
+      "sortid": 289,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cynduk"
+    },
+    {
+      "name": "Lodka",
+      "type": "recipe",
+      "sortid": 290,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lodka"
+    },
+    {
+      "name": "Asfasfghj",
+      "type": "recipe",
+      "sortid": 291,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "asfasfghj"
+    },
+    {
+      "name": "ChierstvyiSnius",
+      "type": "food",
+      "sortid": 292,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chierstvyi_snius"
+    },
+    {
+      "name": "Zaliezhachierstvoghosniusa",
+      "type": "block",
+      "sortid": 293,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "zaliezhachierstvoghosniusa"
+    },
+    {
+      "name": "Snus",
+      "type": "recipe",
+      "sortid": 294,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "snus"
+    },
+    {
+      "name": "Tiemnaiaiesientsiia",
+      "type": "item",
+      "sortid": 295,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tiemnaiaiesientsiia"
+    },
+    {
+      "name": "Kristalkraft",
+      "type": "recipe",
+      "sortid": 296,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kristalkraft"
+    },
+    {
+      "name": "Tiemnaiaiesientsiiakraft",
+      "type": "recipe",
+      "sortid": 297,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tiemnaiaiesientsiiakraft"
     }
   ],
   "variable_elements": [],
@@ -3711,8 +3801,8 @@
   ],
   "language_map": {
     "en_us": {
-      "block.anal_craft.afayf": "Спермовая древесина",
       "item.anal_craft.slavea_spawn_egg": "Слэйвья Spawn Egg",
+      "block.anal_craft.afayf": "Спермовая древесина",
       "item.anal_craft.trusi_chestplate": "Trusi Body",
       "itemGroup.tabanal_craft_music": "AnalCraft Музыка",
       "block.anal_craft.dungeonblock_0": "Dungeonblock 0",
@@ -3740,6 +3830,7 @@
       "itemGroup.tabanaltab": "Anal Craft",
       "item.anal_craft.essence": "Эссенция спермы",
       "itemGroup.tabpotom_ubrat": "Для структур Потом убрать",
+      "block.anal_craft.vanportalblock": "???",
       "subtitles.agh": "",
       "item.anal_craft.gorillaz_feel_good": "Gorillaz Feel Good inc",
       "item.anal_craft.billystatue_spawn_egg": "Статуя Билли Spawn Egg",
@@ -3833,6 +3924,7 @@
       "subtitles.zagulyal": "",
       "item.anal_craft.cumsup": "\"Сгущенка\"",
       "advancements.booladv.title": "AnalCraft",
+      "block.anal_craft.zaliezhachierstvoghosniusa": "Zaliezhachierstvoghosniusa",
       "block.anal_craft.dungeonblock": "Dungeonblock",
       "item.anal_craft.zaghulial.desc": "Shoshon Elegant",
       "item.anal_craft.bucks": "Бакс",
@@ -3844,6 +3936,7 @@
       "item.anal_craft.billystatueitem": "Статуя Билли",
       "subtitles.fisting": "",
       "subtitles.kozhanyjtraktor": "",
+      "item.anal_craft.tiemnaiaiesientsiia": "Tiemnaiaiesientsiia",
       "item.anal_craft.notr_dam_die_pari.desc": "Святой Гачемученик",
       "item.anal_craft.three": "300 баксов",
       "item.minecraft.potion.effect.cum": "Сперма",
@@ -3872,6 +3965,7 @@
       "item.anal_craft.gachi_leggings": "Штаны кожевника",
       "entity.anal_craft.ricardo": "Рикардо Милос",
       "item.anal_craft.briemienskiie.desc": "slw Gachi",
+      "item.anal_craft.chierstvyi_snius": "Чёрствый снюс",
       "block.anal_craft.cumlog": "Спермовое бревно",
       "block.anal_craft.dundeonblockpol_2": "Dundeonblockpol 2",
       "subtitles.motilek": "",
