@@ -24,16 +24,16 @@
     "Mx": 1.0,
     "My": 1.0,
     "Mz": 1.0,
-    "name": "Zaliezhachierstvoghosniusa",
+    "name": "Залежь черствого снюса",
     "specialInfo": [],
-    "hardness": 1.0,
+    "hardness": 2.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
       "value": "CUSTOM:ANALTAB"
     },
-    "destroyTool": "shovel",
+    "destroyTool": "pickaxe",
     "customDrop": {
       "value": ""
     },
@@ -45,7 +45,7 @@
     "canProvidePower": false,
     "lightOpacity": 255,
     "material": {
-      "value": "SAND"
+      "value": "ROCK"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -63,11 +63,11 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "SAND"
+      "value": "STONE"
     },
     "luminance": 0.0,
     "unbreakable": false,
-    "breakHarvestLevel": 1,
+    "breakHarvestLevel": 2,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"

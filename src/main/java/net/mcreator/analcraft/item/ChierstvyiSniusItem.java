@@ -27,7 +27,7 @@ public class ChierstvyiSniusItem extends AnalCraftModElements.ModElement {
 	public static class FoodItemCustom extends Item {
 		public FoodItemCustom() {
 			super(new Item.Properties().group(ANALTABItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON)
-					.food((new Food.Builder()).hunger(4).saturation(0.3f).build()));
+					.food((new Food.Builder()).hunger(0).saturation(0.3f).build()));
 			setRegistryName("chierstvyi_snius");
 		}
 
