@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "anal_craft:blocks/portal",
-    "particle": "anal_craft:blocks/portal"
+    "all": "anal_craft:blocks/sfsagrfasa",
+    "particle": "anal_craft:blocks/sfsagrfasa"
   }
 }

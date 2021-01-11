@@ -642,32 +642,6 @@
       "registry_name": "torgovec"
     },
     {
-      "name": "CumOnPotionActiveTick",
-      "type": "procedure",
-      "sortid": 37,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cum_on_potion_active_tick",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Cum",
-      "type": "potion",
-      "sortid": 37,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cum"
-    },
-    {
       "name": "BlackcockOnStructureInstanceGenerated",
       "type": "procedure",
       "sortid": 38,
@@ -3588,6 +3562,23 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "chlen_2"
+    },
+    {
+      "name": "ChierstvyiSniusFoodEaten",
+      "type": "procedure",
+      "sortid": 300,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chierstvyi_snius_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -3819,8 +3810,8 @@
   ],
   "language_map": {
     "en_us": {
-      "item.anal_craft.slavea_spawn_egg": "Слэйвья Spawn Egg",
       "block.anal_craft.afayf": "Спермовая древесина",
+      "item.anal_craft.slavea_spawn_egg": "Слэйвья Spawn Egg",
       "item.anal_craft.trusi_chestplate": "Trusi Body",
       "itemGroup.tabanal_craft_music": "AnalCraft Музыка",
       "block.anal_craft.dungeonblock_0": "Dungeonblock 0",
@@ -3841,7 +3832,6 @@
       "block.anal_craft.spermegrass": "Трава в сперме",
       "item.anal_craft.dom": "Король и Шут - Проклятый старый дом",
       "advancements.forestadva.title": "Великие земли",
-      "item.minecraft.splash_potion.effect.cum": "Splash Сперма",
       "block.anal_craft.cumfence": "Спермозабор",
       "advancements.anal_craftadvd.descr": "Without further interruption, let\u0027s celebrate and suck some dick",
       "item.anal_craft.gachi_chestplate": "Костюм кожевника",
@@ -3898,7 +3888,6 @@
       "item.anal_craft.zozzh": "Песня про ЗОЖ",
       "advancements.forestadva.descr": "Найти биом Dickforest",
       "item.anal_craft.briemienskiie": "Бременские музыканты - Мы к вам заехали на час",
-      "effect.cum": "CumСперма",
       "block.anal_craft.nakovalnya": "Спермовальня",
       "itemGroup.tabanal_craft_blocks": "AnalCraft Блоки",
       "entity.anal_craft.slavea": "Слэйвья",
@@ -3915,7 +3904,6 @@
       "item.anal_craft.bieliv.desc": "Lil Nevermore",
       "item.anal_craft.motyliek": "Макс Корж - Мотылек",
       "item.anal_craft.motyliek.desc": "Shoshon Elegant",
-      "item.minecraft.tipped_arrow.effect.cum": "Arrow of Сперма",
       "item.anal_craft.marionetka": "Король и Шут - Марионетки",
       "item.anal_craft.plastina_2": "Тайный свиток jabroni",
       "item.anal_craft.plastina_1": "Осколок плиты",
@@ -3957,10 +3945,8 @@
       "item.anal_craft.tiemnaiaiesientsiia": "Tiemnaiaiesientsiia",
       "item.anal_craft.notr_dam_die_pari.desc": "Святой Гачемученик",
       "item.anal_craft.three": "300 баксов",
-      "item.minecraft.potion.effect.cum": "Сперма",
       "item.anal_craft.ass_clap.desc": "flox_",
       "subtitles.ahr": "",
-      "item.minecraft.lingering_potion.effect.cum": "Lingering Сперма",
       "advancements.armoradv.descr": "Собрерите полный сет кожаной брони",
       "subtitles.oficeri": "",
       "subtitles.zozh": "",

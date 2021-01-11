@@ -21,6 +21,9 @@
     "forDogs": false,
     "isAlwaysEdible": false,
     "animation": "bow",
-    "hasGlow": false
+    "hasGlow": false,
+    "onEaten": {
+      "name": "ChierstvyiSniusFoodEaten"
+    }
   }
 }
