@@ -83,8 +83,8 @@ public class TrusiItem extends AnalCraftModElements.ModElement {
 					@OnlyIn(Dist.CLIENT)
 					public BipedModel getArmorModel(LivingEntity living, ItemStack stack, EquipmentSlotType slot, BipedModel defaultModel) {
 						BipedModel armorModel = new BipedModel(1);
-						armorModel.bipedLeftLeg = new Modeltrusiricardo().lefthand;
-						armorModel.bipedRightLeg = new Modeltrusiricardo().righthand;
+						armorModel.bipedLeftLeg = new Modeltrusiliwewe().LeftLeg;
+						armorModel.bipedRightLeg = new Modeltrusiliwewe().RightLeg;
 						armorModel.isSneak = living.isSneaking();
 						armorModel.isSitting = defaultModel.isSitting;
 						armorModel.isChild = living.isChild();
@@ -93,7 +93,7 @@ public class TrusiItem extends AnalCraftModElements.ModElement {
 
 					@Override
 					public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-						return "anal_craft:textures/dsfsd.png";
+						return "anal_craft:textures/1textur.png";
 					}
 
 					@Override
@@ -109,24 +109,47 @@ public class TrusiItem extends AnalCraftModElements.ModElement {
 					}
 				}.setRegistryName("trusi_leggings"));
 	}
-	public static class Modeltrusiricardo extends EntityModel<Entity> {
-		private final ModelRenderer lefthand;
-		private final ModelRenderer righthand;
-		public Modeltrusiricardo() {
+	// Made with Blockbench 3.7.4
+	// Exported for Minecraft version 1.15
+	// Paste this class into your mod and generate all required imports
+	public static class Modeltrusiliwewe extends EntityModel<Entity> {
+		private final ModelRenderer RightLeg;
+		private final ModelRenderer LeftLeg;
+		public Modeltrusiliwewe() {
 			textureWidth = 64;
 			textureHeight = 64;
-			lefthand = new ModelRenderer(this);
-			lefthand.setRotationPoint(0.0F, 0.0F, 0.0F);
-			addBoxHelper(lefthand, 18, 41, 0.0F, -1.0F, -3.0F, 5, 10, 6, 0.0F, false);
-			righthand = new ModelRenderer(this);
-			righthand.setRotationPoint(0.0F, 0.0F, 0.0F);
-			addBoxHelper(righthand, 35, 24, -5.0F, -1.0F, -3.0F, 5, 10, 6, 0.0F, false);
+			RightLeg = new ModelRenderer(this);
+			RightLeg.setRotationPoint(-1.9F, 12.0F, 0.0F);
+			RightLeg.setTextureOffset(0, 13).addBox(0.9F, 3.0F, -2.0F, 1.0F, 1.0F, 4.0F, 0.0F, false);
+			RightLeg.setTextureOffset(4, 5).addBox(0.9F, 2.0F, 2.0F, 1.0F, 2.0F, 1.0F, 0.0F, false);
+			RightLeg.setTextureOffset(20, 3).addBox(-1.1F, 1.0F, 2.0F, 3.0F, 1.0F, 1.0F, 0.0F, false);
+			RightLeg.setTextureOffset(0, 3).addBox(-1.1F, 1.0F, -3.0F, 3.0F, 1.0F, 1.0F, 0.0F, false);
+			RightLeg.setTextureOffset(0, 5).addBox(0.9F, 2.0F, -3.0F, 1.0F, 2.0F, 1.0F, 0.0F, false);
+			RightLeg.setTextureOffset(0, 27).addBox(-3.1F, 0.0F, -3.0F, 1.0F, 1.0F, 6.0F, 0.0F, false);
+			RightLeg.setTextureOffset(20, 1).addBox(-2.1F, 0.0F, 2.0F, 4.0F, 1.0F, 1.0F, 0.0F, false);
+			RightLeg.setTextureOffset(0, 1).addBox(-2.1F, 0.0F, -3.0F, 4.0F, 1.0F, 1.0F, 0.0F, false);
+			LeftLeg = new ModelRenderer(this);
+			LeftLeg.setRotationPoint(1.9F, 12.0F, 0.0F);
+			LeftLeg.setTextureOffset(8, 5).addBox(-1.9F, 2.0F, 2.0F, 1.0F, 2.0F, 1.0F, 0.0F, false);
+			LeftLeg.setTextureOffset(8, 3).addBox(-1.9F, 1.0F, 2.0F, 3.0F, 1.0F, 1.0F, 0.0F, false);
+			LeftLeg.setTextureOffset(8, 3).addBox(-1.9F, 1.0F, -3.0F, 3.0F, 1.0F, 1.0F, 0.0F, false);
+			LeftLeg.setTextureOffset(8, 5).addBox(-1.9F, 2.0F, -3.0F, 1.0F, 2.0F, 1.0F, 0.0F, false);
+			LeftLeg.setTextureOffset(10, 13).addBox(-1.9F, 3.0F, -2.0F, 1.0F, 1.0F, 4.0F, 0.0F, false);
+			LeftLeg.setTextureOffset(0, 20).addBox(2.1F, 0.0F, -3.0F, 1.0F, 1.0F, 6.0F, 0.0F, false);
+			LeftLeg.setTextureOffset(24, 1).addBox(-1.9F, 0.0F, -3.0F, 4.0F, 1.0F, 1.0F, 0.0F, false);
+			LeftLeg.setTextureOffset(24, 1).addBox(-1.9F, 0.0F, 2.0F, 4.0F, 1.0F, 1.0F, 0.0F, false);
 		}
 
 		@Override
-		public void render(MatrixStack ms, IVertexBuilder vb, int i1, int i2, float f1, float f2, float f3, float f4) {
-			lefthand.render(ms, vb, i1, i2, f1, f2, f3, f4);
-			righthand.render(ms, vb, i1, i2, f1, f2, f3, f4);
+		public void setRotationAngles(Entity entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch) {
+			// previously the render function, render code was moved to a method below
+		}
+
+		@Override
+		public void render(MatrixStack matrixStack, IVertexBuilder buffer, int packedLight, int packedOverlay, float red, float green, float blue,
+				float alpha) {
+			RightLeg.render(matrixStack, buffer, packedLight, packedOverlay);
+			LeftLeg.render(matrixStack, buffer, packedLight, packedOverlay);
 		}
 
 		public void setRotationAngle(ModelRenderer modelRenderer, float x, float y, float z) {
@@ -134,19 +157,5 @@ public class TrusiItem extends AnalCraftModElements.ModElement {
 			modelRenderer.rotateAngleY = y;
 			modelRenderer.rotateAngleZ = z;
 		}
-
-		public void setRotationAngles(Entity e, float f, float f1, float f2, float f3, float f4) {
-		}
-	}
-	@OnlyIn(Dist.CLIENT)
-	public static void addBoxHelper(ModelRenderer renderer, int texU, int texV, float x, float y, float z, int dx, int dy, int dz, float delta) {
-		addBoxHelper(renderer, texU, texV, x, y, z, dx, dy, dz, delta, renderer.mirror);
-	}
-
-	@OnlyIn(Dist.CLIENT)
-	public static void addBoxHelper(ModelRenderer renderer, int texU, int texV, float x, float y, float z, int dx, int dy, int dz, float delta,
-			boolean mirror) {
-		renderer.mirror = mirror;
-		renderer.addBox("", x, y, z, dx, dy, dz, delta, texU, texV);
 	}
 }
