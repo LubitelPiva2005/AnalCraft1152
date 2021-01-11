@@ -8,6 +8,7 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.Rotation;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.Mirror;
+import net.minecraft.block.Blocks;
 
 import net.mcreator.analcraft.AnalCraftModElements;
 
@@ -44,20 +45,33 @@ public class LockerroomOnStructureInstanceGeneratedProcedure extends AnalCraftMo
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
-		if (!world.getWorld().isRemote) {
-			Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
-					.getTemplateDefaulted(new ResourceLocation("anal_craft", "smensuka111"));
-			if (template != null) {
-				template.addBlocksToWorld(world, new BlockPos((int) x, (int) y, (int) z),
-						new PlacementSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setChunk(null).setIgnoreEntities(false));
+		if (((((!((world.getBlockState(new BlockPos((int) x, (int) (y - 1), (int) z))).getBlock() == Blocks.AIR.getDefaultState().getBlock()))
+				&& (!((world.getBlockState(new BlockPos((int) x, (int) (y - 2), (int) z))).getBlock() == Blocks.AIR.getDefaultState().getBlock())))
+				&& ((!((world.getBlockState(new BlockPos((int) x, (int) (y - 3), (int) z))).getBlock() == Blocks.AIR.getDefaultState().getBlock()))
+						&& (!((world.getBlockState(new BlockPos((int) x, (int) (y - 1), (int) z))).getBlock() == Blocks.WATER.getDefaultState()
+								.getBlock()))))
+				&& (((!((world.getBlockState(new BlockPos((int) x, (int) (y - 2), (int) z))).getBlock() == Blocks.WATER.getDefaultState().getBlock()))
+						&& (!((world.getBlockState(new BlockPos((int) x, (int) (y - 3), (int) z))).getBlock() == Blocks.WATER.getDefaultState()
+								.getBlock())))
+						&& ((!((world.getBlockState(new BlockPos((int) x, (int) (y + 1), (int) z))).getBlock() == Blocks.WATER.getDefaultState()
+								.getBlock()))
+								&& (!((world.getBlockState(new BlockPos((int) x, (int) (y + 2), (int) z))).getBlock() == Blocks.WATER
+										.getDefaultState().getBlock())))))) {
+			if (!world.getWorld().isRemote) {
+				Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
+						.getTemplateDefaulted(new ResourceLocation("anal_craft", "smensuka111"));
+				if (template != null) {
+					template.addBlocksToWorld(world, new BlockPos((int) x, (int) y, (int) z),
+							new PlacementSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setChunk(null).setIgnoreEntities(false));
+				}
 			}
-		}
-		if (!world.getWorld().isRemote) {
-			Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
-					.getTemplateDefaulted(new ResourceLocation("anal_craft", "smensuka222"));
-			if (template != null) {
-				template.addBlocksToWorld(world, new BlockPos((int) (x - 18), (int) y, (int) z),
-						new PlacementSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setChunk(null).setIgnoreEntities(false));
+			if (!world.getWorld().isRemote) {
+				Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
+						.getTemplateDefaulted(new ResourceLocation("anal_craft", "smensuka222"));
+				if (template != null) {
+					template.addBlocksToWorld(world, new BlockPos((int) (x - 18), (int) y, (int) z),
+							new PlacementSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setChunk(null).setIgnoreEntities(false));
+				}
 			}
 		}
 	}
