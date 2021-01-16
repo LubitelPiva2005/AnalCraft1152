@@ -1,0 +1,11 @@
+{
+  "_fv": 13,
+  "_type": "tab",
+  "definition": {
+    "name": "AnalCraftTool",
+    "icon": {
+      "value": "CUSTOM:Ancientseemenpickaxe"
+    },
+    "showSearch": false
+  }
+}

@@ -3,27 +3,23 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "topor",
+    "texture": "axe",
     "customModelName": "Normal",
-    "name": "Топор из древней спермы",
+    "name": "Топор из черного камня",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:AnalTool"
     },
     "toolType": "Axe",
-    "harvestLevel": 4,
-    "efficiency": 10.0,
+    "harvestLevel": 1,
+    "efficiency": 4.0,
     "attackSpeed": 1.0,
-    "enchantability": 15,
-    "damageVsEntity": 10.0,
-    "usageCount": 1562,
+    "enchantability": 5,
+    "damageVsEntity": 9.0,
+    "usageCount": 132,
     "blocksAffected": [],
     "hasGlow": false,
-    "repairItems": [
-      {
-        "value": "CUSTOM:Ancientseemeningot"
-      }
-    ],
+    "repairItems": [],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false
   }

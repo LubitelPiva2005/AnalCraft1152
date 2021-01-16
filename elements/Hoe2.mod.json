@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "Items.STONE_HOE"
+      "value": "CUSTOM:Blackhoe"
     },
     "name": "hoe_2",
     "namespace": "mod"

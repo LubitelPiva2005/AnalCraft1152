@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "Items.STONE_SHOVEL"
+      "value": "CUSTOM:Blakshowel"
     },
     "name": "dsdafa",
     "namespace": "mod"

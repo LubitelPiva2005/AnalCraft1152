@@ -9,7 +9,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 
-import net.mcreator.analcraft.itemgroup.AnalCraftSnariazhenieItemGroup;
+import net.mcreator.analcraft.itemgroup.AnalToolItemGroup;
 import net.mcreator.analcraft.AnalCraftModElements;
 
 @AnalCraftModElements.ModElement.Tag
@@ -24,7 +24,7 @@ public class AncientseemenpickaxeItem extends AnalCraftModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new PickaxeItem(new IItemTier() {
 			public int getMaxUses() {
-				return 500;
+				return 1561;
 			}
 
 			public float getEfficiency() {
@@ -46,7 +46,7 @@ public class AncientseemenpickaxeItem extends AnalCraftModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(AncientseemeningotItem.block, (int) (1)));
 			}
-		}, 1, -3f, new Item.Properties().group(AnalCraftSnariazhenieItemGroup.tab)) {
+		}, 1, -2.7999999999999998f, new Item.Properties().group(AnalToolItemGroup.tab)) {
 		}.setRegistryName("ancientseemenpickaxe"));
 	}
 }

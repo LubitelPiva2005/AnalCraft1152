@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Ladder"
+      "value": "Blocks.LADDER"
     },
     "name": "laddercraftr",
     "namespace": "mod"

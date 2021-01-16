@@ -3,28 +3,24 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "picklaxeee",
+    "texture": "pick",
     "customModelName": "Normal",
-    "name": "Кирка из древней спермы",
+    "name": "Кирка из темного булыжника",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:AnalTool"
     },
     "toolType": "Pickaxe",
-    "harvestLevel": 4,
-    "efficiency": 22.0,
+    "harvestLevel": 1,
+    "efficiency": 5.0,
     "attackSpeed": 1.2000000000000002,
-    "enchantability": 15,
-    "damageVsEntity": 6.0,
-    "usageCount": 1561,
+    "enchantability": 5,
+    "damageVsEntity": 4.0,
+    "usageCount": 132,
     "blocksAffected": [],
     "hasGlow": false,
-    "repairItems": [
-      {
-        "value": "CUSTOM:Ancientseemeningot"
-      }
-    ],
+    "repairItems": [],
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": true
+    "damageOnCrafting": false
   }
 }
