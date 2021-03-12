@@ -1,0 +1,16 @@
+{
+  "group": "anal_craft",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:flint"
+    },
+    {
+      "item": "anal_craft:zasokhshaiaspierma"
+    }
+  ],
+  "result": {
+    "item": "anal_craft:dungeon_van",
+    "count": 1
+  }
+}

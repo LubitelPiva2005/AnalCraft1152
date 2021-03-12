@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "anal_craft:block/dungeon_van_portal_ew"
+    },
+    "axis=x": {
+      "model": "anal_craft:block/dungeon_van_portal_ns"
+    }
+  }
+}

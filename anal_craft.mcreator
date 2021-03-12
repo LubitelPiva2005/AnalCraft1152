@@ -3642,6 +3642,111 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "black_sword"
+    },
+    {
+      "name": "DungeonVan",
+      "type": "dimension",
+      "sortid": 307,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dungeon_van"
+    },
+    {
+      "name": "DungeonVanPortalTriggerUsed",
+      "type": "procedure",
+      "sortid": 308,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dungeon_van_portal_trigger_used",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DungeonVanPlayerLeavesDimension",
+      "type": "procedure",
+      "sortid": 309,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dungeon_van_player_leaves_dimension",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ognivo",
+      "type": "recipe",
+      "sortid": 310,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ognivo"
+    },
+    {
+      "name": "DungeonVanPlayerEntersDimension",
+      "type": "procedure",
+      "sortid": 311,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dungeon_van_player_enters_dimension",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -3873,8 +3978,8 @@
   ],
   "language_map": {
     "en_us": {
-      "block.anal_craft.afayf": "Спермовая древесина",
       "item.anal_craft.slavea_spawn_egg": "Слэйвья Spawn Egg",
+      "block.anal_craft.afayf": "Спермовая древесина",
       "item.anal_craft.trusi_chestplate": "Trusi Body",
       "itemGroup.tabanal_craft_music": "AnalCraft Музыка",
       "block.anal_craft.dungeonblock_0": "Dungeonblock 0",
@@ -4023,6 +4128,7 @@
       "subtitles.aaaaaaa": "",
       "advancements.anal_craftadvd.title": "Anal Craft",
       "item.anal_craft.torgovec_spawn_egg": "Торговец Spawn Egg",
+      "item.anal_craft.dungeon_van": "Огниво из древней спермы",
       "item.anal_craft.knut": "Плётка",
       "subtitles.notrdam": "",
       "entity.anal_craft.streleatherman": "Слэйв с луком",

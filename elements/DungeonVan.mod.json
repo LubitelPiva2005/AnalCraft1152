@@ -1,0 +1,56 @@
+{
+  "_fv": 13,
+  "_type": "dimension",
+  "definition": {
+    "portalFrame": {
+      "value": "CUSTOM:Vanportalblock"
+    },
+    "portalParticles": {
+      "value": "PORTAL"
+    },
+    "portalLuminance": 0.0,
+    "portalSound": {
+      "value": "CUSTOM:aaaaaaa"
+    },
+    "igniterName": "Огниво из древней спермы",
+    "igniterTab": {
+      "value": "CUSTOM:ANALTAB"
+    },
+    "texture": "flint_and_stdeel",
+    "portalTexture": "gay3",
+    "enablePortal": true,
+    "biomesInDimension": [
+      {
+        "value": "plains"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:Blackstone"
+    },
+    "fluidBlock": {
+      "value": "CUSTOM:Blackstone"
+    },
+    "airColor": {
+      "value": -16777216,
+      "falpha": 0.0
+    },
+    "canRespawnHere": false,
+    "hasFog": true,
+    "hasWeather": false,
+    "isDark": true,
+    "doesWaterVaporize": true,
+    "sleepResult": "DENY",
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": false,
+    "whenPortaTriggerlUsed": {
+      "name": "DungeonVanPortalTriggerUsed"
+    },
+    "onPlayerEntersDimension": {
+      "name": "DungeonVanPlayerEntersDimension"
+    },
+    "onPlayerLeavesDimension": {
+      "name": "DungeonVanPlayerLeavesDimension"
+    }
+  }
+}
