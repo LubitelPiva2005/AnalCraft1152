@@ -21,12 +21,12 @@
     "enablePortal": true,
     "biomesInDimension": [
       {
-        "value": "plains"
+        "value": "CUSTOM:VanDungeon"
       }
     ],
     "worldGenType": "Normal world gen",
     "mainFillerBlock": {
-      "value": "CUSTOM:Blackstone"
+      "value": "CUSTOM:DirtVan"
     },
     "fluidBlock": {
       "value": "CUSTOM:Blackstone"

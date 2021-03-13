@@ -1,0 +1,22 @@
+{
+  "group": "anal_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "anal_craft:vanplanks"
+    },
+    "1": {
+      "item": "anal_craft:vanplanks"
+    },
+    "2": {
+      "item": "anal_craft:vanplanks"
+    }
+  },
+  "result": {
+    "item": "anal_craft:slabslave",
+    "count": 6
+  }
+}

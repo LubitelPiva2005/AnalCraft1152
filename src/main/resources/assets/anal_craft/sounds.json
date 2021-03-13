@@ -250,5 +250,23 @@
         "stream": false
       }
     ]
+  },
+  "fuck-you-van": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "anal_craft:fuck-you...",
+        "stream": false
+      }
+    ]
+  },
+  "do-you-like-what-you-see": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "anal_craft:do-you-like-what-you-see",
+        "stream": false
+      }
+    ]
   }
 }

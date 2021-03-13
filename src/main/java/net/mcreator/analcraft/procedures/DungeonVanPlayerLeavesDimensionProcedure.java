@@ -44,11 +44,11 @@ public class DungeonVanPlayerLeavesDimensionProcedure extends AnalCraftModElemen
 		IWorld world = (IWorld) dependencies.get("world");
 		if (!world.getWorld().isRemote) {
 			world.playSound(null, new BlockPos((int) x, (int) y, (int) z),
-					(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("anal_craft:ahr")),
+					(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("anal_craft:fuck-you-van")),
 					SoundCategory.NEUTRAL, (float) 1, (float) 1);
 		} else {
 			world.getWorld().playSound(x, y, z,
-					(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("anal_craft:ahr")),
+					(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("anal_craft:fuck-you-van")),
 					SoundCategory.NEUTRAL, (float) 1, (float) 1, false);
 		}
 	}

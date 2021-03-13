@@ -43,12 +43,12 @@ public class DungeonVanPlayerEntersDimensionProcedure extends AnalCraftModElemen
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
 		if (!world.getWorld().isRemote) {
-			world.playSound(null, new BlockPos((int) x, (int) y, (int) z),
-					(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("anal_craft:weewee")),
-					SoundCategory.NEUTRAL, (float) 1, (float) 1);
+			world.playSound(null, new BlockPos((int) x, (int) y, (int) z), (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS
+					.getValue(new ResourceLocation("anal_craft:do-you-like-what-you-see")), SoundCategory.NEUTRAL, (float) 1, (float) 1);
 		} else {
 			world.getWorld().playSound(x, y, z,
-					(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("anal_craft:weewee")),
+					(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS
+							.getValue(new ResourceLocation("anal_craft:do-you-like-what-you-see")),
 					SoundCategory.NEUTRAL, (float) 1, (float) 1, false);
 		}
 	}

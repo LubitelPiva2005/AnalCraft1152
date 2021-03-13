@@ -75,6 +75,7 @@ import net.mcreator.analcraft.procedures.DungeonVanPlayerLeavesDimensionProcedur
 import net.mcreator.analcraft.procedures.DungeonVanPlayerEntersDimensionProcedure;
 import net.mcreator.analcraft.item.DungeonVanItem;
 import net.mcreator.analcraft.block.VanportalblockBlock;
+import net.mcreator.analcraft.block.DirtVanBlock;
 import net.mcreator.analcraft.block.BlackstoneBlock;
 import net.mcreator.analcraft.AnalCraftModElements;
 
@@ -129,7 +130,7 @@ public class DungeonVanDimension extends AnalCraftModElements.ModElement {
 
 	@Override
 	public void init(FMLCommonSetupEvent event) {
-		dimensionBiomes = new Biome[]{ForgeRegistries.BIOMES.getValue(new ResourceLocation("plains")),};
+		dimensionBiomes = new Biome[]{ForgeRegistries.BIOMES.getValue(new ResourceLocation("anal_craft:van_dungeon")),};
 	}
 
 	@Override
@@ -788,7 +789,7 @@ public class DungeonVanDimension extends AnalCraftModElements.ModElement {
 		public ChunkProviderModded(IWorld world, BiomeProvider provider) {
 			super(world, provider, new OverworldGenSettings() {
 				public BlockState getDefaultBlock() {
-					return BlackstoneBlock.block.getDefaultState();
+					return DirtVanBlock.block.getDefaultState();
 				}
 
 				public BlockState getDefaultFluid() {
@@ -820,7 +821,7 @@ public class DungeonVanDimension extends AnalCraftModElements.ModElement {
 				for (Biome biome : this.biomes) {
 					biome.addCarver(GenerationStage.Carving.AIR, Biome.createCarver(new CaveWorldCarver(ProbabilityConfig::deserialize, 256) {
 						{
-							carvableBlocks = ImmutableSet.of(BlackstoneBlock.block.getDefaultState().getBlock(),
+							carvableBlocks = ImmutableSet.of(DirtVanBlock.block.getDefaultState().getBlock(),
 									biome.getSurfaceBuilder().getConfig().getTop().getBlock(),
 									biome.getSurfaceBuilder().getConfig().getUnder().getBlock());
 						}

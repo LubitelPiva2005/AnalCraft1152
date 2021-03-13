@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "anal_craft:block/slabslave"
+    },
+    "type=top": {
+      "model": "anal_craft:block/slabslave_top"
+    },
+    "type=double": {
+      "model": "anal_craft:block/slabslave_full"
+    }
+  }
+}
