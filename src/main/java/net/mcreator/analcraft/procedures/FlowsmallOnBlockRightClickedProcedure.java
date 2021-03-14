@@ -1,11 +1,23 @@
 package net.mcreator.analcraft.procedures;
 
+import net.minecraft.world.IWorld;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.Hand;
+import net.minecraft.item.ItemStack;
+import net.minecraft.entity.player.ServerPlayerEntity;
+import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.Entity;
+import net.minecraft.block.Blocks;
+
+import net.mcreator.analcraft.block.SmalldickBlock;
+import net.mcreator.analcraft.AnalCraftModElements;
+
+import java.util.Map;
+
 @AnalCraftModElements.ModElement.Tag
 public class FlowsmallOnBlockRightClickedProcedure extends AnalCraftModElements.ModElement {
-
 	public FlowsmallOnBlockRightClickedProcedure(AnalCraftModElements instance) {
 		super(instance, 327);
-
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -34,13 +46,11 @@ public class FlowsmallOnBlockRightClickedProcedure extends AnalCraftModElements.
 				System.err.println("Failed to load dependency world for procedure FlowsmallOnBlockRightClicked!");
 			return;
 		}
-
 		Entity entity = (Entity) dependencies.get("entity");
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
-
 		if ((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY)
 				.getItem() == new ItemStack(Blocks.AIR, (int) (1)).getItem())) {
 			world.setBlockState(new BlockPos((int) x, (int) y, (int) z), Blocks.AIR.getDefaultState(), 3);
@@ -53,7 +63,5 @@ public class FlowsmallOnBlockRightClickedProcedure extends AnalCraftModElements.
 					((ServerPlayerEntity) entity).inventory.markDirty();
 			}
 		}
-
 	}
-
 }
