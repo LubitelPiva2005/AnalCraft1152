@@ -1,0 +1,27 @@
+{
+  "group": "anal_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "2 ",
+    "4 "
+  ],
+  "key": {
+    "0": {
+      "item": "anal_craft:blackmode"
+    },
+    "1": {
+      "item": "anal_craft:blackmode"
+    },
+    "2": {
+      "item": "anal_craft:cumstick"
+    },
+    "4": {
+      "item": "anal_craft:cumstick"
+    }
+  },
+  "result": {
+    "item": "anal_craft:blackhoe",
+    "count": 1
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "_fv": 13,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "billyposoh",
+    "customModelName": "Normal",
+    "name": "Жезл Билли",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:AnalCraftSnariazhenie"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 4.0,
+    "usageCount": 100,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Lightbar"
+      },
+      {
+        "value": "Items.TRIDENT"
+      }
+    ],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedOnBlock": {
+      "name": "BillyposohLivingEntityIsHitWithTool"
+    },
+    "onEntityHitWith": {
+      "name": "BillyposohLivingEntityIsHitWithTool"
+    }
+  }
+}
