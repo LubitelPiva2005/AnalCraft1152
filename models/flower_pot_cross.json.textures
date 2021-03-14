@@ -1,0 +1,20 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "flowerpot": "flower_pot",
+        "plant": "dickersa",
+        "dirt": "niz"
+      },
+      "name": "default"
+    },
+    "flow2": {
+      "map": {
+        "flowerpot": "flower_pot",
+        "plant": "smalldi",
+        "dirt": "niz"
+      },
+      "name": "flow2"
+    }
+  }
+}

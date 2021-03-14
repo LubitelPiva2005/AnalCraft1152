@@ -1,0 +1,33 @@
+{
+  "group": "anal_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    "45"
+  ],
+  "key": {
+    "0": {
+      "item": "anal_craft:ancientseemeningot"
+    },
+    "1": {
+      "item": "anal_craft:ancientseemeningot"
+    },
+    "2": {
+      "item": "anal_craft:vanplanks"
+    },
+    "3": {
+      "item": "anal_craft:vanplanks"
+    },
+    "4": {
+      "item": "anal_craft:vanplanks"
+    },
+    "5": {
+      "item": "anal_craft:vanplanks"
+    }
+  },
+  "result": {
+    "item": "anal_craft:nakovalnya",
+    "count": 1
+  }
+}
