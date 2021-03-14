@@ -1,0 +1,42 @@
+{
+  "group": "anal_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:ender_pearl"
+    },
+    "1": {
+      "item": "minecraft:elytra"
+    },
+    "2": {
+      "item": "minecraft:ender_pearl"
+    },
+    "3": {
+      "item": "anal_craft:ancientseemeningot"
+    },
+    "4": {
+      "item": "anal_craft:lightbar"
+    },
+    "5": {
+      "item": "anal_craft:ancientseemeningot"
+    },
+    "6": {
+      "item": "minecraft:ender_pearl"
+    },
+    "7": {
+      "item": "minecraft:dragon_egg"
+    },
+    "8": {
+      "item": "minecraft:ender_pearl"
+    }
+  },
+  "result": {
+    "item": "anal_craft:enderseemeningot",
+    "count": 1
+  }
+}

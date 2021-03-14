@@ -4371,6 +4371,161 @@
           }
         ]
       }
+    },
+    {
+      "name": "Enderseemeningot",
+      "type": "item",
+      "sortid": 345,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "enderseemeningot"
+    },
+    {
+      "name": "Enderbarcraft",
+      "type": "recipe",
+      "sortid": 345,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "enderbarcraft"
+    },
+    {
+      "name": "Superseemensword",
+      "type": "procedure",
+      "sortid": 346,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "superseemensword",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Uluchsheniyseemensword",
+      "type": "gun",
+      "sortid": 347,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uluchsheniyseemensword"
+    },
+    {
+      "name": "UluchsheniyseemenswordBulletHitsBlock",
+      "type": "procedure",
+      "sortid": 348,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uluchsheniyseemensword_bullet_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UluchsheniyseemenswordBulletHit45sBlock",
+      "type": "procedure",
+      "sortid": 349,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uluchsheniyseemensword_bullet_hit_45s_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UluchsheniyseemenswordBultfetHitsBlock",
+      "type": "procedure",
+      "sortid": 350,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uluchsheniyseemensword_bultfet_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -4622,6 +4777,7 @@
       "item.anal_craft.trusi_chestplate": "Trusi Body",
       "itemGroup.tabanal_craft_music": "AnalCraft Музыка",
       "subtitles.do-you-like-what-you-see": "",
+      "item.anal_craft.enderseemeningot": "Слиток эндер спермы",
       "item.anal_craft.guidebookk": "AnalCraft",
       "block.anal_craft.dirt_van": "Грунт слейвов",
       "item.anal_craft.lightbar": "Слиток грозовой спермы",
@@ -4641,12 +4797,12 @@
       "item.anal_craft.notr_dam_die_pari": "Нотр-Дам де Пари - Эсмеральда",
       "block.anal_craft.disactivatedportal": "Неактивированый портал",
       "item.anal_craft.trusi_boots": "Trusi Boots",
-      "item.anal_craft.ass_clap": "AssClap",
       "item.anal_craft.bomzh.desc": "G-man",
+      "item.anal_craft.ass_clap": "AssClap",
       "item.anal_craft.ancient_seemensword": "Меч из древней спермы",
       "item.anal_craft.zaghulial": "Олег Газманов - Загулял",
-      "itemGroup.tabanal_tool": "AnalCraftTool",
       "item.anal_craft.semenlime_spawn_egg": "Спермень Spawn Egg",
+      "itemGroup.tabanal_tool": "AnalCraftTool",
       "block.anal_craft.cumore": "Руда спермы",
       "item.anal_craft.penisstolb": "Ствол ключа",
       "item.anal_craft.nurminskii_valim.desc": " zerodovich",
@@ -4665,8 +4821,8 @@
       "itemGroup.tabanal_craft_blocks": "AnalCraft Блоки",
       "block.anal_craft.cumplanks": "Спермовые доски",
       "item.anal_craft.portalkey": "Ключ ",
+      "item.anal_craft.blackleather": "Latex",
       "subtitles.thankyousir": "",
-      "item.anal_craft.blackleather": "Чёрная кожа",
       "entity.anal_craft.van": "Слэйв",
       "item.anal_craft.bieliv.desc": "Lil Nevermore",
       "item.anal_craft.blakshowel": "Лопата из черного камня",
@@ -4791,6 +4947,7 @@
       "biome.anal_craft.van_dungeon": "Van Dungeon",
       "subtitles.fisting": "",
       "item.anal_craft.tiemnaiaiesientsiia": "Темная эссенция",
+      "item.anal_craft.uluchsheniyseemensword": "Эндер меч из древней спермы",
       "item.anal_craft.three": "300 баксов",
       "item.anal_craft.ass_clap.desc": "flox_",
       "subtitles.ahr": "",

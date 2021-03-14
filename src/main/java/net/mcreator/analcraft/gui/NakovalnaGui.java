@@ -35,7 +35,7 @@ import net.minecraft.client.gui.screen.inventory.ContainerScreen;
 import net.minecraft.client.gui.ScreenManager;
 import net.minecraft.client.Minecraft;
 
-import net.mcreator.analcraft.procedures.NakovalnacrafdtProcedure;
+import net.mcreator.analcraft.procedures.SuperseemenswordProcedure;
 import net.mcreator.analcraft.AnalCraftModElements;
 import net.mcreator.analcraft.AnalCraftMod;
 
@@ -121,23 +121,23 @@ public class NakovalnaGui extends AnalCraftModElements.ModElement {
 					}
 				}
 			}
-			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 16, 21) {
+			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 17, 37) {
 			}));
-			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 134, 21) {
+			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 135, 37) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return false;
 				}
 			}));
-			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 41, 21) {
+			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 42, 37) {
 			}));
 			int si;
 			int sj;
 			for (si = 0; si < 3; ++si)
 				for (sj = 0; sj < 9; ++sj)
-					this.addSlot(new Slot(inv, sj + (si + 1) * 9, -1 + 8 + sj * 18, -32 + 84 + si * 18));
+					this.addSlot(new Slot(inv, sj + (si + 1) * 9, 0 + 8 + sj * 18, -17 + 84 + si * 18));
 			for (si = 0; si < 9; ++si)
-				this.addSlot(new Slot(inv, si, -1 + 8 + si * 18, -32 + 142));
+				this.addSlot(new Slot(inv, si, 0 + 8 + si * 18, -17 + 142));
 		}
 
 		public Map<Integer, Slot> get() {
@@ -304,8 +304,8 @@ public class NakovalnaGui extends AnalCraftModElements.ModElement {
 			this.y = container.y;
 			this.z = container.z;
 			this.entity = container.entity;
-			this.xSize = 174;
-			this.ySize = 135;
+			this.xSize = 176;
+			this.ySize = 166;
 		}
 		private static final ResourceLocation texture = new ResourceLocation("anal_craft:textures/nakovalna.png");
 		@Override
@@ -352,7 +352,7 @@ public class NakovalnaGui extends AnalCraftModElements.ModElement {
 		public void init(Minecraft minecraft, int width, int height) {
 			super.init(minecraft, width, height);
 			minecraft.keyboardListener.enableRepeatEvents(true);
-			this.addButton(new Button(this.guiLeft + 67, this.guiTop + 19, 60, 20, "Соеденить", e -> {
+			this.addButton(new Button(this.guiLeft + 68, this.guiTop + 35, 60, 20, "Соеденить", e -> {
 				AnalCraftMod.PACKET_HANDLER.sendToServer(new ButtonPressedMessage(0, x, y, z));
 				handleButtonAction(entity, 0, x, y, z);
 			}));
@@ -453,7 +453,7 @@ public class NakovalnaGui extends AnalCraftModElements.ModElement {
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-				NakovalnacrafdtProcedure.executeProcedure($_dependencies);
+				SuperseemenswordProcedure.executeProcedure($_dependencies);
 			}
 		}
 	}
