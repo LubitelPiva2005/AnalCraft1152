@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "sp1111",
+    "texture": "enderseemen",
     "customModelName": "Normal",
-    "name": "Сперма",
+    "name": "Слиток эндер спермы",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:ANALTAB"

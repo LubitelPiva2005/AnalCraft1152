@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "kozha",
+    "texture": "koja",
     "customModelName": "Normal",
-    "name": "Чёрная кожа",
+    "name": "Latex",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:ANALTAB"

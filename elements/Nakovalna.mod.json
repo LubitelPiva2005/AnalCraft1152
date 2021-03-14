@@ -3,8 +3,8 @@
   "_type": "gui",
   "definition": {
     "type": 1,
-    "width": 174,
-    "height": 135,
+    "width": 176,
+    "height": 166,
     "inventoryOffsetX": 0,
     "inventoryOffsetY": -17,
     "renderBgLayer": true,
@@ -40,7 +40,7 @@
         "data": {
           "text": "Соеденить",
           "onClick": {
-            "name": "Nakovalnacrafdt"
+            "name": "Superseemensword"
           },
           "width": 60,
           "height": 20,
