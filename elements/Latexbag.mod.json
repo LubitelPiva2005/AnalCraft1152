@@ -3,14 +3,14 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "ess",
+    "texture": "1bbbaaaggg",
     "customModelName": "Normal",
-    "name": "Ёссенци€ спермы",
+    "name": "ћешочек из latex",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "CUSTOM:ANALTAB"
+      "value": "CUSTOM:AnalTool"
     },
-    "stackSize": 64,
+    "stackSize": 1,
     "enchantability": 0,
     "useDuration": 0,
     "toolType": 1.0,
@@ -25,8 +25,8 @@
     "damageVsEntity": 0.0,
     "specialInfo": [],
     "hasGlow": false,
-    "guiBoundTo": "<NONE>",
+    "guiBoundTo": "Latexbaggui",
     "inventorySize": 9,
-    "inventoryStackSize": 16
+    "inventoryStackSize": 64
   }
 }

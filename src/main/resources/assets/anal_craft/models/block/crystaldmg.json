@@ -1,7 +1,7 @@
 {
   "parent": "block/cross",
   "textures": {
-    "cross": "anal_craft:blocks/cryst",
-    "particle": "anal_craft:blocks/cryst"
+    "cross": "anal_craft:blocks/1cr",
+    "particle": "anal_craft:blocks/1cr"
   }
 }

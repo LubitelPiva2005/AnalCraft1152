@@ -4069,6 +4069,66 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "billyposoh"
+    },
+    {
+      "name": "Latexbag",
+      "type": "item",
+      "sortid": 342,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "latexbag"
+    },
+    {
+      "name": "Latexbaggui",
+      "type": "gui",
+      "sortid": 343,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "latexbaggui"
+    },
+    {
+      "name": "Latexbagcraft",
+      "type": "recipe",
+      "sortid": 344,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "latexbagcraft"
+    },
+    {
+      "name": "Nakvraftasfasfsword",
+      "type": "procedure",
+      "sortid": 345,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nakvraftasfasfsword",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -4338,16 +4398,17 @@
       "item.anal_craft.notr_dam_die_pari": "Нотр-Дам де Пари - Эсмеральда",
       "block.anal_craft.disactivatedportal": "Неактивированый портал",
       "item.anal_craft.trusi_boots": "Trusi Boots",
-      "item.anal_craft.ass_clap": "AssClap",
       "item.anal_craft.bomzh.desc": "G-man",
+      "item.anal_craft.ass_clap": "AssClap",
       "item.anal_craft.ancient_seemensword": "Меч из древней спермы",
       "item.anal_craft.zaghulial": "Олег Газманов - Загулял",
-      "itemGroup.tabanal_tool": "AnalCraftTool",
       "item.anal_craft.semenlime_spawn_egg": "Спермень Spawn Egg",
+      "itemGroup.tabanal_tool": "AnalCraftTool",
       "block.anal_craft.cumore": "Руда спермы",
       "item.anal_craft.penisstolb": "Ствол ключа",
       "item.anal_craft.nurminskii_valim.desc": " zerodovich",
       "subtitles.bremenskiemuzicanti": "",
+      "item.anal_craft.latexbag": "Мешочек из latex",
       "item.anal_craft.iunostvsapoghakh": "Юность в сапогах",
       "item.anal_craft.ofitsiery.desc": "iVan Darkholme",
       "item.anal_craft.oliegh_gazmanov_iesaul.desc": "Shoshon Elegant",
@@ -4361,8 +4422,8 @@
       "itemGroup.tabanal_craft_blocks": "AnalCraft Блоки",
       "block.anal_craft.cumplanks": "Спермовые доски",
       "item.anal_craft.portalkey": "Ключ ",
+      "item.anal_craft.blackleather": "Latex",
       "subtitles.thankyousir": "",
-      "item.anal_craft.blackleather": "Чёрная кожа",
       "entity.anal_craft.van": "Слэйв",
       "item.anal_craft.bieliv.desc": "Lil Nevermore",
       "item.anal_craft.blakshowel": "Лопата из черного камня",
@@ -4512,6 +4573,7 @@
       "item.anal_craft.chierstvyi_snius": "Чёрствый снюс",
       "block.anal_craft.cumlog": "Спермовое бревно",
       "block.anal_craft.blackstone": "Черный камень",
+      "block.anal_craft.crystaldmg": "Crystaldmg",
       "subtitles.marionetka": "",
       "block.anal_craft.pedikstal_2": "Пьедестал",
       "advancements.armadv_2.title": "Таинственная маска",
