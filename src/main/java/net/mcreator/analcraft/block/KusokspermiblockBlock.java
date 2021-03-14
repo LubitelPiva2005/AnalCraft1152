@@ -27,6 +27,7 @@ import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
+import net.mcreator.analcraft.world.dimension.DungeonVanDimension;
 import net.mcreator.analcraft.itemgroup.AnalCraftBlocksItemGroup;
 import net.mcreator.analcraft.item.SliceoldcumItem;
 import net.mcreator.analcraft.AnalCraftModElements;
@@ -70,6 +71,8 @@ public class KusokspermiblockBlock extends AnalCraftModElements.ModElement {
 			boolean biomeCriteria = false;
 			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("anal_craft:dickforest")))
 				biomeCriteria = true;
+			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("anal_craft:van_dungeon")))
+				biomeCriteria = true;
 			if (!biomeCriteria)
 				continue;
 			biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES, new OreFeature(OreFeatureConfig::deserialize) {
@@ -79,6 +82,8 @@ public class KusokspermiblockBlock extends AnalCraftModElements.ModElement {
 					boolean dimensionCriteria = false;
 					if (dimensionType == DimensionType.OVERWORLD)
 						dimensionCriteria = true;
+					if (dimensionType == DungeonVanDimension.type)
+						dimensionCriteria = true;
 					if (!dimensionCriteria)
 						return false;
 					return super.place(world, generator, rand, pos, config);
@@ -86,6 +91,8 @@ public class KusokspermiblockBlock extends AnalCraftModElements.ModElement {
 			}.withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.create("kusokspermiblock", "kusokspermiblock", blockAt -> {
 				boolean blockCriteria = false;
 				if (blockAt.getBlock() == Blocks.STONE.getDefaultState().getBlock())
+					blockCriteria = true;
+				if (blockAt.getBlock() == BlackstoneBlock.block.getDefaultState().getBlock())
 					blockCriteria = true;
 				return blockCriteria;
 			}), block.getDefaultState(), 9)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(2, 0, 0, 30))));

@@ -1,7 +1,28 @@
 {
   "variants": {
-    "": {
+    "facing=south": {
       "model": "anal_craft:block/derevovan"
+    },
+    "facing=north": {
+      "model": "anal_craft:block/derevovan"
+    },
+    "facing=east": {
+      "model": "anal_craft:block/derevovan",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "anal_craft:block/derevovan",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "anal_craft:block/derevovan",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "anal_craft:block/derevovan",
+      "x": 90,
+      "y": 90
     }
   }
 }

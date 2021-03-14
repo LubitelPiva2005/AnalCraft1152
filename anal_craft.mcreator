@@ -4344,6 +4344,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "bsword"
+    },
+    {
+      "name": "Ruini1",
+      "type": "loottable",
+      "sortid": 342,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruini_1"
+    },
+    {
+      "name": "Ruini2",
+      "type": "structure",
+      "sortid": 343,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruini_2"
     }
   ],
   "variable_elements": [],
@@ -4597,6 +4615,8 @@
       "subtitles.do-you-like-what-you-see": "",
       "item.anal_craft.guidebookk": "AnalCraft",
       "block.anal_craft.dirt_van": "Грунт слейвов",
+      "item.anal_craft.lightbar": "Слиток грозовой спермы",
+      "block.anal_craft.flowsmall": "Маленький членовик в горшке",
       "item.anal_craft.streleatherman_spawn_egg": "Слэйв с луком Spawn Egg",
       "block.anal_craft.spermebrick": "Спермич",
       "block.anal_craft.spermazabor": "Стена из спермичей",
@@ -4717,7 +4737,7 @@
       "entity.anal_craft.torgovec": "Торговец",
       "subtitles.ibelieve": "",
       "item.anal_craft.bieliv": "Yumi Matsutoya - Haru yo koi",
-      "block.anal_craft.derevovan": "Древесина боли слейвов",
+      "block.anal_craft.derevovan": "Бревно боли слейвов",
       "subtitles.bomj": "",
       "block.anal_craft.cumleaves": "Спермолистья",
       "itemGroup.tabanal_craft_snariazhenie": "AnalCraft Снаряжение",

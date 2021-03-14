@@ -93,16 +93,23 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "spawnWorldTypes": [
-      "Surface"
+      "Surface",
+      "CUSTOM:DungeonVan"
     ],
     "restrictionBiomes": [
       {
         "value": "CUSTOM:Dickforest"
+      },
+      {
+        "value": "CUSTOM:VanDungeon"
       }
     ],
     "blocksToReplace": [
       {
         "value": "Blocks.STONE"
+      },
+      {
+        "value": "CUSTOM:Blackstone"
       }
     ],
     "frequencyPerChunks": 2,
