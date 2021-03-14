@@ -1,0 +1,10 @@
+{
+  "parent": "anal_craft:custom/flower_pot_cross",
+  "textures": {
+    "all": "anal_craft:blocks/flower_pot",
+    "particle": "anal_craft:blocks/flower_pot",
+    "flowerpot": "anal_craft:blocks/flower_pot",
+    "plant": "anal_craft:blocks/dickersa",
+    "dirt": "anal_craft:blocks/niz"
+  }
+}

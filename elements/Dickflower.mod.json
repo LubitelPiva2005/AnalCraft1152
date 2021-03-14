@@ -23,7 +23,7 @@
     "luminance": 0.0,
     "unbreakable": false,
     "soundOnStep": {
-      "value": "GROUND"
+      "value": "PLANT"
     },
     "useLootTableForDrops": false,
     "customDrop": {
