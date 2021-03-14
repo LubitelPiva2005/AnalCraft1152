@@ -16,7 +16,7 @@
     "igniterTab": {
       "value": "CUSTOM:ANALTAB"
     },
-    "texture": "flint_and_stdeel",
+    "texture": "zaj",
     "portalTexture": "gay3",
     "enablePortal": true,
     "biomesInDimension": [
