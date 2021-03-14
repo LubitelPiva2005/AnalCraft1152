@@ -1,0 +1,27 @@
+{
+  "group": "anal_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "2 ",
+    "4 "
+  ],
+  "key": {
+    "0": {
+      "item": "anal_craft:blackmode"
+    },
+    "1": {
+      "item": "anal_craft:blackmode"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "anal_craft:blackhoe",
+    "count": 1
+  }
+}

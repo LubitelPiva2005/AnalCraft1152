@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "showel",
+    "texture": "sh",
     "customModelName": "Normal",
     "name": "Лопата из черного камня",
     "specialInfo": [],

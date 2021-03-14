@@ -1,0 +1,42 @@
+{
+  "group": "anal_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "anal_craft:crystal"
+    },
+    "1": {
+      "item": "anal_craft:ancientseemeningot"
+    },
+    "2": {
+      "item": "anal_craft:crystal"
+    },
+    "3": {
+      "item": "anal_craft:zasokhshaiaspierma"
+    },
+    "4": {
+      "item": "minecraft:nether_star"
+    },
+    "5": {
+      "item": "anal_craft:zasokhshaiaspierma"
+    },
+    "6": {
+      "item": "anal_craft:crystal"
+    },
+    "7": {
+      "item": "anal_craft:ancientseemeningot"
+    },
+    "8": {
+      "item": "anal_craft:crystal"
+    }
+  },
+  "result": {
+    "item": "anal_craft:unknown_element",
+    "count": 1
+  }
+}

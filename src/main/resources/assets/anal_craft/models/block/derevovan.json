@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "anal_craft:blocks/vantopderevo",
-    "up": "anal_craft:blocks/vantopderevo",
-    "north": "anal_craft:blocks/derevovana",
-    "east": "anal_craft:blocks/derevovana",
-    "south": "anal_craft:blocks/derevovana",
-    "west": "anal_craft:blocks/derevovana",
-    "particle": "anal_craft:blocks/vantopderevo"
+    "down": "anal_craft:blocks/111verhserev",
+    "up": "anal_craft:blocks/111verhserev",
+    "north": "anal_craft:blocks/krasnoederevo",
+    "east": "anal_craft:blocks/krasnoederevo",
+    "south": "anal_craft:blocks/krasnoederevo",
+    "west": "anal_craft:blocks/krasnoederevo",
+    "particle": "anal_craft:blocks/111verhserev"
   }
 }

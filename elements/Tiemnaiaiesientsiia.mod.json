@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "biez_imieni-1",
+    "texture": "govnica",
     "customModelName": "Normal",
-    "name": "Tiemnaiaiesientsiia",
+    "name": "Темная эссенция",
     "rarity": "UNCOMMON",
     "creativeTab": {
       "value": "CUSTOM:ANALTAB"
