@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "anal_craft:items/magic_wand"
+    "layer0": "anal_craft:items/spermestaff"
   },
   "display": {
     "thirdperson_righthand": {
