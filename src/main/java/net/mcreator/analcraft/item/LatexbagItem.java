@@ -36,7 +36,7 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.block.BlockState;
 
 import net.mcreator.analcraft.itemgroup.AnalToolItemGroup;
-import net.mcreator.analcraft.gui.LatexbagguiGui;
+import net.mcreator.analcraft.gui.LatextestGui;
 import net.mcreator.analcraft.AnalCraftModElements;
 
 import javax.annotation.Nullable;
@@ -57,7 +57,7 @@ public class LatexbagItem extends AnalCraftModElements.ModElement {
 	@OnlyIn(Dist.CLIENT)
 	public void onItemDropped(ItemTossEvent event) {
 		if (event.getEntityItem().getItem().getItem() == block) {
-			if (Minecraft.getInstance().currentScreen instanceof LatexbagguiGui.GuiWindow) {
+			if (Minecraft.getInstance().currentScreen instanceof LatextestGui.GuiWindow) {
 				Minecraft.getInstance().player.closeScreen();
 			}
 		}
@@ -107,7 +107,7 @@ public class LatexbagItem extends AnalCraftModElements.ModElement {
 						PacketBuffer packetBuffer = new PacketBuffer(Unpooled.buffer());
 						packetBuffer.writeBlockPos(new BlockPos(x, y, z));
 						packetBuffer.writeByte(hand == Hand.MAIN_HAND ? 0 : 1);
-						return new LatexbagguiGui.GuiContainerMod(id, inventory, packetBuffer);
+						return new LatextestGui.GuiContainerMod(id, inventory, packetBuffer);
 					}
 				}, buf -> {
 					buf.writeBlockPos(new BlockPos(x, y, z));

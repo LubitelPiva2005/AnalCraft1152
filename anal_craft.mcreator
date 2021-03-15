@@ -4555,6 +4555,15 @@
       "registry_name": "ruini_222"
     },
     {
+      "name": "Rattv",
+      "type": "musicdisc",
+      "sortid": 353,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rattv"
+    },
+    {
       "name": "Krisadrop",
       "type": "loottable",
       "sortid": 352,
@@ -4564,13 +4573,13 @@
       "registry_name": "krisadrop"
     },
     {
-      "name": "Rattv",
-      "type": "musicdisc",
-      "sortid": 353,
+      "name": "Latextest",
+      "type": "gui",
+      "sortid": 352,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "rattv"
+      "registry_name": "latextest"
     }
   ],
   "variable_elements": [],
@@ -4848,7 +4857,6 @@
       "block.anal_craft.spermazabor": "Стена из спермичей",
       "block.anal_craft.blok_1plastiny": "Древний камень",
       "item.anal_craft.dom": "Король и Шут - Проклятый старый дом",
-      "item.anal_craft.rattv": "Scatman (ski-ba-bop-ba-dop-bop)",
       "advancements.anal_craftadvd.descr": "Without further interruption, let\u0027s celebrate and suck some dick",
       "item.anal_craft.gachi_chestplate": "Костюм кожевника",
       "block.anal_craft.slabslave": "Slabslave",
@@ -4886,13 +4894,12 @@
       "item.anal_craft.blackleather": "Чёрная кожа",
       "subtitles.thankyousir": "",
       "entity.anal_craft.van": "Слэйв",
-      "item.anal_craft.bieliv.desc": "Azure Fairy",
+      "item.anal_craft.bieliv.desc": "Lil Nevermore",
       "item.anal_craft.blakshowel": "Лопата из черного камня",
       "advancements.boddofthisgymanhiv.title": "Boss of this gym",
       "item.anal_craft.gorillaz_feel_good.desc": "Gachi Fingers",
       "item.anal_craft.ricardo_spawn_egg": "Рикардо Милос Spawn Egg",
       "itemGroup.tabanal_craft_mobs": "AnalCraft Мобы",
-      "item.anal_craft.rattv.desc": "Rat TV",
       "block.anal_craft.cumblock": "Блок спермы",
       "block.anal_craft.ladder": "Ступеньки из спермовой древесины",
       "advancements.armadv_2.descr": "Надеть маску в сперме",
@@ -4965,7 +4972,7 @@
       "subtitles.valim": "",
       "entity.anal_craft.torgovec": "Торговец",
       "subtitles.ibelieve": "",
-      "item.anal_craft.bieliv": "Сегодня поиграю я в Майнкрафт",
+      "item.anal_craft.bieliv": "Yumi Matsutoya - Haru yo koi",
       "block.anal_craft.derevovan": "Бревно боли слейвов",
       "subtitles.bomj": "",
       "block.anal_craft.cumleaves": "Спермолистья",

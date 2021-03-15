@@ -88,7 +88,7 @@ public class BlackcumoreBlock extends AnalCraftModElements.ModElement {
 				if (blockAt.getBlock() == BlackstoneBlock.block.getDefaultState().getBlock())
 					blockCriteria = true;
 				return blockCriteria;
-			}), block.getDefaultState(), 16)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(10, 0, 0, 64))));
+			}), block.getDefaultState(), 16)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(10, 0, 0, 130))));
 		}
 	}
 }
