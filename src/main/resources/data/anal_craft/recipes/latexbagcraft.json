@@ -8,7 +8,7 @@
   ],
   "key": {
     "1": {
-      "tag": "minecraft:wool"
+      "item": "minecraft:string"
     },
     "3": {
       "item": "anal_craft:blackleather"
@@ -24,7 +24,7 @@
     }
   },
   "result": {
-    "item": "anal_craft:unknown_element",
+    "item": "anal_craft:latexbag",
     "count": 1
   }
 }
