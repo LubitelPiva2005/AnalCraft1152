@@ -268,23 +268,5 @@
         "stream": false
       }
     ]
-  },
-  "minecraft-gachi": {
-    "category": "music",
-    "sounds": [
-      {
-        "name": "anal_craft:minecraftgachi",
-        "stream": true
-      }
-    ]
-  },
-  "rat-gachi": {
-    "category": "music",
-    "sounds": [
-      {
-        "name": "anal_craft:rat-gachi",
-        "stream": true
-      }
-    ]
   }
 }
