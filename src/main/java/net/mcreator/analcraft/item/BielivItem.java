@@ -25,7 +25,7 @@ public class BielivItem extends AnalCraftModElements.ModElement {
 	}
 	public static class MusicDiscItemCustom extends MusicDiscItem {
 		public MusicDiscItemCustom() {
-			super(0, AnalCraftModElements.sounds.get(new ResourceLocation("anal_craft:ibelieve")),
+			super(0, AnalCraftModElements.sounds.get(new ResourceLocation("anal_craft:minecraft-gachi")),
 					new Item.Properties().group(AnalCraftMusicItemGroup.tab).maxStackSize(1).rarity(Rarity.RARE));
 			setRegistryName("bieliv");
 		}
