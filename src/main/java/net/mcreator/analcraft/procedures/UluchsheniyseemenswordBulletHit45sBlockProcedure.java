@@ -1,11 +1,19 @@
 package net.mcreator.analcraft.procedures;
 
+import net.minecraft.item.ItemStack;
+import net.minecraft.entity.player.ServerPlayerEntity;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.Entity;
+
+import net.mcreator.analcraft.AnalCraftModElements;
+
+import java.util.Map;
+import java.util.Collections;
+
 @AnalCraftModElements.ModElement.Tag
 public class UluchsheniyseemenswordBulletHit45sBlockProcedure extends AnalCraftModElements.ModElement {
-
 	public UluchsheniyseemenswordBulletHit45sBlockProcedure(AnalCraftModElements instance) {
 		super(instance, 349);
-
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -34,13 +42,11 @@ public class UluchsheniyseemenswordBulletHit45sBlockProcedure extends AnalCraftM
 				System.err.println("Failed to load dependency z for procedure UluchsheniyseemenswordBulletHit45sBlock!");
 			return;
 		}
-
 		Entity entity = (Entity) dependencies.get("entity");
 		ItemStack itemstack = (ItemStack) dependencies.get("itemstack");
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
-
 		if (entity instanceof PlayerEntity)
 			((PlayerEntity) entity).getCooldownTracker().setCooldown(((itemstack)).getItem(), (int) 100);
 		{
@@ -50,7 +56,5 @@ public class UluchsheniyseemenswordBulletHit45sBlockProcedure extends AnalCraftM
 				((ServerPlayerEntity) _ent).connection.setPlayerLocation(x, y, z, _ent.rotationYaw, _ent.rotationPitch, Collections.emptySet());
 			}
 		}
-
 	}
-
 }

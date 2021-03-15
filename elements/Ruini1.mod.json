@@ -70,7 +70,7 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:Blackstone"
+              "value": "CUSTOM:ChierstvyiSnius"
             },
             "weight": 15,
             "minCount": 1,
@@ -126,9 +126,9 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:Gachi.helmet"
+              "value": "Items.SKULL#1"
             },
-            "weight": 10,
+            "weight": 5,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,

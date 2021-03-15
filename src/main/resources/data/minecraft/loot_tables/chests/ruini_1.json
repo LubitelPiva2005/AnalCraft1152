@@ -65,7 +65,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "anal_craft:blackstone",
+          "name": "anal_craft:chierstvyi_snius",
           "weight": 15,
           "functions": [
             {
@@ -121,8 +121,8 @@
         },
         {
           "type": "minecraft:item",
-          "name": "anal_craft:gachi_helmet",
-          "weight": 10,
+          "name": "minecraft:wither_skeleton_skull",
+          "weight": 5,
           "functions": [
             {
               "function": "set_count",

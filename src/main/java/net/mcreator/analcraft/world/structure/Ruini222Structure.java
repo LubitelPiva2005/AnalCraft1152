@@ -30,9 +30,9 @@ import net.mcreator.analcraft.AnalCraftModElements;
 import java.util.Random;
 
 @AnalCraftModElements.ModElement.Tag
-public class Ruini2Structure extends AnalCraftModElements.ModElement {
-	public Ruini2Structure(AnalCraftModElements instance) {
-		super(instance, 343);
+public class Ruini222Structure extends AnalCraftModElements.ModElement {
+	public Ruini222Structure(AnalCraftModElements instance) {
+		super(instance, 351);
 	}
 
 	@Override
@@ -62,7 +62,7 @@ public class Ruini2Structure extends AnalCraftModElements.ModElement {
 						int y = spawnTo.getY();
 						int z = spawnTo.getZ();
 						Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
-								.getTemplateDefaulted(new ResourceLocation("anal_craft", "ruini22"));
+								.getTemplateDefaulted(new ResourceLocation("anal_craft", "ruini222"));
 						if (template == null)
 							return false;
 						template.addBlocksToWorld(world, spawnTo, new PlacementSettings().setRotation(rotation).setRandom(random).setMirror(mirror)

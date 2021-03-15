@@ -1,11 +1,33 @@
 package net.mcreator.analcraft.procedures;
 
+import net.minecraftforge.registries.ForgeRegistries;
+
+import net.minecraft.world.IWorld;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.SoundCategory;
+import net.minecraft.util.ResourceLocation;
+import net.minecraft.item.Items;
+import net.minecraft.item.ItemStack;
+import net.minecraft.inventory.container.Slot;
+import net.minecraft.inventory.container.Container;
+import net.minecraft.entity.player.ServerPlayerEntity;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.Entity;
+
+import net.mcreator.analcraft.item.UluchsheniyseemenswordItem;
+import net.mcreator.analcraft.item.LightbarItem;
+import net.mcreator.analcraft.item.EnderseemeningotItem;
+import net.mcreator.analcraft.item.BillyposohItem;
+import net.mcreator.analcraft.item.AncientSeemenswordItem;
+import net.mcreator.analcraft.AnalCraftModElements;
+
+import java.util.function.Supplier;
+import java.util.Map;
+
 @AnalCraftModElements.ModElement.Tag
 public class SuperseemenswordProcedure extends AnalCraftModElements.ModElement {
-
 	public SuperseemenswordProcedure(AnalCraftModElements instance) {
 		super(instance, 346);
-
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -34,13 +56,11 @@ public class SuperseemenswordProcedure extends AnalCraftModElements.ModElement {
 				System.err.println("Failed to load dependency world for procedure Superseemensword!");
 			return;
 		}
-
 		Entity entity = (Entity) dependencies.get("entity");
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
-
 		if ((((new Object() {
 			public ItemStack getItemStack(int sltid) {
 				Entity _ent = entity;
@@ -225,7 +245,5 @@ public class SuperseemenswordProcedure extends AnalCraftModElements.ModElement {
 						SoundCategory.NEUTRAL, (float) 0.8, (float) 1, false);
 			}
 		}
-
 	}
-
 }

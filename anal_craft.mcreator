@@ -4544,6 +4544,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "enderseemeningot"
+    },
+    {
+      "name": "Ruini222",
+      "type": "structure",
+      "sortid": 351,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruini_222"
     }
   ],
   "variable_elements": [],
@@ -4795,6 +4804,7 @@
       "item.anal_craft.trusi_chestplate": "Trusi Body",
       "itemGroup.tabanal_craft_music": "AnalCraft Музыка",
       "subtitles.do-you-like-what-you-see": "",
+      "item.anal_craft.enderseemeningot": "Слиток эндер спермы",
       "item.anal_craft.guidebookk": "AnalCraft",
       "block.anal_craft.dirt_van": "Грунт слейвов",
       "item.anal_craft.lightbar": "Слиток грозовой спермы",
@@ -4824,6 +4834,7 @@
       "item.anal_craft.penisstolb": "Ствол ключа",
       "item.anal_craft.nurminskii_valim.desc": " zerodovich",
       "subtitles.bremenskiemuzicanti": "",
+      "item.anal_craft.latexbag": "Мешочек из latex",
       "item.anal_craft.iunostvsapoghakh": "Юность в сапогах",
       "item.anal_craft.ofitsiery.desc": "iVan Darkholme",
       "item.anal_craft.oliegh_gazmanov_iesaul.desc": "Shoshon Elegant",
@@ -4963,6 +4974,7 @@
       "biome.anal_craft.van_dungeon": "Van Dungeon",
       "subtitles.fisting": "",
       "item.anal_craft.tiemnaiaiesientsiia": "Tiemnaiaiesientsiia",
+      "item.anal_craft.uluchsheniyseemensword": "Эндер меч из древней спермы",
       "item.anal_craft.three": "300 баксов",
       "item.anal_craft.ass_clap.desc": "flox_",
       "subtitles.ahr": "",
