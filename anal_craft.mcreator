@@ -4580,6 +4580,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "latextest"
+    },
+    {
+      "name": "VanDick",
+      "type": "loottable",
+      "sortid": 354,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "van_dick"
     }
   ],
   "variable_elements": [],

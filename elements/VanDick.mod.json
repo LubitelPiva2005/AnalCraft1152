@@ -14,11 +14,11 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:Bucks"
+              "value": "CUSTOM:Sliceoldcum"
             },
-            "weight": 50,
+            "weight": 10,
             "minCount": 1,
-            "maxCount": 8,
+            "maxCount": 6,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
             "affectedByFortune": false,
@@ -28,9 +28,9 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:Semen"
+              "value": "Items.EXPERIENCE_BOTTLE"
             },
-            "weight": 25,
+            "weight": 10,
             "minCount": 4,
             "maxCount": 12,
             "minEnchantmentLevel": 0,
@@ -42,11 +42,11 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:Blackmode"
+              "value": "CUSTOM:Bucks"
             },
-            "weight": 15,
-            "minCount": 1,
-            "maxCount": 9,
+            "weight": 30,
+            "minCount": 4,
+            "maxCount": 16,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
             "affectedByFortune": false,
@@ -56,55 +56,13 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:Sliceoldcum"
+              "value": "CUSTOM:Semen"
             },
-            "weight": 15,
-            "minCount": 1,
-            "maxCount": 5,
+            "weight": 10,
+            "minCount": 8,
+            "maxCount": 12,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
-            "affectedByFortune": false,
-            "explosionDecay": false,
-            "silkTouchMode": 0
-          },
-          {
-            "type": "item",
-            "item": {
-              "value": "CUSTOM:ChierstvyiSnius"
-            },
-            "weight": 15,
-            "minCount": 1,
-            "maxCount": 9,
-            "minEnchantmentLevel": 0,
-            "maxEnchantmentLevel": 0,
-            "affectedByFortune": false,
-            "explosionDecay": false,
-            "silkTouchMode": 0
-          },
-          {
-            "type": "item",
-            "item": {
-              "value": "CUSTOM:Blackleather"
-            },
-            "weight": 40,
-            "minCount": 1,
-            "maxCount": 8,
-            "minEnchantmentLevel": 0,
-            "maxEnchantmentLevel": 0,
-            "affectedByFortune": false,
-            "explosionDecay": false,
-            "silkTouchMode": 0
-          },
-          {
-            "type": "item",
-            "item": {
-              "value": "CUSTOM:Knut"
-            },
-            "weight": 15,
-            "minCount": 1,
-            "maxCount": 1,
-            "minEnchantmentLevel": 2,
-            "maxEnchantmentLevel": 4,
             "affectedByFortune": false,
             "explosionDecay": false,
             "silkTouchMode": 0
@@ -116,7 +74,7 @@
             },
             "weight": 10,
             "minCount": 1,
-            "maxCount": 1,
+            "maxCount": 3,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
             "affectedByFortune": false,
@@ -126,9 +84,23 @@
           {
             "type": "item",
             "item": {
-              "value": "Items.SKULL#1"
+              "value": "Items.GOLDEN_APPLE#0"
             },
-            "weight": 3,
+            "weight": 8,
+            "minCount": 1,
+            "maxCount": 2,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.GOLDEN_APPLE#1"
+            },
+            "weight": 2,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
@@ -140,7 +112,49 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:Fist"
+              "value": "Items.DIAMOND"
+            },
+            "weight": 20,
+            "minCount": 4,
+            "maxCount": 12,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.EMERALD"
+            },
+            "weight": 15,
+            "minCount": 1,
+            "maxCount": 8,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.GOLD_INGOT"
+            },
+            "weight": 10,
+            "minCount": 4,
+            "maxCount": 16,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Three"
             },
             "weight": 5,
             "minCount": 1,
@@ -150,11 +164,25 @@
             "affectedByFortune": false,
             "explosionDecay": false,
             "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Knut"
+            },
+            "weight": 10,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 3,
+            "maxEnchantmentLevel": 6,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
           }
         ]
       }
     ],
-    "name": "chests/ruini_1",
+    "name": "chests/van_dick",
     "namespace": "minecraft"
   }
 }
