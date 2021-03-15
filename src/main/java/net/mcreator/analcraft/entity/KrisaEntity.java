@@ -44,7 +44,6 @@ import net.minecraft.client.renderer.entity.MobRenderer;
 
 import net.mcreator.analcraft.itemgroup.AnalCraftMobsItemGroup;
 import net.mcreator.analcraft.item.SemenItem;
-import net.mcreator.analcraft.item.DomItem;
 import net.mcreator.analcraft.AnalCraftModElements;
 
 import com.mojang.blaze3d.vertex.IVertexBuilder;
@@ -109,8 +108,8 @@ public class KrisaEntity extends AnalCraftModElements.ModElement {
 		@Override
 		protected void registerGoals() {
 			super.registerGoals();
-			this.goalSelector.addGoal(1, new AvoidEntityGoal(this, PlayerEntity.class, (float) 3, 0.8, 0.8));
-			this.goalSelector.addGoal(2, new AvoidEntityGoal(this, ServerPlayerEntity.class, (float) 3, 0.8, 0.8));
+			this.goalSelector.addGoal(1, new AvoidEntityGoal(this, PlayerEntity.class, (float) 6, 0.8, 0.8));
+			this.goalSelector.addGoal(2, new AvoidEntityGoal(this, ServerPlayerEntity.class, (float) 6, 0.8, 0.8));
 			this.goalSelector.addGoal(3, new TemptGoal(this, 0.2, Ingredient.fromItems(new ItemStack(SemenItem.block, (int) (1)).getItem()), false));
 			this.goalSelector.addGoal(4, new LookRandomlyGoal(this));
 			this.goalSelector.addGoal(5, new SwimGoal(this));
@@ -119,11 +118,6 @@ public class KrisaEntity extends AnalCraftModElements.ModElement {
 		@Override
 		public CreatureAttribute getCreatureAttribute() {
 			return CreatureAttribute.UNDEFINED;
-		}
-
-		protected void dropSpecialItems(DamageSource source, int looting, boolean recentlyHitIn) {
-			super.dropSpecialItems(source, looting, recentlyHitIn);
-			this.entityDropItem(new ItemStack(DomItem.block, (int) (1)));
 		}
 
 		@Override

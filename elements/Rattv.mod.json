@@ -2,14 +2,14 @@
   "_fv": 13,
   "_type": "musicdisc",
   "definition": {
-    "texture": "andsp",
-    "name": "Сегодня поиграю я в Майнкрафт",
-    "description": "Azure Fairy",
+    "texture": "p17",
+    "name": "Scatman (ski-ba-bop-ba-dop-bop)",
+    "description": "Rat TV",
     "creativeTab": {
       "value": "CUSTOM:AnalCraftMusic"
     },
     "music": {
-      "value": "CUSTOM:minecraft-gachi"
+      "value": "CUSTOM:rat-gachi"
     },
     "specialInfo": [],
     "hasGlow": false

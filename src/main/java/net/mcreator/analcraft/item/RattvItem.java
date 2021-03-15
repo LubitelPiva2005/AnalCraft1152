@@ -12,11 +12,11 @@ import net.mcreator.analcraft.itemgroup.AnalCraftMusicItemGroup;
 import net.mcreator.analcraft.AnalCraftModElements;
 
 @AnalCraftModElements.ModElement.Tag
-public class BielivItem extends AnalCraftModElements.ModElement {
-	@ObjectHolder("anal_craft:bieliv")
+public class RattvItem extends AnalCraftModElements.ModElement {
+	@ObjectHolder("anal_craft:rattv")
 	public static final Item block = null;
-	public BielivItem(AnalCraftModElements instance) {
-		super(instance, 91);
+	public RattvItem(AnalCraftModElements instance) {
+		super(instance, 353);
 	}
 
 	@Override
@@ -25,9 +25,9 @@ public class BielivItem extends AnalCraftModElements.ModElement {
 	}
 	public static class MusicDiscItemCustom extends MusicDiscItem {
 		public MusicDiscItemCustom() {
-			super(0, AnalCraftModElements.sounds.get(new ResourceLocation("anal_craft:minecraft-gachi")),
+			super(0, AnalCraftModElements.sounds.get(new ResourceLocation("anal_craft:rat-gachi")),
 					new Item.Properties().group(AnalCraftMusicItemGroup.tab).maxStackSize(1).rarity(Rarity.RARE));
-			setRegistryName("bieliv");
+			setRegistryName("rattv");
 		}
 	}
 }

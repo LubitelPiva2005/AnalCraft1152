@@ -4553,6 +4553,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "ruini_222"
+    },
+    {
+      "name": "Krisadrop",
+      "type": "loottable",
+      "sortid": 352,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "krisadrop"
+    },
+    {
+      "name": "Rattv",
+      "type": "musicdisc",
+      "sortid": 353,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rattv"
     }
   ],
   "variable_elements": [],
@@ -4796,6 +4814,22 @@
       ],
       "category": "master",
       "subtitle": ""
+    },
+    {
+      "name": "minecraft-gachi",
+      "files": [
+        "minecraftgachi"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "rat-gachi",
+      "files": [
+        "rat-gachi"
+      ],
+      "category": "music",
+      "subtitle": ""
     }
   ],
   "language_map": {
@@ -4814,6 +4848,7 @@
       "block.anal_craft.spermazabor": "Стена из спермичей",
       "block.anal_craft.blok_1plastiny": "Древний камень",
       "item.anal_craft.dom": "Король и Шут - Проклятый старый дом",
+      "item.anal_craft.rattv": "Scatman (ski-ba-bop-ba-dop-bop)",
       "advancements.anal_craftadvd.descr": "Without further interruption, let\u0027s celebrate and suck some dick",
       "item.anal_craft.gachi_chestplate": "Костюм кожевника",
       "block.anal_craft.slabslave": "Slabslave",
@@ -4824,12 +4859,12 @@
       "item.anal_craft.notr_dam_die_pari": "Нотр-Дам де Пари - Эсмеральда",
       "block.anal_craft.disactivatedportal": "Неактивированый портал",
       "item.anal_craft.trusi_boots": "Trusi Boots",
-      "item.anal_craft.ass_clap": "AssClap",
       "item.anal_craft.bomzh.desc": "G-man",
+      "item.anal_craft.ass_clap": "AssClap",
       "item.anal_craft.ancient_seemensword": "Меч из древней спермы",
       "item.anal_craft.zaghulial": "Олег Газманов - Загулял",
-      "itemGroup.tabanal_tool": "AnalCraftTool",
       "item.anal_craft.semenlime_spawn_egg": "Спермень Spawn Egg",
+      "itemGroup.tabanal_tool": "AnalCraftTool",
       "block.anal_craft.cumore": "Руда спермы",
       "item.anal_craft.penisstolb": "Ствол ключа",
       "item.anal_craft.nurminskii_valim.desc": " zerodovich",
@@ -4848,15 +4883,16 @@
       "itemGroup.tabanal_craft_blocks": "AnalCraft Блоки",
       "block.anal_craft.cumplanks": "Спермовые доски",
       "item.anal_craft.portalkey": "Ключ ",
-      "subtitles.thankyousir": "",
       "item.anal_craft.blackleather": "Чёрная кожа",
+      "subtitles.thankyousir": "",
       "entity.anal_craft.van": "Слэйв",
-      "item.anal_craft.bieliv.desc": "Lil Nevermore",
+      "item.anal_craft.bieliv.desc": "Azure Fairy",
       "item.anal_craft.blakshowel": "Лопата из черного камня",
       "advancements.boddofthisgymanhiv.title": "Boss of this gym",
       "item.anal_craft.gorillaz_feel_good.desc": "Gachi Fingers",
       "item.anal_craft.ricardo_spawn_egg": "Рикардо Милос Spawn Egg",
       "itemGroup.tabanal_craft_mobs": "AnalCraft Мобы",
+      "item.anal_craft.rattv.desc": "Rat TV",
       "block.anal_craft.cumblock": "Блок спермы",
       "block.anal_craft.ladder": "Ступеньки из спермовой древесины",
       "advancements.armadv_2.descr": "Надеть маску в сперме",
@@ -4929,12 +4965,13 @@
       "subtitles.valim": "",
       "entity.anal_craft.torgovec": "Торговец",
       "subtitles.ibelieve": "",
-      "item.anal_craft.bieliv": "Yumi Matsutoya - Haru yo koi",
+      "item.anal_craft.bieliv": "Сегодня поиграю я в Майнкрафт",
       "block.anal_craft.derevovan": "Бревно боли слейвов",
       "subtitles.bomj": "",
       "block.anal_craft.cumleaves": "Спермолистья",
       "itemGroup.tabanal_craft_snariazhenie": "AnalCraft Снаряжение",
       "item.anal_craft.magicwand": "Посох спермы",
+      "subtitles.minecraft-gachi": "",
       "subtitles.swallowmycum": "",
       "item.anal_craft.oliegh_gazmanov_iesaul": "Олег Газманов - Есаул",
       "item.anal_craft.golobka": "Головка ключа",
@@ -5001,6 +5038,7 @@
       "item.anal_craft.chierstvyi_snius": "Чёрствый снюс",
       "block.anal_craft.cumlog": "Спермовое бревно",
       "block.anal_craft.blackstone": "Черный камень",
+      "subtitles.rat-gachi": "",
       "subtitles.marionetka": "",
       "block.anal_craft.pedikstal_2": "Пьедестал",
       "advancements.armadv_2.title": "Таинственная маска",
