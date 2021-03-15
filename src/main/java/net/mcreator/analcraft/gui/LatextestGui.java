@@ -42,11 +42,11 @@ import java.util.Map;
 import java.util.HashMap;
 
 @AnalCraftModElements.ModElement.Tag
-public class LatexbagguiGui extends AnalCraftModElements.ModElement {
+public class LatextestGui extends AnalCraftModElements.ModElement {
 	public static HashMap guistate = new HashMap();
 	private static ContainerType<GuiContainerMod> containerType = null;
-	public LatexbagguiGui(AnalCraftModElements instance) {
-		super(instance, 343);
+	public LatextestGui(AnalCraftModElements instance) {
+		super(instance, 352);
 		elements.addNetworkMessage(ButtonPressedMessage.class, ButtonPressedMessage::buffer, ButtonPressedMessage::new,
 				ButtonPressedMessage::handler);
 		elements.addNetworkMessage(GUISlotChangedMessage.class, GUISlotChangedMessage::buffer, GUISlotChangedMessage::new,
@@ -62,7 +62,7 @@ public class LatexbagguiGui extends AnalCraftModElements.ModElement {
 
 	@SubscribeEvent
 	public void registerContainer(RegistryEvent.Register<ContainerType<?>> event) {
-		event.getRegistry().register(containerType.setRegistryName("latexbaggui"));
+		event.getRegistry().register(containerType.setRegistryName("latextest"));
 	}
 	public static class GuiContainerModFactory implements IContainerFactory {
 		public GuiContainerMod create(int id, PlayerInventory inv, PacketBuffer extraData) {
@@ -81,7 +81,7 @@ public class LatexbagguiGui extends AnalCraftModElements.ModElement {
 			super(containerType, id);
 			this.entity = inv.player;
 			this.world = inv.player.world;
-			this.internal = new ItemStackHandler(11);
+			this.internal = new ItemStackHandler(9);
 			BlockPos pos = null;
 			if (extraData != null) {
 				pos = extraData.readBlockPos();
@@ -119,31 +119,31 @@ public class LatexbagguiGui extends AnalCraftModElements.ModElement {
 					}
 				}
 			}
-			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 7, 12) {
+			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 7, 9) {
 			}));
-			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 25, 12) {
+			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 25, 9) {
 			}));
-			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 43, 12) {
+			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 43, 9) {
 			}));
-			this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 97, 12) {
+			this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 61, 9) {
 			}));
-			this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 115, 12) {
+			this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 79, 9) {
 			}));
-			this.customSlots.put(7, this.addSlot(new SlotItemHandler(internal, 7, 133, 12) {
+			this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 97, 9) {
 			}));
-			this.customSlots.put(8, this.addSlot(new SlotItemHandler(internal, 8, 151, 12) {
+			this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 115, 9) {
 			}));
-			this.customSlots.put(9, this.addSlot(new SlotItemHandler(internal, 9, 79, 12) {
+			this.customSlots.put(7, this.addSlot(new SlotItemHandler(internal, 7, 133, 9) {
 			}));
-			this.customSlots.put(10, this.addSlot(new SlotItemHandler(internal, 10, 61, 12) {
+			this.customSlots.put(8, this.addSlot(new SlotItemHandler(internal, 8, 151, 9) {
 			}));
 			int si;
 			int sj;
 			for (si = 0; si < 3; ++si)
 				for (sj = 0; sj < 9; ++sj)
-					this.addSlot(new Slot(inv, sj + (si + 1) * 9, 0 + 8 + sj * 18, -46 + 84 + si * 18));
+					this.addSlot(new Slot(inv, sj + (si + 1) * 9, 0 + 8 + sj * 18, -34 + 84 + si * 18));
 			for (si = 0; si < 9; ++si)
-				this.addSlot(new Slot(inv, si, 0 + 8 + si * 18, -46 + 142));
+				this.addSlot(new Slot(inv, si, 0 + 8 + si * 18, -34 + 142));
 		}
 
 		public Map<Integer, Slot> get() {
@@ -311,9 +311,9 @@ public class LatexbagguiGui extends AnalCraftModElements.ModElement {
 			this.z = container.z;
 			this.entity = container.entity;
 			this.xSize = 176;
-			this.ySize = 121;
+			this.ySize = 133;
 		}
-		private static final ResourceLocation texture = new ResourceLocation("anal_craft:textures/latexbaggui.png");
+		private static final ResourceLocation texture = new ResourceLocation("anal_craft:textures/latextest.png");
 		@Override
 		public void render(int mouseX, int mouseY, float partialTicks) {
 			this.renderBackground();
