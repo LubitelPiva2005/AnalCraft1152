@@ -1,0 +1,16 @@
+{
+  "parent": "anal_craft:custom/isblock",
+  "textures": {
+    "all": "anal_craft:blocks/iron",
+    "particle": "anal_craft:blocks/iron",
+    "0": "anal_craft:blocks/iron",
+    "1": "anal_craft:blocks/texture",
+    "2": "anal_craft:blocks/upgradetableiconinto",
+    "3": "anal_craft:blocks/upgradetableiconplus",
+    "4": "anal_craft:blocks/redstone",
+    "5": "anal_craft:blocks/texture2",
+    "6": "anal_craft:blocks/stone111",
+    "7": "anal_craft:blocks/unknown_3",
+    "missing": "anal_craft:blocks/texture"
+  }
+}

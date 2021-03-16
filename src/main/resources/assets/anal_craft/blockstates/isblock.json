@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "anal_craft:block/isblock"
+    },
+    "facing=east": {
+      "model": "anal_craft:block/isblock",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "anal_craft:block/isblock",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "anal_craft:block/isblock",
+      "y": 270
+    }
+  }
+}
