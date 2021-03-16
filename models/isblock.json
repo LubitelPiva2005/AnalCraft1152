@@ -2,11 +2,11 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "блок/iron",
-		"1": "блок/texture",
+		"1": "block/texture",
 		"2": "блок/upgradetableiconinto",
 		"3": "блок/upgradetableiconplus",
 		"4": "блок/redstone",
-		"5": "блок/texture2",
+		"5": "block/texture2",
 		"6": "блок/stone",
 		"7": "блок/unknown (3)",
 		"particle": "блок/iron"
@@ -15,6 +15,7 @@
 		{
 			"from": [0, 0, 1],
 			"to": [16, 14, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
 			"faces": {
 				"north": {"uv": [0, 0, 16, 14], "texture": "#0"},
 				"east": {"uv": [0, 0, 15, 14], "texture": "#0"},
@@ -365,6 +366,7 @@
 		{
 			"from": [2, 14, 2],
 			"to": [14, 15, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
 			"faces": {
 				"north": {"uv": [0, 0, 12, 1], "texture": "#missing"},
 				"east": {"uv": [0, 0, 12, 1], "texture": "#missing"},
@@ -403,6 +405,7 @@
 		{
 			"from": [11, 13, -1.3],
 			"to": [14, 16, -1],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
 			"faces": {
 				"north": {"uv": [6, 6, 11, 11], "texture": "#7"},
 				"east": {"uv": [0, 0, 0.5, 3], "texture": "#6"},
@@ -415,6 +418,7 @@
 		{
 			"from": [10, 16, -1.5],
 			"to": [15, 16.2, -1],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
 			"faces": {
 				"north": {"uv": [0, 0, 5, 0.2], "texture": "#0"},
 				"east": {"uv": [0, 0, 0.5, 0.2], "texture": "#0"},
@@ -466,21 +470,21 @@
 	],
 	"display": {
 		"thirdperson_righthand": {
-			"rotation": [75, 45, 0],
+			"rotation": [75, 90, 0],
 			"translation": [0, 2.5, 0],
 			"scale": [0.375, 0.375, 0.375]
 		},
 		"thirdperson_lefthand": {
-			"rotation": [75, 45, 0],
+			"rotation": [75, 135, 0],
 			"translation": [0, 2.5, 0],
 			"scale": [0.375, 0.375, 0.375]
 		},
 		"firstperson_righthand": {
-			"rotation": [0, 45, 0],
+			"rotation": [0, 135, 0],
 			"scale": [0.4, 0.4, 0.4]
 		},
 		"firstperson_lefthand": {
-			"rotation": [0, 225, 0],
+			"rotation": [0, 135, 0],
 			"scale": [0.4, 0.4, 0.4]
 		},
 		"ground": {

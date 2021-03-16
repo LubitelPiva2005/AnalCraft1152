@@ -12,6 +12,15 @@
         14,
         16
       ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          8,
+          8,
+          8
+        ]
+      },
       "faces": {
         "north": {
           "uv": [
@@ -2082,6 +2091,15 @@
         15,
         14
       ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          8,
+          8,
+          8
+        ]
+      },
       "faces": {
         "north": {
           "uv": [
@@ -2304,6 +2322,15 @@
         16,
         -1
       ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          8,
+          8,
+          8
+        ]
+      },
       "faces": {
         "north": {
           "uv": [
@@ -2372,6 +2399,15 @@
         16.2,
         -1
       ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          8,
+          8,
+          8
+        ]
+      },
       "faces": {
         "north": {
           "uv": [
@@ -2665,7 +2701,7 @@
     "thirdperson_righthand": {
       "rotation": [
         75,
-        45,
+        90,
         0
       ],
       "translation": [
@@ -2682,7 +2718,7 @@
     "thirdperson_lefthand": {
       "rotation": [
         75,
-        45,
+        135,
         0
       ],
       "translation": [
@@ -2699,7 +2735,7 @@
     "firstperson_righthand": {
       "rotation": [
         0,
-        45,
+        135,
         0
       ],
       "scale": [
@@ -2711,7 +2747,7 @@
     "firstperson_lefthand": {
       "rotation": [
         0,
-        225,
+        135,
         0
       ],
       "scale": [
