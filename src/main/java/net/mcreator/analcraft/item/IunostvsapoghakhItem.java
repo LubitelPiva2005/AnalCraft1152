@@ -16,7 +16,7 @@ public class IunostvsapoghakhItem extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:iunostvsapoghakh")
 	public static final Item block = null;
 	public IunostvsapoghakhItem(AnalCraftModElements instance) {
-		super(instance, 106);
+		super(instance, 107);
 	}
 
 	@Override

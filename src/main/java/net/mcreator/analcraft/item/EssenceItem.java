@@ -16,7 +16,7 @@ public class EssenceItem extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:essence")
 	public static final Item block = null;
 	public EssenceItem(AnalCraftModElements instance) {
-		super(instance, 25);
+		super(instance, 26);
 	}
 
 	@Override

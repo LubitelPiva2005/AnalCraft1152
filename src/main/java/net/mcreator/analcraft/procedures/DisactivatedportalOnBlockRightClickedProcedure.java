@@ -29,7 +29,7 @@ import java.util.Map;
 @AnalCraftModElements.ModElement.Tag
 public class DisactivatedportalOnBlockRightClickedProcedure extends AnalCraftModElements.ModElement {
 	public DisactivatedportalOnBlockRightClickedProcedure(AnalCraftModElements instance) {
-		super(instance, 179);
+		super(instance, 180);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

@@ -17,7 +17,7 @@ public class KnutItem extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:knut")
 	public static final Item block = null;
 	public KnutItem(AnalCraftModElements instance) {
-		super(instance, 5);
+		super(instance, 6);
 	}
 
 	@Override

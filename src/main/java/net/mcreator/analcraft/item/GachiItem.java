@@ -29,7 +29,7 @@ public class GachiItem extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:gachi_boots")
 	public static final Item boots = null;
 	public GachiItem(AnalCraftModElements instance) {
-		super(instance, 1);
+		super(instance, 2);
 	}
 
 	@Override

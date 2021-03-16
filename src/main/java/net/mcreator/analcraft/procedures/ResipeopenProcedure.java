@@ -24,7 +24,7 @@ import io.netty.buffer.Unpooled;
 @AnalCraftModElements.ModElement.Tag
 public class ResipeopenProcedure extends AnalCraftModElements.ModElement {
 	public ResipeopenProcedure(AnalCraftModElements instance) {
-		super(instance, 311);
+		super(instance, 312);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

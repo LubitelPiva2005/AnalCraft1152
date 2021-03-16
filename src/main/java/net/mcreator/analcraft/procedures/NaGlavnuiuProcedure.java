@@ -24,7 +24,7 @@ import io.netty.buffer.Unpooled;
 @AnalCraftModElements.ModElement.Tag
 public class NaGlavnuiuProcedure extends AnalCraftModElements.ModElement {
 	public NaGlavnuiuProcedure(AnalCraftModElements instance) {
-		super(instance, 292);
+		super(instance, 293);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

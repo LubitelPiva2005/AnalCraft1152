@@ -12,7 +12,7 @@ import java.util.Map;
 @AnalCraftModElements.ModElement.Tag
 public class TrusiLeggingsTickEventProcedure extends AnalCraftModElements.ModElement {
 	public TrusiLeggingsTickEventProcedure(AnalCraftModElements instance) {
-		super(instance, 134);
+		super(instance, 135);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

@@ -16,7 +16,7 @@ public class ThreeItem extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:three")
 	public static final Item block = null;
 	public ThreeItem(AnalCraftModElements instance) {
-		super(instance, 15);
+		super(instance, 16);
 	}
 
 	@Override

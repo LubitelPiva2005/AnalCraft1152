@@ -23,7 +23,7 @@ public class GolobkaItem extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:golobka")
 	public static final Item block = null;
 	public GolobkaItem(AnalCraftModElements instance) {
-		super(instance, 32);
+		super(instance, 33);
 	}
 
 	@Override

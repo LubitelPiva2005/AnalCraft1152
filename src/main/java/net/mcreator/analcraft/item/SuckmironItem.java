@@ -16,7 +16,7 @@ public class SuckmironItem extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:suckmiron")
 	public static final Item block = null;
 	public SuckmironItem(AnalCraftModElements instance) {
-		super(instance, 108);
+		super(instance, 109);
 	}
 
 	@Override

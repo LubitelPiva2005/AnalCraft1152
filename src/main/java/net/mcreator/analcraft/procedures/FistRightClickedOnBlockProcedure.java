@@ -18,7 +18,7 @@ import java.util.Map;
 @AnalCraftModElements.ModElement.Tag
 public class FistRightClickedOnBlockProcedure extends AnalCraftModElements.ModElement {
 	public FistRightClickedOnBlockProcedure(AnalCraftModElements instance) {
-		super(instance, 139);
+		super(instance, 140);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

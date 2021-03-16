@@ -17,7 +17,7 @@ import java.util.Map;
 @AnalCraftModElements.ModElement.Tag
 public class BigOnStructureInstanceGeneratedProcedure extends AnalCraftModElements.ModElement {
 	public BigOnStructureInstanceGeneratedProcedure(AnalCraftModElements instance) {
-		super(instance, 126);
+		super(instance, 127);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

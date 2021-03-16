@@ -41,7 +41,7 @@ public class KusokspermiblockBlock extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:kusokspermiblock")
 	public static final Block block = null;
 	public KusokspermiblockBlock(AnalCraftModElements instance) {
-		super(instance, 64);
+		super(instance, 72);
 	}
 
 	@Override

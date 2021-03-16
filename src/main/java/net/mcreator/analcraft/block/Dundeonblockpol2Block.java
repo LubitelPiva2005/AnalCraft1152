@@ -23,7 +23,7 @@ public class Dundeonblockpol2Block extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:dundeonblockpol_2")
 	public static final Block block = null;
 	public Dundeonblockpol2Block(AnalCraftModElements instance) {
-		super(instance, 114);
+		super(instance, 115);
 	}
 
 	@Override

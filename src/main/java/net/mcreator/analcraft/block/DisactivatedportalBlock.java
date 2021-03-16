@@ -39,7 +39,7 @@ public class DisactivatedportalBlock extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:disactivatedportal")
 	public static final Block block = null;
 	public DisactivatedportalBlock(AnalCraftModElements instance) {
-		super(instance, 80);
+		super(instance, 88);
 	}
 
 	@Override

@@ -34,7 +34,7 @@ public class FistItem extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:fist")
 	public static final Item block = null;
 	public FistItem(AnalCraftModElements instance) {
-		super(instance, 3);
+		super(instance, 4);
 	}
 
 	@Override

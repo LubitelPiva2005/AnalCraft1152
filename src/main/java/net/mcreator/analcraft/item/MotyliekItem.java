@@ -16,7 +16,7 @@ public class MotyliekItem extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:motyliek")
 	public static final Item block = null;
 	public MotyliekItem(AnalCraftModElements instance) {
-		super(instance, 102);
+		super(instance, 103);
 	}
 
 	@Override

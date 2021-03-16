@@ -16,7 +16,7 @@ public class OlieghGazmanovIesaulItem extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:oliegh_gazmanov_iesaul")
 	public static final Item block = null;
 	public OlieghGazmanovIesaulItem(AnalCraftModElements instance) {
-		super(instance, 103);
+		super(instance, 104);
 	}
 
 	@Override

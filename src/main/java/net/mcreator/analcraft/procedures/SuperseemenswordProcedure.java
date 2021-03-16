@@ -27,7 +27,7 @@ import java.util.Map;
 @AnalCraftModElements.ModElement.Tag
 public class SuperseemenswordProcedure extends AnalCraftModElements.ModElement {
 	public SuperseemenswordProcedure(AnalCraftModElements instance) {
-		super(instance, 373);
+		super(instance, 374);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

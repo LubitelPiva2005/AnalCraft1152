@@ -31,7 +31,7 @@ public class PortalkeyItem extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:portalkey")
 	public static final Item block = null;
 	public PortalkeyItem(AnalCraftModElements instance) {
-		super(instance, 29);
+		super(instance, 30);
 	}
 
 	@Override

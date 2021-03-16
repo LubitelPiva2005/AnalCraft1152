@@ -52,7 +52,7 @@ public class BigDickflowBlock extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:big_dickflow")
 	public static final Block block = null;
 	public BigDickflowBlock(AnalCraftModElements instance) {
-		super(instance, 116);
+		super(instance, 117);
 	}
 
 	@Override

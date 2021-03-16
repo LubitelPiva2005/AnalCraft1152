@@ -34,7 +34,7 @@ import java.util.HashMap;
 @AnalCraftModElements.ModElement.Tag
 public class LockerroomStructure extends AnalCraftModElements.ModElement {
 	public LockerroomStructure(AnalCraftModElements instance) {
-		super(instance, 137);
+		super(instance, 138);
 	}
 
 	@Override

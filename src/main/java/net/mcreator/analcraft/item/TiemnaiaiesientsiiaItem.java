@@ -16,7 +16,7 @@ public class TiemnaiaiesientsiiaItem extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:tiemnaiaiesientsiia")
 	public static final Item block = null;
 	public TiemnaiaiesientsiiaItem(AnalCraftModElements instance) {
-		super(instance, 26);
+		super(instance, 27);
 	}
 
 	@Override

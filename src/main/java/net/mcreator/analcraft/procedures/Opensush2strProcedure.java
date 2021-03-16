@@ -24,7 +24,7 @@ import io.netty.buffer.Unpooled;
 @AnalCraftModElements.ModElement.Tag
 public class Opensush2strProcedure extends AnalCraftModElements.ModElement {
 	public Opensush2strProcedure(AnalCraftModElements instance) {
-		super(instance, 296);
+		super(instance, 297);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

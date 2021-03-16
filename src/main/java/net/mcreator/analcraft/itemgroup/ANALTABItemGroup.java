@@ -13,7 +13,7 @@ import net.mcreator.analcraft.AnalCraftModElements;
 @AnalCraftModElements.ModElement.Tag
 public class ANALTABItemGroup extends AnalCraftModElements.ModElement {
 	public ANALTABItemGroup(AnalCraftModElements instance) {
-		super(instance, 118);
+		super(instance, 119);
 	}
 
 	@Override

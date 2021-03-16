@@ -13,7 +13,7 @@ import net.mcreator.analcraft.AnalCraftModElements;
 @AnalCraftModElements.ModElement.Tag
 public class PotomUbratItemGroup extends AnalCraftModElements.ModElement {
 	public PotomUbratItemGroup(AnalCraftModElements instance) {
-		super(instance, 280);
+		super(instance, 281);
 	}
 
 	@Override

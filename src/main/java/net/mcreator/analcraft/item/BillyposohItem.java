@@ -32,7 +32,7 @@ public class BillyposohItem extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:billyposoh")
 	public static final Item block = null;
 	public BillyposohItem(AnalCraftModElements instance) {
-		super(instance, 12);
+		super(instance, 13);
 	}
 
 	@Override

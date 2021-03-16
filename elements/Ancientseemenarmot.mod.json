@@ -1,0 +1,53 @@
+{
+  "_fv": 13,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "1344431",
+    "enableBody": true,
+    "textureBody": "1234",
+    "enableLeggings": true,
+    "textureLeggings": "shtani",
+    "enableBoots": true,
+    "textureBoots": "13413",
+    "creativeTab": {
+      "value": "CUSTOM:AnalCraftSnariazhenie"
+    },
+    "armorTextureFile": "caave__png_",
+    "helmetName": "Шлем из древней спермы",
+    "bodyName": "Нагрудник из древней спермы",
+    "leggingsName": "Штаны из древней спермы",
+    "bootsName": "Ботинки из древней спермы",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 25,
+    "damageValueHelmet": 4,
+    "damageValueBody": 9,
+    "damageValueLeggings": 7,
+    "damageValueBoots": 4,
+    "enchantability": 9,
+    "toughness": 3.0,
+    "equipSound": {
+      "value": "item.armor.equip_diamond"
+    },
+    "repairItems": []
+  }
+}

@@ -50,7 +50,7 @@ public class CrystaldmgBlock extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:crystaldmg")
 	public static final Block block = null;
 	public CrystaldmgBlock(AnalCraftModElements instance) {
-		super(instance, 260);
+		super(instance, 261);
 	}
 
 	@Override

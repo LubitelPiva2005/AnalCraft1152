@@ -45,7 +45,7 @@ public class AncientseemenBlock extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:ancientseemen")
 	public static final Block block = null;
 	public AncientseemenBlock(AnalCraftModElements instance) {
-		super(instance, 61);
+		super(instance, 69);
 	}
 
 	@Override

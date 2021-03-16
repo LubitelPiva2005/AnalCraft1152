@@ -29,7 +29,7 @@ public class PortalblockBlock extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:portalblock")
 	public static final Block block = null;
 	public PortalblockBlock(AnalCraftModElements instance) {
-		super(instance, 156);
+		super(instance, 157);
 	}
 
 	@Override

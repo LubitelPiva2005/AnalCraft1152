@@ -17,7 +17,7 @@ public class AncientseemenpickaxeItem extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:ancientseemenpickaxe")
 	public static final Item block = null;
 	public AncientseemenpickaxeItem(AnalCraftModElements instance) {
-		super(instance, 91);
+		super(instance, 46);
 	}
 
 	@Override

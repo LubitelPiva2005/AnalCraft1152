@@ -34,7 +34,7 @@ import java.util.HashMap;
 @AnalCraftModElements.ModElement.Tag
 public class BlackcockStructure extends AnalCraftModElements.ModElement {
 	public BlackcockStructure(AnalCraftModElements instance) {
-		super(instance, 146);
+		super(instance, 147);
 	}
 
 	@Override

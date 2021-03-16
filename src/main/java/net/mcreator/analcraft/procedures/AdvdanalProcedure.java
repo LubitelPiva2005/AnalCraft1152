@@ -20,7 +20,7 @@ import java.util.HashMap;
 @AnalCraftModElements.ModElement.Tag
 public class AdvdanalProcedure extends AnalCraftModElements.ModElement {
 	public AdvdanalProcedure(AnalCraftModElements instance) {
-		super(instance, 314);
+		super(instance, 315);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

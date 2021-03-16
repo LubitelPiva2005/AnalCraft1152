@@ -39,7 +39,7 @@ public class ZaliezhachierstvoghosniusaBlock extends AnalCraftModElements.ModEle
 	@ObjectHolder("anal_craft:zaliezhachierstvoghosniusa")
 	public static final Block block = null;
 	public ZaliezhachierstvoghosniusaBlock(AnalCraftModElements instance) {
-		super(instance, 59);
+		super(instance, 67);
 	}
 
 	@Override

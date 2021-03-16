@@ -13,7 +13,7 @@ import java.util.Map;
 @AnalCraftModElements.ModElement.Tag
 public class BigDickflowBlockDestroyedByPlayerProcedure extends AnalCraftModElements.ModElement {
 	public BigDickflowBlockDestroyedByPlayerProcedure(AnalCraftModElements instance) {
-		super(instance, 345);
+		super(instance, 346);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

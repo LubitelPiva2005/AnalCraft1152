@@ -50,7 +50,7 @@ public class SmalldickBlock extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:smalldick")
 	public static final Block block = null;
 	public SmalldickBlock(AnalCraftModElements instance) {
-		super(instance, 28);
+		super(instance, 29);
 	}
 
 	@Override

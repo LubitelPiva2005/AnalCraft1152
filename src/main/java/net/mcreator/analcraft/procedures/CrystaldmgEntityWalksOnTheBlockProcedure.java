@@ -10,7 +10,7 @@ import java.util.Map;
 @AnalCraftModElements.ModElement.Tag
 public class CrystaldmgEntityWalksOnTheBlockProcedure extends AnalCraftModElements.ModElement {
 	public CrystaldmgEntityWalksOnTheBlockProcedure(AnalCraftModElements instance) {
-		super(instance, 261);
+		super(instance, 262);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

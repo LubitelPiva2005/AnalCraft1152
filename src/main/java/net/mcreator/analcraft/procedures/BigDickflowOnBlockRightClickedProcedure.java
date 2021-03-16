@@ -17,7 +17,7 @@ import java.util.Map;
 @AnalCraftModElements.ModElement.Tag
 public class BigDickflowOnBlockRightClickedProcedure extends AnalCraftModElements.ModElement {
 	public BigDickflowOnBlockRightClickedProcedure(AnalCraftModElements instance) {
-		super(instance, 341);
+		super(instance, 342);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

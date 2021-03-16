@@ -10,7 +10,7 @@ import java.util.Map;
 @AnalCraftModElements.ModElement.Tag
 public class CrystaldmgEntityCollidesInTheBlockProcedure extends AnalCraftModElements.ModElement {
 	public CrystaldmgEntityCollidesInTheBlockProcedure(AnalCraftModElements instance) {
-		super(instance, 263);
+		super(instance, 264);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

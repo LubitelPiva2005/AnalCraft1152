@@ -51,7 +51,7 @@ import com.mojang.blaze3d.matrix.MatrixStack;
 public class RicardoEntity extends AnalCraftModElements.ModElement {
 	public static EntityType entity = null;
 	public RicardoEntity(AnalCraftModElements instance) {
-		super(instance, 46);
+		super(instance, 54);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

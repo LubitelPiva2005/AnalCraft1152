@@ -53,7 +53,7 @@ public class UluchsheniyseemenswordItem extends AnalCraftModElements.ModElement 
 	@ObjectHolder("anal_craft:entitybulletuluchsheniyseemensword")
 	public static final EntityType arrow = null;
 	public UluchsheniyseemenswordItem(AnalCraftModElements instance) {
-		super(instance, 10);
+		super(instance, 11);
 	}
 
 	@Override

@@ -16,7 +16,7 @@ public class NotrDamDiePariItem extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:notr_dam_die_pari")
 	public static final Item block = null;
 	public NotrDamDiePariItem(AnalCraftModElements instance) {
-		super(instance, 98);
+		super(instance, 99);
 	}
 
 	@Override

@@ -34,7 +34,7 @@ import java.util.HashMap;
 @AnalCraftModElements.ModElement.Tag
 public class DickkStructure extends AnalCraftModElements.ModElement {
 	public DickkStructure(AnalCraftModElements instance) {
-		super(instance, 125);
+		super(instance, 126);
 	}
 
 	@Override

@@ -34,7 +34,7 @@ import java.util.HashMap;
 @AnalCraftModElements.ModElement.Tag
 public class MinidungeonStructure extends AnalCraftModElements.ModElement {
 	public MinidungeonStructure(AnalCraftModElements instance) {
-		super(instance, 183);
+		super(instance, 184);
 	}
 
 	@Override

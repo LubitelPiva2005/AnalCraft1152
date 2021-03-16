@@ -34,7 +34,7 @@ public class CumfenceBlock extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:cumfence")
 	public static final Block block = null;
 	public CumfenceBlock(AnalCraftModElements instance) {
-		super(instance, 52);
+		super(instance, 60);
 	}
 
 	@Override

@@ -17,7 +17,7 @@ public class YuutltghieItem extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:yuutltghie")
 	public static final Item block = null;
 	public YuutltghieItem(AnalCraftModElements instance) {
-		super(instance, 6);
+		super(instance, 7);
 	}
 
 	@Override
