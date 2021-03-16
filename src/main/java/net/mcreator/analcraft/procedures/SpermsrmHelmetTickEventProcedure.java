@@ -12,7 +12,7 @@ import java.util.Map;
 @AnalCraftModElements.ModElement.Tag
 public class SpermsrmHelmetTickEventProcedure extends AnalCraftModElements.ModElement {
 	public SpermsrmHelmetTickEventProcedure(AnalCraftModElements instance) {
-		super(instance, 130);
+		super(instance, 129);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -23,6 +23,8 @@ public class SpermsrmHelmetTickEventProcedure extends AnalCraftModElements.ModEl
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		if (entity instanceof LivingEntity)
-			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SPEED, (int) 60, (int) 1));
+			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SPEED, (int) 60, (int) 0));
+		if (entity instanceof LivingEntity)
+			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.NIGHT_VISION, (int) 60, (int) 0));
 	}
 }

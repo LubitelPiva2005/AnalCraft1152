@@ -6,7 +6,6 @@ import net.minecraft.world.IWorld;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.SoundCategory;
 import net.minecraft.util.ResourceLocation;
-import net.minecraft.item.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraft.inventory.container.Slot;
 import net.minecraft.inventory.container.Container;
@@ -14,6 +13,7 @@ import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
 
+import net.mcreator.analcraft.item.MagicwandItem;
 import net.mcreator.analcraft.item.LightbarItem;
 import net.mcreator.analcraft.item.BillyposohItem;
 import net.mcreator.analcraft.AnalCraftModElements;
@@ -24,7 +24,7 @@ import java.util.Map;
 @AnalCraftModElements.ModElement.Tag
 public class NakovalnacrafdtProcedure extends AnalCraftModElements.ModElement {
 	public NakovalnacrafdtProcedure(AnalCraftModElements instance) {
-		super(instance, 360);
+		super(instance, 359);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -72,7 +72,7 @@ public class NakovalnacrafdtProcedure extends AnalCraftModElements.ModElement {
 				}
 				return ItemStack.EMPTY;
 			}
-		}.getItemStack((int) (0))).getItem() == new ItemStack(Items.TRIDENT, (int) (1)).getItem()) && ((new Object() {
+		}.getItemStack((int) (0))).getItem() == new ItemStack(MagicwandItem.block, (int) (1)).getItem()) && ((new Object() {
 			public ItemStack getItemStack(int sltid) {
 				Entity _ent = entity;
 				if (_ent instanceof ServerPlayerEntity) {

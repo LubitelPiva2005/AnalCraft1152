@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "anal_craft:ancientseemenarmot_helmet"
+    },
+    "title": {
+      "translate": "advancements.broniaadva.title"
+    },
+    "description": {
+      "translate": "advancements.broniaadva.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "broniaadva": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "anal_craft:slitok"
+}
