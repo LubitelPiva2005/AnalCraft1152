@@ -29,6 +29,9 @@
     ],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "BillyposohRightClickedInAir"
+    },
     "onRightClickedOnBlock": {
       "name": "BillyposohLivingEntityIsHitWithTool"
     },

@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "anal_craft:blocks/dirt",
-    "particle": "anal_craft:blocks/dirt"
+    "all": "anal_craft:blocks/diftvan",
+    "particle": "anal_craft:blocks/diftvan"
   }
 }

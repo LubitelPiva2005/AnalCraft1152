@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "anal_craft:blocks/l",
-    "particle": "anal_craft:blocks/l"
+    "all": "anal_craft:blocks/plastinka",
+    "particle": "anal_craft:blocks/plastinka"
   }
 }

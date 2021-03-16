@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "govnica",
+    "texture": "dark",
     "customModelName": "Normal",
     "name": "Темная эссенция",
     "rarity": "UNCOMMON",

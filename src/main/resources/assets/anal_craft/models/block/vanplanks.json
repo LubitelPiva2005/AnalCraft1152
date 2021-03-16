@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "anal_craft:blocks/vannnplanks",
-    "particle": "anal_craft:blocks/vannnplanks"
+    "all": "anal_craft:blocks/planks",
+    "particle": "anal_craft:blocks/planks"
   }
 }

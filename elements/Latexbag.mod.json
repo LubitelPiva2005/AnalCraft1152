@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "1meshok",
+    "texture": "mesgok",
     "customModelName": "Normal",
     "name": "Мешочек из latex",
     "rarity": "COMMON",

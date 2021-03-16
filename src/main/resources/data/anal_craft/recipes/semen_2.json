@@ -1,0 +1,13 @@
+{
+  "group": "anal_craft",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "anal_craft:cumblock"
+    }
+  ],
+  "result": {
+    "item": "anal_craft:semen",
+    "count": 9
+  }
+}

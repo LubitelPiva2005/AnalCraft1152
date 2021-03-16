@@ -2,6 +2,6 @@
   "parent": "anal_craft:custom/plastinca",
   "textures": {
     "1": "anal_craft:blocks/fsie",
-    "particle": "anal_craft:items/fsie"
+    "particle": "anal_craft:items/plast1"
   }
 }
