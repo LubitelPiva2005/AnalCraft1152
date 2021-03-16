@@ -33,7 +33,7 @@
       "name": "BillyposohRightClickedInAir"
     },
     "onRightClickedOnBlock": {
-      "name": "BillyposohLivingEntityIsHitWithTool"
+      "name": "BillyposohRightClickedOnBlock"
     },
     "onEntityHitWith": {
       "name": "BillyposohLivingEntityIsHitWithTool"

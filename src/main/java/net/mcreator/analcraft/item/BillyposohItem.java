@@ -19,6 +19,7 @@ import net.minecraft.item.IItemTier;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.LivingEntity;
 
+import net.mcreator.analcraft.procedures.BillyposohRightClickedOnBlockProcedure;
 import net.mcreator.analcraft.procedures.BillyposohRightClickedInAirProcedure;
 import net.mcreator.analcraft.procedures.BillyposohLivingEntityIsHitWithToolProcedure;
 import net.mcreator.analcraft.itemgroup.AnalCraftSnariazhenieItemGroup;
@@ -32,7 +33,7 @@ public class BillyposohItem extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:billyposoh")
 	public static final Item block = null;
 	public BillyposohItem(AnalCraftModElements instance) {
-		super(instance, 13);
+		super(instance, 12);
 	}
 
 	@Override
@@ -100,7 +101,7 @@ public class BillyposohItem extends AnalCraftModElements.ModElement {
 					$_dependencies.put("y", y);
 					$_dependencies.put("z", z);
 					$_dependencies.put("world", world);
-					BillyposohLivingEntityIsHitWithToolProcedure.executeProcedure($_dependencies);
+					BillyposohRightClickedOnBlockProcedure.executeProcedure($_dependencies);
 				}
 				return retval;
 			}
@@ -114,7 +115,6 @@ public class BillyposohItem extends AnalCraftModElements.ModElement {
 				World world = entity.world;
 				{
 					Map<String, Object> $_dependencies = new HashMap<>();
-					$_dependencies.put("entity", entity);
 					$_dependencies.put("x", x);
 					$_dependencies.put("y", y);
 					$_dependencies.put("z", z);

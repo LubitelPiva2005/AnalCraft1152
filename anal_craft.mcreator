@@ -4768,6 +4768,24 @@
       "registry_name": "isblockgui"
     },
     {
+      "name": "Slitok",
+      "type": "achievement",
+      "sortid": 386,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slitok"
+    },
+    {
+      "name": "Broniaadva",
+      "type": "achievement",
+      "sortid": 387,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "broniaadva"
+    },
+    {
       "name": "Bronya",
       "type": "procedure",
       "sortid": 385,
@@ -4785,22 +4803,37 @@
       }
     },
     {
-      "name": "Slitok",
-      "type": "achievement",
-      "sortid": 386,
+      "name": "BillyposohRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 385,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "slitok"
-    },
-    {
-      "name": "Broniaadva",
-      "type": "achievement",
-      "sortid": 387,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "broniaadva"
+      "registry_name": "billyposoh_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
