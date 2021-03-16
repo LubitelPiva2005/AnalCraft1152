@@ -11,7 +11,7 @@ import java.util.Map;
 @AnalCraftModElements.ModElement.Tag
 public class MagicwandBulletHitsBlockProcedure extends AnalCraftModElements.ModElement {
 	public MagicwandBulletHitsBlockProcedure(AnalCraftModElements instance) {
-		super(instance, 162);
+		super(instance, 259);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

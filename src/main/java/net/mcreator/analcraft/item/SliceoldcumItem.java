@@ -16,7 +16,7 @@ public class SliceoldcumItem extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:sliceoldcum")
 	public static final Item block = null;
 	public SliceoldcumItem(AnalCraftModElements instance) {
-		super(instance, 57);
+		super(instance, 22);
 	}
 
 	@Override

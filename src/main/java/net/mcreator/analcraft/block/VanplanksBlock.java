@@ -24,7 +24,7 @@ public class VanplanksBlock extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:vanplanks")
 	public static final Block block = null;
 	public VanplanksBlock(AnalCraftModElements instance) {
-		super(instance, 316);
+		super(instance, 75);
 	}
 
 	@Override

@@ -16,7 +16,7 @@ public class OfitsieryItem extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:ofitsiery")
 	public static final Item block = null;
 	public OfitsieryItem(AnalCraftModElements instance) {
-		super(instance, 78);
+		super(instance, 95);
 	}
 
 	@Override

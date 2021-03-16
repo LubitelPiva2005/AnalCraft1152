@@ -17,7 +17,7 @@ import java.util.Map;
 @AnalCraftModElements.ModElement.Tag
 public class LejaOnStructureInstanceGeneratedProcedure extends AnalCraftModElements.ModElement {
 	public LejaOnStructureInstanceGeneratedProcedure(AnalCraftModElements instance) {
-		super(instance, 24);
+		super(instance, 132);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

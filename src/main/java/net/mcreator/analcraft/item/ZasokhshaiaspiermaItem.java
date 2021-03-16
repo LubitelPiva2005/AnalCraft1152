@@ -16,7 +16,7 @@ public class ZasokhshaiaspiermaItem extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:zasokhshaiaspierma")
 	public static final Item block = null;
 	public ZasokhshaiaspiermaItem(AnalCraftModElements instance) {
-		super(instance, 142);
+		super(instance, 16);
 	}
 
 	@Override

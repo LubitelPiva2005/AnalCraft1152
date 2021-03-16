@@ -39,7 +39,7 @@ public class SpermazaborBlock extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:spermazabor")
 	public static final Block block = null;
 	public SpermazaborBlock(AnalCraftModElements instance) {
-		super(instance, 120);
+		super(instance, 72);
 	}
 
 	@Override

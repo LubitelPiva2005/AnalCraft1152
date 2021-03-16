@@ -32,7 +32,7 @@ public class FencegateBlock extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:fencegate")
 	public static final Block block = null;
 	public FencegateBlock(AnalCraftModElements instance) {
-		super(instance, 194);
+		super(instance, 53);
 	}
 
 	@Override

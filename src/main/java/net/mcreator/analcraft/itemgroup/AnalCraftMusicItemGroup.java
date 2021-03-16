@@ -13,7 +13,7 @@ import net.mcreator.analcraft.AnalCraftModElements;
 @AnalCraftModElements.ModElement.Tag
 public class AnalCraftMusicItemGroup extends AnalCraftModElements.ModElement {
 	public AnalCraftMusicItemGroup(AnalCraftModElements instance) {
-		super(instance, 234);
+		super(instance, 279);
 	}
 
 	@Override

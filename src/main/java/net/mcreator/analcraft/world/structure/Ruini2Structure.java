@@ -32,7 +32,7 @@ import java.util.Random;
 @AnalCraftModElements.ModElement.Tag
 public class Ruini2Structure extends AnalCraftModElements.ModElement {
 	public Ruini2Structure(AnalCraftModElements instance) {
-		super(instance, 343);
+		super(instance, 365);
 	}
 
 	@Override

@@ -17,7 +17,7 @@ public class AncientSeemenswordItem extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:ancient_seemensword")
 	public static final Item block = null;
 	public AncientSeemenswordItem(AnalCraftModElements instance) {
-		super(instance, 45);
+		super(instance, 9);
 	}
 
 	@Override

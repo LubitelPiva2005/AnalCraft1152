@@ -23,7 +23,7 @@ import java.util.Map;
 @AnalCraftModElements.ModElement.Tag
 public class TraderProcedure extends AnalCraftModElements.ModElement {
 	public TraderProcedure(AnalCraftModElements instance) {
-		super(instance, 32);
+		super(instance, 142);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

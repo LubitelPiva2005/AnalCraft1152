@@ -48,7 +48,7 @@ public class GrasssperBlock extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:grasssper")
 	public static final Block block = null;
 	public GrasssperBlock(AnalCraftModElements instance) {
-		super(instance, 23);
+		super(instance, 131);
 	}
 
 	@Override

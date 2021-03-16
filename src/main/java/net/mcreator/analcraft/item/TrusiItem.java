@@ -42,7 +42,7 @@ public class TrusiItem extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:trusi_boots")
 	public static final Item boots = null;
 	public TrusiItem(AnalCraftModElements instance) {
-		super(instance, 25);
+		super(instance, 4);
 	}
 
 	@Override

@@ -40,7 +40,7 @@ public class CumoreBlock extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:cumore")
 	public static final Block block = null;
 	public CumoreBlock(AnalCraftModElements instance) {
-		super(instance, 52);
+		super(instance, 62);
 	}
 
 	@Override

@@ -39,7 +39,7 @@ public class Pedikstal1Block extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:pedikstal_1")
 	public static final Block block = null;
 	public Pedikstal1Block(AnalCraftModElements instance) {
-		super(instance, 220);
+		super(instance, 83);
 	}
 
 	@Override

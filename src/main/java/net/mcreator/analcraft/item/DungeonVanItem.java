@@ -13,7 +13,7 @@ import net.minecraft.entity.player.PlayerEntity;
 
 import net.mcreator.analcraft.world.dimension.DungeonVanDimension;
 import net.mcreator.analcraft.procedures.DungeonVanPortalTriggerUsedProcedure;
-import net.mcreator.analcraft.itemgroup.ANALTABItemGroup;
+import net.mcreator.analcraft.itemgroup.AnalToolItemGroup;
 
 import java.util.Map;
 import java.util.HashMap;
@@ -22,7 +22,7 @@ public class DungeonVanItem extends Item {
 	@ObjectHolder("anal_craft:dungeon_van")
 	public static final Item block = null;
 	public DungeonVanItem() {
-		super(new Item.Properties().group(ANALTABItemGroup.tab).maxDamage(64));
+		super(new Item.Properties().group(AnalToolItemGroup.tab).maxDamage(64));
 	}
 
 	@Override

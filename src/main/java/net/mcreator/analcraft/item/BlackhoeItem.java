@@ -16,7 +16,7 @@ public class BlackhoeItem extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:blackhoe")
 	public static final Item block = null;
 	public BlackhoeItem(AnalCraftModElements instance) {
-		super(instance, 305);
+		super(instance, 90);
 	}
 
 	@Override

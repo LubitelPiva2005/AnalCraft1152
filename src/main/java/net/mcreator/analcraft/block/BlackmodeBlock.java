@@ -24,7 +24,7 @@ public class BlackmodeBlock extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:blackmode")
 	public static final Block block = null;
 	public BlackmodeBlock(AnalCraftModElements instance) {
-		super(instance, 115);
+		super(instance, 68);
 	}
 
 	@Override

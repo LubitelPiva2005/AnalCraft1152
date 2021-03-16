@@ -16,7 +16,7 @@ public class BucksItem extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:bucks")
 	public static final Item block = null;
 	public BucksItem(AnalCraftModElements instance) {
-		super(instance, 31);
+		super(instance, 13);
 	}
 
 	@Override

@@ -16,7 +16,7 @@ public class BlakshowelItem extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:blakshowel")
 	public static final Item block = null;
 	public BlakshowelItem(AnalCraftModElements instance) {
-		super(instance, 304);
+		super(instance, 89);
 	}
 
 	@Override

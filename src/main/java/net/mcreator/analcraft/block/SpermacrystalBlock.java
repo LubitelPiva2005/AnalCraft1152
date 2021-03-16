@@ -40,7 +40,7 @@ public class SpermacrystalBlock extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:spermacrystal")
 	public static final Block block = null;
 	public SpermacrystalBlock(AnalCraftModElements instance) {
-		super(instance, 158);
+		super(instance, 82);
 	}
 
 	@Override

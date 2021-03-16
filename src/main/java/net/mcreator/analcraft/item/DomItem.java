@@ -16,7 +16,7 @@ public class DomItem extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:dom")
 	public static final Item block = null;
 	public DomItem(AnalCraftModElements instance) {
-		super(instance, 217);
+		super(instance, 109);
 	}
 
 	@Override

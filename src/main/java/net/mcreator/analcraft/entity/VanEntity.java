@@ -54,7 +54,7 @@ import net.mcreator.analcraft.AnalCraftModElements;
 public class VanEntity extends AnalCraftModElements.ModElement {
 	public static EntityType entity = null;
 	public VanEntity(AnalCraftModElements instance) {
-		super(instance, 6);
+		super(instance, 41);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

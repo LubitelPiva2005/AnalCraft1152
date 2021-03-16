@@ -17,7 +17,7 @@ import java.util.Map;
 @AnalCraftModElements.ModElement.Tag
 public class DungeonVanPortalTriggerUsedProcedure extends AnalCraftModElements.ModElement {
 	public DungeonVanPortalTriggerUsedProcedure(AnalCraftModElements instance) {
-		super(instance, 308);
+		super(instance, 330);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

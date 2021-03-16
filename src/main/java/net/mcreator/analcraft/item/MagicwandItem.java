@@ -49,7 +49,7 @@ public class MagicwandItem extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:entitybulletmagicwand")
 	public static final EntityType arrow = null;
 	public MagicwandItem(AnalCraftModElements instance) {
-		super(instance, 161);
+		super(instance, 11);
 	}
 
 	@Override

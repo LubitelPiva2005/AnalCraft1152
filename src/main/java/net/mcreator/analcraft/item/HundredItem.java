@@ -16,7 +16,7 @@ public class HundredItem extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:hundred")
 	public static final Item block = null;
 	public HundredItem(AnalCraftModElements instance) {
-		super(instance, 32);
+		super(instance, 14);
 	}
 
 	@Override

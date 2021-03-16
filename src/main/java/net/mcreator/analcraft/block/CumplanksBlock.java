@@ -24,7 +24,7 @@ public class CumplanksBlock extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:cumplanks")
 	public static final Block block = null;
 	public CumplanksBlock(AnalCraftModElements instance) {
-		super(instance, 62);
+		super(instance, 49);
 	}
 
 	@Override

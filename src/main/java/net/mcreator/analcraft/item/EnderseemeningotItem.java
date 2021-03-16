@@ -16,7 +16,7 @@ public class EnderseemeningotItem extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:enderseemeningot")
 	public static final Item block = null;
 	public EnderseemeningotItem(AnalCraftModElements instance) {
-		super(instance, 345);
+		super(instance, 19);
 	}
 
 	@Override

@@ -15,7 +15,7 @@ public class BulletItem extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:bullet")
 	public static final Item block = null;
 	public BulletItem(AnalCraftModElements instance) {
-		super(instance, 168);
+		super(instance, 267);
 	}
 
 	@Override

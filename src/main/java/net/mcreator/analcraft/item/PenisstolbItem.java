@@ -23,7 +23,7 @@ public class PenisstolbItem extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:penisstolb")
 	public static final Item block = null;
 	public PenisstolbItem(AnalCraftModElements instance) {
-		super(instance, 246);
+		super(instance, 31);
 	}
 
 	@Override

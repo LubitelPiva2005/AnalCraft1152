@@ -16,7 +16,7 @@ public class Plastina2Item extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:plastina_2")
 	public static final Item block = null;
 	public Plastina2Item(AnalCraftModElements instance) {
-		super(instance, 132);
+		super(instance, 33);
 	}
 
 	@Override

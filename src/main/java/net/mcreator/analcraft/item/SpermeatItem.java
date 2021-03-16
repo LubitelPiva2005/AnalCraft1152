@@ -17,7 +17,7 @@ public class SpermeatItem extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:spermeat")
 	public static final Item block = null;
 	public SpermeatItem(AnalCraftModElements instance) {
-		super(instance, 265);
+		super(instance, 36);
 	}
 
 	@Override

@@ -12,7 +12,7 @@ import java.util.Map;
 @AnalCraftModElements.ModElement.Tag
 public class RicardoEntityIsHurtProcedure extends AnalCraftModElements.ModElement {
 	public RicardoEntityIsHurtProcedure(AnalCraftModElements instance) {
-		super(instance, 26);
+		super(instance, 135);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

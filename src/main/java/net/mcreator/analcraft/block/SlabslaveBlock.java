@@ -26,7 +26,7 @@ public class SlabslaveBlock extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:slabslave")
 	public static final Block block = null;
 	public SlabslaveBlock(AnalCraftModElements instance) {
-		super(instance, 317);
+		super(instance, 77);
 	}
 
 	@Override

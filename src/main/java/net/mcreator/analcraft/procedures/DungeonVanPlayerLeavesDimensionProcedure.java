@@ -14,7 +14,7 @@ import java.util.Map;
 @AnalCraftModElements.ModElement.Tag
 public class DungeonVanPlayerLeavesDimensionProcedure extends AnalCraftModElements.ModElement {
 	public DungeonVanPlayerLeavesDimensionProcedure(AnalCraftModElements instance) {
-		super(instance, 309);
+		super(instance, 331);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

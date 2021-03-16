@@ -13,7 +13,7 @@ import java.util.Map;
 @AnalCraftModElements.ModElement.Tag
 public class FlowsmallBlockDestroyedByExplosionProcedure extends AnalCraftModElements.ModElement {
 	public FlowsmallBlockDestroyedByExplosionProcedure(AnalCraftModElements instance) {
-		super(instance, 329);
+		super(instance, 343);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

@@ -40,7 +40,7 @@ public class BlackcumoreBlock extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:blackcumore")
 	public static final Block block = null;
 	public BlackcumoreBlock(AnalCraftModElements instance) {
-		super(instance, 315);
+		super(instance, 63);
 	}
 
 	@Override

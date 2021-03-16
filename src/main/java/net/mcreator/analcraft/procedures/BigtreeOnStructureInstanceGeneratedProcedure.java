@@ -17,7 +17,7 @@ import java.util.Map;
 @AnalCraftModElements.ModElement.Tag
 public class BigtreeOnStructureInstanceGeneratedProcedure extends AnalCraftModElements.ModElement {
 	public BigtreeOnStructureInstanceGeneratedProcedure(AnalCraftModElements instance) {
-		super(instance, 128);
+		super(instance, 190);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

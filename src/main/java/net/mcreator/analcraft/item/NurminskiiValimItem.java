@@ -16,7 +16,7 @@ public class NurminskiiValimItem extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:nurminskii_valim")
 	public static final Item block = null;
 	public NurminskiiValimItem(AnalCraftModElements instance) {
-		super(instance, 79);
+		super(instance, 96);
 	}
 
 	@Override

@@ -12,7 +12,7 @@ import net.mcreator.analcraft.AnalCraftModElements;
 @AnalCraftModElements.ModElement.Tag
 public class Gay4Painting extends AnalCraftModElements.ModElement {
 	public Gay4Painting(AnalCraftModElements instance) {
-		super(instance, 95);
+		super(instance, 168);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

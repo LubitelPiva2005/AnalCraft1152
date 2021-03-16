@@ -51,7 +51,7 @@ import net.mcreator.analcraft.AnalCraftModElements;
 public class StreleathermanEntity extends AnalCraftModElements.ModElement {
 	public static EntityType entity = null;
 	public StreleathermanEntity(AnalCraftModElements instance) {
-		super(instance, 51);
+		super(instance, 45);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

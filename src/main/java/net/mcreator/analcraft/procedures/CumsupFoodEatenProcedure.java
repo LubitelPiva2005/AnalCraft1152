@@ -18,7 +18,7 @@ import java.util.Map;
 @AnalCraftModElements.ModElement.Tag
 public class CumsupFoodEatenProcedure extends AnalCraftModElements.ModElement {
 	public CumsupFoodEatenProcedure(AnalCraftModElements instance) {
-		super(instance, 138);
+		super(instance, 198);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

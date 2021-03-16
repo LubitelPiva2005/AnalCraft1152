@@ -24,7 +24,7 @@ public class SpermastupenkiBlock extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:spermastupenki")
 	public static final Block block = null;
 	public SpermastupenkiBlock(AnalCraftModElements instance) {
-		super(instance, 124);
+		super(instance, 70);
 	}
 
 	@Override

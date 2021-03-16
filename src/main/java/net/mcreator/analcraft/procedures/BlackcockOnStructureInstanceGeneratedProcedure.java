@@ -17,7 +17,7 @@ import java.util.Map;
 @AnalCraftModElements.ModElement.Tag
 public class BlackcockOnStructureInstanceGeneratedProcedure extends AnalCraftModElements.ModElement {
 	public BlackcockOnStructureInstanceGeneratedProcedure(AnalCraftModElements instance) {
-		super(instance, 38);
+		super(instance, 145);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

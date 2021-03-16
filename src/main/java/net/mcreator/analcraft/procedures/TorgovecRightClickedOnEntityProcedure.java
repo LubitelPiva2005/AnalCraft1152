@@ -27,7 +27,7 @@ import io.netty.buffer.Unpooled;
 @AnalCraftModElements.ModElement.Tag
 public class TorgovecRightClickedOnEntityProcedure extends AnalCraftModElements.ModElement {
 	public TorgovecRightClickedOnEntityProcedure(AnalCraftModElements instance) {
-		super(instance, 36);
+		super(instance, 144);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

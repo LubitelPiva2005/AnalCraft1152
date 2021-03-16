@@ -24,7 +24,7 @@ import io.netty.buffer.Unpooled;
 @AnalCraftModElements.ModElement.Tag
 public class ResursiguiopenProcedure extends AnalCraftModElements.ModElement {
 	public ResursiguiopenProcedure(AnalCraftModElements instance) {
-		super(instance, 254);
+		super(instance, 285);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

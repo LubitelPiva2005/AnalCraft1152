@@ -24,7 +24,7 @@ import java.util.HashMap;
 @AnalCraftModElements.ModElement.Tag
 public class SpermmaskProcedure extends AnalCraftModElements.ModElement {
 	public SpermmaskProcedure(AnalCraftModElements instance) {
-		super(instance, 287);
+		super(instance, 319);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

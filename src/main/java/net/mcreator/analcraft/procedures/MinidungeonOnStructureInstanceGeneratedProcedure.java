@@ -17,7 +17,7 @@ import java.util.Map;
 @AnalCraftModElements.ModElement.Tag
 public class MinidungeonOnStructureInstanceGeneratedProcedure extends AnalCraftModElements.ModElement {
 	public MinidungeonOnStructureInstanceGeneratedProcedure(AnalCraftModElements instance) {
-		super(instance, 126);
+		super(instance, 186);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

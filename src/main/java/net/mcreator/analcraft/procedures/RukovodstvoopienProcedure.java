@@ -24,7 +24,7 @@ import io.netty.buffer.Unpooled;
 @AnalCraftModElements.ModElement.Tag
 public class RukovodstvoopienProcedure extends AnalCraftModElements.ModElement {
 	public RukovodstvoopienProcedure(AnalCraftModElements instance) {
-		super(instance, 270);
+		super(instance, 301);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

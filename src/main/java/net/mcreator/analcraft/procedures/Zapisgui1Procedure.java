@@ -24,7 +24,7 @@ import io.netty.buffer.Unpooled;
 @AnalCraftModElements.ModElement.Tag
 public class Zapisgui1Procedure extends AnalCraftModElements.ModElement {
 	public Zapisgui1Procedure(AnalCraftModElements instance) {
-		super(instance, 273);
+		super(instance, 303);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
