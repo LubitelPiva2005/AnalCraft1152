@@ -119,31 +119,31 @@ public class LatextestGui extends AnalCraftModElements.ModElement {
 					}
 				}
 			}
-			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 7, 26) {
+			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 7, 11) {
 			}));
-			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 25, 26) {
+			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 25, 11) {
 			}));
-			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 43, 26) {
+			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 43, 11) {
 			}));
-			this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 61, 26) {
+			this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 61, 11) {
 			}));
-			this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 79, 26) {
+			this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 79, 11) {
 			}));
-			this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 97, 26) {
+			this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 97, 11) {
 			}));
-			this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 115, 26) {
+			this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 115, 11) {
 			}));
-			this.customSlots.put(7, this.addSlot(new SlotItemHandler(internal, 7, 133, 26) {
+			this.customSlots.put(7, this.addSlot(new SlotItemHandler(internal, 7, 133, 11) {
 			}));
-			this.customSlots.put(8, this.addSlot(new SlotItemHandler(internal, 8, 151, 26) {
+			this.customSlots.put(8, this.addSlot(new SlotItemHandler(internal, 8, 151, 11) {
 			}));
 			int si;
 			int sj;
 			for (si = 0; si < 3; ++si)
 				for (sj = 0; sj < 9; ++sj)
-					this.addSlot(new Slot(inv, sj + (si + 1) * 9, 0 + 8 + sj * 18, -18 + 84 + si * 18));
+					this.addSlot(new Slot(inv, sj + (si + 1) * 9, 0 + 8 + sj * 18, -32 + 84 + si * 18));
 			for (si = 0; si < 9; ++si)
-				this.addSlot(new Slot(inv, si, 0 + 8 + si * 18, -18 + 142));
+				this.addSlot(new Slot(inv, si, 0 + 8 + si * 18, -32 + 142));
 		}
 
 		public Map<Integer, Slot> get() {
@@ -311,7 +311,7 @@ public class LatextestGui extends AnalCraftModElements.ModElement {
 			this.z = container.z;
 			this.entity = container.entity;
 			this.xSize = 176;
-			this.ySize = 166;
+			this.ySize = 137;
 		}
 		private static final ResourceLocation texture = new ResourceLocation("anal_craft:textures/latextest.png");
 		@Override

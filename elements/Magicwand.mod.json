@@ -3,7 +3,7 @@
   "_type": "gun",
   "definition": {
     "renderType": 0,
-    "texture": "magic_wand",
+    "texture": "spermestaff",
     "customModelName": "Normal",
     "name": "Посох спермы",
     "specialInfo": [],
