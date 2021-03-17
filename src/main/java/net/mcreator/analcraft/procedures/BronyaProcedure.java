@@ -1,11 +1,35 @@
 package net.mcreator.analcraft.procedures;
 
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.TickEvent;
+import net.minecraftforge.common.MinecraftForge;
+
+import net.minecraft.world.World;
+import net.minecraft.util.ResourceLocation;
+import net.minecraft.server.MinecraftServer;
+import net.minecraft.potion.Effects;
+import net.minecraft.potion.EffectInstance;
+import net.minecraft.item.ItemStack;
+import net.minecraft.inventory.container.Slot;
+import net.minecraft.inventory.container.Container;
+import net.minecraft.entity.player.ServerPlayerEntity;
+import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.Entity;
+import net.minecraft.advancements.AdvancementProgress;
+import net.minecraft.advancements.Advancement;
+
+import net.mcreator.analcraft.item.AncientseemenarmotItem;
+import net.mcreator.analcraft.AnalCraftModElements;
+
+import java.util.function.Supplier;
+import java.util.Map;
+import java.util.Iterator;
+import java.util.HashMap;
+
 @AnalCraftModElements.ModElement.Tag
 public class BronyaProcedure extends AnalCraftModElements.ModElement {
-
 	public BronyaProcedure(AnalCraftModElements instance) {
 		super(instance, 385);
-
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 
@@ -15,9 +39,7 @@ public class BronyaProcedure extends AnalCraftModElements.ModElement {
 				System.err.println("Failed to load dependency entity for procedure Bronya!");
 			return;
 		}
-
 		Entity entity = (Entity) dependencies.get("entity");
-
 		if ((((new Object() {
 			public ItemStack getItemStack(int sltid) {
 				Entity _ent = entity;
@@ -92,7 +114,6 @@ public class BronyaProcedure extends AnalCraftModElements.ModElement {
 			if (entity instanceof LivingEntity)
 				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SLOWNESS, (int) 60, (int) 0));
 		}
-
 	}
 
 	@SubscribeEvent
@@ -113,5 +134,4 @@ public class BronyaProcedure extends AnalCraftModElements.ModElement {
 			this.executeProcedure(dependencies);
 		}
 	}
-
 }

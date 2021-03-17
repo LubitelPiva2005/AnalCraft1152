@@ -10,31 +10,31 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Tiemnaiaiesientsiia"
+        "value": "CUSTOM:Sliceoldcum"
       },
       {
-        "value": "CUSTOM:Crystal"
+        "value": "CUSTOM:Blackleather"
       },
       {
-        "value": "CUSTOM:Tiemnaiaiesientsiia"
+        "value": "CUSTOM:Sliceoldcum"
       },
       {
-        "value": "Items.DYE#9"
+        "value": "CUSTOM:Blackleather"
       },
       {
-        "value": "Blocks.OBSIDIAN"
+        "value": "CUSTOM:Cumblock"
       },
       {
-        "value": "Items.DYE#10"
+        "value": "CUSTOM:Blackleather"
       },
       {
-        "value": "CUSTOM:Tiemnaiaiesientsiia"
+        "value": "CUSTOM:Sliceoldcum"
       },
       {
-        "value": "Items.DYE#17"
+        "value": "CUSTOM:Blackleather"
       },
       {
-        "value": "CUSTOM:Tiemnaiaiesientsiia"
+        "value": "CUSTOM:Sliceoldcum"
       }
     ],
     "recipeReturnStack": {

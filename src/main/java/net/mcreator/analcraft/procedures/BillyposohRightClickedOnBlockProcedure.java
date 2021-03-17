@@ -1,11 +1,33 @@
 package net.mcreator.analcraft.procedures;
 
+import net.minecraft.world.server.ServerWorld;
+import net.minecraft.world.IWorld;
+import net.minecraft.world.GameType;
+import net.minecraft.util.math.AxisAlignedBB;
+import net.minecraft.item.ItemStack;
+import net.minecraft.entity.player.ServerPlayerEntity;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.effect.LightningBoltEntity;
+import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.Entity;
+import net.minecraft.client.network.play.NetworkPlayerInfo;
+import net.minecraft.client.entity.player.ClientPlayerEntity;
+import net.minecraft.client.Minecraft;
+
+import net.mcreator.analcraft.item.BillyposohItem;
+import net.mcreator.analcraft.AnalCraftModElements;
+
+import java.util.stream.Collectors;
+import java.util.function.Function;
+import java.util.Random;
+import java.util.Map;
+import java.util.List;
+import java.util.Comparator;
+
 @AnalCraftModElements.ModElement.Tag
 public class BillyposohRightClickedOnBlockProcedure extends AnalCraftModElements.ModElement {
-
 	public BillyposohRightClickedOnBlockProcedure(AnalCraftModElements instance) {
 		super(instance, 385);
-
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -34,13 +56,11 @@ public class BillyposohRightClickedOnBlockProcedure extends AnalCraftModElements
 				System.err.println("Failed to load dependency world for procedure BillyposohRightClickedOnBlock!");
 			return;
 		}
-
 		Entity entity = (Entity) dependencies.get("entity");
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
-
 		{
 			List<Entity> _entfound = world
 					.getEntitiesWithinAABB(Entity.class,
@@ -90,7 +110,5 @@ public class BillyposohRightClickedOnBlockProcedure extends AnalCraftModElements
 				}
 			}
 		}
-
 	}
-
 }
