@@ -2,15 +2,15 @@
   "_fv": 13,
   "_type": "block",
   "definition": {
-    "texture": "iron",
+    "texture": "redstone",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "isblock:default",
-    "rotationMode": 1,
+    "customModelName": "isblock2:default",
+    "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
@@ -24,7 +24,7 @@
     "Mx": 1.0,
     "My": 1.0,
     "Mz": 1.0,
-    "name": "Isblock",
+    "name": "Isblock 2",
     "specialInfo": [],
     "hardness": 2.0,
     "resistance": 10.0,
@@ -92,9 +92,6 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onRightClicked": {
-      "name": "IsblockOnBlockRightClicked"
-    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [

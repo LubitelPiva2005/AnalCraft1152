@@ -34,7 +34,7 @@ import java.util.HashMap;
 @AnalCraftModElements.ModElement.Tag
 public class LockerroomStructure extends AnalCraftModElements.ModElement {
 	public LockerroomStructure(AnalCraftModElements instance) {
-		super(instance, 138);
+		super(instance, 137);
 	}
 
 	@Override
@@ -50,7 +50,7 @@ public class LockerroomStructure extends AnalCraftModElements.ModElement {
 					dimensionCriteria = true;
 				if (!dimensionCriteria)
 					return false;
-				if ((random.nextInt(1000000) + 1) <= 500) {
+				if ((random.nextInt(1000000) + 1) <= 1200) {
 					int count = random.nextInt(1) + 1;
 					for (int a = 0; a < count; a++) {
 						int i = ci + random.nextInt(16);

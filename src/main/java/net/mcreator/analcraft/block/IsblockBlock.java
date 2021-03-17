@@ -46,7 +46,7 @@ public class IsblockBlock extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:isblock")
 	public static final Block block = null;
 	public IsblockBlock(AnalCraftModElements instance) {
-		super(instance, 94);
+		super(instance, 86);
 	}
 
 	@Override
@@ -64,7 +64,7 @@ public class IsblockBlock extends AnalCraftModElements.ModElement {
 	public static class CustomBlock extends Block {
 		public static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
 		public CustomBlock() {
-			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(2.5f, 10f).lightValue(0).harvestLevel(2)
+			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(2f, 10f).lightValue(0).harvestLevel(1)
 					.harvestTool(ToolType.PICKAXE).notSolid());
 			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH));
 			setRegistryName("isblock");

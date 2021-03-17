@@ -1,0 +1,9 @@
+{
+  "parent": "anal_craft:custom/isblock2",
+  "textures": {
+    "all": "anal_craft:blocks/redstone",
+    "particle": "anal_craft:blocks/redstone",
+    "0": "anal_craft:blocks/iron",
+    "1": "anal_craft:blocks/redstone"
+  }
+}
