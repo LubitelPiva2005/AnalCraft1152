@@ -5,7 +5,7 @@
     "structure": "air",
     "randomlyRotateStructure": false,
     "surfaceDetectionType": "First block",
-    "spawnProbability": 1200,
+    "spawnProbability": 800,
     "minCountPerChunk": 1,
     "maxCountPerChunk": 1,
     "spawnLocation": "Ground",
