@@ -52,7 +52,7 @@ public class FlowsmallBlock extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:flowsmall")
 	public static final Block block = null;
 	public FlowsmallBlock(AnalCraftModElements instance) {
-		super(instance, 118);
+		super(instance, 119);
 	}
 
 	@Override

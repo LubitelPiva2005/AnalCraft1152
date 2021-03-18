@@ -65,7 +65,7 @@ import io.netty.buffer.Unpooled;
 public class TorgovecEntity extends AnalCraftModElements.ModElement {
 	public static EntityType entity = null;
 	public TorgovecEntity(AnalCraftModElements instance) {
-		super(instance, 52);
+		super(instance, 92);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

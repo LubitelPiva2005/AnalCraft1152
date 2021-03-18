@@ -1,7 +1,6 @@
 {
-  "parent": "anal_craft:custom/plastinca",
+  "parent": "item/generated",
   "textures": {
-    "1": "anal_craft:blocks/fsie",
-    "particle": "anal_craft:items/plast1"
+    "layer0": "anal_craft:items/superplast"
   }
 }

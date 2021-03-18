@@ -46,7 +46,7 @@ public class TestGui extends AnalCraftModElements.ModElement {
 	public static HashMap guistate = new HashMap();
 	private static ContainerType<GuiContainerMod> containerType = null;
 	public TestGui(AnalCraftModElements instance) {
-		super(instance, 283);
+		super(instance, 284);
 		elements.addNetworkMessage(ButtonPressedMessage.class, ButtonPressedMessage::buffer, ButtonPressedMessage::new,
 				ButtonPressedMessage::handler);
 		elements.addNetworkMessage(GUISlotChangedMessage.class, GUISlotChangedMessage::buffer, GUISlotChangedMessage::new,

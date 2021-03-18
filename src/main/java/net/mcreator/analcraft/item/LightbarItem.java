@@ -16,7 +16,7 @@ public class LightbarItem extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:lightbar")
 	public static final Item block = null;
 	public LightbarItem(AnalCraftModElements instance) {
-		super(instance, 19);
+		super(instance, 21);
 	}
 
 	@Override

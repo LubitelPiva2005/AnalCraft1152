@@ -16,7 +16,7 @@ public class BriemienskiieItem extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:briemienskiie")
 	public static final Item block = null;
 	public BriemienskiieItem(AnalCraftModElements instance) {
-		super(instance, 101);
+		super(instance, 102);
 	}
 
 	@Override

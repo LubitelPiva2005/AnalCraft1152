@@ -25,7 +25,7 @@ public class LadderBlock extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:ladder")
 	public static final Block block = null;
 	public LadderBlock(AnalCraftModElements instance) {
-		super(instance, 58);
+		super(instance, 42);
 	}
 
 	@Override

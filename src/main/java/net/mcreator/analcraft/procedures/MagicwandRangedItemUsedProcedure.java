@@ -11,7 +11,7 @@ import java.util.Map;
 @AnalCraftModElements.ModElement.Tag
 public class MagicwandRangedItemUsedProcedure extends AnalCraftModElements.ModElement {
 	public MagicwandRangedItemUsedProcedure(AnalCraftModElements instance) {
-		super(instance, 274);
+		super(instance, 275);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

@@ -16,7 +16,7 @@ public class CrystalItem extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:crystal")
 	public static final Item block = null;
 	public CrystalItem(AnalCraftModElements instance) {
-		super(instance, 24);
+		super(instance, 25);
 	}
 
 	@Override

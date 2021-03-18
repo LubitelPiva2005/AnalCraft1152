@@ -43,7 +43,7 @@ import net.mcreator.analcraft.AnalCraftModElements;
 public class SlaveaEntity extends AnalCraftModElements.ModElement {
 	public static EntityType entity = null;
 	public SlaveaEntity(AnalCraftModElements instance) {
-		super(instance, 51);
+		super(instance, 91);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

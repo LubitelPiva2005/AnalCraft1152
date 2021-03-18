@@ -23,7 +23,7 @@ public class ChierstvyiSniusItem extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:chierstvyi_snius")
 	public static final Item block = null;
 	public ChierstvyiSniusItem(AnalCraftModElements instance) {
-		super(instance, 38);
+		super(instance, 37);
 	}
 
 	@Override

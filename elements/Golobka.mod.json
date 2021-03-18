@@ -2,9 +2,9 @@
   "_fv": 13,
   "_type": "tool",
   "definition": {
-    "renderType": 1,
-    "texture": "fsie",
-    "customModelName": "golovka:default",
+    "renderType": 0,
+    "texture": "golovka",
+    "customModelName": "Normal",
     "name": "Головка ключа",
     "specialInfo": [],
     "creativeTab": {

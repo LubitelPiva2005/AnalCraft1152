@@ -16,7 +16,7 @@ public class ZaghulialItem extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:zaghulial")
 	public static final Item block = null;
 	public ZaghulialItem(AnalCraftModElements instance) {
-		super(instance, 105);
+		super(instance, 106);
 	}
 
 	@Override

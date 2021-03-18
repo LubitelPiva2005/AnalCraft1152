@@ -29,7 +29,7 @@ public class AncientseemenarmotItem extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:ancientseemenarmot_boots")
 	public static final Item boots = null;
 	public AncientseemenarmotItem(AnalCraftModElements instance) {
-		super(instance, 1);
+		super(instance, 2);
 	}
 
 	@Override
@@ -68,28 +68,28 @@ public class AncientseemenarmotItem extends AnalCraftModElements.ModElement {
 				.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(AnalCraftSnariazhenieItemGroup.tab)) {
 					@Override
 					public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-						return "anal_craft:textures/models/armor/caave__png__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+						return "anal_craft:textures/models/armor/nether__png__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 					}
 				}.setRegistryName("ancientseemenarmot_helmet"));
 		elements.items
 				.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(AnalCraftSnariazhenieItemGroup.tab)) {
 					@Override
 					public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-						return "anal_craft:textures/models/armor/caave__png__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+						return "anal_craft:textures/models/armor/nether__png__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 					}
 				}.setRegistryName("ancientseemenarmot_chestplate"));
 		elements.items
 				.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(AnalCraftSnariazhenieItemGroup.tab)) {
 					@Override
 					public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-						return "anal_craft:textures/models/armor/caave__png__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+						return "anal_craft:textures/models/armor/nether__png__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 					}
 				}.setRegistryName("ancientseemenarmot_leggings"));
 		elements.items
 				.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(AnalCraftSnariazhenieItemGroup.tab)) {
 					@Override
 					public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-						return "anal_craft:textures/models/armor/caave__png__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+						return "anal_craft:textures/models/armor/nether__png__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 					}
 				}.setRegistryName("ancientseemenarmot_boots"));
 	}

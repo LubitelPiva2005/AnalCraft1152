@@ -2,9 +2,9 @@
   "_fv": 13,
   "_type": "item",
   "definition": {
-    "renderType": 1,
-    "texture": "plast1",
-    "customModelName": "plastinca:default",
+    "renderType": 0,
+    "texture": "superplast",
+    "customModelName": "Normal",
     "name": "Пластина для ключа",
     "rarity": "COMMON",
     "creativeTab": {

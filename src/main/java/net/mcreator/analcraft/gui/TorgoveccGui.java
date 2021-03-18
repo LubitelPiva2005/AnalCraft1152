@@ -48,7 +48,7 @@ public class TorgoveccGui extends AnalCraftModElements.ModElement {
 	public static HashMap guistate = new HashMap();
 	private static ContainerType<GuiContainerMod> containerType = null;
 	public TorgoveccGui(AnalCraftModElements instance) {
-		super(instance, 144);
+		super(instance, 145);
 		elements.addNetworkMessage(ButtonPressedMessage.class, ButtonPressedMessage::buffer, ButtonPressedMessage::new,
 				ButtonPressedMessage::handler);
 		elements.addNetworkMessage(GUISlotChangedMessage.class, GUISlotChangedMessage::buffer, GUISlotChangedMessage::new,

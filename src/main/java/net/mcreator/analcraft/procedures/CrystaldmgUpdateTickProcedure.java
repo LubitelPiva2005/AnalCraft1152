@@ -11,7 +11,7 @@ import java.util.Map;
 @AnalCraftModElements.ModElement.Tag
 public class CrystaldmgUpdateTickProcedure extends AnalCraftModElements.ModElement {
 	public CrystaldmgUpdateTickProcedure(AnalCraftModElements instance) {
-		super(instance, 267);
+		super(instance, 268);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

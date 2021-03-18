@@ -12,7 +12,7 @@ import java.util.Map;
 @AnalCraftModElements.ModElement.Tag
 public class SpermsrmHelmetTickEventProcedure extends AnalCraftModElements.ModElement {
 	public SpermsrmHelmetTickEventProcedure(AnalCraftModElements instance) {
-		super(instance, 129);
+		super(instance, 131);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

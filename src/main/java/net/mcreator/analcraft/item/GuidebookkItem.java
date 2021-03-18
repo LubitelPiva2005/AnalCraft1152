@@ -49,7 +49,7 @@ public class GuidebookkItem extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:guidebookk")
 	public static final Item block = null;
 	public GuidebookkItem(AnalCraftModElements instance) {
-		super(instance, 40);
+		super(instance, 14);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

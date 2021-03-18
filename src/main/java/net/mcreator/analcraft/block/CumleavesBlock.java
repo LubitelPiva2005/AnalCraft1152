@@ -30,7 +30,7 @@ public class CumleavesBlock extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:cumleaves")
 	public static final Block block = null;
 	public CumleavesBlock(AnalCraftModElements instance) {
-		super(instance, 87);
+		super(instance, 39);
 	}
 
 	@Override

@@ -21,7 +21,7 @@ import java.util.Map;
 @AnalCraftModElements.ModElement.Tag
 public class BillystatueitemRightClickedOnBlockProcedure extends AnalCraftModElements.ModElement {
 	public BillystatueitemRightClickedOnBlockProcedure(AnalCraftModElements instance) {
-		super(instance, 265);
+		super(instance, 266);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

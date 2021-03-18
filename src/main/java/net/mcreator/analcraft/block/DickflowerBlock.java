@@ -38,7 +38,7 @@ import net.minecraft.block.FlowerBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.analcraft.itemgroup.ANALTABItemGroup;
+import net.mcreator.analcraft.itemgroup.AnalCraftBlocksItemGroup;
 import net.mcreator.analcraft.AnalCraftModElements;
 
 import java.util.Random;
@@ -50,13 +50,14 @@ public class DickflowerBlock extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:dickflower")
 	public static final Block block = null;
 	public DickflowerBlock(AnalCraftModElements instance) {
-		super(instance, 28);
+		super(instance, 79);
 	}
 
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new BlockCustomFlower());
-		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(ANALTABItemGroup.tab)).setRegistryName(block.getRegistryName()));
+		elements.items
+				.add(() -> new BlockItem(block, new Item.Properties().group(AnalCraftBlocksItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 
 	@Override

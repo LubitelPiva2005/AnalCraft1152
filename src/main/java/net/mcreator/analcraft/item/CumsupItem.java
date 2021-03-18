@@ -25,7 +25,7 @@ public class CumsupItem extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:cumsup")
 	public static final Item block = null;
 	public CumsupItem(AnalCraftModElements instance) {
-		super(instance, 39);
+		super(instance, 38);
 	}
 
 	@Override

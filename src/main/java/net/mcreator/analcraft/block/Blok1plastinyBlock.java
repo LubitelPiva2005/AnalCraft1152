@@ -32,7 +32,7 @@ public class Blok1plastinyBlock extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:blok_1plastiny")
 	public static final Block block = null;
 	public Blok1plastinyBlock(AnalCraftModElements instance) {
-		super(instance, 81);
+		super(instance, 69);
 	}
 
 	@Override

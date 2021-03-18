@@ -30,7 +30,7 @@ public class CumlogBlock extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:cumlog")
 	public static final Block block = null;
 	public CumlogBlock(AnalCraftModElements instance) {
-		super(instance, 56);
+		super(instance, 40);
 	}
 
 	@Override

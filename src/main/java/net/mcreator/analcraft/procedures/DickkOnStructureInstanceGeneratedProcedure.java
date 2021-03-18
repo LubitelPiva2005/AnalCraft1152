@@ -17,7 +17,7 @@ import java.util.Map;
 @AnalCraftModElements.ModElement.Tag
 public class DickkOnStructureInstanceGeneratedProcedure extends AnalCraftModElements.ModElement {
 	public DickkOnStructureInstanceGeneratedProcedure(AnalCraftModElements instance) {
-		super(instance, 125);
+		super(instance, 126);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

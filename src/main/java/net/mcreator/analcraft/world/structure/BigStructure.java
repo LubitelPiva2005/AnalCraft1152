@@ -34,7 +34,7 @@ import java.util.HashMap;
 @AnalCraftModElements.ModElement.Tag
 public class BigStructure extends AnalCraftModElements.ModElement {
 	public BigStructure(AnalCraftModElements instance) {
-		super(instance, 128);
+		super(instance, 129);
 	}
 
 	@Override

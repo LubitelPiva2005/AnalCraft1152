@@ -16,7 +16,7 @@ public class AssClapItem extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:ass_clap")
 	public static final Item block = null;
 	public AssClapItem(AnalCraftModElements instance) {
-		super(instance, 95);
+		super(instance, 96);
 	}
 
 	@Override

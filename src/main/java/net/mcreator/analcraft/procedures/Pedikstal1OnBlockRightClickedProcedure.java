@@ -19,7 +19,7 @@ import java.util.Map;
 @AnalCraftModElements.ModElement.Tag
 public class Pedikstal1OnBlockRightClickedProcedure extends AnalCraftModElements.ModElement {
 	public Pedikstal1OnBlockRightClickedProcedure(AnalCraftModElements instance) {
-		super(instance, 270);
+		super(instance, 271);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

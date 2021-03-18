@@ -24,7 +24,7 @@ import io.netty.buffer.Unpooled;
 @AnalCraftModElements.ModElement.Tag
 public class OpensushestvaguiProcedure extends AnalCraftModElements.ModElement {
 	public OpensushestvaguiProcedure(AnalCraftModElements instance) {
-		super(instance, 290);
+		super(instance, 291);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

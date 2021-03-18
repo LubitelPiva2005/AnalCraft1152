@@ -110,7 +110,7 @@ public class DungeonVanDimension extends AnalCraftModElements.ModElement {
 	public static DimensionType type = null;
 	private static Biome[] dimensionBiomes;
 	public DungeonVanDimension(AnalCraftModElements instance) {
-		super(instance, 41);
+		super(instance, 81);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}

@@ -23,7 +23,7 @@ import java.util.HashMap;
 @AnalCraftModElements.ModElement.Tag
 public class Flowbigdick2Procedure extends AnalCraftModElements.ModElement {
 	public Flowbigdick2Procedure(AnalCraftModElements instance) {
-		super(instance, 347);
+		super(instance, 348);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

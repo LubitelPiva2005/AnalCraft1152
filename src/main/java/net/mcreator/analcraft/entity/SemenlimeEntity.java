@@ -45,7 +45,7 @@ import net.mcreator.analcraft.AnalCraftModElements;
 public class SemenlimeEntity extends AnalCraftModElements.ModElement {
 	public static EntityType entity = null;
 	public SemenlimeEntity(AnalCraftModElements instance) {
-		super(instance, 50);
+		super(instance, 90);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

@@ -11,7 +11,7 @@ import java.util.Map;
 @AnalCraftModElements.ModElement.Tag
 public class BillyposohLivingEntityIsHitWithToolProcedure extends AnalCraftModElements.ModElement {
 	public BillyposohLivingEntityIsHitWithToolProcedure(AnalCraftModElements instance) {
-		super(instance, 357);
+		super(instance, 359);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

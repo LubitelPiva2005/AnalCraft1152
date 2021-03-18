@@ -16,7 +16,7 @@ public class BlackleatherItem extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:blackleather")
 	public static final Item block = null;
 	public BlackleatherItem(AnalCraftModElements instance) {
-		super(instance, 21);
+		super(instance, 23);
 	}
 
 	@Override

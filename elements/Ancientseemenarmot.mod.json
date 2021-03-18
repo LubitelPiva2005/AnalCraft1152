@@ -5,15 +5,15 @@
     "enableHelmet": true,
     "textureHelmet": "1344431",
     "enableBody": true,
-    "textureBody": "1234",
+    "textureBody": "naagg",
     "enableLeggings": true,
-    "textureLeggings": "shtani",
+    "textureLeggings": "pants",
     "enableBoots": true,
     "textureBoots": "13413",
     "creativeTab": {
       "value": "CUSTOM:AnalCraftSnariazhenie"
     },
-    "armorTextureFile": "caave__png_",
+    "armorTextureFile": "nether__png_",
     "helmetName": "Шлем из древней спермы",
     "bodyName": "Нагрудник из древней спермы",
     "leggingsName": "Штаны из древней спермы",
