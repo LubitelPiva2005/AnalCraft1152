@@ -121,23 +121,23 @@ public class NakovalnaGui extends AnalCraftModElements.ModElement {
 					}
 				}
 			}
-			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 17, 37) {
+			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 16, 35) {
 			}));
-			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 135, 37) {
+			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 142, 35) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return false;
 				}
 			}));
-			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 42, 37) {
+			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 70, 35) {
 			}));
 			int si;
 			int sj;
 			for (si = 0; si < 3; ++si)
 				for (sj = 0; sj < 9; ++sj)
-					this.addSlot(new Slot(inv, sj + (si + 1) * 9, 0 + 8 + sj * 18, -17 + 84 + si * 18));
+					this.addSlot(new Slot(inv, sj + (si + 1) * 9, 0 + 8 + sj * 18, 0 + 84 + si * 18));
 			for (si = 0; si < 9; ++si)
-				this.addSlot(new Slot(inv, si, 0 + 8 + si * 18, -17 + 142));
+				this.addSlot(new Slot(inv, si, 0 + 8 + si * 18, 0 + 142));
 		}
 
 		public Map<Integer, Slot> get() {
@@ -322,6 +322,10 @@ public class NakovalnaGui extends AnalCraftModElements.ModElement {
 			int k = (this.width - this.xSize) / 2;
 			int l = (this.height - this.ySize) / 2;
 			this.blit(k, l, 0, 0, this.xSize, this.ySize, this.xSize, this.ySize);
+			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("anal_craft:textures/upgradetableiconhammer.png"));
+			this.blit(this.guiLeft + 99, this.guiTop + 21, 0, 0, 30, 30, 30, 30);
+			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("anal_craft:textures/upgradetableiconinto.png"));
+			this.blit(this.guiLeft + 40, this.guiTop + 35, 0, 0, 22, 15, 22, 15);
 		}
 
 		@Override
@@ -352,7 +356,7 @@ public class NakovalnaGui extends AnalCraftModElements.ModElement {
 		public void init(Minecraft minecraft, int width, int height) {
 			super.init(minecraft, width, height);
 			minecraft.keyboardListener.enableRepeatEvents(true);
-			this.addButton(new Button(this.guiLeft + 68, this.guiTop + 35, 60, 20, "Соеденить", e -> {
+			this.addButton(new Button(this.guiLeft + 84, this.guiTop + 57, 60, 20, "Соеденить", e -> {
 				AnalCraftMod.PACKET_HANDLER.sendToServer(new ButtonPressedMessage(0, x, y, z));
 				handleButtonAction(entity, 0, x, y, z);
 			}));
