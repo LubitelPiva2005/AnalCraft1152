@@ -14,7 +14,7 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
 
 import net.mcreator.analcraft.item.ThreeItem;
-import net.mcreator.analcraft.item.LatexgloveartifactItem;
+import net.mcreator.analcraft.item.FistItem;
 import net.mcreator.analcraft.AnalCraftModElements;
 
 import java.util.function.Supplier;
@@ -90,7 +90,7 @@ public class TraderProcedure extends AnalCraftModElements.ModElement {
 				if (_current instanceof Supplier) {
 					Object invobj = ((Supplier) _current).get();
 					if (invobj instanceof Map) {
-						ItemStack _setstack = new ItemStack(LatexgloveartifactItem.block, (int) (1));
+						ItemStack _setstack = new ItemStack(FistItem.block, (int) (1));
 						_setstack.setCount((int) ((new Object() {
 							public int getAmount(int sltid) {
 								if (entity instanceof ServerPlayerEntity) {

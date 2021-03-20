@@ -22,6 +22,7 @@ import net.minecraft.client.renderer.entity.model.EntityModel;
 import net.minecraft.client.renderer.entity.model.BipedModel;
 
 import net.mcreator.analcraft.procedures.TrusiLeggingsTickEventProcedure;
+import net.mcreator.analcraft.itemgroup.AnalCraftSnariazhenieItemGroup;
 import net.mcreator.analcraft.AnalCraftModElements;
 
 import java.util.Map;
@@ -76,36 +77,37 @@ public class TrusiItem extends AnalCraftModElements.ModElement {
 				return 2f;
 			}
 		};
-		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(null)) {
-			@Override
-			@OnlyIn(Dist.CLIENT)
-			public BipedModel getArmorModel(LivingEntity living, ItemStack stack, EquipmentSlotType slot, BipedModel defaultModel) {
-				BipedModel armorModel = new BipedModel(1);
-				armorModel.bipedLeftLeg = new Modeltrusiliwewe().LeftLeg;
-				armorModel.bipedRightLeg = new Modeltrusiliwewe().RightLeg;
-				armorModel.isSneak = living.isSneaking();
-				armorModel.isSitting = defaultModel.isSitting;
-				armorModel.isChild = living.isChild();
-				return armorModel;
-			}
+		elements.items
+				.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(AnalCraftSnariazhenieItemGroup.tab)) {
+					@Override
+					@OnlyIn(Dist.CLIENT)
+					public BipedModel getArmorModel(LivingEntity living, ItemStack stack, EquipmentSlotType slot, BipedModel defaultModel) {
+						BipedModel armorModel = new BipedModel(1);
+						armorModel.bipedLeftLeg = new Modeltrusiliwewe().LeftLeg;
+						armorModel.bipedRightLeg = new Modeltrusiliwewe().RightLeg;
+						armorModel.isSneak = living.isSneaking();
+						armorModel.isSitting = defaultModel.isSitting;
+						armorModel.isChild = living.isChild();
+						return armorModel;
+					}
 
-			@Override
-			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "anal_craft:textures/1textur.png";
-			}
+					@Override
+					public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
+						return "anal_craft:textures/1textur.png";
+					}
 
-			@Override
-			public void onArmorTick(ItemStack itemstack, World world, PlayerEntity entity) {
-				double x = entity.getPosX();
-				double y = entity.getPosY();
-				double z = entity.getPosZ();
-				{
-					Map<String, Object> $_dependencies = new HashMap<>();
-					$_dependencies.put("entity", entity);
-					TrusiLeggingsTickEventProcedure.executeProcedure($_dependencies);
-				}
-			}
-		}.setRegistryName("trusi_leggings"));
+					@Override
+					public void onArmorTick(ItemStack itemstack, World world, PlayerEntity entity) {
+						double x = entity.getPosX();
+						double y = entity.getPosY();
+						double z = entity.getPosZ();
+						{
+							Map<String, Object> $_dependencies = new HashMap<>();
+							$_dependencies.put("entity", entity);
+							TrusiLeggingsTickEventProcedure.executeProcedure($_dependencies);
+						}
+					}
+				}.setRegistryName("trusi_leggings"));
 	}
 	// Made with Blockbench 3.7.4
 	// Exported for Minecraft version 1.15
