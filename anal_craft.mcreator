@@ -4872,9 +4872,109 @@
           }
         ]
       }
+    },
+    {
+      "name": "Baubles",
+      "type": "gui",
+      "sortid": 395,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "baubles"
+    },
+    {
+      "name": "ArtifactguiOnKeyPressed",
+      "type": "procedure",
+      "sortid": 396,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artifactgui_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Artifactgui",
+      "type": "keybind",
+      "sortid": 396,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artifactgui"
+    },
+    {
+      "name": "Latexgloveartifact",
+      "type": "item",
+      "sortid": 397,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "latexgloveartifact"
+    },
+    {
+      "name": "Trusiricardoartifact",
+      "type": "item",
+      "sortid": 398,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "trusiricardoartifact"
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "Gloveslot",
+      "type": "itemstack",
+      "scope": "player_lifetime",
+      "value": ""
+    },
+    {
+      "name": "trusislot",
+      "type": "itemstack",
+      "scope": "player_lifetime",
+      "value": ""
+    },
+    {
+      "name": "save",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "true"
+    },
+    {
+      "name": "trislot",
+      "type": "itemstack",
+      "scope": "player_lifetime",
+      "value": ""
+    },
+    {
+      "name": "chetireslot",
+      "type": "itemstack",
+      "scope": "player_lifetime",
+      "value": ""
+    }
+  ],
   "sound_elements": [
     {
       "name": "leather",
@@ -5224,6 +5324,7 @@
       "block.anal_craft.slavestairs": "Ступеньки из древесины боли слейвов",
       "block.anal_craft.blackcumore": "Черная руда спермы",
       "block.anal_craft.dundeonblockpol_2": "Dundeonblockpol 2",
+      "item.anal_craft.trusiricardoartifact": "Трусы Рикардо",
       "subtitles.motilek": "",
       "item.anal_craft.crystal": "Кристалл спермы",
       "advancements.broniaadva.title": "Непобедимая броня",
@@ -5294,9 +5395,11 @@
       "biome.anal_craft.dickforest": "Dick forest",
       "item.anal_craft.spermsrm_leggings": "Spermsrm Leggings",
       "item.anal_craft.ancientseemenaxe": "Топор из древней спермы",
+      "key.mcreator.artifactgui": "Artifactgui",
       "item.anal_craft.motyliek": "Макс Корж - Мотылек",
       "item.anal_craft.motyliek.desc": "Shoshon Elegant",
       "entity.anal_craft.krisa": "Rat TV",
+      "item.anal_craft.latexgloveartifact": "Latex glove",
       "item.anal_craft.marionetka": "Король и Шут - Марионетки",
       "item.anal_craft.plastina_2": "Тайный свиток jabroni",
       "item.anal_craft.plastina_1": "Осколок плиты",
