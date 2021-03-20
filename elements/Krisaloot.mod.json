@@ -2,7 +2,7 @@
   "_fv": 13,
   "_type": "loottable",
   "definition": {
-    "type": "Entity",
+    "type": "Generic",
     "pools": [
       {
         "minrolls": 1,
@@ -16,7 +16,7 @@
             "item": {
               "value": "CUSTOM:NotrDamDiePari"
             },
-            "weight": 1000,
+            "weight": 100,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
@@ -30,7 +30,7 @@
             "item": {
               "value": "CUSTOM:Briemienskiie"
             },
-            "weight": 1000,
+            "weight": 100,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
@@ -44,7 +44,7 @@
             "item": {
               "value": "CUSTOM:Ofitsiery"
             },
-            "weight": 1000,
+            "weight": 100,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
@@ -58,7 +58,7 @@
             "item": {
               "value": "CUSTOM:GorillazFeelGood"
             },
-            "weight": 1000,
+            "weight": 100,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
@@ -72,7 +72,7 @@
             "item": {
               "value": "CUSTOM:Traktor"
             },
-            "weight": 1000,
+            "weight": 100,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
@@ -86,7 +86,7 @@
             "item": {
               "value": "CUSTOM:Bomzh"
             },
-            "weight": 1000,
+            "weight": 100,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
@@ -100,7 +100,7 @@
             "item": {
               "value": "CUSTOM:OlieghGazmanovIesaul"
             },
-            "weight": 1000,
+            "weight": 100,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
@@ -114,7 +114,7 @@
             "item": {
               "value": "CUSTOM:Zozzh"
             },
-            "weight": 1000,
+            "weight": 100,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
@@ -128,7 +128,7 @@
             "item": {
               "value": "CUSTOM:Iunostvsapoghakh"
             },
-            "weight": 1000,
+            "weight": 100,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
@@ -142,7 +142,7 @@
             "item": {
               "value": "CUSTOM:Zaghulial"
             },
-            "weight": 1000,
+            "weight": 100,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
@@ -156,7 +156,7 @@
             "item": {
               "value": "CUSTOM:NurminskiiValim"
             },
-            "weight": 1000,
+            "weight": 100,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
@@ -170,7 +170,7 @@
             "item": {
               "value": "CUSTOM:Motyliek"
             },
-            "weight": 1000,
+            "weight": 100,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
@@ -184,7 +184,7 @@
             "item": {
               "value": "CUSTOM:AssClap"
             },
-            "weight": 1000,
+            "weight": 100,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
@@ -198,7 +198,7 @@
             "item": {
               "value": "CUSTOM:Marionetka"
             },
-            "weight": 1000,
+            "weight": 100,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
@@ -212,7 +212,7 @@
             "item": {
               "value": "CUSTOM:Suckmiron"
             },
-            "weight": 1000,
+            "weight": 100,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
@@ -226,21 +226,7 @@
             "item": {
               "value": "CUSTOM:Dom"
             },
-            "weight": 1000,
-            "minCount": 1,
-            "maxCount": 1,
-            "minEnchantmentLevel": 0,
-            "maxEnchantmentLevel": 0,
-            "affectedByFortune": false,
-            "explosionDecay": false,
-            "silkTouchMode": 0
-          },
-          {
-            "type": "item",
-            "item": {
-              "value": "CUSTOM:Suckmiron"
-            },
-            "weight": 1000,
+            "weight": 100,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
@@ -252,7 +238,7 @@
         ]
       }
     ],
-    "name": "entities/rat",
+    "name": "krisaloot",
     "namespace": "mod"
   }
 }

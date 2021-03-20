@@ -3,7 +3,10 @@
     "default": {
       "map": {
         "0": "iron",
-        "1": "redstone"
+        "1": "redstone",
+        "2": "texture",
+        "4": "programer1",
+        "missing": "iron"
       },
       "name": "default"
     }

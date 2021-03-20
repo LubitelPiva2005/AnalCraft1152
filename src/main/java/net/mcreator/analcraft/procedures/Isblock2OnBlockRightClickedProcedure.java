@@ -17,7 +17,7 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
 
 import net.mcreator.analcraft.gui.IsblockguiGui;
-import net.mcreator.analcraft.block.Isblock2Block;
+import net.mcreator.analcraft.block.IsblockBlock;
 import net.mcreator.analcraft.AnalCraftModElements;
 
 import java.util.Map;
@@ -25,35 +25,35 @@ import java.util.Map;
 import io.netty.buffer.Unpooled;
 
 @AnalCraftModElements.ModElement.Tag
-public class IsblockOnBlockRightClickedProcedure extends AnalCraftModElements.ModElement {
-	public IsblockOnBlockRightClickedProcedure(AnalCraftModElements instance) {
-		super(instance, 387);
+public class Isblock2OnBlockRightClickedProcedure extends AnalCraftModElements.ModElement {
+	public Isblock2OnBlockRightClickedProcedure(AnalCraftModElements instance) {
+		super(instance, 394);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				System.err.println("Failed to load dependency entity for procedure IsblockOnBlockRightClicked!");
+				System.err.println("Failed to load dependency entity for procedure Isblock2OnBlockRightClicked!");
 			return;
 		}
 		if (dependencies.get("x") == null) {
 			if (!dependencies.containsKey("x"))
-				System.err.println("Failed to load dependency x for procedure IsblockOnBlockRightClicked!");
+				System.err.println("Failed to load dependency x for procedure Isblock2OnBlockRightClicked!");
 			return;
 		}
 		if (dependencies.get("y") == null) {
 			if (!dependencies.containsKey("y"))
-				System.err.println("Failed to load dependency y for procedure IsblockOnBlockRightClicked!");
+				System.err.println("Failed to load dependency y for procedure Isblock2OnBlockRightClicked!");
 			return;
 		}
 		if (dependencies.get("z") == null) {
 			if (!dependencies.containsKey("z"))
-				System.err.println("Failed to load dependency z for procedure IsblockOnBlockRightClicked!");
+				System.err.println("Failed to load dependency z for procedure Isblock2OnBlockRightClicked!");
 			return;
 		}
 		if (dependencies.get("world") == null) {
 			if (!dependencies.containsKey("world"))
-				System.err.println("Failed to load dependency world for procedure IsblockOnBlockRightClicked!");
+				System.err.println("Failed to load dependency world for procedure Isblock2OnBlockRightClicked!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
@@ -61,7 +61,7 @@ public class IsblockOnBlockRightClickedProcedure extends AnalCraftModElements.Mo
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
-		if (((world.getBlockState(new BlockPos((int) x, (int) (y + 1), (int) z))).getBlock() == Isblock2Block.block.getDefaultState().getBlock())) {
+		if (((world.getBlockState(new BlockPos((int) x, (int) (y - 1), (int) z))).getBlock() == IsblockBlock.block.getDefaultState().getBlock())) {
 			{
 				Entity _ent = entity;
 				if (_ent instanceof ServerPlayerEntity) {

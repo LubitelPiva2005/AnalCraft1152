@@ -6,7 +6,7 @@
     "width": 176,
     "height": 166,
     "inventoryOffsetX": 0,
-    "inventoryOffsetY": -17,
+    "inventoryOffsetY": 0,
     "renderBgLayer": true,
     "doesPauseGame": false,
     "components": [
@@ -20,8 +20,8 @@
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #0",
-          "x": 142,
-          "y": 73
+          "x": 141,
+          "y": 71
         }
       },
       {
@@ -31,8 +31,8 @@
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #1",
-          "x": 260,
-          "y": 73
+          "x": 267,
+          "y": 71
         }
       },
       {
@@ -45,8 +45,8 @@
           "width": 60,
           "height": 20,
           "name": "Соеденить",
-          "x": 194,
-          "y": 72
+          "x": 210,
+          "y": 94
         }
       },
       {
@@ -59,8 +59,28 @@
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #2",
-          "x": 167,
-          "y": 73
+          "x": 195,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "upgradetableiconhammer.png",
+          "use1Xscale": false,
+          "name": "upgradetableiconhammer.png",
+          "x": 225,
+          "y": 58
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "upgradetableiconinto.png",
+          "use1Xscale": false,
+          "name": "upgradetableiconinto.png",
+          "x": 166,
+          "y": 72
         }
       }
     ]

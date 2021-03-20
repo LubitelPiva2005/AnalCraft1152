@@ -4556,15 +4556,6 @@
       "registry_name": "rattv"
     },
     {
-      "name": "Krisadrop",
-      "type": "loottable",
-      "sortid": 377,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "krisadrop"
-    },
-    {
       "name": "Latextest",
       "type": "gui",
       "sortid": 378,
@@ -4839,6 +4830,48 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "isblock_2"
+    },
+    {
+      "name": "Krisaloot",
+      "type": "loottable",
+      "sortid": 393,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "krisaloot"
+    },
+    {
+      "name": "Isblock2OnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 394,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "isblock_2_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -5102,8 +5135,8 @@
   ],
   "language_map": {
     "en_us": {
-      "block.anal_craft.afayf": "Спермовая древесина",
       "item.anal_craft.ancientseemenarmot_leggings": "Штаны из древней спермы",
+      "block.anal_craft.afayf": "Спермовая древесина",
       "item.anal_craft.trusi_chestplate": "Trusi Body",
       "itemGroup.tabanal_craft_music": "AnalCraft Музыка",
       "subtitles.do-you-like-what-you-see": "",
@@ -5130,12 +5163,12 @@
       "block.anal_craft.disactivatedportal": "Неактивированый портал",
       "advancements.slitok.title": "Частица богов",
       "item.anal_craft.trusi_boots": "Trusi Boots",
-      "item.anal_craft.bomzh.desc": "G-man",
       "item.anal_craft.ass_clap": "AssClap",
+      "item.anal_craft.bomzh.desc": "G-man",
       "item.anal_craft.ancient_seemensword": "Меч из древней спермы",
       "item.anal_craft.zaghulial": "Олег Газманов - Загулял",
-      "item.anal_craft.semenlime_spawn_egg": "Спермень Spawn Egg",
       "itemGroup.tabanal_tool": "AnalCraftTool",
+      "item.anal_craft.semenlime_spawn_egg": "Спермень Spawn Egg",
       "block.anal_craft.cumore": "Руда спермы",
       "item.anal_craft.penisstolb": "Ствол ключа",
       "item.anal_craft.nurminskii_valim.desc": " zerodovich",

@@ -64,7 +64,7 @@ public class DickforestBiome extends AnalCraftModElements.ModElement {
 	}
 	static class CustomBiome extends Biome {
 		public CustomBiome() {
-			super(new Biome.Builder().downfall(0.5f).depth(0.1f).scale(0.07f).temperature(0.35f).precipitation(Biome.RainType.RAIN)
+			super(new Biome.Builder().downfall(0.5f).depth(0.1f).scale(0.05f).temperature(0.35f).precipitation(Biome.RainType.RAIN)
 					.category(Biome.Category.DESERT).waterColor(-1).waterFogColor(-1).surfaceBuilder(SurfaceBuilder.DEFAULT, new SurfaceBuilderConfig(
 							SpermegrassBlock.block.getDefaultState(), Blocks.STONE.getDefaultState(), Blocks.STONE.getDefaultState())));
 			setRegistryName("dickforest");
