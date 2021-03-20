@@ -60,7 +60,7 @@ public class DickforestBiome extends AnalCraftModElements.ModElement {
 	@Override
 	public void init(FMLCommonSetupEvent event) {
 		BiomeManager.addSpawnBiome(biome);
-		BiomeManager.addBiome(BiomeManager.BiomeType.WARM, new BiomeManager.BiomeEntry(biome, 1000));
+		BiomeManager.addBiome(BiomeManager.BiomeType.WARM, new BiomeManager.BiomeEntry(biome, 900));
 	}
 	static class CustomBiome extends Biome {
 		public CustomBiome() {
@@ -81,7 +81,7 @@ public class DickforestBiome extends AnalCraftModElements.ModElement {
 									new SimpleBlockStateProvider(CumleavesBlock.block.getDefaultState()))).baseHeight(5)
 											.setSapling((net.minecraftforge.common.IPlantable) Blocks.JUNGLE_SAPLING).build())
 							.withPlacement(Placement.COUNT_EXTRA_HEIGHTMAP.configure(new AtSurfaceWithExtraConfig(1, 0.1F, 1))));
-			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(VanEntity.entity, 15, 1, 15));
+			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(VanEntity.entity, 15, 1, 15));
 			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(SemenlimeEntity.entity, 15, 1, 15));
 		}
 

@@ -60,7 +60,7 @@
     "baseHeight": 0.1,
     "heightVariation": 0.05,
     "spawnBiome": true,
-    "biomeWeight": 1000,
+    "biomeWeight": 900,
     "biomeType": "WARM",
     "biomeCategory": "DESERT",
     "parent": {
@@ -92,7 +92,7 @@
         "minGroup": 1,
         "maxGroup": 15,
         "weight": 15,
-        "spawnType": "monster"
+        "spawnType": "creature"
       },
       {
         "entity": {
