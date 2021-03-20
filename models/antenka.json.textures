@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "programer1",
+        "3": "annnnnnnn",
+        "missing": "annnnnnnn"
+      },
+      "name": "default"
+    }
+  }
+}

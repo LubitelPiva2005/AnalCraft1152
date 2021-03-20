@@ -1,12 +1,10 @@
 {
-  "parent": "anal_craft:custom/isblock2",
+  "parent": "anal_craft:custom/antenka",
   "textures": {
-    "all": "anal_craft:blocks/iron",
-    "particle": "anal_craft:blocks/iron",
-    "0": "anal_craft:blocks/iron",
-    "1": "anal_craft:blocks/redstone",
-    "2": "anal_craft:blocks/texture",
-    "4": "anal_craft:blocks/programer1",
-    "missing": "anal_craft:blocks/iron"
+    "all": "anal_craft:blocks/annnnnnnn",
+    "particle": "anal_craft:blocks/annnnnnnn",
+    "1": "anal_craft:blocks/programer1",
+    "3": "anal_craft:blocks/annnnnnnn",
+    "missing": "anal_craft:blocks/annnnnnnn"
   }
 }

@@ -69,7 +69,7 @@ public class Isblock2Block extends AnalCraftModElements.ModElement {
 		public static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
 		public CustomBlock() {
 			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(2f, 10f).lightValue(0).harvestLevel(1)
-					.harvestTool(ToolType.PICKAXE).doesNotBlockMovement().notSolid());
+					.harvestTool(ToolType.PICKAXE).notSolid());
 			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH));
 			setRegistryName("isblock_2");
 		}
