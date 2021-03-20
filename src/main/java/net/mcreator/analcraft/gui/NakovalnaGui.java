@@ -129,7 +129,7 @@ public class NakovalnaGui extends AnalCraftModElements.ModElement {
 					return false;
 				}
 			}));
-			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 70, 35) {
+			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 52, 35) {
 			}));
 			int si;
 			int sj;
@@ -325,7 +325,9 @@ public class NakovalnaGui extends AnalCraftModElements.ModElement {
 			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("anal_craft:textures/upgradetableiconhammer.png"));
 			this.blit(this.guiLeft + 99, this.guiTop + 21, 0, 0, 30, 30, 30, 30);
 			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("anal_craft:textures/upgradetableiconinto.png"));
-			this.blit(this.guiLeft + 40, this.guiTop + 35, 0, 0, 22, 15, 22, 15);
+			this.blit(this.guiLeft + 72, this.guiTop + 35, 0, 0, 22, 15, 22, 15);
+			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("anal_craft:textures/upgradetableiconplus.png"));
+			this.blit(this.guiLeft + 35, this.guiTop + 36, 0, 0, 13, 13, 13, 13);
 		}
 
 		@Override

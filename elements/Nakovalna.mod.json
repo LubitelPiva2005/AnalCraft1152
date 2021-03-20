@@ -59,7 +59,7 @@
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #2",
-          "x": 195,
+          "x": 177,
           "y": 71
         }
       },
@@ -79,8 +79,18 @@
           "image": "upgradetableiconinto.png",
           "use1Xscale": false,
           "name": "upgradetableiconinto.png",
-          "x": 166,
+          "x": 198,
           "y": 72
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "upgradetableiconplus.png",
+          "use1Xscale": false,
+          "name": "upgradetableiconplus.png",
+          "x": 161,
+          "y": 73
         }
       }
     ]

@@ -123,7 +123,7 @@ public class IsblockguiGui extends AnalCraftModElements.ModElement {
 			}
 			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 7, 17) {
 			}));
-			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 43, 17) {
+			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 52, 17) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return false;
@@ -322,6 +322,8 @@ public class IsblockguiGui extends AnalCraftModElements.ModElement {
 			this.blit(k, l, 0, 0, this.xSize, this.ySize, this.xSize, this.ySize);
 			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("anal_craft:textures/programer1.png"));
 			this.blit(this.guiLeft + 69, this.guiTop + 7, 0, 0, 95, 55, 95, 55);
+			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("anal_craft:textures/upgradetableiconinto.png"));
+			this.blit(this.guiLeft + 26, this.guiTop + 17, 0, 0, 22, 15, 22, 15);
 		}
 
 		@Override
@@ -353,7 +355,7 @@ public class IsblockguiGui extends AnalCraftModElements.ModElement {
 		public void init(Minecraft minecraft, int width, int height) {
 			super.init(minecraft, width, height);
 			minecraft.keyboardListener.enableRepeatEvents(true);
-			this.addButton(new Button(this.guiLeft + 15, this.guiTop + 43, 35, 20, "->", e -> {
+			this.addButton(new Button(this.guiLeft + 20, this.guiTop + 39, 35, 20, "->", e -> {
 				AnalCraftMod.PACKET_HANDLER.sendToServer(new ButtonPressedMessage(0, x, y, z));
 				handleButtonAction(entity, 0, x, y, z);
 			}));
