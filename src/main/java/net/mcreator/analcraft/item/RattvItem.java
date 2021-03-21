@@ -16,7 +16,7 @@ public class RattvItem extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:rattv")
 	public static final Item block = null;
 	public RattvItem(AnalCraftModElements instance) {
-		super(instance, 113);
+		super(instance, 118);
 	}
 
 	@Override

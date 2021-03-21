@@ -23,7 +23,7 @@ import java.util.Map;
 @AnalCraftModElements.ModElement.Tag
 public class IsblockguitradeProcedure extends AnalCraftModElements.ModElement {
 	public IsblockguitradeProcedure(AnalCraftModElements instance) {
-		super(instance, 386);
+		super(instance, 385);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

@@ -39,7 +39,7 @@ import com.mojang.blaze3d.matrix.MatrixStack;
 public class BillystatueEntity extends AnalCraftModElements.ModElement {
 	public static EntityType entity = null;
 	public BillystatueEntity(AnalCraftModElements instance) {
-		super(instance, 114);
+		super(instance, 119);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

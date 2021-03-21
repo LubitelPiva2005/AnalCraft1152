@@ -26,7 +26,7 @@ public class BillystatueitemItem extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:billystatueitem")
 	public static final Item block = null;
 	public BillystatueitemItem(AnalCraftModElements instance) {
-		super(instance, 72);
+		super(instance, 76);
 	}
 
 	@Override

@@ -16,7 +16,7 @@ public class MarionetkaItem extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:marionetka")
 	public static final Item block = null;
 	public MarionetkaItem(AnalCraftModElements instance) {
-		super(instance, 112);
+		super(instance, 117);
 	}
 
 	@Override

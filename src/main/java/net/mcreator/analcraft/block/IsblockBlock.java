@@ -46,7 +46,7 @@ public class IsblockBlock extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:isblock")
 	public static final Block block = null;
 	public IsblockBlock(AnalCraftModElements instance) {
-		super(instance, 77);
+		super(instance, 74);
 	}
 
 	@Override

@@ -55,7 +55,7 @@
     {
       "name": "Van",
       "type": "mob",
-      "sortid": 89,
+      "sortid": 98,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -136,7 +136,7 @@
     {
       "name": "Semenlime",
       "type": "mob",
-      "sortid": 90,
+      "sortid": 96,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -183,7 +183,7 @@
     {
       "name": "Dickflower",
       "type": "plant",
-      "sortid": 79,
+      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -230,7 +230,7 @@
     {
       "name": "Locker",
       "type": "block",
-      "sortid": 52,
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -423,7 +423,7 @@
     {
       "name": "Slavea",
       "type": "mob",
-      "sortid": 91,
+      "sortid": 94,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -635,7 +635,7 @@
     {
       "name": "Torgovec",
       "type": "mob",
-      "sortid": 92,
+      "sortid": 97,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -682,7 +682,7 @@
     {
       "name": "Smalldick",
       "type": "plant",
-      "sortid": 80,
+      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -718,7 +718,7 @@
     {
       "name": "Ancientseemen",
       "type": "block",
-      "sortid": 53,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -754,7 +754,7 @@
     {
       "name": "Ancientseemenpickaxe",
       "type": "tool",
-      "sortid": 86,
+      "sortid": 92,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -772,7 +772,7 @@
     {
       "name": "Ancientseemenaxe",
       "type": "tool",
-      "sortid": 87,
+      "sortid": 93,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -790,7 +790,7 @@
     {
       "name": "Streleatherman",
       "type": "mob",
-      "sortid": 93,
+      "sortid": 99,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -799,7 +799,7 @@
     {
       "name": "Cumore",
       "type": "block",
-      "sortid": 54,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -808,7 +808,7 @@
     {
       "name": "OldCumBlock",
       "type": "block",
-      "sortid": 57,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -817,7 +817,7 @@
     {
       "name": "Cumblock",
       "type": "block",
-      "sortid": 58,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -988,7 +988,7 @@
     {
       "name": "Disactivatedportal",
       "type": "block",
-      "sortid": 71,
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1027,7 +1027,7 @@
     {
       "name": "Ricardo",
       "type": "mob",
-      "sortid": 94,
+      "sortid": 100,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1036,7 +1036,7 @@
     {
       "name": "NotrDamDiePari",
       "type": "musicdisc",
-      "sortid": 100,
+      "sortid": 105,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1045,7 +1045,7 @@
     {
       "name": "Briemienskiie",
       "type": "musicdisc",
-      "sortid": 102,
+      "sortid": 107,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1063,7 +1063,7 @@
     {
       "name": "Ofitsiery",
       "type": "musicdisc",
-      "sortid": 97,
+      "sortid": 102,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1090,7 +1090,7 @@
     {
       "name": "GorillazFeelGood",
       "type": "musicdisc",
-      "sortid": 99,
+      "sortid": 104,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1099,7 +1099,7 @@
     {
       "name": "Traktor",
       "type": "musicdisc",
-      "sortid": 103,
+      "sortid": 108,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1117,7 +1117,7 @@
     {
       "name": "Bomzh",
       "type": "musicdisc",
-      "sortid": 107,
+      "sortid": 112,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1126,7 +1126,7 @@
     {
       "name": "OlieghGazmanovIesaul",
       "type": "musicdisc",
-      "sortid": 105,
+      "sortid": 110,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1135,7 +1135,7 @@
     {
       "name": "Zozzh",
       "type": "musicdisc",
-      "sortid": 101,
+      "sortid": 106,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1144,7 +1144,7 @@
     {
       "name": "Iunostvsapoghakh",
       "type": "musicdisc",
-      "sortid": 108,
+      "sortid": 113,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1153,7 +1153,7 @@
     {
       "name": "Zaghulial",
       "type": "musicdisc",
-      "sortid": 106,
+      "sortid": 111,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1162,7 +1162,7 @@
     {
       "name": "Bieliv",
       "type": "musicdisc",
-      "sortid": 109,
+      "sortid": 114,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1216,7 +1216,7 @@
     {
       "name": "NurminskiiValim",
       "type": "musicdisc",
-      "sortid": 98,
+      "sortid": 103,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1225,7 +1225,7 @@
     {
       "name": "Motyliek",
       "type": "musicdisc",
-      "sortid": 104,
+      "sortid": 109,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1297,7 +1297,7 @@
     {
       "name": "Blok1plastiny",
       "type": "block",
-      "sortid": 69,
+      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1306,7 +1306,7 @@
     {
       "name": "AssClap",
       "type": "musicdisc",
-      "sortid": 96,
+      "sortid": 101,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1393,7 +1393,7 @@
     {
       "name": "Blackmode",
       "type": "block",
-      "sortid": 60,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1563,7 +1563,7 @@
     {
       "name": "Spermastupenki",
       "type": "block",
-      "sortid": 62,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1572,7 +1572,7 @@
     {
       "name": "Spermebrick",
       "type": "block",
-      "sortid": 61,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1581,7 +1581,7 @@
     {
       "name": "Plitaspermech",
       "type": "block",
-      "sortid": 63,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1599,7 +1599,7 @@
     {
       "name": "Spermazabor",
       "type": "block",
-      "sortid": 64,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1626,7 +1626,7 @@
     {
       "name": "Blackstone",
       "type": "block",
-      "sortid": 59,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1928,7 +1928,7 @@
     {
       "name": "Dom",
       "type": "musicdisc",
-      "sortid": 111,
+      "sortid": 116,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1946,7 +1946,7 @@
     {
       "name": "Marionetka",
       "type": "musicdisc",
-      "sortid": 112,
+      "sortid": 117,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2162,7 +2162,7 @@
     {
       "name": "Suckmiron",
       "type": "musicdisc",
-      "sortid": 110,
+      "sortid": 115,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2324,7 +2324,7 @@
     {
       "name": "Spermacrystal",
       "type": "block",
-      "sortid": 73,
+      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2397,7 +2397,7 @@
     {
       "name": "Billystatue",
       "type": "mob",
-      "sortid": 114,
+      "sortid": 119,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2461,7 +2461,7 @@
     {
       "name": "Billystatueitem",
       "type": "item",
-      "sortid": 72,
+      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2526,7 +2526,7 @@
     {
       "name": "Kusokspermiblock",
       "type": "block",
-      "sortid": 56,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2552,7 +2552,7 @@
     {
       "name": "Pedikstal1",
       "type": "block",
-      "sortid": 74,
+      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2561,7 +2561,7 @@
     {
       "name": "Pedikstal2",
       "type": "block",
-      "sortid": 75,
+      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2603,7 +2603,7 @@
     {
       "name": "Dungeonblock",
       "type": "block",
-      "sortid": 115,
+      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2612,7 +2612,7 @@
     {
       "name": "Dundeonblockpol2",
       "type": "block",
-      "sortid": 116,
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2716,7 +2716,7 @@
     {
       "name": "Nakovalnya",
       "type": "block",
-      "sortid": 76,
+      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3215,7 +3215,7 @@
     {
       "name": "Dungeonblock0",
       "type": "block",
-      "sortid": 117,
+      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3458,7 +3458,7 @@
     {
       "name": "Vanportalblock",
       "type": "block",
-      "sortid": 70,
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3601,7 +3601,7 @@
     {
       "name": "Blackpick",
       "type": "tool",
-      "sortid": 82,
+      "sortid": 88,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3610,7 +3610,7 @@
     {
       "name": "Blackaxe",
       "type": "tool",
-      "sortid": 83,
+      "sortid": 89,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3619,7 +3619,7 @@
     {
       "name": "Blakshowel",
       "type": "tool",
-      "sortid": 84,
+      "sortid": 90,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3628,7 +3628,7 @@
     {
       "name": "Blackhoe",
       "type": "tool",
-      "sortid": 85,
+      "sortid": 91,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3646,7 +3646,7 @@
     {
       "name": "DungeonVan",
       "type": "dimension",
-      "sortid": 81,
+      "sortid": 87,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3751,7 +3751,7 @@
     {
       "name": "Derevovan",
       "type": "block",
-      "sortid": 65,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3778,7 +3778,7 @@
     {
       "name": "Blackcumore",
       "type": "block",
-      "sortid": 55,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3787,7 +3787,7 @@
     {
       "name": "Vanplanks",
       "type": "block",
-      "sortid": 66,
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3796,7 +3796,7 @@
     {
       "name": "Slabslave",
       "type": "block",
-      "sortid": 68,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3814,7 +3814,7 @@
     {
       "name": "Slavestairs",
       "type": "block",
-      "sortid": 67,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3874,7 +3874,7 @@
     {
       "name": "BigDickflow",
       "type": "block",
-      "sortid": 118,
+      "sortid": 84,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4012,7 +4012,7 @@
     {
       "name": "Flowsmall",
       "type": "block",
-      "sortid": 119,
+      "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4471,7 +4471,7 @@
     {
       "name": "Latexbag",
       "type": "item",
-      "sortid": 88,
+      "sortid": 86,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4549,7 +4549,7 @@
     {
       "name": "Rattv",
       "type": "musicdisc",
-      "sortid": 113,
+      "sortid": 118,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4558,7 +4558,7 @@
     {
       "name": "Latextest",
       "type": "gui",
-      "sortid": 378,
+      "sortid": 377,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4567,7 +4567,7 @@
     {
       "name": "VanDick",
       "type": "loottable",
-      "sortid": 379,
+      "sortid": 378,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4576,7 +4576,7 @@
     {
       "name": "Isblock",
       "type": "block",
-      "sortid": 77,
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4585,7 +4585,7 @@
     {
       "name": "Semen2",
       "type": "recipe",
-      "sortid": 380,
+      "sortid": 379,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4594,7 +4594,7 @@
     {
       "name": "BillyposohRightClickedInAir",
       "type": "procedure",
-      "sortid": 381,
+      "sortid": 380,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4631,7 +4631,7 @@
     {
       "name": "Ancarm1",
       "type": "recipe",
-      "sortid": 382,
+      "sortid": 381,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4640,7 +4640,7 @@
     {
       "name": "Ancarm4",
       "type": "recipe",
-      "sortid": 383,
+      "sortid": 382,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4649,7 +4649,7 @@
     {
       "name": "Ancarm3",
       "type": "recipe",
-      "sortid": 384,
+      "sortid": 383,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4658,7 +4658,7 @@
     {
       "name": "Ancarm2",
       "type": "recipe",
-      "sortid": 385,
+      "sortid": 384,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4682,7 +4682,7 @@
     {
       "name": "Isblockguitrade",
       "type": "procedure",
-      "sortid": 386,
+      "sortid": 385,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4715,7 +4715,7 @@
     {
       "name": "IsblockOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 387,
+      "sortid": 386,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4748,7 +4748,7 @@
     {
       "name": "Isblockgui",
       "type": "gui",
-      "sortid": 388,
+      "sortid": 387,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4757,7 +4757,7 @@
     {
       "name": "Slitok",
       "type": "achievement",
-      "sortid": 389,
+      "sortid": 388,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4766,7 +4766,7 @@
     {
       "name": "Broniaadva",
       "type": "achievement",
-      "sortid": 390,
+      "sortid": 389,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4775,7 +4775,7 @@
     {
       "name": "Bronya",
       "type": "procedure",
-      "sortid": 391,
+      "sortid": 390,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4792,7 +4792,7 @@
     {
       "name": "BillyposohRightClickedOnBlock",
       "type": "procedure",
-      "sortid": 392,
+      "sortid": 391,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4825,7 +4825,7 @@
     {
       "name": "Isblock2",
       "type": "block",
-      "sortid": 78,
+      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4834,7 +4834,7 @@
     {
       "name": "Krisaloot",
       "type": "loottable",
-      "sortid": 393,
+      "sortid": 392,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4843,7 +4843,7 @@
     {
       "name": "Isblock2OnBlockRightClicked",
       "type": "procedure",
-      "sortid": 394,
+      "sortid": 393,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4872,6 +4872,15 @@
           }
         ]
       }
+    },
+    {
+      "name": "Shkafchik",
+      "type": "recipe",
+      "sortid": 394,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shkafchik"
     }
   ],
   "variable_elements": [
@@ -5166,8 +5175,8 @@
   ],
   "language_map": {
     "en_us": {
-      "item.anal_craft.ancientseemenarmot_leggings": "Штаны из древней спермы",
       "block.anal_craft.afayf": "Спермовая древесина",
+      "item.anal_craft.ancientseemenarmot_leggings": "Штаны из древней спермы",
       "item.anal_craft.trusi_chestplate": "Trusi Body",
       "itemGroup.tabanal_craft_music": "AnalCraft Музыка",
       "subtitles.do-you-like-what-you-see": "",
@@ -5191,15 +5200,15 @@
       "subtitles.agh": "",
       "item.anal_craft.bullet": "Bullet",
       "item.anal_craft.notr_dam_die_pari": "Нотр-Дам де Пари - Эсмеральда",
-      "block.anal_craft.disactivatedportal": "Неактивированый портал",
+      "block.anal_craft.disactivatedportal": "Закрытый замок",
       "advancements.slitok.title": "Частица богов",
       "item.anal_craft.trusi_boots": "Trusi Boots",
-      "item.anal_craft.ass_clap": "AssClap",
       "item.anal_craft.bomzh.desc": "G-man",
+      "item.anal_craft.ass_clap": "AssClap",
       "item.anal_craft.ancient_seemensword": "Меч из древней спермы",
       "item.anal_craft.zaghulial": "Олег Газманов - Загулял",
-      "itemGroup.tabanal_tool": "AnalCraftTool",
       "item.anal_craft.semenlime_spawn_egg": "Спермень Spawn Egg",
+      "itemGroup.tabanal_tool": "AnalCraftTool",
       "block.anal_craft.cumore": "Руда спермы",
       "item.anal_craft.penisstolb": "Ствол ключа",
       "item.anal_craft.nurminskii_valim.desc": " zerodovich",

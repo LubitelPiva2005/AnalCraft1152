@@ -19,7 +19,7 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.analcraft.itemgroup.AnalCraftBlocksItemGroup;
+import net.mcreator.analcraft.itemgroup.PotomUbratItemGroup;
 import net.mcreator.analcraft.AnalCraftModElements;
 
 import java.util.List;
@@ -30,14 +30,13 @@ public class Pedikstal2Block extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:pedikstal_2")
 	public static final Block block = null;
 	public Pedikstal2Block(AnalCraftModElements instance) {
-		super(instance, 75);
+		super(instance, 80);
 	}
 
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items
-				.add(() -> new BlockItem(block, new Item.Properties().group(AnalCraftBlocksItemGroup.tab)).setRegistryName(block.getRegistryName()));
+		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(PotomUbratItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 
 	@Override

@@ -27,7 +27,7 @@ import io.netty.buffer.Unpooled;
 @AnalCraftModElements.ModElement.Tag
 public class IsblockOnBlockRightClickedProcedure extends AnalCraftModElements.ModElement {
 	public IsblockOnBlockRightClickedProcedure(AnalCraftModElements instance) {
-		super(instance, 387);
+		super(instance, 386);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

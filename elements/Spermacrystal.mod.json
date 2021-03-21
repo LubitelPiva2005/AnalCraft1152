@@ -13,7 +13,7 @@
     "rotationMode": 3,
     "emissiveRendering": true,
     "displayFluidOverlay": false,
-    "itemTexture": "",
+    "itemTexture": "cryst",
     "particleTexture": "",
     "hasTransparency": true,
     "connectedSides": false,

@@ -30,7 +30,7 @@ public class DerevovanBlock extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:derevovan")
 	public static final Block block = null;
 	public DerevovanBlock(AnalCraftModElements instance) {
-		super(instance, 65);
+		super(instance, 64);
 	}
 
 	@Override

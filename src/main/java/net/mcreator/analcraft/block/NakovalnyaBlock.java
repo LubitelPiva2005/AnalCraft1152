@@ -47,7 +47,7 @@ public class NakovalnyaBlock extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:nakovalnya")
 	public static final Block block = null;
 	public NakovalnyaBlock(AnalCraftModElements instance) {
-		super(instance, 76);
+		super(instance, 70);
 	}
 
 	@Override

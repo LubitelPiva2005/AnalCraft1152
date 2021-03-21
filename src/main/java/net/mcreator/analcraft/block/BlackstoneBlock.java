@@ -39,7 +39,7 @@ public class BlackstoneBlock extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:blackstone")
 	public static final Block block = null;
 	public BlackstoneBlock(AnalCraftModElements instance) {
-		super(instance, 59);
+		super(instance, 58);
 	}
 
 	@Override

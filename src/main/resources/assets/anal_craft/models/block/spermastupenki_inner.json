@@ -1,8 +1,8 @@
 {
   "parent": "block/inner_stairs",
   "textures": {
-    "bottom": "anal_craft:blocks/1111gay",
-    "top": "anal_craft:blocks/1111gay",
-    "side": "anal_craft:blocks/1111gay"
+    "bottom": "anal_craft:blocks/kirpich",
+    "top": "anal_craft:blocks/kirpich",
+    "side": "anal_craft:blocks/kirpich"
   }
 }

@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "anal_craft:blocks/1111gay",
-    "particle": "anal_craft:blocks/1111gay"
+    "all": "anal_craft:blocks/kirpich",
+    "particle": "anal_craft:blocks/kirpich"
   }
 }

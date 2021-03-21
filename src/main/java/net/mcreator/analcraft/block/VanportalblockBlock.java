@@ -23,7 +23,7 @@ public class VanportalblockBlock extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:vanportalblock")
 	public static final Block block = null;
 	public VanportalblockBlock(AnalCraftModElements instance) {
-		super(instance, 70);
+		super(instance, 69);
 	}
 
 	@Override

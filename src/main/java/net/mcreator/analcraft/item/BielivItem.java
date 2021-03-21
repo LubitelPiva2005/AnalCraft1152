@@ -16,7 +16,7 @@ public class BielivItem extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:bieliv")
 	public static final Item block = null;
 	public BielivItem(AnalCraftModElements instance) {
-		super(instance, 109);
+		super(instance, 114);
 	}
 
 	@Override
