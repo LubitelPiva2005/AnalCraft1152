@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "anal_craft:blocks/ancblnew",
-    "particle": "anal_craft:blocks/ancblnew"
+    "all": "anal_craft:blocks/blockspermavanuchaya",
+    "particle": "anal_craft:blocks/blockspermavanuchaya"
   }
 }

@@ -31,7 +31,7 @@ import java.util.Random;
 @AnalCraftModElements.ModElement.Tag
 public class Gora2Structure extends AnalCraftModElements.ModElement {
 	public Gora2Structure(AnalCraftModElements instance) {
-		super(instance, 203);
+		super(instance, 208);
 	}
 
 	@Override

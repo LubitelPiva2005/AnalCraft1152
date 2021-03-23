@@ -11,6 +11,7 @@ import net.minecraft.util.SoundCategory;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.state.IProperty;
 import net.minecraft.server.MinecraftServer;
+import net.minecraft.particles.ParticleTypes;
 import net.minecraft.item.ItemStack;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.effect.LightningBoltEntity;
@@ -29,7 +30,7 @@ import java.util.Map;
 @AnalCraftModElements.ModElement.Tag
 public class DisactivatedportalOnBlockRightClickedProcedure extends AnalCraftModElements.ModElement {
 	public DisactivatedportalOnBlockRightClickedProcedure(AnalCraftModElements instance) {
-		super(instance, 181);
+		super(instance, 186);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -105,6 +106,9 @@ public class DisactivatedportalOnBlockRightClickedProcedure extends AnalCraftMod
 				world.getWorld().playSound(x, y, z,
 						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("anal_craft:portalactivate")),
 						SoundCategory.NEUTRAL, (float) 1, (float) 1, false);
+			}
+			if (world instanceof ServerWorld) {
+				((ServerWorld) world).spawnParticle(ParticleTypes.LARGE_SMOKE, x, y, z, (int) 5, 3, 3, 3, 1);
 			}
 			if (entity instanceof PlayerEntity) {
 				ItemStack _stktoremove = new ItemStack(PortalkeyItem.block, (int) (1));

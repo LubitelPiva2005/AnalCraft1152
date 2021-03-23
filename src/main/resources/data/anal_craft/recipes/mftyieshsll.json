@@ -1,0 +1,16 @@
+{
+  "group": "anal_craft",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "anal_craft:vanplanks"
+    },
+    {
+      "item": "anal_craft:vanplanks"
+    }
+  ],
+  "result": {
+    "item": "anal_craft:vanstick",
+    "count": 4
+  }
+}

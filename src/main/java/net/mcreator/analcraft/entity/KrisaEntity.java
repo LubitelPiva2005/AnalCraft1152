@@ -53,7 +53,7 @@ import com.mojang.blaze3d.matrix.MatrixStack;
 public class KrisaEntity extends AnalCraftModElements.ModElement {
 	public static EntityType entity = null;
 	public KrisaEntity(AnalCraftModElements instance) {
-		super(instance, 95);
+		super(instance, 100);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

@@ -77,7 +77,7 @@ public class LockerBlock extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:locker")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 	public LockerBlock(AnalCraftModElements instance) {
-		super(instance, 71);
+		super(instance, 76);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

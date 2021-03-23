@@ -17,7 +17,7 @@ import java.util.Map;
 @AnalCraftModElements.ModElement.Tag
 public class AncientseemenBlockDestroyedByPlayerProcedure extends AnalCraftModElements.ModElement {
 	public AncientseemenBlockDestroyedByPlayerProcedure(AnalCraftModElements instance) {
-		super(instance, 186);
+		super(instance, 191);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

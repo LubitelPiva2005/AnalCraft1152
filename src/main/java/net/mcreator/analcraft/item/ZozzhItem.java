@@ -16,7 +16,7 @@ public class ZozzhItem extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:zozzh")
 	public static final Item block = null;
 	public ZozzhItem(AnalCraftModElements instance) {
-		super(instance, 106);
+		super(instance, 111);
 	}
 
 	@Override

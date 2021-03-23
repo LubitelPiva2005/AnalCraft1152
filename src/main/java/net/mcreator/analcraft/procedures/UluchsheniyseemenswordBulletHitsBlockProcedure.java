@@ -13,7 +13,7 @@ import java.util.Collections;
 @AnalCraftModElements.ModElement.Tag
 public class UluchsheniyseemenswordBulletHitsBlockProcedure extends AnalCraftModElements.ModElement {
 	public UluchsheniyseemenswordBulletHitsBlockProcedure(AnalCraftModElements instance) {
-		super(instance, 370);
+		super(instance, 375);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

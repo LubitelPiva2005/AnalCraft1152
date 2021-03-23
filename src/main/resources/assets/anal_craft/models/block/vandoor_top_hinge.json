@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_top_rh",
+  "textures": {
+    "bottom": "anal_craft:blocks/111vandoorbottom",
+    "top": "anal_craft:blocks/111vandoortop"
+  }
+}

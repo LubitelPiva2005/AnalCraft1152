@@ -17,7 +17,7 @@ import java.util.Map;
 @AnalCraftModElements.ModElement.Tag
 public class LockerroomOnStructureInstanceGeneratedProcedure extends AnalCraftModElements.ModElement {
 	public LockerroomOnStructureInstanceGeneratedProcedure(AnalCraftModElements instance) {
-		super(instance, 138);
+		super(instance, 143);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

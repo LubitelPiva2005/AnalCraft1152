@@ -23,7 +23,7 @@ public class DungeonblockBlock extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:dungeonblock")
 	public static final Block block = null;
 	public DungeonblockBlock(AnalCraftModElements instance) {
-		super(instance, 81);
+		super(instance, 86);
 	}
 
 	@Override

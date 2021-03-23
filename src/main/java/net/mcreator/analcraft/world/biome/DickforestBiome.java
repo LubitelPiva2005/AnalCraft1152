@@ -49,7 +49,7 @@ public class DickforestBiome extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:dickforest")
 	public static final CustomBiome biome = null;
 	public DickforestBiome(AnalCraftModElements instance) {
-		super(instance, 125);
+		super(instance, 130);
 	}
 
 	@Override

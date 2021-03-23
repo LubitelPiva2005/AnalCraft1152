@@ -16,7 +16,7 @@ public class GorillazFeelGoodItem extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:gorillaz_feel_good")
 	public static final Item block = null;
 	public GorillazFeelGoodItem(AnalCraftModElements instance) {
-		super(instance, 104);
+		super(instance, 109);
 	}
 
 	@Override

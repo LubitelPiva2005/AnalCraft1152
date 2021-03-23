@@ -27,7 +27,7 @@ import java.util.Comparator;
 @AnalCraftModElements.ModElement.Tag
 public class BillyposohRightClickedInAirProcedure extends AnalCraftModElements.ModElement {
 	public BillyposohRightClickedInAirProcedure(AnalCraftModElements instance) {
-		super(instance, 380);
+		super(instance, 385);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

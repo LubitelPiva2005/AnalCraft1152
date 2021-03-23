@@ -26,7 +26,7 @@ public class PlitaspermechBlock extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:plitaspermech")
 	public static final Block block = null;
 	public PlitaspermechBlock(AnalCraftModElements instance) {
-		super(instance, 62);
+		super(instance, 63);
 	}
 
 	@Override

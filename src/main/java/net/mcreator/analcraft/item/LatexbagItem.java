@@ -49,7 +49,7 @@ public class LatexbagItem extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:latexbag")
 	public static final Item block = null;
 	public LatexbagItem(AnalCraftModElements instance) {
-		super(instance, 86);
+		super(instance, 91);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

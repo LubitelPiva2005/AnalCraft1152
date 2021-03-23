@@ -12,7 +12,7 @@ import java.util.Map;
 @AnalCraftModElements.ModElement.Tag
 public class MagicwandBulletHitsLivingEntityProcedure extends AnalCraftModElements.ModElement {
 	public MagicwandBulletHitsLivingEntityProcedure(AnalCraftModElements instance) {
-		super(instance, 270);
+		super(instance, 275);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

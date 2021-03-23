@@ -26,7 +26,7 @@ import java.util.HashMap;
 @AnalCraftModElements.ModElement.Tag
 public class BronyaProcedure extends AnalCraftModElements.ModElement {
 	public BronyaProcedure(AnalCraftModElements instance) {
-		super(instance, 390);
+		super(instance, 395);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

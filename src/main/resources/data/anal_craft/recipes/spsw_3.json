@@ -1,0 +1,24 @@
+{
+  "group": "anal_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "anal_craft:zasokhshaiaspierma"
+    },
+    "1": {
+      "item": "anal_craft:zasokhshaiaspierma"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "anal_craft:spermesword",
+    "count": 1
+  }
+}

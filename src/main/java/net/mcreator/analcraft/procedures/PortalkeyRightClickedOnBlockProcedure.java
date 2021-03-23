@@ -7,7 +7,7 @@ import java.util.Map;
 @AnalCraftModElements.ModElement.Tag
 public class PortalkeyRightClickedOnBlockProcedure extends AnalCraftModElements.ModElement {
 	public PortalkeyRightClickedOnBlockProcedure(AnalCraftModElements instance) {
-		super(instance, 165);
+		super(instance, 170);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

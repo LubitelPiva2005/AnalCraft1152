@@ -47,7 +47,7 @@ public class VanDungeonBiome extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:van_dungeon")
 	public static final CustomBiome biome = null;
 	public VanDungeonBiome(AnalCraftModElements instance) {
-		super(instance, 336);
+		super(instance, 341);
 	}
 
 	@Override

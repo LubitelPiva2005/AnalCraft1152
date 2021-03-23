@@ -24,7 +24,7 @@ public class DirtVanBlock extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:dirt_van")
 	public static final Block block = null;
 	public DirtVanBlock(AnalCraftModElements instance) {
-		super(instance, 50);
+		super(instance, 51);
 	}
 
 	@Override

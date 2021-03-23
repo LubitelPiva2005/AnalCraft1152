@@ -17,7 +17,7 @@ import java.util.Map;
 @AnalCraftModElements.ModElement.Tag
 public class FlowsmallOnBlockRightClickedProcedure extends AnalCraftModElements.ModElement {
 	public FlowsmallOnBlockRightClickedProcedure(AnalCraftModElements instance) {
-		super(instance, 340);
+		super(instance, 345);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

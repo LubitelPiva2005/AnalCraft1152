@@ -34,7 +34,7 @@ import java.util.HashMap;
 @AnalCraftModElements.ModElement.Tag
 public class LejaStructure extends AnalCraftModElements.ModElement {
 	public LejaStructure(AnalCraftModElements instance) {
-		super(instance, 135);
+		super(instance, 140);
 	}
 
 	@Override

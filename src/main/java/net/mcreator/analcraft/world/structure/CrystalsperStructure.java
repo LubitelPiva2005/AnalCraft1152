@@ -31,7 +31,7 @@ import java.util.Random;
 @AnalCraftModElements.ModElement.Tag
 public class CrystalsperStructure extends AnalCraftModElements.ModElement {
 	public CrystalsperStructure(AnalCraftModElements instance) {
-		super(instance, 267);
+		super(instance, 272);
 	}
 
 	@Override

@@ -24,7 +24,7 @@ import java.util.HashMap;
 @AnalCraftModElements.ModElement.Tag
 public class JabroniadvProcedure extends AnalCraftModElements.ModElement {
 	public JabroniadvProcedure(AnalCraftModElements instance) {
-		super(instance, 319);
+		super(instance, 324);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

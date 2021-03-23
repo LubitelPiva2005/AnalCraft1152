@@ -50,7 +50,7 @@ public class DickflowerBlock extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:dickflower")
 	public static final Block block = null;
 	public DickflowerBlock(AnalCraftModElements instance) {
-		super(instance, 78);
+		super(instance, 83);
 	}
 
 	@Override

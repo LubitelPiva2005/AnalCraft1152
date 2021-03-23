@@ -24,7 +24,7 @@ import java.util.Map;
 @AnalCraftModElements.ModElement.Tag
 public class NakovalnacrafdtProcedure extends AnalCraftModElements.ModElement {
 	public NakovalnacrafdtProcedure(AnalCraftModElements instance) {
-		super(instance, 361);
+		super(instance, 366);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

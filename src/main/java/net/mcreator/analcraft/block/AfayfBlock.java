@@ -24,7 +24,7 @@ public class AfayfBlock extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:afayf")
 	public static final Block block = null;
 	public AfayfBlock(AnalCraftModElements instance) {
-		super(instance, 48);
+		super(instance, 49);
 	}
 
 	@Override

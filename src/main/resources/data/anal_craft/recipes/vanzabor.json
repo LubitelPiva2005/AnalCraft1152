@@ -1,0 +1,32 @@
+{
+  "group": "anal_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "anal_craft:vanplanks"
+    },
+    "1": {
+      "item": "anal_craft:vanstick"
+    },
+    "2": {
+      "item": "anal_craft:vanplanks"
+    },
+    "3": {
+      "item": "anal_craft:vanplanks"
+    },
+    "4": {
+      "item": "anal_craft:vanstick"
+    },
+    "5": {
+      "item": "anal_craft:vanplanks"
+    }
+  },
+  "result": {
+    "item": "anal_craft:zaborslave",
+    "count": 1
+  }
+}

@@ -16,7 +16,7 @@ public class BlackpickItem extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:blackpick")
 	public static final Item block = null;
 	public BlackpickItem(AnalCraftModElements instance) {
-		super(instance, 88);
+		super(instance, 93);
 	}
 
 	@Override

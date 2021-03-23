@@ -34,7 +34,7 @@ public class BillyBlock extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:billy")
 	public static final Block block = null;
 	public BillyBlock(AnalCraftModElements instance) {
-		super(instance, 164);
+		super(instance, 169);
 	}
 
 	@Override

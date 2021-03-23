@@ -16,7 +16,7 @@ public class TraktorItem extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:traktor")
 	public static final Item block = null;
 	public TraktorItem(AnalCraftModElements instance) {
-		super(instance, 108);
+		super(instance, 113);
 	}
 
 	@Override

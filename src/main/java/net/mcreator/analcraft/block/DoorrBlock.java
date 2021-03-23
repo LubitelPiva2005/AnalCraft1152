@@ -34,7 +34,7 @@ public class DoorrBlock extends AnalCraftModElements.ModElement {
 	@ObjectHolder("anal_craft:doorr")
 	public static final Block block = null;
 	public DoorrBlock(AnalCraftModElements instance) {
-		super(instance, 47);
+		super(instance, 48);
 	}
 
 	@Override
