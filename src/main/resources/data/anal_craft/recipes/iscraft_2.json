@@ -1,0 +1,27 @@
+{
+  "group": "anal_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    " 4 ",
+    "6 8"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:redstone_block"
+    },
+    "4": {
+      "item": "anal_craft:blackstone"
+    },
+    "6": {
+      "item": "anal_craft:blackstone"
+    },
+    "8": {
+      "item": "anal_craft:blackstone"
+    }
+  },
+  "result": {
+    "item": "anal_craft:isblock_2",
+    "count": 1
+  }
+}

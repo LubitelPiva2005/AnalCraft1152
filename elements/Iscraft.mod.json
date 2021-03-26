@@ -1,0 +1,46 @@
+{
+  "_fv": 13,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.STONE_BUTTON"
+      },
+      {
+        "value": "Blocks.REDSTONE_BLOCK"
+      },
+      {
+        "value": "Blocks.STONE_BUTTON"
+      },
+      {
+        "value": "Items.COMPARATOR"
+      },
+      {
+        "value": "Blocks.IRON_BLOCK"
+      },
+      {
+        "value": "Items.REPEATER"
+      },
+      {
+        "value": "CUSTOM:Plita"
+      },
+      {
+        "value": "CUSTOM:Plita"
+      },
+      {
+        "value": "CUSTOM:Plita"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Isblock"
+    },
+    "name": "iscraft",
+    "namespace": "mod"
+  }
+}

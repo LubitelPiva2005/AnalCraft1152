@@ -2,10 +2,10 @@
   "_fv": 13,
   "_type": "block",
   "definition": {
-    "texture": "kirpich",
-    "textureTop": "",
+    "texture": "blackstine",
+    "textureTop": "blackstine",
     "textureLeft": "",
-    "textureFront": "",
+    "textureFront": "blackstine",
     "textureRight": "",
     "textureBack": "",
     "renderType": 11,
@@ -15,8 +15,8 @@
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
-    "blockBase": "Wall",
-    "hasTransparency": true,
+    "blockBase": "Stairs",
+    "hasTransparency": false,
     "connectedSides": false,
     "transparencyType": "SOLID",
     "mx": 0.0,
@@ -25,7 +25,7 @@
     "Mx": 1.0,
     "My": 1.0,
     "Mz": 1.0,
-    "name": "Стена из спермичей",
+    "name": "Ступеньки из черного камня",
     "specialInfo": [],
     "hardness": 1.5,
     "resistance": 10.0,
@@ -34,7 +34,7 @@
     "creativeTab": {
       "value": "CUSTOM:AnalCraftBlocks"
     },
-    "destroyTool": "pickaxe",
+    "destroyTool": "Not specified",
     "customDrop": {
       "value": ""
     },
@@ -44,7 +44,7 @@
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canProvidePower": false,
-    "lightOpacity": 0,
+    "lightOpacity": 255,
     "material": {
       "value": "ROCK"
     },

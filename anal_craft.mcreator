@@ -5025,6 +5025,42 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "closeddoor"
+    },
+    {
+      "name": "Iscraft",
+      "type": "recipe",
+      "sortid": 411,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iscraft"
+    },
+    {
+      "name": "Iscraft2",
+      "type": "recipe",
+      "sortid": 412,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iscraft_2"
+    },
+    {
+      "name": "Plita",
+      "type": "block",
+      "sortid": 413,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plita"
+    },
+    {
+      "name": "Stairsblack",
+      "type": "block",
+      "sortid": 414,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stairsblack"
     }
   ],
   "variable_elements": [
@@ -5352,8 +5388,8 @@
       "item.anal_craft.bomzh.desc": "G-man",
       "item.anal_craft.ancient_seemensword": "Меч из древней спермы",
       "item.anal_craft.zaghulial": "Олег Газманов - Загулял",
-      "item.anal_craft.semenlime_spawn_egg": "Спермень Spawn Egg",
       "itemGroup.tabanal_tool": "AnalCraftTool",
+      "item.anal_craft.semenlime_spawn_egg": "Спермень Spawn Egg",
       "block.anal_craft.cumore": "Руда спермы",
       "item.anal_craft.penisstolb": "Ствол ключа",
       "item.anal_craft.nurminskii_valim.desc": " zerodovich",
@@ -5401,6 +5437,7 @@
       "subtitles.kozhanyjtraktor": "",
       "item.anal_craft.notr_dam_die_pari.desc": "Святой Гачемученик",
       "block.anal_craft.vandoor": "Дверь из древесины боли слейвов",
+      "block.anal_craft.stairsblack": "Ступеньки из черного камня",
       "advancements.armoradv.descr": "Собрерите полный сет кожаной брони",
       "block.anal_craft.vanplanks": "Доски из древесины боли слейвов",
       "subtitles.yunostvsapogah": "",
@@ -5477,6 +5514,7 @@
       "item.anal_craft.trusi_helmet": "Trusi Helmet",
       "block.anal_craft.blok_2plastiny": "Блок с ключевым кусочком ключа",
       "advancements.forestadva.descr": "Найти биом Dickforest",
+      "block.anal_craft.plita": "Плита из черного камня",
       "block.anal_craft.nakovalnya": "Спермовальня",
       "entity.anal_craft.slavea": "Слэйвья",
       "item.anal_craft.cumstick": "Спермопалка",

@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "anal_craft:blocks/blackstine",
+    "top": "anal_craft:blocks/blackstine",
+    "side": "anal_craft:blocks/blackstine"
+  }
+}

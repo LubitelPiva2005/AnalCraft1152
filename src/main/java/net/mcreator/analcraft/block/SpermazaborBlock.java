@@ -56,7 +56,7 @@ public class SpermazaborBlock extends AnalCraftModElements.ModElement {
 	}
 	public static class CustomBlock extends WallBlock {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).lightValue(0).harvestLevel(1)
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1.5f, 10f).lightValue(0).harvestLevel(1)
 					.harvestTool(ToolType.PICKAXE).notSolid());
 			setRegistryName("spermazabor");
 		}

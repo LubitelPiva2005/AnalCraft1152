@@ -1,0 +1,42 @@
+{
+  "group": "anal_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:stone_button"
+    },
+    "1": {
+      "item": "minecraft:redstone_block"
+    },
+    "2": {
+      "item": "minecraft:stone_button"
+    },
+    "3": {
+      "item": "minecraft:comparator"
+    },
+    "4": {
+      "item": "minecraft:iron_block"
+    },
+    "5": {
+      "item": "minecraft:repeater"
+    },
+    "6": {
+      "item": "anal_craft:plita"
+    },
+    "7": {
+      "item": "anal_craft:plita"
+    },
+    "8": {
+      "item": "anal_craft:plita"
+    }
+  },
+  "result": {
+    "item": "anal_craft:isblock",
+    "count": 1
+  }
+}
